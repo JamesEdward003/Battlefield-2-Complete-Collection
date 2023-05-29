@@ -1,0 +1,128 @@
+BF2 KIT INDEXES
+
+Knife KNI_KNIFE
+Ammo Kit ammokit
+Med Kit medikit
+Defibrillator defibrillator
+Repair Wrench Wrench
+Mines at_mine
+Claymore usmin_claymore
+Hand Grenade ushgr_m67
+C4 c4_explosives
+C4 Detonator c4_detonator
+Smoke Grenade hgr_smoke
+Parachute ParachuteLauncher
+
+
+1 - Knife
+2 - Pistols
+3 - Primary Weapons
+4 - Grenade/Rocket Launchers, Grenades, Smoke Grenades
+5 - Claymore, C4, Med Kit, Ammo Kit, Mines
+6 - Wrench, Defibrillator
+9 - Parachute
+
+
+For BF2 here are the standard weapons available:
+
+Knife
+
+1 - KNI_KNIFE
+
+Pistols
+
+2 - rupis_baghira
+2 - rupis_baghira_silencer
+2 - chpis_qsz92
+2 - chpis_qsz92_silencer
+2 - USPIS_92FS
+2 - uspis_92fs_silencer
+
+Assault Weapons
+
+3 - CHRIF_Type85
+3 - chrif_type95
+3 - RURIF_AK47
+3 - RURIF_AK101
+3 - rurrif_ak74u
+3 - USRIF_G3A3
+3 - usrif_g36c
+3 - sarif_g36k
+3 - USRIF_M4
+3 - usrif_m16a2
+3 - usrif_sa80
+3 - RURIF_Bizon
+3 - USRIF_MP5_A3
+3 - sasrif_mp7
+3 - usrif_fnscarl
+3 - usrif_fnscarh
+3 - eurif_HK53A3
+3 - eurif_famas
+3 - eurif_fnp90
+
+Machineguns
+
+3 - rulmg_rpk74
+3 - RULMG_PKM
+3 - USLMG_M249SAW
+3 - chlmg_type95
+3 - eurif_hk21
+
+Sniper Rifles
+
+3 - USSNI_M82A1
+3 - rurif_dragunov
+3 - USSNI_M95_Barret
+3 - chsni_type88
+3 - gbrif_I96a1
+3 - usrif_m24
+
+Shotguns
+
+3 - chsht_protecta (DAO-12)
+3 - USSHT_Jackhammer
+3 - usrif_remington11-87
+3 - RUSHT_Saiga12
+3 - chsht_norinco982
+3 - gbrif_benelli_m4
+
+Assault grenade launcers
+
+3 - RURIF_GP25 - Weapon
+4 - RURGL_GP25 - Grenade Extension
+3 - RURIF_GP30 - Weapon
+4 - RURGL_GP30 - Grenade Extension
+3 - USRIF_M203 - Weapon
+4 - USRGL_M203 - Grenade Extension
+3 - sasrif_fn2000
+4 - sasgr_fn2000
+
+Grenade
+
+4 - ushgr_m67 - Grenade
+
+Rocket launcers
+
+4 - CHAT_ERYX
+4 - USATP_predator
+4 - insgr_rpg
+
+Other kits:
+
+5 - ammokit
+6 - defibrillator
+5 - medikit
+6 - Wrench
+5 - nshgr_flashbang
+5 - at_mine
+5 - usmin_claymore
+N/A - c4_detonator
+5 - c4_explosives
+4 - hgr_smoke
+6 - SIMRAD
+6 - nshgr_ grapplinghook
+6 - nsrif_crossbow
+6 - sasrif_teargas
+9 - ParachuteLauncher
+
+
