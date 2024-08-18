@@ -1,0 +1,433 @@
+Number near weapon mean it's item index.
+
+If mod still crash after edit and you don't know reason, run BF2 mod in windowed mode.
+Right click on scortcut and you will see something like this:
+
+E:\Battlefield2\BF2.exe +menu 1 +fullscreen 1
+
+set to:
+
+E:\Battlefield2\BF2.exe +menu 1 +fullscreen 0
+
+Then you will get error massage and will know why mod crash.
+
+Set 0 to 1 if you want fullscreen back.
+
+Knife
+
+1 - KNI_KNIFE
+
+Pistols
+
+2 - rupis_baghira
+2 - rupis_baghira_silencer
+2 - chpis_qsz92
+2 - chpis_qsz92_silencer
+2 - USPIS_92FS
+2 - uspis_92fs_silencer
+
+Assault Weapons
+
+3 - CHRIF_Type85
+3 - chrif_type95
+3 - RURIF_AK47
+3 - RURIF_AK101
+3 - rurrif_ak74u
+3 - USRIF_G3A3
+3 - usrif_g36c
+3 - sarif_g36k
+3 - USRIF_M4
+3 - usrif_m16a2
+3 - usrif_sa80
+3 - RURIF_Bizon
+3 - USRIF_MP5_A3
+3 - sasrif_mp7
+3 - usrif_fnscarl
+3 - usrif_fnscarh
+3 - eurif_HK53A3
+3 - eurif_famas
+3 - eurif_fnp90
+
+Machineguns
+
+3 - rulmg_rpk74
+3 - RULMG_PKM
+3 - USLMG_M249SAW
+3 - chlmg_type95
+3 - eurif_hk21
+
+Sniper Rifles
+
+3 - USSNI_M82A1
+3 - rurif_dragunov
+3 - USSNI_M95_Barret
+3 - chsni_type88
+3 - gbrif_I96a1
+3 - usrif_m24
+
+Shotguns
+
+3 - chsht_protecta (DAO-12)
+3 - USSHT_Jackhammer
+3 - usrif_remington11-87
+3 - RUSHT_Saiga12
+3 - chsht_norinco982
+3 - gbrif_benelli_m4
+
+Assault grenade launchers
+
+3 - RURIF_GP25 - Weapon
+4 - RURGL_GP25 - Grenade Extension
+
+3 - RURIF_GP30 - Weapon
+4 - RURGL_GP30 - Grenade Extension
+
+3 - USRIF_M203 - Weapon
+4 - USRGL_M203 - Grenade Extension
+
+3- sasrif_fn2000
+4- sasgr_fn2000
+
+Rocket launchers
+
+4 - CHAT_ERYX
+4 - USATP_predator
+4 - insgr_rpg
+
+Other kits:
+
+4 - ushgr_m67
+4 - hgr_smoke
+4 - nshgr_flashbang
+
+5 - at_mine
+5 - usmin_claymore
+N/A - c4_detonator
+5 - c4_explosives
+5 - javelin_direct
+5 - medikit
+5 - ammokit
+
+6 - simrad
+6 - wrench
+6 - defibrillator
+6 - nshgr_ grapplinghook
+6 - nsrif_crossbow
+6 - sasrif_teargas
+6 - hgr_smoke2
+6 - m14lm
+
+7 - hgr_gas
+7 - simrad2
+7 - binocular
+
+8 - designator
+
+9 - ParachuteLauncher
+0 - SIMRAD2
+
+Short Version:
+
+1 - Knife
+2 - Pistols
+3 - Primary Weapons
+4 - Grenade/Rocket Launchers, Grenades, Smoke Grenades
+5 - Claymore, C4, Med Kit, Ammo Kit, Mines
+6 - Wrench, Defibrillator
+9 - Parachute
+
+
+SniperRifles:
+
+chsni_type88
+rurif_dragunov
+gbrif_l96a1
+M95_Barret
+usrif_m24
+USSNI_M82A1
+USSNI_M95_Barret
+
+
+MachineGuns:
+
+USLMG_M249SAW
+
+
+There's example how should look edited kit.
+
+rem -------------------------------------
+ObjectTemplate.addTemplate sasrif_fn2000
+ObjectTemplate.addTemplate sasgr_fn2000
+ObjectTemplate.addTemplate USPIS_92FS
+ObjectTemplate.addTemplate nshgr_flashbang
+ObjectTemplate.addTemplate SIMRAD
+ObjectTemplate.addTemplate kni_knife
+ObjectTemplate.addTemplate ParachuteLauncher
+ObjectTemplate.addTemplate nightvisiongoggles
+ObjectTemplate.addTemplate gasmask
+rem -------------------------------------
+
+If it's SP/CO-Op mod only then those lines are not required if you don't need use unlocks.
+*Lines needed only for multiplayer mods if it have unlocks.
+
+ObjectTemplate.addTemplate UnlockUSAssault
+ObjectTemplate.addTemplate UnlockUSAssault2
+
+rem -------------------------------------------------------------------------------------------
+This is a guide on the proper usage of the weapons of BF2, you could just use the ones in the wiki but those are waaay outdated. It shows you when and how to use the game's different weapons. When reading it please keep in mind the sight thread and the weapons section in the BF2s wiki, as I will make frequent allusions to them in this guide.
+
+0: Index
+
+1: Pistols
+
+2: SMGs
+  2A: MP5, 2B:, Type 85, 2C: PP-19, 2D: P90, 2E: MP7
+
+3: Shotguns
+  3A: M11-87/NOR982, 3B: S12K, 3C: MK3A1, 3D: DAO-12
+
+4: Sniper Rifles
+  4A: M24/L96A1, 4B: SVD/QBU-88, 4C: M95
+
+5: Carbines
+  5A, M4A1, 5B: QBZ-97, 5C: G36C, 5d: SCAR-L
+
+6: Light Machine guns
+6A: M249 SAW, 6B: QBB-95, 6C: RPK-74, 6D: PKM, 6E: MG36
+
+7: Assault Rifles
+7A: AK-101/AK-47, 7B: M16A2, 7C: G3A3, 7D: FN2000, 7E: L85A1, 7F: (not included) G36E
+
+1. PISTOLS
+
+https://wiki.bf2s.com/_media/weapons/battlefield-2/uspis_92fs.png?w=&amp;h=&amp;cache=cache
+92FS
+
+https://wiki.bf2s.com/_media/weapons/battlefield-2/rupis_baghira.png?w=&amp;h=&amp;cache=cache
+MR-444
+
+https://wiki.bf2s.com/_media/weapons/battlefield-2/chpis_qsz92.png?w=&amp;h=&amp;cache=cache
+QBZ-92
+
+The pistols are all statistically identical, so they are all grouped together. The pistols are your side-arm and due to their low damage and lower rate of fire they should only be used as a fall-back weapon, unless you are a sniper and ill equipped for CQC or going for the pistol combat badge. They are to be used when you main weapon is out of ammo and you do not have the time to reload it. At close range with the pistols you are best not zooming, and just firing as many shots into your target as fast as possible. And medium range you will want to aim-down-the-sight, and shoot at the target's head. However when shooting at your enemy's head be careful as the pistols bounce up allot when you fire them so you will need to correct you shot every time. At long range you want to shot a single shot (zooming of coarse), then correct your aim before firing again. At long range the pistols lack accuracy so firing more than one shot at a time will likely cause you to miss.
+
+Other notes: The sight on the MR-444 is poorly aligned, the round will go well above where the sight lines up. However once you are aware of this you should find the MR-444's sight more useful than the others'. Use the sight thread for more info.
+
+2. sub machine guns.
+
+2A: MP5
+https://wiki.bf2s.com/_media/weapons/battlefield-2/submachine-guns/usrif_mp5_a3.png?w=&amp;h=&amp;cache=cache
+
+The MP5 is the primary weapon of the Anti-tank for the USMC, SEALS, and SAS. The weapon is weak and inaccurate, however has a high rate of fire. With the MP5 you want to get right up close and unleash a spray off bullets, as it is the only way to kill enemies. At medium range you want to try to fire in bursts of 3-5 shots. You will find yourself shooting like that at mid-range often as when you get a vehicle down to >10% the crew will likely jump out, however the explosion of their vehicle will hurt them. This gun is way to weak and inaccurate for effective use at long range, so at long range you are best off being a fag and using the SRAW instead.
+
+Notes: It's damage is low but it's clip still only contains 30 shots, because of this be prepared to reload often.
+
+2B: Type 85
+https://wiki.bf2s.com/_media/weapons/battlefield-2/submachine-guns/chrif_type85.png?w=&amp;h=&amp;cache=cache
+
+The Type 85 is used by the PLA Anti-Tank is statistically identical to the MP5. The T85 however is lacking in a single shot mode, which makes in even worse at long-range use, so using the Rocket instead is even  important than with the MP5. Besides that everything else is the same.
+
+2C: PP-19
+https://wiki.bf2s.com/_media/weapons/battlefield-2/submachine-guns/rurif_bizon.png?w=&amp;h=&amp;cache=cache
+
+The PP-19 is used by the Anti-Tank for MEC, MEC SF, Spetsnaz, Insurgents and Rebels. is once again the same as the MP5 and T85, however it has a much larger clip. With 45 shots the PP-19 does not need to reload as much, with mid-firefight reloading 50% rarer the PP-19 is a vastly more effective gun compared to its German and Chinese counterparts. Besides that all other SMG tactics still apply.
+2D: P90
+https://www.bouweenpc.nl/uploads/95_1159567321.jpg
+
+The P90 is the second unlock for the Anti-Tank and the stock of the EU anti-tank. The P90 is more accurate while prone than the other SMGs, has a red-dot-sight and a 50 round clip. The P90 is probably the best SMG. It is accurate enough that you do not need to use the Rocket launcher for shooting at targets at long range, simply zoom and use single shot. The P90's large clip also means that it can eliminate a large number of enemies in CQC.
+
+2E: MP7
+https://wiki.bf2s.com/_media/weapons/unlocks/sasrif_mp7.png?w=&amp;h=&amp;cache=cache
+
+The MP7 is not one of the Anti-Tank's weapons. It is used by the Engineer, either as the second unlock or SAS stock weapon. The engineer's shotguns are very ineffective at ranged combat, and many armor-heavy maps are too large and open to use a shotgun effectively. The MP7's stats are the same as that of the P90, the MP7 however only has 40 shots per clip instead of 50, and the MP7 also as doesn't have a RDS.
+
+Note: The MP7's total ammo is only 120 rounds, the MP5 and P90 both have 150 total rounds. Because of the limited ammo supplies you are best off teaming up with a support. But then again you are probably going to mostly be in a vehicle anyway, and Engineer does have light armor so you die fast on foot, so this isn't the largest of problems.
+
+3: Shotguns
+
+3A: M11-87/NOR982
+https://wiki.bf2s.com/_media/weapons/shotguns/usrif_remington11-87.png?w=&amp;h=&amp;cache=cache
+M11-87
+
+https://wiki.bf2s.com/_media/weapons/shotguns/chsht_norinco982.png?w=&amp;h=&amp;cache=cache
+NOR982
+
+The M11-67, used by USMC and SEALS Engineer, and NOR982, used by the PLA engineer, are different in name only. They both fire shell of 8 pellets of buck-shot, each of which does 25 damage (for a total of 200). The two fire only shell a second, so you will need to make it count as you will probably die before you can camber the next one. The guns reload one shell at a time. The guns do have a large spread, that means two things; One you need to be up close for greatest effect and Two, if you are good you can damage multiple targets at once.
+
+Note: Shotguns (all shotguns) do much less damage at a range, excluding the spread. Even if your shot does hit at long range the pellet will do much less than at closer ranges. Only use your pistol against targets at long range
+
+Note2: These two have a very limited supply of ammunition, only 31 total shots. So do not waste ammo shooting at nothing or firing at enemies to far away
+
+Note3: All shotguns do only 55% regular damage against targets with heavy armor.
+
+3B: S12K
+https://wiki.bf2s.com/_media/weapons/shotguns/rusht_saiga12.png?w=&amp;h=&amp;cache=cache
+
+The S12K is a semi-automatic shotgun used by the Engineer of MEC, MEC SF, Spetsnaz, Insurgents and Rebels. It does less less than half the damage of the pumps. However the S12K can fire many times faster than the pumps. The S12K does however have a larger spread, so you need to be closer but you can also hit more enemies at the same time. The S12K's clip is the same size as the pumps (seven shell) but it uses a box clip so you can reload all seven at the same time (reloading this gun also takes a rather shot time). The S12K does however have a large bounce to it, while the pumps do too when firing semi-auto it can be difficult to control.
+
+3C: MK3A1
+https://wiki.bf2s.com/_media/weapons/unlocks/ussht_jackhammer.png?w=&amp;h=&amp;cache=cache
+
+The MK3A1 "Pancor Jackhammer" is the First engineer unlock and BF2's only fully automatic shotgun and is capable of damaging faster than any other weapon in the game. It does more damage than the semis but the MK3A1 is fully-automatic. The full-autoness ("full-autoness" is copyrighted 2007 by DoctaStrangelove) of it allows you to blast through a group of enemies. The MK3A1 does have some large drawbacks to its tremendous power, the clip is small and firing full auto often puts out more shots than necessary, couple that with the long reload time (a full second longer than the S12K's) the MK3A1 also has a huge bounce, making many shots not go exactly where they should. Because of these you will need to learn how to fire only two shots at a time unless absolutely necessary that you fire more.
+
+3D: DAO-12
+https://wiki.bf2s.com/_media/weapons/unlocks/chsht_protecta.png?w=&amp;h=&amp;cache=cache
+
+The DAO-12 is not used by Engi, but is the first unlock for Anti-Tank. The SMGs are pretty wimpy so the DAO grants AT a massive amount of close-range stopping power. The DAO does the same damage as the S12K, so you cannot kill an enemy with a single shell like with the pumps and MK3A1. The DAO more than makes up for that with its pellet spam. The DAO has 12 shells per clip, which allows it to spam an area full of pellets, spelling almost certain https://rome.ro/images/doom/Doom.png for all enemies in the area. The DAO also reload one shell at a time. This is a mixed blessing as it means not shells are wasted when reloading but because it can have 12 shell it can take up to 15 seconds to reload (that's 3 times it take for the MK3A1 to reload).
+
+4: Sniper Rifles
+
+4A: M24/L96A1
+https://wiki.bf2s.com/_media/weapons/sniper-rifles/usrif_m24.png?w=&amp;h=&amp;cache=cache
+M24
+
+https://tomaplomo.com/bf2/arte/armas/555.jpg
+L96A1
+
+The M24 used by USMC, SEALS and SAS snipers and the L96A1, the second sniper unlock also the stock for EU snipers are blot action sniper rifles. The two are supremely accurate (the most accurate in all BF2) and do up to 95 damage in one hit. The difference between them is in the crosshair of the scopes (see sight thread) and the L96 reloads faster. With them, you want to go for headshots and only headshots. You will not miss much and it takes to long to kill with body shots as every time you fire you are taken out of zoom, spend 2 seconds chambering and then must re-zoom and re-acquire your target.
+
+Note: No-scoping is extremely inaccurate, only do it at point blank range in emergencies when you can't draw your handgun in time
+
+4B: SVD/QBU-88 (Type 88)
+https://wiki.bf2s.com/_media/weapons/sniper-rifles/chsni_type88.png?w=&amp;h=&amp;cache=cache
+QBU-88
+
+https://wiki.bf2s.com/_media/weapons/sniper-rifles/rurif_dragunov.png?w=&amp;h=&amp;cache=cache
+SVD
+
+The QBU-88 (called Type-88) used by PLA and SVD, used by MEC, MEC SF, Spetsnaz, Insurgents and Rebels are Designated Marksman rifles. That means that sniper uses them but they aren't accurate or powerful to be sniper rifles. So yeah. When zoomed they are half as accurate as the  sniper rifles, unzoomed is the same (but the semiautomatic allows you to actually do okay in point blank unzoomed). They kill in 3/4 shots not 2/2. However you do get twice the ammo and reloading takes way slower. Overall they are superior at medium range, and can get headshot after headshot, without needing to unzoom to chamber a new round.
+
+Note: The DMRs scope's zoom is less than that of the sniper rifles
+
+4C: M95
+https://wiki.bf2s.com/_media/weapons/unlocks/ussni_m95_barret.png?w=&amp;h=&amp;cache=cache
+
+The M95 is an anti-material rifle and the first unlock for sniper. It does 190 damage per shot, however does half damage versus both heavy armor and light armor so realistically it only does 95 damage, but it does it against armored targets as well. You have a heightened chance of killing in one hit, and you also can easily shot once then take out your pistol and shot once to get the kill that way. The M95 can also shoot through the cockpit glass of Jets and choppers, making camping chopper spawns very beneficial to you and your team (provided you don't suck). The M95 is as accurate as the DMRs (meaning when zoomed you are half as accurate as the SRs). The M95 does however have a rather thick crosshair, so realistically you are less likely to get h34d$h0t with it than with any other sniper gun, and less h34d$h0t means less kills.
+
+5: Carbines
+
+5A: M4A1
+https://wiki.bf2s.com/_media/weapons/carbines/usrif_m4.png?w=&amp;h=&amp;cache=cache
+
+The M4 is the stock weapon of the USMC Spec-Ops. It is very accurate however does rather low damage. The M4 also has good automatic performance, that offsets its low damage in CQC. The M4 has a RDS making it an excellent weapon for use at long range, even though it is most effective at mid range. At close just spray it up, mid fire in bursts of 4-6 shots and long go single and aim for the head.
+
+5B: QBZ-97
+https://wiki.bf2s.com/_media/weapons/carbines/chrif_type95.png?w=&amp;h=&amp;cache=cache
+
+The QBZ-97 is the PLA stock Spec-Ops weapon, very similar to the M4 but with one difference. When prone it is the most accurate automatic weapon in the game, even more than the M4 and G36C. This, combined with a good sight (see sight thread) makes firing it prone and single shot comparable to the sniper rifles. The QBZ-97 does unfortunately, have more bounce to it than the other carbines, and fairly low stopping power.
+
+5C: AK-74u
+https://wiki.bf2s.com/_media/weapons/carbines/rurrif_ak74u.png?w=&amp;h=&amp;cache=cache
+
+The AK-74u is the stock carbine of MEC, MEC SF, Spetsnaz, Insurgents and Rebels Spec-Ops. It does more damage than any other carbine in the game (29 per shot). It can drop an armored target in 5 shots while the others take 6 (sometimes 7). The 74u's higher damage comes at a price though, it is the least accurate carbine (especially when standing) and has the worst automatic performance. That is however relative, as the 74u still has better accuracy than most weapons in the game. The gun also has an RDS. At close range you do the spray, mid fire 3-5 round bursts and long single shot.
+
+5D: G36C
+https://wiki.bf2s.com/_media/weapons/unlocks/usrif_g36c.png?w=&amp;h=&amp;cache=cache
+
+The G36C is the first Sepc-Ops unlock. It is as accurate as the M4 but has almost no bounce and very low devation added per shot. Because of this the G36C can could and should be used in full auto even at mid range targets and against long range should be fired in 2-3 round bursts. The G36C does do the same, low damage as the M4 and QBZ-97 but it due to its lower recoil that is not as big a problem.
+
+SCAR-L
+https://wiki.bf2s.com/_media/weapons/unlocks/usrif_fnscarl.png?w=&amp;h=&amp;cache=cache
+
+The SCAR-L is the Spec-Ops second unlock and the SEAL Spec-Ops stock. The SCAR is slightly less accurate than the M4 and slightly less accurate than the AK-74u. Its usage is however more similar to the AK-74u's as it has full auto performance similar to the 74u's, so fire full at close, 3-5 at mid and single, aiming for the head for long. Sometimes the M4, QBZ-97 and G36C will kill armor targets in seven, not six shots (the way the round is divided can be different each time) but the SCAR will always kill an armored target in six hits.
+
+6: Light Machine guns
+
+6A: M249 SAW
+https://wiki.bf2s.com/_media/weapons/light-machine-guns/uslmg_m249saw.png?w=&amp;h=&amp;cache=cache
+
+The M249 is the stock weapon for the USMC and SEAL support. The M249 does a massive clip, very high rate of fire and does rather low damage. Being and LMG the M249 is very inaccurate when shooting while standing and supremely inaccurate when standing and moving, because of this whenever possible go prone when shooting and don't shoot on the move. Because of this you are best off spraying at both close and mid range. Low range fire 2-3 shots. Don't worry about wasting ammo, this thing has 200 rounds (though you will overheat in much less shots) in one clip and you being support can resupply yourself. The weapon does take very long to reload so if you must, you will need to find a secure location.
+
+Note: The sight on th M249 in poorly aligned. The rounds actually go a little up and quit a bit to the left. Check the sight thread for more info.
+
+
+6B: QBB-95 (Type-95)
+https://wiki.bf2s.com/_media/weapons/light-machine-guns/chlmg_type95.png?w=&amp;h=&amp;cache=cache
+
+The QBB-95 is the stock weapon of the PLA support. It is supposedly less accurate than the M249, but the M249 is supposedly as accurate as the M16A1, which it clearly isn't. The QBB-95 does the same damage as the M249 but has a clip half the size (though they both overheat at the same speed). On the positive side you have infinate ammo so spare clips aren't a problem and you also reload three seconds faster so when you do run out of ammo you aren't defenseless for nearly as long. Usage is similar to that of the M249, auto- close and mid, 2-3 long and proning is imperative.
+
+6C: RPK-74
+https://wiki.bf2s.com/_media/weapons/light-machine-guns/rulmg_rpk74.png?w=&amp;h=&amp;cache=cache
+
+RPK-74>you. This gun fucking owns. It is the stock support for MEC, MEC SF, Spetsnaz, Rebels and Insurgents. It has very good damage, moderate accuracy and has excellent full-auto preformance. The RPK can spray down whole squads of enemies very quickly and effectively. Unlike the other stocks it is not hindered by low damage so it is much more effective at long distances. The RPK is like all LMGs inaccurate while standing, however its does much higher damage than the QBB-95 and M249 so shooting while standing isn't as big a problem, even though you still must prone whenever possible. The RPK does have the highest number of possible kills per clip, 130/3= 43.333 kills per clip, though realistically you will only get about 12-18 kills per clip, still a hell of allot. The RPK does overheat but since it has higher damage and lower rate of fire than the other stocks you won't need to worry about it.
+
+6D: PKM
+https://wiki.bf2s.com/_media/weapons/unlocks/rulmg_pkm.png?w=&amp;h=&amp;cache=cache
+
+The PKM is the first support unlock and does massive damage, as much as the DMRs. The PKM is also tied with the MG36 for most accurate LMG. The PKM does have a major draw back, its rate of fire is slower than that of all other automatic guns, save the MK3A1, this makes the PKM difficult to use against moving targets. The PKM's high damage and accuracy make it an excellent weapon for use on enemies at long range, simply fire a fews 3-4 shot bursts (you can get away with larger burst due to the low rate of fire) and they will be dead. At close and mid, just let the lead out. It does overheat but due its its low rate of fire and high damage overheating is  not a big concern.
+
+6E: MG36
+https://wiki.bf2s.com/_media/weapons/unlocks/sasrif_mg36.png?w=&amp;h=&amp;cache=cache
+
+The MG36 is the second support unlock and stock for the SAS. The MG36 is as accurate as the PKM but does not give up rate of fire. The MG36 has a 100 round clip but reloads fairly quickly. It does alittle less damage than the RPK, taking 4 hits to kill a light armored target instead of three.  The MG36 does overheat, and since it doesn't to that much damage overheating is a minor problem, but not as big as with the M249 and QBB-95. For close and mid go spray and for long range switch into the burst mode (only LMG that can do that).
+
+7: Assault Rifles
+
+7A: AK-101/AK-47
+
+https://wiki.bf2s.com/_media/weapons/assault-rifles/rurif_ak101.png?w=&amp;h=&amp;cache=cache
+AK-101
+
+https://wiki.bf2s.com/_media/weapons/assault-rifles/rurif_ak47.png?w=&amp;h=&amp;cache=cache
+AK-47
+
+The AK-101 is the stock for the assault class of MEC, MEC SF, Spetsnaz, Insurgents and Rebels, and the Stock medic weapon for MEC, Spetsnaz, Insurgents, and Rebels. The AK-47 is the Stock for the PLA assault and PLA and MEC SF medic. The AKs are both quite powerful and rather inaccurate. The two are close range killing machines due to their high damage and nothing else that would be a drawback in CQC. At mid range they have decent preformance, just fire 3-5 shots and you'll be fine. At long range you need to fire single shot and aim for the torso, the head would be too small a target for these to hit.
+
+7B: M16A2
+https://wiki.bf2s.com/_media/weapons/assault-rifles/usrif_m16a2.png?w=&amp;h=&amp;cache=cache
+
+The M16A2 is the Stock for the USMC assault, and USMC and SEAL medic. The M16 is ver accurate, does moderate damage and if used correctly a high rate of fire. It is one of, if not the the most versatile featured in this guide. It fires either semi or a three shot burst at 900 RPM (speed of M249 and MP5) and has good auto performance. in CQC you want to get as many burst out as possible (fair warning, you will run out of ammo quickly). At mid range fire a the bursts in a much slower succesion. For long range single and head.
+
+Note: The M16A2's sight is poorly aligned, and the assault and medic's alignments are different. Please check the Sight Thread for more info.
+
+7C: G3A3.
+https://wiki.bf2s.com/_media/weapons/unlocks/usrif_g3a3.png?w=&amp;h=&amp;cache=cache
+
+The G3A3 is the first unlock for Assault. The G3 does more damage than any other assault rifle and is more accurate than the AKs. The G3's high stopping power making it a close range hammer and a good weapon for long range too. The G3 does have two flaws, it is inaccurate if firing multiple rounds and also has a clip size of 20 instead of 30, making reloading come more often, though in 1 on 1 you will kill (and you will or should kill) before needing to reload. Close do a controlled spray, that is don't fire to many shots. Mid fire in burst of 3-4 shot, don't exceed four. Long range go single shot, aim for either the head or the body, its not accurate enough to hit the head all the time but headshots are still common enough.
+
+7D: FN2000
+
+https://wiki.bf2s.com/_media/weapons/unlocks/sasrif_fn2000.png?w=&amp;h=&amp;cache=cache
+
+The FN200 is the second assault unlock and the stock assault weapon for the SAS. It is less powerful than the AKs and less accurate than the G3. So why use it? Well it is far from a bad gun and instead of a single smoke grenade you get three awesome flash grenades that blind bad guys when you equip it. It is very similar to the AKs in stats and identical in usage (which means see the AK usage).
+
+7E: L85A1
+https://wiki.bf2s.com/_media/weapons/unlocks/usrif_sa80.png?w=&amp;h=&amp;cache=cache
+
+The L85A1 is the first unlock for medic. The L85 does the same damage as the FN2000 (kills in 3/5 hits) and when standing and crouching as accurate as the M16 (prone accuracy is lower than the M16's). The gun does however have a big drawback in that it has a very high deviation added per shot, making it inaccurate when fired automatically, making mid-range combat difficult with this gun. The gun does however have a good scope, its zoom is not that of the sniper guns but it is still much better than any of the iron sights or RDSs. At CQC spray, mid range fire short bursts, only 2-4 shots, otherwise you are too inaccurate. At long range use the scope and get h34d$sh0t in the same manner you would if you had the SVD.
+
+7F:  G36E
+https://wiki.bf2s.com/_media/weapons/unlocks/sasrif_g36e.png?w=&amp;h=&amp;cache=cache
+
+The G36E is the second unlock for medic and stock of the SAS medic. As so many BF2s members hate getting ownd by it I will not give a guide for fear of getting flamed.
+
+rem -------------------------------------
+ObjectTemplate.addTemplate kni_knife
+ObjectTemplate.addTemplate deserteagle
+ObjectTemplate.addTemplate sasrif_g36e
+ObjectTemplate.addTemplate USHGR_M67
+ObjectTemplate.addTemplate medikit
+ObjectTemplate.addTemplate defibrillator
+Objecttemplate.addTemplate hgr_gas
+ObjectTemplate.addTemplate ParachuteLauncher
+ObjectTemplate.addTemplate UnlockUS3Medic
+ObjectTemplate.addTemplate UnlockUS3Medic2
+rem -------------------------------------
+
+
+ObjectTemplate.create ItemContainer UnlockUS3Medic
+ObjectTemplate.addTemplate usrif_m203
+ObjectTemplate.replaceItem sasrif_g36e
+Objecttemplate.addTemplate usrgl_m203
+ObjectTemplate.replaceItem USHGR_M67
+ObjectTemplate.unlockLevel 1
+
+ObjectTemplate.create ItemContainer UnlockUS3Medic2
+ObjectTemplate.addTemplate gbrif_sa80a2_l85
+ObjectTemplate.replaceItem usrif_m203
+ObjectTemplate.replaceItem sasrif_g36e
+Objecttemplate.addTemplate gbgr_sa80a2_l85
+ObjectTemplate.replaceItem USHGR_M67
+ObjectTemplate.replaceItem usrgl_m203
+ObjectTemplate.unlockLevel 2
+

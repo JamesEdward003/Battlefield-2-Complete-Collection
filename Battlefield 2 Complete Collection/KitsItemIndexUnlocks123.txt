@@ -1,0 +1,160 @@
+If mod still crash after edit and you don't know reason, run BF2 mod in windowed mode.
+Right click on scortcut and you will see something like this:
+
+E:\Battlefield2\BF2.exe +menu 1 +fullscreen 1
+
+set to:
+
+E:\Battlefield2\BF2.exe +menu 1 +fullscreen 0
+
+Then you will get error massage and will know why mod crash.
+
+Set 0 to 1 if you want fullscreen back.
+
+For unlocks123 mod:
+itemIndex 1:
+
+1 - KNI_KNIFE1
+1 - ussni_m95_barret1
+1 - usrif_sa801
+1 - kni_knife1
+1 - USRIF_g3a31
+1 - chsht_protecta1
+1 - USSHT_Jackhammer1
+1 - RULMG_PKM1
+1 - usrif_g36c1
+
+For unlocks123 mod:
+itemIndex 2:
+
+2 - usrif_mp5_a31
+2 - usrif_fnscarl1
+2 - eurif_famas1
+2 - sasrif_mg361
+2 - gbrif_benelli_m41
+2 - eurif_fnp901
+2 - sasrif_g36e1
+2 - eurif_hk53a31
+2 - gbrif_l96a11
+2 - usrif_m241
+2 - gbrif_sa80a2_l851
+2 - sasrif_mp71
+2 - eurif_hk211
+
+For unlocks123 mod:
+itemIndex 3:
+
+3 - ussni_m95_barret
+3 - RULMG_PKM
+3 - sasrif_fn20001
+3 - USRIF_g3a3
+3 - sasrif_fn2000
+3 - eurif_hk53a3
+3 - eurif_hk21
+3 - gbrif_l96a1
+3 - usrif_fnscarl
+3 - usrif_m24
+3 - RURIF_Bizon
+3 - gbrif_benelli_m4
+3 - chrif_type85
+3 - usrif_g36c
+3 - USSHT_Jackhammer
+3 - sasrif_mp7
+3 - USSNI_M82A1
+3 - usrif_sa80
+3 - usrif_mp5_a3
+3 - eurif_famas
+3 - sasrif_mg36
+3 - chsht_protecta
+3 - rurif_dragunov
+3 - eurif_fnp90
+3 - chsni_type88
+3 - sasrif_g36e
+3 - gbrif_sa80a2_l85
+
+For unlocks123 mod:
+itemIndex 4:
+
+4 - RURGL_GP30
+4 - CHAT_ERYX
+4 - USATP_Predator
+4 - ushgr_m67
+4 - sasgr_fn2000
+4 - rurgl_gp25
+4 - USRGL_M203
+4 - gbgr_sa80a2_l85
+
+For unlocks123 mod:
+itemIndex 5:
+
+5 - medikit
+5 - usmin_claymore
+5 - c4_explosives
+5 - nshgr_flashbang
+5 - hgr_smoke
+5 - ammokit
+5 - at_mine
+
+For unlocks123 mod:
+itemIndex 6:
+
+6 - kni_knife
+6 - wrench
+6 - SIMRAD
+6 - defibrillator
+
+For unlocks123 mod:
+itemIndex 7:
+
+7 - chpis_qsz92
+7 - chpis_qsz92_silencer
+7 - uspis_92fs_silencer
+7 - USPIS_92FS
+7 - RUPIS_Baghira
+7 - rupis_baghira_silencer
+
+For unlocks123 mod:
+itemIndex 8:
+
+8 - chsht_norinco982
+8 - rurrif_ak74u
+8 - RURIF_GP30
+8 - rurif_ak47
+8 - USRIF_M203
+8 - chlmg_type95
+8 - RURIF_AK101
+8 - usrif_remington11-87
+8 - USRIF_M16A2
+8 - rurif_gp25
+8 - USRIF_M4
+8 - USLMG_M249SAW
+8 - chrif_type95
+8 - rulmg_rpk74
+8 - rusht_saiga12
+
+For unlocks123 mod:
+itemIndex 9:
+
+9 - ParachuteLauncher
+
+Here's example how edited kit should look.
+
+rem -------------------------------------
+ObjectTemplate.addTemplate kni_knife1
+ObjectTemplate.addTemplate gbrif_sa80a2_l851
+ObjectTemplate.addTemplate sasrif_fn2000
+ObjectTemplate.addTemplate sasgr_fn2000
+ObjectTemplate.addTemplate medikit
+ObjectTemplate.addTemplate defibrillator
+ObjectTemplate.addTemplate USPIS_92FS
+ObjectTemplate.addTemplate USRIF_M16A2
+ObjectTemplate.addTemplate ParachuteLauncher
+ObjectTemplate.addTemplate UnlockUSAssault
+ObjectTemplate.addTemplate UnlockUSAssault2
+rem -------------------------------------
+
+If it's SP/CO-Op mod only then these lines are not required if you don't need/use unlocks.
+*Lines needed only for multiplayer mods if it has unlocks.
+
+ObjectTemplate.addTemplate UnlockUSAssault
+ObjectTemplate.addTemplate UnlockUSAssault2
