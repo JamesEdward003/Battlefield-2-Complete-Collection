@@ -1,0 +1,4 @@
+ObjectTemplate.create RemoteControlledObject SatelliteControlObject
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.rcType RCSatellite
+ObjectTemplate.minTimeBetweenActivation 70

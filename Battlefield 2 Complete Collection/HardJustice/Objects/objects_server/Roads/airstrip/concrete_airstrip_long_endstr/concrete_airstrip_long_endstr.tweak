@@ -1,0 +1,75 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/4/2 12:43]
+GeometryTemplate.setSubGeometryLodDistance 0 0 250
+GeometryTemplate.doNotGenerateLightmaps 0
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe Bundle concrete_airstrip_long_endstr
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.modifiedByUser Radar_O'Reilly
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry concrete_airstrip_long_endstr
+ObjectTemplate.setCollisionMesh concrete_airstrip_long_endstr
+ObjectTemplate.mapMaterial 0 concrete 78
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate concrete_airstrip_long_endstr_SupplyObject_air1
+ObjectTemplate.setPosition 0/20/50
+ObjectTemplate.addTemplate concrete_airstrip_long_endstr_SupplyObject_air2
+ObjectTemplate.setPosition 0/20/17
+ObjectTemplate.addTemplate concrete_airstrip_long_endstr_SupplyObject_air3
+ObjectTemplate.setPosition 0/20/-17
+ObjectTemplate.addTemplate concrete_airstrip_long_endstr_SupplyObject_air4
+ObjectTemplate.setPosition 0/20/-50
+rem -------------------------------------
+
+ObjectTemplate.create SupplyObject concrete_airstrip_long_endstr_SupplyObject_air1
+ObjectTemplate.modifiedByUser Radar_O'Reilly
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 25
+ObjectTemplate.workOnSoldiers 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.refillAmmoSpeed 66
+ObjectTemplate.teamFromClosestCP 1
+ObjectTemplate.addVehicleType 2
+
+ObjectTemplate.create SupplyObject concrete_airstrip_long_endstr_SupplyObject_air2
+ObjectTemplate.modifiedByUser Radar_O'Reilly
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 25
+ObjectTemplate.workOnSoldiers 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.refillAmmoSpeed 66
+ObjectTemplate.teamFromClosestCP 1
+ObjectTemplate.addVehicleType 2
+
+ObjectTemplate.create SupplyObject concrete_airstrip_long_endstr_SupplyObject_air3
+ObjectTemplate.modifiedByUser Radar_O'Reilly
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 25
+ObjectTemplate.workOnSoldiers 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.refillAmmoSpeed 66
+ObjectTemplate.teamFromClosestCP 1
+ObjectTemplate.addVehicleType 2
+
+ObjectTemplate.create SupplyObject concrete_airstrip_long_endstr_SupplyObject_air4
+ObjectTemplate.modifiedByUser Radar_O'Reilly
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 25
+ObjectTemplate.workOnSoldiers 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.refillAmmoSpeed 66
+ObjectTemplate.teamFromClosestCP 1
+ObjectTemplate.addVehicleType 2
+

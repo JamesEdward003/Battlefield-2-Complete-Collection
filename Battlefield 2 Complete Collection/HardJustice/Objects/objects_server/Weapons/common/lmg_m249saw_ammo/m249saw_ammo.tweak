@@ -1,0 +1,76 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/4/20 19:27]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe GenericFireArm m249saw_ammo
+ObjectTemplate.creator FLI-1:fli
+ObjectTemplate.modifiedByUser fli
+ObjectTemplate.saveInSeparateFile 1
+rem ---BeginComp:WeaponHud ---
+ObjectTemplate.createComponent WeaponHud
+ObjectTemplate.weaponHud.showInfo 0
+rem ---EndComp ---
+rem ---BeginComp:SingleFireComp ---
+ObjectTemplate.createComponent SingleFireComp
+ObjectTemplate.fire.roundsPerMinute 450
+ObjectTemplate.fire.fireInput PIAltFire
+ObjectTemplate.fire.altFireInput PIFire
+ObjectTemplate.fire.ignoreFireButton PIAltFire
+rem ---EndComp ---
+rem ---BeginComp:DefaultAmmoComp ---
+ObjectTemplate.createComponent DefaultAmmoComp
+ObjectTemplate.ammo.nrOfMags -1
+ObjectTemplate.ammo.magSize -1
+rem ---EndComp ---
+rem ---BeginComp:WeaponBasedRecoilComp ---
+ObjectTemplate.createComponent WeaponBasedRecoilComp
+ObjectTemplate.recoil.recoilSize 0.3
+ObjectTemplate.recoil.recoilSpeed 60
+ObjectTemplate.recoil.recoilSpeedGB 60
+rem ---EndComp ---
+ObjectTemplate.geometry m249saw_ammo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.projectileTemplate m249saw_ammo_Projectile
+ObjectTemplate.velocity 0
+ObjectTemplate.itemIndex 1
+ObjectTemplate.inheritHeatFromPrimary 1
+
+ObjectTemplate.create GenericProjectile m249saw_ammo_Projectile
+ObjectTemplate.modifiedByUser ljo
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:DefaultCollisionComp ---
+ObjectTemplate.createComponent DefaultCollisionComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultDetonationComp ---
+ObjectTemplate.createComponent DefaultDetonationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultProjSoundComp ---
+ObjectTemplate.createComponent DefaultProjSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultRicochetComp ---
+ObjectTemplate.createComponent DefaultRicochetComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultPenetrateComp ---
+ObjectTemplate.createComponent DefaultPenetrateComp
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.physicsType Point
+ObjectTemplate.collisionGroups 8
+ObjectTemplate.material 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_m249saw_ammo_Projectile_Looping
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.material 0
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.minDamage 20
+ObjectTemplate.damage 100
+
+ObjectTemplate.activeSafe Sound S_m249saw_ammo_Projectile_Looping
+ObjectTemplate.modifiedByUser ljo
+ObjectTemplate.createdInEditor 1
+

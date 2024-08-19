@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh cargo_container
+CollisionManager.createTemplate cargo_container
+
+ObjectTemplate.create SimpleObject cargo_container
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator STRYKERJ-DDB4B9:StrykerJ
+ObjectTemplate.collisionMesh cargo_container
+ObjectTemplate.mapMaterial 0 01_-_Default 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry cargo_container
+
+include cargo_container.tweak

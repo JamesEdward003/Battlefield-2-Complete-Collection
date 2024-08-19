@@ -1,0 +1,4 @@
+ObjectTemplate.create EffectBundle e_destruction_fire_hydrant
+ObjectTemplate.createdInEditor 1
+
+include e_destruction_fire_hydrant.tweak

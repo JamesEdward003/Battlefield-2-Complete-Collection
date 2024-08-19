@@ -1,0 +1,8 @@
+GeometryTemplate.create BundledMesh deserteagle
+
+ObjectTemplate.create GenericFireArm deserteagle
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator "SatNav"
+ObjectTemplate.geometry deserteagle
+
+include deserteagle.tweak

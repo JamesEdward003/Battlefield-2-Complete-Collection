@@ -1,0 +1,47 @@
+ObjectTemplate.create Kit US2_Sniper
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.kitType Sniper
+ObjectTemplate.aiTemplate Sniper
+ObjectTemplate.geometry US_Kits
+ObjectTemplate.geometry.kit 6
+ObjectTemplate.geometry.dropGeom 16
+ObjectTemplate.NetworkableInfo KitInfo
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.unlockIndex 6
+ObjectTemplate.cullRadiusScale 2.4
+rem -------------------------------------
+ObjectTemplate.addTemplate USPIS_92FS_silencer
+ObjectTemplate.addTemplate USHGR_M67
+ObjectTemplate.addTemplate m14lm
+ObjectTemplate.addTemplate USMIN_Claymore
+ObjectTemplate.addTemplate kni_knife
+ObjectTemplate.addTemplate ussni_m95_barret
+ObjectTemplate.addTemplate grapplinghook
+ObjectTemplate.addTemplate designator
+ObjectTemplate.addTemplate UnlockUS2Sniper
+rem -------------------------------------
+
+ObjectTemplate.createComponent AbilityHud
+ObjectTemplate.abilityHud.ammoSound S_Resupply
+ObjectTemplate.abilityHud.healingSound S_Heal
+ObjectTemplate.abilityHud.repairingSound S_Repair
+
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName 		"US2 SNIPER"
+ObjectTemplate.vehicleHud.miniMapIcon		"Ingame\Kits\Icons\kit_Sniper_outline.tga"
+ObjectTemplate.vehicleHud.vehicleIcon		"Ingame\Kits\Icons\kit_Sniper.tga"
+ObjectTemplate.vehicleHud.pantingSound		S_SprintBreath
+ObjectTemplate.vehicleHud.injurySound		S_Injury
+ObjectTemplate.vehicleHud.vehicleType 		7
+
+ObjectTemplate.sprintStaminaDissipationFactor 	0.2
+
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage		"sniper_spotted"
+rem ---EndComp ---
+
+ObjectTemplate.create ItemContainer UnlockUS2Sniper
+ObjectTemplate.addTemplate ussni_m82a1
+ObjectTemplate.unlockLevel 1
+

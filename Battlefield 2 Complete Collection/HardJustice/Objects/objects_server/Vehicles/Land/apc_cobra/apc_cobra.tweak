@@ -1,0 +1,1287 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 12:52]
+GeometryTemplate.setSubGeometryLodDistance 1 0 15
+GeometryTemplate.setSubGeometryLodDistance 1 1 40
+GeometryTemplate.setSubGeometryLodDistance 1 2 80
+GeometryTemplate.setSubGeometryLodDistance 2 0 10
+GeometryTemplate.setSubGeometryLodDistance 2 1 20
+GeometryTemplate.setSubGeometryLodDistance 2 2 50
+GeometryTemplate.setMaterialReflectionScale 1 0 2 1
+GeometryTemplate.setMaterialReflectionScale 1 0 3 0.7
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 8
+ObjectTemplate.activeSafe PlayerControlObject apc_cobra
+ObjectTemplate.creator CAMBO-DB1C4BB91:cambo
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.castsDynamicShadow 1
+rem ---BeginComp:Armor ---
+ObjectTemplate.createComponent Armor
+ObjectTemplate.armor.maxHitPoints 1000
+ObjectTemplate.armor.hitPoints 1000
+ObjectTemplate.armor.defaultMaterial 71
+ObjectTemplate.armor.hpLostWhileUpSideDown 125
+ObjectTemplate.armor.hpLostWhileInWater 100
+ObjectTemplate.armor.hpLostWhileInDeepWater 335
+ObjectTemplate.armor.hpLostWhileCriticalDamage 18
+ObjectTemplate.armor.waterDamageDelay 1
+ObjectTemplate.armor.deepWaterDamageDelay 0
+ObjectTemplate.armor.waterLevel 0.4
+ObjectTemplate.armor.deepWaterLevel 0.7
+ObjectTemplate.armor.explosionForce 10
+ObjectTemplate.armor.explosionForceMod 12
+ObjectTemplate.armor.explosionForceMax 5000
+ObjectTemplate.armor.explosionDamage 300
+ObjectTemplate.armor.explosionRadius 6
+ObjectTemplate.armor.explosionMaterial 101
+ObjectTemplate.armor.wreckExplosionForce 50
+ObjectTemplate.armor.wreckExplosionForceMax 60
+ObjectTemplate.armor.wreckExplosionDamage 50
+ObjectTemplate.armor.wreckExplosionRadius 2
+ObjectTemplate.armor.wreckExplosionMaterial 70
+ObjectTemplate.armor.wreckHitPoints 1000
+ObjectTemplate.armor.timeToStayAsWreck 10
+ObjectTemplate.armor.criticalDamage 101
+ObjectTemplate.armor.hideChildrenOnSpectacularDeath 1
+ObjectTemplate.armor.addArmorEffect 50 e_dstate_land_lightsmoke 0.93/0.63/1.63 0/0/0
+ObjectTemplate.armor.addArmorEffect 25 e_dstate_land_MediumSmoke 0.93/0.63/1.63 0/0/0
+ObjectTemplate.armor.addArmorEffect 10 e_dstate_land_heavysmoke 0.93/0.64/1.63 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_vexp_armoredcar_small 0/0/0 0/0/0
+ObjectTemplate.armor.addArmorEffectSpectacular 0 e_vexp_Humvee 0/0.5/-0.5 0/0/0
+ObjectTemplate.armor.addArmorEffectSpectacular 0 e_vexp_armoredcar_spec 0/0/0 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_dstate_static_fire 0/0.5/1.748 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_sAmb_wreckfire 0.44/0.148/-1.645 0/0/0
+ObjectTemplate.armor.addArmorEffect -100 e_vexp_armoredcar_2nd 0/0/0 0/0/0
+rem ---EndComp ---
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage vehicle_spotted
+rem ---EndComp ---
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "APC Cobra"
+ObjectTemplate.vehicleHud.typeIcon Ingame\Vehicles\Icons\Hud\MenuIcons\menuIcon_jeep.tga
+ObjectTemplate.vehicleHud.miniMapIcon Ingame\Vehicles\Icons\Minimap\mini_Jeep.tga
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.vehicleIconPos 42/5
+ObjectTemplate.vehicleHud.vehicleType 3
+ObjectTemplate.vehicleHud.vehicleIcon Ingame\Vehicles\Icons\Hud\VehicleIcons\kobra.tga
+rem ---EndComp ---
+rem ---BeginComp:WarningHud ---
+ObjectTemplate.createComponent WarningHud
+ObjectTemplate.WarningHud.firstWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.secondWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.warningIcon Ingame\GeneralIcons\Action_Icons\large_laserlockicon.tga
+rem ---EndComp ---
+ObjectTemplate.geometry apc_cobra
+ObjectTemplate.setCollisionMesh apc_cobra
+ObjectTemplate.mapMaterial 0 Light_armored_vehicle 30
+ObjectTemplate.mapMaterial 1 Glass_bulletproof 1006
+ObjectTemplate.mapMaterial 2 wreck 60
+ObjectTemplate.mapMaterial 3 Rubber 102
+ObjectTemplate.drag 1
+ObjectTemplate.mass 1500
+ObjectTemplate.gravityModifier 2
+ObjectTemplate.floaterMod 0.5
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.aiTemplate apc_cobra
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobra_Ambient
+ObjectTemplate.addTemplate S_apc_cobra_AmbientDamaged
+ObjectTemplate.addTemplate apc_cobra_entry
+ObjectTemplate.setPosition -1.69727e-005/0.589532/1.01437
+ObjectTemplate.addTemplate apc_cobra_entry_rear
+ObjectTemplate.setPosition -7.90299e-007/-1.37416e-006/-1.0955
+ObjectTemplate.addTemplate apc_cobra_Passenger1
+ObjectTemplate.setPosition 0.471403/0.949317/0.151776
+ObjectTemplate.setRotation -0.324333/5.80766/-3.71698
+ObjectTemplate.addTemplate apc_cobra_Passenger2
+ObjectTemplate.setPosition 0.50332/1.01116/-1.29082
+ObjectTemplate.setRotation -104.388/1.43033/-0.597627
+ObjectTemplate.addTemplate apc_cobra_Passenger3
+ObjectTemplate.setPosition -0.497892/0.993501/-2.13974
+ObjectTemplate.setRotation 87.1003/-1.74284/-2.63791
+ObjectTemplate.addTemplate apc_cobra_Passenger4
+ObjectTemplate.setPosition 0.495926/0.994184/-1.94302
+ObjectTemplate.setRotation -91.3028/0.554804/-7.38382
+ObjectTemplate.addTemplate apc_cobra_Passenger5
+ObjectTemplate.setPosition -0.446715/0.954074/-1.34362
+ObjectTemplate.setRotation 53.584/0.81932/-4.39112
+ObjectTemplate.addTemplate e_amphib_wake
+ObjectTemplate.setPosition -2.71962e-008/-0.354981/2.05709
+ObjectTemplate.addTemplate e_amphib_wake
+ObjectTemplate.setPosition 6.79814e-008/-0.331358/-1.99208
+ObjectTemplate.addTemplate e_amphib_wake_sound
+ObjectTemplate.setPosition 9.88162e-009/-0.491616/-1.40804e-009
+ObjectTemplate.addTemplate e_sinking_vehicle
+ObjectTemplate.setPosition -8.71397e-009/0.0652803/-0.161464
+ObjectTemplate.addTemplate Car_horn
+ObjectTemplate.setPosition -3.75812e-006/0.461429/2.19859
+ObjectTemplate.addTemplate LaserTarget_vehicle
+ObjectTemplate.addTemplate apc_cobra_cameramount
+ObjectTemplate.setPosition -0.45031/1.10509/1.80778e-007
+ObjectTemplate.addTemplate decoy_cobra_agmf_Launcher
+ObjectTemplate.addTemplate box_cobra
+ObjectTemplate.setPosition -1.42871e-009/-0.0793996/-5.63474e-010
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2/0.1/0 0/0/0
+ObjectTemplate.altSoldierExitPosition 0/-0.2/-3
+ObjectTemplate.exitSpeedMod 0.5
+ObjectTemplate.regulatePitchInput PIMouseLookY
+ObjectTemplate.regulatePitch -0.02/0.05
+ObjectTemplate.regulateRollInput PIYaw
+ObjectTemplate.regulateRoll -0.02/0.2
+ObjectTemplate.seatInformation apc_cobra -0.45/1.2/0.18 0/0/0
+ObjectTemplate.seatAnimationSystem Objects/Vehicles/Common/Animations/3p_driver_A_animSys.inc
+ObjectTemplate.soundFilter vehicle
+ObjectTemplate.cockpitSubGeom 1
+ObjectTemplate.sprintFactor 1
+ObjectTemplate.listenerObstruction 0.45
+ObjectTemplate.groundContactVolume 1
+ObjectTemplate.autoUseAbility 1
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.altSoldierExitPosition 0/-0.2/-3
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Ambient
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/usjep_hmmwv/sounds/mono/hmmwv_cockpit.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.3
+ObjectTemplate.pitch 1.2
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/2/0.003/0/0/0.756/1/0/
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_AmbientDamaged
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe RotationalBundle apc_cobrasteeringwheel
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+rem ---BeginComp:Ik ---
+ObjectTemplate.createComponent Ik
+ObjectTemplate.ik.positionLeft -0.156504/-1.3411e-007/-0.151709
+ObjectTemplate.ik.rotationLeft -106.35/-15.829/-43.7555
+ObjectTemplate.ik.positionRight 0.161415/0.00600094/-0.158664
+ObjectTemplate.ik.rotationRight -38.2097/43.0936/157.474
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobrasteeringwheel_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/-60
+ObjectTemplate.setMaxRotation 0/0/60
+ObjectTemplate.setMaxSpeed 0/0/-90
+ObjectTemplate.setAcceleration 0/0/-200
+ObjectTemplate.setInputToRoll PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.regulateRoll -0.05/-0.1
+
+ObjectTemplate.activeSafe Sound S_apc_cobrasteeringwheel_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe PlayerControlObject apc_cobracupolabase
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "APC Cobra"
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.vehicleIconPos 33/12
+ObjectTemplate.vehicleHud.useSelectionIcons 0
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.aiTemplate apc_cobraGunner
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobracupolabase_Ambient
+ObjectTemplate.addTemplate S_apc_cobracupolabase_AmbientDamaged
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 1.8/0.1/0 0/0/0
+ObjectTemplate.exitSpeedMod 0.5
+ObjectTemplate.regulatePitchInput PIMouseLookY
+ObjectTemplate.regulatePitch 0/0
+ObjectTemplate.regulateRollInput PIYaw
+ObjectTemplate.regulateRoll 0/0
+ObjectTemplate.seatInformation apc_cobracupolabase 0/1.5/0 0/0/0
+ObjectTemplate.seatAnimationSystem Objects/Vehicles/Common/Animations/3p_gunturret_B_animSys.inc
+ObjectTemplate.soundFilter vehicle
+ObjectTemplate.cockpitSubGeom 1
+ObjectTemplate.allowDucking 1
+ObjectTemplate.autoUseAbility 1
+ObjectTemplate.hasRestrictedExit 1
+
+ObjectTemplate.activeSafe Sound S_apc_cobracupolabase_Ambient
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Sound S_apc_cobracupolabase_AmbientDamaged
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe RotationalBundle apc_cobracupola
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.material 43
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobracupola_RotationRpm
+ObjectTemplate.addTemplate apc_cobra_Lav
+ObjectTemplate.setPosition 4.05412e-006/0.000122794/0.476778
+ObjectTemplate.setRotation 0/-0.0142715/0
+rem -------------------------------------
+ObjectTemplate.setMaxSpeed 90/0/0
+ObjectTemplate.setAcceleration 5000/0/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.regulateYaw 0.15/-0.1
+
+ObjectTemplate.activeSafe Sound S_apc_cobracupola_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.create RotationalBundle apc_cobra_Lav
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.material 43
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobra_Lav_RotationRpm
+ObjectTemplate.addTemplate apc_cobracupolabase_Camera
+ObjectTemplate.setPosition -2.321e-005/0.465363/-0.500584
+ObjectTemplate.addTemplate hmg_m2hb
+ObjectTemplate.setPosition 1.5184e-005/-0.011889/0.288559
+ObjectTemplate.addTemplate hmg_m2hb_ammobox
+ObjectTemplate.setPosition -0.205361/-0.0292027/0.237625
+ObjectTemplate.setRotation -180/0/0
+ObjectTemplate.addTemplate hmg_m2hb_ammo
+ObjectTemplate.setPosition -0.0553699/0.0445837/0.225839
+ObjectTemplate.setRotation 90/0/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-45/0
+ObjectTemplate.setMaxRotation 0/18/0
+ObjectTemplate.setMaxSpeed 0/90/0
+ObjectTemplate.setAcceleration 0/5000/0
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.regulatePitch 0.15/-0.1
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Lav_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.create Camera apc_cobracupolabase_Camera
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobracupolabase_Camera_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -1/-0.5/0
+ObjectTemplate.setMaxRotation 1/0.5/0
+ObjectTemplate.setPivotPosition 0/0/-2
+ObjectTemplate.setMaxSpeed 5/5/0
+ObjectTemplate.setAcceleration 2/1/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.cameraShakeSensitivity 0
+ObjectTemplate.bounceLength 0.002
+ObjectTemplate.bounceSensitivity 0.09
+ObjectTemplate.bounceStrength 1
+ObjectTemplate.bounceDamping 15
+ObjectTemplate.followStiffness 6
+ObjectTemplate.chaseDistance 14
+ObjectTemplate.chaseAngle 0.15
+ObjectTemplate.chaseOffset 0/1/7
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.allowInsideDynamicLights 1
+ObjectTemplate.allowInsideStaticSun 0
+ObjectTemplate.insideStaticSunDirection 0/-1/0
+ObjectTemplate.insideStaticSunColor 1/1/1
+ObjectTemplate.insideStaticSunDamageColor 1/1/1
+ObjectTemplate.insideDamageFrequency 3
+ObjectTemplate.insideDamageThreshold 0.1
+ObjectTemplate.insideStaticSunAmbientColor 0.7/0.7/0.7
+
+ObjectTemplate.activeSafe Sound S_apc_cobracupolabase_Camera_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Engine apc_cobraZmotor
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.drag 3
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobraZmotor_RotationRpm
+ObjectTemplate.addTemplate S_apc_cobraZmotor_Idle
+ObjectTemplate.setPosition -0.0981237/0.854788/1.59687
+ObjectTemplate.addTemplate S_apc_cobraZmotor_Rpm1
+ObjectTemplate.setPosition -0.0442194/0.930402/1.80012
+ObjectTemplate.addTemplate S_apc_cobraZmotor_Rpm2
+ObjectTemplate.setPosition -0.0514412/0.890263/1.9305
+ObjectTemplate.addTemplate S_apc_cobraZmotor_Load
+ObjectTemplate.setPosition -0.0555691/0.982469/1.91426
+ObjectTemplate.addTemplate e_exhaust_small
+ObjectTemplate.setPosition 0.983393/1.52488/-1.2206
+ObjectTemplate.addTemplate e_exhaust_small_startup
+ObjectTemplate.setPosition 0.990684/1.49516/-1.2168
+ObjectTemplate.setRotation 0.212557/30.743/-0.0138375
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/-1
+ObjectTemplate.setMaxRotation 0/0/1
+ObjectTemplate.setMaxSpeed 0/0/10000
+ObjectTemplate.setAcceleration 0/0/100
+ObjectTemplate.setInputToRoll PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETNewCar2
+ObjectTemplate.setTorque 300
+ObjectTemplate.setDifferential 4
+ObjectTemplate.setNumberOfGears 4
+ObjectTemplate.setGearUp 0.9
+ObjectTemplate.setGearDown 0.3
+ObjectTemplate.setGearChangeTime 0.7
+ObjectTemplate.setGearRatios 2.25 1.25 1 0.6 0.6 
+ObjectTemplate.spinWhenNoEngineInAir 1
+ObjectTemplate.newCar2.minRpm 1000
+ObjectTemplate.newCar2.maxRpm 4500
+ObjectTemplate.newCar2.useClutchedTorque 0
+ObjectTemplate.newCar2.wheelInertia 50
+ObjectTemplate.newCar2.engineFeedbackMod 0.4
+ObjectTemplate.newCar2.brakeTorque 2000
+ObjectTemplate.newCar2.engineBrakeTorque 1000
+ObjectTemplate.newCar2.frictionTorque 100
+ObjectTemplate.newCar2.frictionMod 1.5
+ObjectTemplate.newCar2.slopeTorqueMod 0.8
+ObjectTemplate.newCar2.wheelLongFrictionMod 1
+ObjectTemplate.newCar2.wheelLongDriveFrictionMod 1.4
+ObjectTemplate.newCar2.wheelLongPeakAt 0.1
+ObjectTemplate.newCar2.wheelLongMinDynamicFriction 0.7
+ObjectTemplate.newCar2.wheelLongScale 0.05
+ObjectTemplate.newCar2.wheelLatFrictionMod 2.5
+ObjectTemplate.newCar2.wheelLatDriveFrictionMod 0.4
+ObjectTemplate.newCar2.wheelLatPeakAt 0.1
+ObjectTemplate.newCar2.wheelLatMinDynamicFriction 0.7
+ObjectTemplate.newCar2.wheelLatScale 0.1
+ObjectTemplate.audio.newStyleAudio 1
+
+ObjectTemplate.activeSafe Sound S_apc_cobraZmotor_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Sound S_apc_cobraZmotor_Idle
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/usjep_hmmwv/sounds/mono/hmmwv_engine_start_idle_stop.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 2
+ObjectTemplate.volume 0.68
+ObjectTemplate.pitch 1.5
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.pitchEnvelope 0/1/0/1.5/0/2/0/0.619691/0/0.787645/1.5/0/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/3/0/0.640927/0/0.185328/0.640927/0/0.783784/0/0/
+ObjectTemplate.position -0.0981237/0.854788/1.59687
+ObjectTemplate.minDistance 4
+ObjectTemplate.halfVolumeDistance 7
+
+ObjectTemplate.activeSafe Sound S_apc_cobraZmotor_Rpm1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/usjep_hmmwv/sounds/mono/unloaded_rpm.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.59
+ObjectTemplate.pitch 0.8
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.pitchEnvelope 0/1/0/1.5/0/3/0/0.544402/0/0.552124/1.1583/0/0.996139/1.45946/0/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/3/0/0/0/0.42471/0.72973/0/0.996139/1/0/
+ObjectTemplate.position -0.0442194/0.930402/1.80012
+ObjectTemplate.minDistance 4
+ObjectTemplate.halfVolumeDistance 7
+
+ObjectTemplate.activeSafe Sound S_apc_cobraZmotor_Rpm2
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/usjep_hmmwv/sounds/mono/loaded_rpm.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.84
+ObjectTemplate.pitch 1.1
+ObjectTemplate.reverbLevel 0
+ObjectTemplate.pitchEnvelope 0/1/0/1.5/0/2/0/0.53861/0/0.861004/1.5/0/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/3/0/0/0/0.200772/0.756757/0/0.988417/0.953668/0/
+ObjectTemplate.position -0.0514412/0.890263/1.9305
+ObjectTemplate.minDistance 4
+ObjectTemplate.halfVolumeDistance 7
+
+ObjectTemplate.activeSafe Sound S_apc_cobraZmotor_Load
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/common/sound/gear_shift_01.wav,objects/vehicles/common/sound/gear_shift_01.wav,objects/vehicles/common/sound/gear_shift_02.wav,objects/vehicles/common/sound/gear_shift_03.wav,objects/vehicles/common/sound/gear_shift_04.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.4
+ObjectTemplate.pitch 1.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.position -0.0555691/0.982469/1.91426
+ObjectTemplate.minDistance 2
+ObjectTemplate.halfVolumeDistance 2.5
+ObjectTemplate.soundRadius 1.5
+
+ObjectTemplate.activeSafe RotationalBundle apc_cobraWFL_nav
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobraWFL_nav_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -30/0/0
+ObjectTemplate.setMaxRotation 30/0/0
+ObjectTemplate.setMaxSpeed 1/0/0
+ObjectTemplate.setAcceleration 100/0/0
+ObjectTemplate.setInputToYaw PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.snapToZeroOnNoInput 1
+
+ObjectTemplate.activeSafe Sound S_apc_cobraWFL_nav_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Spring apc_cobraWFL
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 8
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobraWFL_Rotation
+ObjectTemplate.addTemplate web_wheelBig
+rem -------------------------------------
+ObjectTemplate.setStrength 45
+ObjectTemplate.setDamping 8
+
+ObjectTemplate.activeSafe Sound S_apc_cobraWFL_Rotation
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe RotationalBundle apc_cobraWFR_nav
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobraWFR_nav_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -30/0/0
+ObjectTemplate.setMaxRotation 30/0/0
+ObjectTemplate.setMaxSpeed 1/0/0
+ObjectTemplate.setAcceleration 100/0/0
+ObjectTemplate.setInputToYaw PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.snapToZeroOnNoInput 1
+
+ObjectTemplate.activeSafe Sound S_apc_cobraWFR_nav_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Spring apc_cobraWFR
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 8
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobraWFR_Rotation
+ObjectTemplate.addTemplate web_wheelBig
+rem -------------------------------------
+ObjectTemplate.setStrength 45
+ObjectTemplate.setDamping 8
+
+ObjectTemplate.activeSafe Sound S_apc_cobraWFR_Rotation
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Spring apc_cobraWRL
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 8
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobraWRL_Rotation
+ObjectTemplate.addTemplate web_wheelBig
+rem -------------------------------------
+ObjectTemplate.setStrength 45
+ObjectTemplate.setDamping 8
+
+ObjectTemplate.activeSafe Sound S_apc_cobraWRL_Rotation
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Spring apc_cobraWRR
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 8
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobraWRR_Rotation
+ObjectTemplate.addTemplate web_wheelBig
+rem -------------------------------------
+ObjectTemplate.setStrength 45
+ObjectTemplate.setDamping 8
+
+ObjectTemplate.activeSafe Sound S_apc_cobraWRR_Rotation
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.create EntryPoint apc_cobra_entry
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setEntryRadius 4
+
+ObjectTemplate.create EntryPoint apc_cobra_entry_rear
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setEntryRadius 4
+
+ObjectTemplate.create PlayerControlObject apc_cobra_Passenger1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "APC Cobra"
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.vehicleIconPos 42/19
+rem ---EndComp ---
+rem ---BeginComp:WarningHud ---
+ObjectTemplate.createComponent WarningHud
+ObjectTemplate.WarningHud.firstWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.secondWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.warningIcon Ingame\GeneralIcons\Action_Icons\large_laserlockicon.tga
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.aiTemplate apc_cobra_Passenger1
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobra_Passenger1_Ambient
+ObjectTemplate.addTemplate S_apc_cobra_Passenger1_AmbientDamaged
+ObjectTemplate.addTemplate apc_cobra_Passenger1_Camera
+ObjectTemplate.setPosition -0.0970932/0.291157/0.000698259
+ObjectTemplate.setRotation -0.347206/-6.83133/3.90067
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2/0/-1.5 -90/0/0
+ObjectTemplate.exitSpeedMod 0.5
+ObjectTemplate.seatInformation apc_cobra_Passenger1 -0.0494366/0.242464/0.240858 0/0/0
+ObjectTemplate.seatAnimationSystem Objects/Vehicles/land/apc_cobra/Animations/3p_CobraPass1_animSys.inc
+ObjectTemplate.seatLeftRotationLimit -5
+ObjectTemplate.seatRightRotationLimit 5
+ObjectTemplate.soundFilter vehicle
+ObjectTemplate.listenerObstruction 0.45
+ObjectTemplate.damagedAmbientSoundLimit 0.15
+ObjectTemplate.autoUseAbility 1
+ObjectTemplate.hasRestrictedExit 1
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Passenger1_Ambient
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/usapc_lav25/sounds/lav25_cockpit.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.6
+ObjectTemplate.pitch 0.7
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/2/0.003/0/0/0.122/1/0/
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Passenger1_AmbientDamaged
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/effects/sounds/damagestates/fire_alarm_tank.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.55
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.create Camera apc_cobra_Passenger1_Camera
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobra_Passenger1_Camera_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -160/-45/0
+ObjectTemplate.setMaxRotation 160/45/0
+ObjectTemplate.setPivotPosition 0/0/0.05
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/5000/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.cameraShakeStartSpeed 20
+ObjectTemplate.cameraShakeMaxSpeed 30
+ObjectTemplate.followStiffness 4
+ObjectTemplate.chaseDistance 14
+ObjectTemplate.chaseAngle 0.15
+ObjectTemplate.chaseOffset 0/1/7
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.allowInsideDynamicLights 0
+ObjectTemplate.allowInsideStaticSun 1
+ObjectTemplate.insideStaticSunDirection 2/2/1
+ObjectTemplate.insideStaticSunColor 0/0/0
+ObjectTemplate.insideStaticSunDamageColor 0.784314/0/0
+ObjectTemplate.insideDamageFrequency 4
+ObjectTemplate.insideDamageThreshold 0.1
+ObjectTemplate.insideStaticSunAmbientColor 0.333333/0.333333/0.333333
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Passenger1_Camera_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.create PlayerControlObject apc_cobra_Passenger2
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "APC Cobra"
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.vehicleIconPos 23/19
+rem ---EndComp ---
+rem ---BeginComp:WarningHud ---
+ObjectTemplate.createComponent WarningHud
+ObjectTemplate.WarningHud.firstWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.secondWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.warningIcon Ingame\GeneralIcons\Action_Icons\large_laserlockicon.tga
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.aiTemplate apc_cobra_Passenger2
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobra_Passenger2_Ambient
+ObjectTemplate.addTemplate S_apc_cobra_Passenger2_AmbientDamaged
+ObjectTemplate.addTemplate apc_cobra_Passenger2_Camera
+ObjectTemplate.setPosition -0.0938675/0.304744/0.0461007
+ObjectTemplate.setRotation 15.9945/-0.378932/0.0119748
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2/0/-1.5 -90/0/0
+ObjectTemplate.exitSpeedMod 0.5
+ObjectTemplate.seatInformation apc_cobra_Passenger2 -0.0494366/0.242464/0.240858 0/0/0
+ObjectTemplate.seatAnimationSystem Objects/Vehicles/land/apc_cobra/Animations/3p_CobraPass2_animSys.inc
+ObjectTemplate.seatLeftRotationLimit -5
+ObjectTemplate.seatRightRotationLimit 5
+ObjectTemplate.soundFilter vehicle
+ObjectTemplate.listenerObstruction 0.45
+ObjectTemplate.damagedAmbientSoundLimit 0.15
+ObjectTemplate.autoUseAbility 1
+ObjectTemplate.hasRestrictedExit 1
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Passenger2_Ambient
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/usapc_lav25/sounds/lav25_cockpit.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.6
+ObjectTemplate.pitch 0.7
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/2/0.003/0/0/0.122/1/0/
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Passenger2_AmbientDamaged
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/effects/sounds/damagestates/fire_alarm_tank.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.55
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.create Camera apc_cobra_Passenger2_Camera
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobra_Passenger2_Camera_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -160/-45/0
+ObjectTemplate.setMaxRotation 160/45/0
+ObjectTemplate.setPivotPosition 0/0/0.05
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/5000/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.cameraShakeStartSpeed 20
+ObjectTemplate.cameraShakeMaxSpeed 30
+ObjectTemplate.followStiffness 4
+ObjectTemplate.chaseDistance 14
+ObjectTemplate.chaseAngle 0.15
+ObjectTemplate.chaseOffset 0/1/7
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.allowInsideDynamicLights 0
+ObjectTemplate.allowInsideStaticSun 1
+ObjectTemplate.insideStaticSunDirection 2/2/1
+ObjectTemplate.insideStaticSunColor 0/0/0
+ObjectTemplate.insideStaticSunDamageColor 0.784314/0/0
+ObjectTemplate.insideDamageFrequency 4
+ObjectTemplate.insideDamageThreshold 0.1
+ObjectTemplate.insideStaticSunAmbientColor 0.333333/0.333333/0.333333
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Passenger2_Camera_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.create PlayerControlObject apc_cobra_Passenger3
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "APC Cobra"
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.vehicleIconPos 13/5
+rem ---EndComp ---
+rem ---BeginComp:WarningHud ---
+ObjectTemplate.createComponent WarningHud
+ObjectTemplate.WarningHud.firstWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.secondWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.warningIcon Ingame\GeneralIcons\Action_Icons\large_laserlockicon.tga
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.aiTemplate apc_cobra_Passenger3
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobra_Passenger3_Ambient
+ObjectTemplate.addTemplate S_apc_cobra_Passenger3_AmbientDamaged
+ObjectTemplate.addTemplate apc_cobra_Passenger3_Camera
+ObjectTemplate.setPosition -0.0950843/0.310721/0.127927
+ObjectTemplate.setRotation 0.589117/2.57956/3.96822
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2/0/-1.5 -90/0/0
+ObjectTemplate.exitSpeedMod 0.5
+ObjectTemplate.seatInformation apc_cobra_Passenger3 -0.0494366/0.242464/0.240858 0/0/0
+ObjectTemplate.seatAnimationSystem Objects/Vehicles/land/apc_cobra/Animations/3p_CobraPass3_animSys.inc
+ObjectTemplate.seatLeftRotationLimit -5
+ObjectTemplate.seatRightRotationLimit 5
+ObjectTemplate.soundFilter vehicle
+ObjectTemplate.listenerObstruction 0.45
+ObjectTemplate.damagedAmbientSoundLimit 0.15
+ObjectTemplate.autoUseAbility 1
+ObjectTemplate.hasRestrictedExit 1
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Passenger3_Ambient
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/usapc_lav25/sounds/lav25_cockpit.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.6
+ObjectTemplate.pitch 0.7
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/2/0.003/0/0/0.122/1/0/
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Passenger3_AmbientDamaged
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/effects/sounds/damagestates/fire_alarm_tank.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.55
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.create Camera apc_cobra_Passenger3_Camera
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobra_Passenger3_Camera_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -160/-45/0
+ObjectTemplate.setMaxRotation 160/45/0
+ObjectTemplate.setPivotPosition 0/0/0.05
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/5000/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.cameraShakeStartSpeed 20
+ObjectTemplate.cameraShakeMaxSpeed 30
+ObjectTemplate.followStiffness 4
+ObjectTemplate.chaseDistance 14
+ObjectTemplate.chaseAngle 0.15
+ObjectTemplate.chaseOffset 0/1/7
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.allowInsideDynamicLights 0
+ObjectTemplate.allowInsideStaticSun 1
+ObjectTemplate.insideStaticSunDirection 2/2/1
+ObjectTemplate.insideStaticSunColor 0/0/0
+ObjectTemplate.insideStaticSunDamageColor 0.784314/0/0
+ObjectTemplate.insideDamageFrequency 4
+ObjectTemplate.insideDamageThreshold 0.1
+ObjectTemplate.insideStaticSunAmbientColor 0.333333/0.333333/0.333333
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Passenger3_Camera_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.create PlayerControlObject apc_cobra_Passenger4
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "APC Cobra"
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.vehicleIconPos 13/19
+rem ---EndComp ---
+rem ---BeginComp:WarningHud ---
+ObjectTemplate.createComponent WarningHud
+ObjectTemplate.WarningHud.firstWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.secondWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.warningIcon Ingame\GeneralIcons\Action_Icons\large_laserlockicon.tga
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.aiTemplate apc_cobra_Passenger4
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobra_Passenger4_Ambient
+ObjectTemplate.addTemplate S_apc_cobra_Passenger4_AmbientDamaged
+ObjectTemplate.addTemplate apc_cobra_Passenger4_Camera
+ObjectTemplate.setPosition -0.0784215/0.291712/0.12473
+ObjectTemplate.setRotation 0.688833/-2.11301/7.38286
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2/0/-1.5 -90/0/0
+ObjectTemplate.exitSpeedMod 0.5
+ObjectTemplate.seatInformation apc_cobra_Passenger4 -0.0494366/0.242464/0.240858 0/0/0
+ObjectTemplate.seatAnimationSystem Objects/Vehicles/land/apc_cobra/Animations/3p_CobraPass4_animSys.inc
+ObjectTemplate.seatLeftRotationLimit -5
+ObjectTemplate.seatRightRotationLimit 5
+ObjectTemplate.soundFilter vehicle
+ObjectTemplate.listenerObstruction 0.45
+ObjectTemplate.damagedAmbientSoundLimit 0.15
+ObjectTemplate.autoUseAbility 1
+ObjectTemplate.hasRestrictedExit 1
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Passenger4_Ambient
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/usapc_lav25/sounds/lav25_cockpit.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.6
+ObjectTemplate.pitch 0.7
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/2/0.003/0/0/0.122/1/0/
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Passenger4_AmbientDamaged
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/effects/sounds/damagestates/fire_alarm_tank.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.55
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.create Camera apc_cobra_Passenger4_Camera
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobra_Passenger4_Camera_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -1610/-45/0
+ObjectTemplate.setMaxRotation 160/45/0
+ObjectTemplate.setPivotPosition 0/0/0.05
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/5000/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.cameraShakeStartSpeed 20
+ObjectTemplate.cameraShakeMaxSpeed 30
+ObjectTemplate.followStiffness 4
+ObjectTemplate.chaseDistance 14
+ObjectTemplate.chaseAngle 0.15
+ObjectTemplate.chaseOffset 0/1/7
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.allowInsideDynamicLights 0
+ObjectTemplate.allowInsideStaticSun 1
+ObjectTemplate.insideStaticSunDirection 2/2/1
+ObjectTemplate.insideStaticSunColor 0/0/0
+ObjectTemplate.insideStaticSunDamageColor 0.784314/0/0
+ObjectTemplate.insideDamageFrequency 4
+ObjectTemplate.insideDamageThreshold 0.1
+ObjectTemplate.insideStaticSunAmbientColor 0.333333/0.333333/0.333333
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Passenger4_Camera_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.create PlayerControlObject apc_cobra_Passenger5
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "APC Cobra"
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.vehicleIconPos 23/5
+rem ---EndComp ---
+rem ---BeginComp:WarningHud ---
+ObjectTemplate.createComponent WarningHud
+ObjectTemplate.WarningHud.firstWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.secondWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.warningIcon Ingame\GeneralIcons\Action_Icons\large_laserlockicon.tga
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.aiTemplate apc_cobra_Passenger5
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobra_Passenger5_Ambient
+ObjectTemplate.addTemplate S_apc_cobra_Passenger5_AmbientDamaged
+ObjectTemplate.addTemplate apc_cobra_Passenger5_Camera
+ObjectTemplate.setPosition -0.0784215/0.291712/0.12473
+ObjectTemplate.setRotation 17.6361/-4.68399/3.59737
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2/0/-1.5 -90/0/0
+ObjectTemplate.exitSpeedMod 0.5
+ObjectTemplate.seatInformation apc_cobra_Passenger5 -0.0494366/0.242464/0.240858 0/0/0
+ObjectTemplate.seatAnimationSystem Objects/Vehicles/land/apc_cobra/Animations/3p_CobraPass5_animSys.inc
+ObjectTemplate.seatLeftRotationLimit -5
+ObjectTemplate.seatRightRotationLimit 5
+ObjectTemplate.soundFilter vehicle
+ObjectTemplate.listenerObstruction 0.45
+ObjectTemplate.damagedAmbientSoundLimit 0.15
+ObjectTemplate.autoUseAbility 1
+ObjectTemplate.hasRestrictedExit 1
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Passenger5_Ambient
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/usapc_lav25/sounds/lav25_cockpit.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.6
+ObjectTemplate.pitch 0.7
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/2/0.003/0/0/0.122/1/0/
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Passenger5_AmbientDamaged
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/effects/sounds/damagestates/fire_alarm_tank.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.55
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.create Camera apc_cobra_Passenger5_Camera
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobra_Passenger5_Camera_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -160/-45/0
+ObjectTemplate.setMaxRotation 160/45/0
+ObjectTemplate.setPivotPosition 0/0/0.05
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/5000/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.cameraShakeStartSpeed 20
+ObjectTemplate.cameraShakeMaxSpeed 30
+ObjectTemplate.followStiffness 4
+ObjectTemplate.chaseDistance 14
+ObjectTemplate.chaseAngle 0.15
+ObjectTemplate.chaseOffset 0/1/7
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.allowInsideDynamicLights 0
+ObjectTemplate.allowInsideStaticSun 1
+ObjectTemplate.insideStaticSunDirection 2/2/1
+ObjectTemplate.insideStaticSunColor 0/0/0
+ObjectTemplate.insideStaticSunDamageColor 0.784314/0/0
+ObjectTemplate.insideDamageFrequency 4
+ObjectTemplate.insideDamageThreshold 0.1
+ObjectTemplate.insideStaticSunAmbientColor 0.333333/0.333333/0.333333
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Passenger5_Camera_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.create RotationalBundle apc_cobra_cameramount
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobra_cameramount_RotationRpm
+ObjectTemplate.addTemplate apc_cobra_Camera
+ObjectTemplate.setPosition 4.35409e-008/0.154128/-6.97953e-011
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/-15
+ObjectTemplate.setMaxRotation 0/0/15
+ObjectTemplate.setMaxSpeed 0/0/250
+ObjectTemplate.setAcceleration 0/0/250
+ObjectTemplate.setInputToRoll PIRoll
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.regulateRoll 0.1/-0.1
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_cameramount_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.create Camera apc_cobra_Camera
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_apc_cobra_Camera_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -130/-20/0
+ObjectTemplate.setMaxRotation 140/20/0
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/5000/0.1
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.regulatePitch 0.1/-0.1
+ObjectTemplate.restoreRotationOnExit 1
+ObjectTemplate.cameraShakeStartSpeed 20
+ObjectTemplate.cameraShakeMaxSpeed 25
+ObjectTemplate.bounceLength 0.1
+ObjectTemplate.bounceStrength 15
+ObjectTemplate.bounceDamping 15
+ObjectTemplate.followStiffness 6
+ObjectTemplate.chaseDistance 15
+ObjectTemplate.chaseAngle 0.15
+ObjectTemplate.chaseOffset 0/1/6
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.allowInsideDynamicLights 1
+ObjectTemplate.allowInsideStaticSun 0
+ObjectTemplate.insideStaticSunDirection 0/-1/0
+ObjectTemplate.insideStaticSunColor 1/1/1
+ObjectTemplate.insideStaticSunDamageColor 1/1/1
+ObjectTemplate.insideDamageFrequency 3
+ObjectTemplate.insideDamageThreshold 0.1
+ObjectTemplate.insideStaticSunAmbientColor 0.7/0.7/0.7
+
+ObjectTemplate.activeSafe Sound S_apc_cobra_Camera_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.create GenericFireArm decoy_cobra_agmf_Launcher
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:MultiFireComp ---
+ObjectTemplate.createComponent MultiFireComp
+ObjectTemplate.fire.roundsPerMinute 1800
+ObjectTemplate.fire.fireInput PIFlareFire
+ObjectTemplate.fire.addFireRate 1
+ObjectTemplate.fire.burstSize 6
+ObjectTemplate.fire.addBarrelName decoy_cobra_agmf_Launcher_Barrel
+rem ---EndComp ---
+rem ---BeginComp:DefaultAmmoComp ---
+ObjectTemplate.createComponent DefaultAmmoComp
+ObjectTemplate.ammo.nrOfMags -1
+ObjectTemplate.ammo.magSize 6
+ObjectTemplate.ammo.minimumTimeUntilReload 7
+ObjectTemplate.ammo.autoReload 1
+ObjectTemplate.ammo.reloadWithoutPlayer 1
+rem ---EndComp ---
+rem ---BeginComp:WeaponBasedRecoilComp ---
+ObjectTemplate.createComponent WeaponBasedRecoilComp
+rem ---EndComp ---
+rem ---BeginComp:SimpleDeviationComp ---
+ObjectTemplate.createComponent SimpleDeviationComp
+ObjectTemplate.deviation.minDev 6
+rem ---EndComp ---
+rem ---BeginComp:DefaultSoundComp ---
+ObjectTemplate.createComponent DefaultSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultAnimationComp ---
+ObjectTemplate.createComponent DefaultAnimationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultZoomComp ---
+ObjectTemplate.createComponent DefaultZoomComp
+ObjectTemplate.zoom.addZoomFactor 0
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_decoy_cobra_agmf_Launcher_Fire1P
+ObjectTemplate.addTemplate S_decoy_cobra_agmf_Launcher_Fire1P_Outdoor
+ObjectTemplate.addTemplate S_decoy_cobra_agmf_Launcher_Fire3P
+ObjectTemplate.addTemplate S_decoy_cobra_agmf_Launcher_BoltClick
+ObjectTemplate.addTemplate S_decoy_cobra_agmf_Launcher_TriggerClick
+ObjectTemplate.addTemplate S_decoy_cobra_agmf_Launcher_SwitchFireRate
+ObjectTemplate.addTemplate S_decoy_cobra_agmf_Launcher_Reload1P
+ObjectTemplate.addTemplate S_decoy_cobra_agmf_Launcher_Reload3P
+ObjectTemplate.addTemplate S_decoy_cobra_agmf_Launcher_Deploy1P
+ObjectTemplate.addTemplate S_decoy_cobra_agmf_Launcher_Deploy3P
+ObjectTemplate.addTemplate S_decoy_cobra_agmf_Launcher_Zoom
+ObjectTemplate.addTemplate decoy_cobra_agmf_Launcher_Barrel
+ObjectTemplate.setPosition 0.721628/1.75146/-0.157683
+ObjectTemplate.setRotation 90/-70/-90
+ObjectTemplate.addTemplate decoy_cobra_agmf_Launcher_Barrel
+ObjectTemplate.setPosition -0.833878/1.59847/-0.0832495
+ObjectTemplate.setRotation -90/-70/90
+rem -------------------------------------
+ObjectTemplate.projectileTemplate decoy_agmf
+ObjectTemplate.keepProjectiles 5
+ObjectTemplate.velocity 40
+
+ObjectTemplate.activeSafe Sound S_decoy_cobra_agmf_Launcher_Fire1P
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/armament/missiles/smokeflare/sounds/smoke_fire.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+
+ObjectTemplate.activeSafe Sound S_decoy_cobra_agmf_Launcher_Fire1P_Outdoor
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Sound S_decoy_cobra_agmf_Launcher_Fire3P
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Sound S_decoy_cobra_agmf_Launcher_BoltClick
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Sound S_decoy_cobra_agmf_Launcher_TriggerClick
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/armament/decoy_flare_launcher/sounds/out_of_flares.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.7
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+
+ObjectTemplate.activeSafe Sound S_decoy_cobra_agmf_Launcher_SwitchFireRate
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Sound S_decoy_cobra_agmf_Launcher_Reload1P
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/armament/missiles/smokeflare/sounds/smoke_reload.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0
+
+ObjectTemplate.activeSafe Sound S_decoy_cobra_agmf_Launcher_Reload3P
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Sound S_decoy_cobra_agmf_Launcher_Deploy1P
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Sound S_decoy_cobra_agmf_Launcher_Deploy3P
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Sound S_decoy_cobra_agmf_Launcher_Zoom
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.create Bundle decoy_cobra_agmf_Launcher_Barrel
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+

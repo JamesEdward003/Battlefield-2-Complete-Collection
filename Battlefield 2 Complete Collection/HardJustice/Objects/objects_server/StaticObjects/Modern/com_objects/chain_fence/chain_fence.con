@@ -1,0 +1,14 @@
+GeometryTemplate.create StaticMesh chain_fence
+CollisionManager.createTemplate chain_fence
+
+ObjectTemplate.create Bundle chain_fence
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator STRYKERJ-DDB4B9:StrykerJ
+ObjectTemplate.collisionMesh chain_fence
+ObjectTemplate.mapMaterial 0 concrete 0
+ObjectTemplate.mapMaterial 1 Barbed_Wire 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry chain_fence
+
+include chain_fence.tweak

@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh ah6c_tailrotor
+CollisionManager.createTemplate ah6c_tailrotor
+
+ObjectTemplate.create rotor ah6c_tailrotor
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CAMBO:Cihangir
+ObjectTemplate.collisionMesh ah6c_tailrotor
+ObjectTemplate.mapMaterial 0 rotor 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry ah6c_tailrotor
+
+include ah6c_tailrotor.tweak

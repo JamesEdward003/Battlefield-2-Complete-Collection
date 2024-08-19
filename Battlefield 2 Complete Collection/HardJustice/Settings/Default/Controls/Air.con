@@ -1,0 +1,70 @@
+rem *** Controlmaps ***
+
+rem *** Player Input ***
+ControlMap.create AirPlayerInputControlMap
+
+rem *** Updated
+
+ControlMap.addKeysToAxisMapping c_PIThrottle IDFKeyboard IDKey_W IDKey_S
+ControlMap.addKeysToAxisMapping c_PIYaw IDFKeyboard IDKey_D IDKey_A
+ControlMap.addAxisToAxisMapping c_PIPitch IDFMouse IDAxis_1 0
+ControlMap.addKeysToAxisMapping c_PIPitch IDFKeyboard IDKey_ArrowUp IDKey_ArrowDown 1
+ControlMap.addAxisToAxisMapping c_PIRoll IDFMouse IDAxis_0 0
+ControlMap.addKeysToAxisMapping c_PIRoll IDFKeyboard IDKey_ArrowRight IDKey_ArrowLeft 1
+ControlMap.addButtonToTriggerMapping c_PIAltFire IDFMouse IDButton_1 c_CMPushAndHold
+ControlMap.addKeyToTriggerMapping c_PIAltFire IDFKeyboard IDKey_Numpad0 c_CMPushAndHold 1
+ControlMap.addButtonToTriggerMapping c_PIFire IDFMouse IDButton_0 c_CMPushAndHold
+ControlMap.addKeyToTriggerMapping c_PIFire IDFKeyboard IDKey_Space c_CMPushAndHold 1
+ControlMap.addKeyToTriggerMapping c_PISprint IDFKeyboard IDKey_W c_CMDoubleTap
+
+ControlMap.addKeyToTriggerMapping c_PIFlareFire IDFKeyboard IDKey_X c_CMPushAndHold
+ControlMap.addKeyToTriggerMapping c_PIMouseLook IDFKeyboard IDKey_LeftCtrl c_CMPushAndHold
+ControlMap.addAxisToAxisMapping c_PIMouseLookX IDFMouse IDAxis_0 0
+ControlMap.addAxisToAxisMapping c_PIMouseLookY IDFMouse IDAxis_1 0
+ControlMap.addKeyToTriggerMapping c_PISayAll IDFKeyboard IDKey_K c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PISayTeam IDFKeyboard IDKey_L c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIUse IDFKeyboard IDKey_E c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIShowScoreBoard IDFKeyboard IDKey_Tab c_CMPushAndHold
+ControlMap.addKeyToTriggerMapping c_PICameraMode1 IDFKeyboard IDKey_F9 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PICameraMode2 IDFKeyboard IDKey_F10 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PICameraMode3 IDFKeyboard IDKey_F11 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PICameraMode4 IDFKeyboard IDKey_F12 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIToggleCameraMode IDFKeyboard IDKey_C c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIPositionSelect1 IDFKeyboard IDKey_F1 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIPositionSelect2 IDFKeyboard IDKey_F2 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIPositionSelect3 IDFKeyboard IDKey_F3 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIPositionSelect4 IDFKeyboard IDKey_F4 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIPositionSelect5 IDFKeyboard IDKey_F5 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIPositionSelect6 IDFKeyboard IDKey_F6 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIPositionSelect7 IDFKeyboard IDKey_F7 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIPositionSelect8 IDFKeyboard IDKey_F8 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIScreenShot IDFKeyboard IDKey_PrintScreen c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIToolTip IDFKeyboard IDKey_T c_CMNonRepetive
+ControlMap.addKeysToAxisMapping c_PICameraX IDFKeyboard IDKey_Numpad6 IDKey_Numpad4
+ControlMap.addKeysToAxisMapping c_PICameraY IDFKeyboard IDKey_Numpad8 IDKey_Numpad2
+
+ControlMap.addKeyToTriggerMapping c_PIToggleWeapon IDFKeyboard IDKey_F c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIWeaponSelect1 IDFKeyboard IDKey_1 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIWeaponSelect2 IDFKeyboard IDKey_2 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIWeaponSelect3 IDFKeyboard IDKey_3 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIWeaponSelect4 IDFKeyboard IDKey_4 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIWeaponSelect5 IDFKeyboard IDKey_5 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIWeaponSelect6 IDFKeyboard IDKey_6 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIWeaponSelect7 IDFKeyboard IDKey_7 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIWeaponSelect8 IDFKeyboard IDKey_8 c_CMNonRepetive
+ControlMap.addKeyToTriggerMapping c_PIWeaponSelect9 IDFKeyboard IDKey_9 c_CMNonRepetive
+
+
+rem *** Not sure if reload works in vehicles? ***
+ControlMap.addKeyToTriggerMapping c_PIReload IDFKeyboard IDKey_R c_CMNonRepetive
+
+ControlMap.addKeyToTriggerMapping c_PISelectFunc IDFKeyboard IDKey_V c_CMNonRepetive 
+ControlMap.addKeyToTriggerMapping c_PIWalk IDFKeyboard IDKey_LeftShift c_CMPushAndHold
+
+
+rem *** OLD stuff *** 
+rem *** Additional variables***
+rem game.setAirKeyboardSensitivity 0.500000
+rem game.setAirMouseSensitivity 0.7500000
+rem game.setAirMouseInvert 1
+

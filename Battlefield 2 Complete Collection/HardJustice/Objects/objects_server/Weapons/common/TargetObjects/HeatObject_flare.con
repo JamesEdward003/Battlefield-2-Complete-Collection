@@ -1,0 +1,6 @@
+ObjectTemplate.create TargetObject HeatObject_flare
+rem ObjectTemplate.setNetworkableInfo LaserTargetInfo
+ObjectTemplate.timeToLive 0
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.targetType TTHeat
+ObjectTemplate.disableWhenWreck 1

@@ -1,0 +1,100 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/1/4 8:47]
+GeometryTemplate.setSpecularStaticGloss 0 0 0 5
+GeometryTemplate.setSpecularStaticGloss 1 0 0 0.15
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe GenericFireArm binoculars_mec_ch
+ObjectTemplate.creator TLO-1:tlo
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.setNetworkableInfo HandFireArmsInfo
+ObjectTemplate.saveInSeparateFile 1
+rem ---BeginComp:WeaponHud ---
+ObjectTemplate.createComponent WeaponHud
+ObjectTemplate.weaponHud.weaponIcon Ingame\Weapons\Icons\Hud\USLMG_M249SAW.tga
+rem ObjectTemplate.weaponHud.altWeaponIcon Ingame\Weapons\Icons\Hud\USLMG_M249SAW_mini.tga
+ObjectTemplate.weaponHud.specialAbilityIcon Ingame\Weapons\Icons\Hud\SpecialKitIcons\laserpainter.tga
+ObjectTemplate.weaponHud.selectIcon Ingame\Weapons\Icons\Hud\mecbinocs.tga
+ObjectTemplate.weaponHud.guiIndex 0
+ObjectTemplate.weaponHud.altGuiIndex 216
+ObjectTemplate.weaponHud.hasRangeFinder 1
+rem ---EndComp ---
+rem ---BeginComp:SingleFireComp ---
+ObjectTemplate.createComponent SingleFireComp
+rem ---EndComp ---
+rem ---BeginComp:SoldierDeviationComp ---
+ObjectTemplate.createComponent SoldierDeviationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultSoundComp ---
+ObjectTemplate.createComponent DefaultSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultAnimationComp ---
+ObjectTemplate.createComponent DefaultAnimationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultZoomComp ---
+ObjectTemplate.createComponent DefaultZoomComp
+ObjectTemplate.zoom.zoomDelay 0.15
+ObjectTemplate.zoom.zoomLod 1
+ObjectTemplate.zoom.addZoomFactor 0
+ObjectTemplate.zoom.addZoomFactor 0.3
+ObjectTemplate.zoom.addZoomFactor 0.1
+ObjectTemplate.zoom.changeFovDelay 0.1
+rem ---EndComp ---
+ObjectTemplate.geometry binoculars_mec_ch
+ObjectTemplate.setCollisionMesh binoculars_mec_ch
+ObjectTemplate.mapMaterial 0 Rubber_Heavy 102
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_binoculars_mec_ch_Fire1P
+ObjectTemplate.addTemplate S_binoculars_mec_ch_Fire1P_Outdoor
+ObjectTemplate.addTemplate S_binoculars_mec_ch_Fire3P
+ObjectTemplate.addTemplate S_binoculars_mec_ch_BoltClick
+ObjectTemplate.addTemplate S_binoculars_mec_ch_TriggerClick
+ObjectTemplate.addTemplate S_binoculars_mec_ch_SwitchFireRate
+ObjectTemplate.addTemplate S_binoculars_mec_ch_Reload1P
+ObjectTemplate.addTemplate S_binoculars_mec_ch_Reload3P
+ObjectTemplate.addTemplate S_binoculars_mec_ch_Deploy1P
+ObjectTemplate.addTemplate S_binoculars_mec_ch_Deploy3P
+ObjectTemplate.addTemplate S_binoculars_mec_ch_Zoom
+rem -------------------------------------
+ObjectTemplate.animationSystem1P Objects/Weapons/Handheld/simrad/AnimationSystem1p.inc
+ObjectTemplate.animationSystem3P Objects/Weapons/Handheld/simrad/AnimationSystem3p.inc
+ObjectTemplate.keepProjectiles 5
+ObjectTemplate.velocity 1000
+ObjectTemplate.itemIndex 7
+ObjectTemplate.delayToUse 0.958
+
+ObjectTemplate.activeSafe Sound S_binoculars_mec_ch_Fire1P
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe Sound S_binoculars_mec_ch_Fire1P_Outdoor
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe Sound S_binoculars_mec_ch_Fire3P
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe Sound S_binoculars_mec_ch_BoltClick
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe Sound S_binoculars_mec_ch_TriggerClick
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe Sound S_binoculars_mec_ch_SwitchFireRate
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe Sound S_binoculars_mec_ch_Reload1P
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe Sound S_binoculars_mec_ch_Reload3P
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe Sound S_binoculars_mec_ch_Deploy1P
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe Sound S_binoculars_mec_ch_Deploy3P
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe Sound S_binoculars_mec_ch_Zoom
+ObjectTemplate.modifiedByUser "SatNav"
+

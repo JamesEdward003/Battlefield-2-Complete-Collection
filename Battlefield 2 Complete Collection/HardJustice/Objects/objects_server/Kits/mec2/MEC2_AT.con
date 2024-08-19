@@ -1,0 +1,51 @@
+ObjectTemplate.create Kit MEC2_AT
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.kitType AT
+ObjectTemplate.aiTemplate AT
+ObjectTemplate.geometry MEC_Kits
+ObjectTemplate.geometry.kit 5
+ObjectTemplate.geometry.dropGeom 13
+ObjectTemplate.setNetworkableInfo KitInfo
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.unlockIndex 0
+ObjectTemplate.cullRadiusScale 2.4
+rem -------------------------------------
+ObjectTemplate.addTemplate CHAT_ERYX
+ObjectTemplate.addTemplate RUPIS_Baghira
+ObjectTemplate.addTemplate rurif_ak47
+ObjectTemplate.addTemplate c4_explosives
+ObjectTemplate.addTemplate kni_knife
+ObjectTemplate.addTemplate m14lm
+ObjectTemplate.addTemplate UnlockMEC2AT
+ObjectTemplate.addTemplate UnlockMEC2AT2
+rem -------------------------------------
+
+ObjectTemplate.createComponent AbilityHud
+ObjectTemplate.abilityHud.ammoSound S_Resupply
+ObjectTemplate.abilityHud.healingSound S_Heal
+ObjectTemplate.abilityHud.repairingSound S_Repair
+
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName 		"MEC2 ANTITANK"
+ObjectTemplate.vehicleHud.miniMapIcon		"Ingame\Kits\Icons\kit_ATAA_outline.tga"
+ObjectTemplate.vehicleHud.vehicleIcon		"Ingame\Kits\Icons\kit_ATAA.tga"
+ObjectTemplate.vehicleHud.spottedIcon 		"Ingame\Player\Icons\Minimap\mini_Soldier.dds"
+ObjectTemplate.vehicleHud.abilityIcon 		"Ingame\Weapons\Icons\Hud\SpecialKitIcons\kevlarVest.tga"
+ObjectTemplate.vehicleHud.pantingSound		S_SprintBreath
+ObjectTemplate.vehicleHud.injurySound		S_Injury
+ObjectTemplate.sprintStaminaDissipationFactor 0.6
+
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage	"infantry_spotted"
+rem ---EndComp ---
+
+ObjectTemplate.create ItemContainer UnlockMEC2AT
+ObjectTemplate.addTemplate RURIF_Bizon
+ObjectTemplate.unlockLevel 1
+
+ObjectTemplate.create ItemContainer UnlockMEC2AT2
+ObjectTemplate.addTemplate eurif_fnp90
+ObjectTemplate.replaceItem RURIF_Bizon
+ObjectTemplate.replaceItem rurif_ak47
+ObjectTemplate.unlockLevel 2

@@ -1,0 +1,14 @@
+GeometryTemplate.create StaticMesh wood_barrel
+CollisionManager.createTemplate wood_barrel
+
+ObjectTemplate.create SimpleObject wood_barrel
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator STRYKERJ-DDB4B9:StrykerJ
+ObjectTemplate.collisionMesh wood_barrel
+ObjectTemplate.mapMaterial 0 Wood_thin 0
+ObjectTemplate.mapMaterial 1 Metal_plate_thin 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry wood_barrel
+
+include wood_barrel.tweak

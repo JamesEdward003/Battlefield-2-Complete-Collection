@@ -1,0 +1,6 @@
+ObjectTemplate.create GenericFireArm spotter
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator PAN-1:pan
+ObjectTemplate.geometry simrad
+
+include spotter.tweak

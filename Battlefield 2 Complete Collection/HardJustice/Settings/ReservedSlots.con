@@ -1,0 +1,3 @@
+rem - to add a reservation for a player use this command :
+rem - reservedSlots.addNick <playername>
+rem - where <playername> is the player's registered account name

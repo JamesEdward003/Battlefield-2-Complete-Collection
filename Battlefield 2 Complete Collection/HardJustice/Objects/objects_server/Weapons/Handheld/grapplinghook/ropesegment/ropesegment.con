@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh ropesegment
+CollisionManager.createTemplate ropesegment
+ObjectTemplate.create RopeLink ropelink
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator "SatNav"
+ObjectTemplate.mapMaterial 0 lambert1 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 1
+ObjectTemplate.geometry ropesegment
+ObjectTemplate.anchor 0/0.7684/0
+
+include ropesegment.tweak
+

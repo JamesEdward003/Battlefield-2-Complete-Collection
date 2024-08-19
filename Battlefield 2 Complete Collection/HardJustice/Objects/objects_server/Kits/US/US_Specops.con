@@ -1,0 +1,55 @@
+ObjectTemplate.create Kit US_Specops
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.kitType Specops
+ObjectTemplate.aiTemplate Specops
+ObjectTemplate.geometry US_Kits
+ObjectTemplate.geometry.kit 0
+ObjectTemplate.geometry.dropGeom 10
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.unlockIndex 4
+ObjectTemplate.cullRadiusScale 2.5
+rem -------------------------------------
+ObjectTemplate.addTemplate USPIS_92FS_silencer
+ObjectTemplate.addTemplate USHGR_M67
+ObjectTemplate.addTemplate kni_knife
+ObjectTemplate.addTemplate c4_explosives
+ObjectTemplate.addTemplate USRIF_fnscarl
+ObjectTemplate.addTemplate ParachuteLauncher
+ObjectTemplate.addTemplate UnlockUSSpecops
+ObjectTemplate.addTemplate UnlockUSSpecops2
+ObjectTemplate.addTemplate nsrif_crossbow
+ObjectTemplate.addTemplate designator
+ObjectTemplate.addTemplate grapplinghook
+rem -------------------------------------
+
+ObjectTemplate.createComponent AbilityHud
+ObjectTemplate.abilityHud.ammoSound S_Resupply
+ObjectTemplate.abilityHud.healingSound S_Heal
+ObjectTemplate.abilityHud.repairingSound S_Repair
+
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName 		"HUD_TEXT_MENU_SPAWN_KIT_SPECIALFORCES"
+ObjectTemplate.vehicleHud.miniMapIcon		"Ingame\Kits\Icons\kit_Specops_outline.tga"
+ObjectTemplate.vehicleHud.vehicleIcon		"Ingame\Kits\Icons\kit_Specops.tga"
+ObjectTemplate.vehicleHud.spottedIcon 		"Ingame\Player\Icons\Minimap\mini_Soldier.dds"
+ObjectTemplate.vehicleHud.pantingSound		S_SprintBreath
+ObjectTemplate.vehicleHud.injurySound		S_Injury
+ObjectTemplate.vehicleHud.vehicleType 		7
+
+ObjectTemplate.sprintStaminaDissipationFactor 0.2
+
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage	"infantry_spotted"
+rem ---EndComp ---
+
+ObjectTemplate.create ItemContainer UnlockUSSpecops
+ObjectTemplate.addTemplate usrif_g36c
+ObjectTemplate.unlockLevel 1
+
+ObjectTemplate.create ItemContainer UnlockUSSpecops2
+ObjectTemplate.addTemplate USRIF_M4
+ObjectTemplate.replaceItem usrif_g36c
+ObjectTemplate.replaceItem usrif_fnscarl
+ObjectTemplate.unlockLevel 2

@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh ussni_m82a1
+CollisionManager.createTemplate ussni_m82a1
+
+ObjectTemplate.create GenericFireArm ussni_m82a1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator KYSTERAMA:kyron
+ObjectTemplate.collisionMesh ussni_m82a1
+ObjectTemplate.mapMaterial 0 02_-_Default 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry ussni_m82a1
+
+include ussni_m82a1.tweak

@@ -1,0 +1,123 @@
+GeometryTemplate.create BundledMesh jeep_technical
+CollisionManager.createTemplate jeep_technical
+
+ObjectTemplate.create PlayerControlObject jeep_technical
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh jeep_technical
+ObjectTemplate.mapMaterial 0 thin_metal 0
+ObjectTemplate.mapMaterial 1 Plastic 0
+ObjectTemplate.mapMaterial 2 metal_plating 0
+ObjectTemplate.mapMaterial 3 LightGlass 0
+ObjectTemplate.mapMaterial 4 Col1_Material_Body 0
+ObjectTemplate.mapMaterial 5 wreck 0
+ObjectTemplate.mapMaterial 6 rubber 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry jeep_technical
+ObjectTemplate.addTemplate JEEP_Technical_Steeringwheel
+ObjectTemplate.setPosition -0.4948/0.2867/0.2612
+ObjectTemplate.setRotation 0/18.8220/0
+ObjectTemplate.addTemplate JEEP_Technical_Reargun
+ObjectTemplate.setPosition 0/0/-1.6054
+ObjectTemplate.addTemplate JEEP_Technical_Frontgun
+ObjectTemplate.setPosition 0/0/-1.6054
+ObjectTemplate.addTemplate JEEP_Technical_Engine
+
+ObjectTemplate.create RotationalBundle JEEP_Technical_Steeringwheel
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 14
+
+ObjectTemplate.create PlayerControlObject JEEP_Technical_Reargun
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 11
+rem ObjectTemplate.addTemplate JEEP_Technical_Back_Base
+rem ObjectTemplate.setPosition 0/1.0246/0.0022
+
+rem ObjectTemplate.create RotationalBundle JEEP_Technical_Back_Base
+rem ObjectTemplate.collisionPart 12
+rem ObjectTemplate.hasCollisionPhysics 1
+rem ObjectTemplate.physicsType 3
+rem ObjectTemplate.hasMobilePhysics 1
+rem ObjectTemplate.geometryPart 12
+rem ObjectTemplate.addTemplate JEEP_Technical_Back_Gunmount
+rem ObjectTemplate.setPosition 0/0.1470/0.0195
+
+rem ObjectTemplate.create RotationalBundle JEEP_Technical_Back_Gunmount
+rem ObjectTemplate.hasMobilePhysics 1
+rem ObjectTemplate.geometryPart 13
+
+ObjectTemplate.create PlayerControlObject JEEP_Technical_Frontgun
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+ObjectTemplate.addTemplate JEEP_Technical_Front_Base
+ObjectTemplate.setPosition 0.3880/0.4485/2.1662
+
+ObjectTemplate.create RotationalBundle JEEP_Technical_Front_Base
+ObjectTemplate.collisionPart 9
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 9
+ObjectTemplate.addTemplate JEEP_Technical_Front_Gunmount
+ObjectTemplate.setPosition 0/0.0208/0
+ObjectTemplate.setRotation 0/-31.7636/0
+
+ObjectTemplate.create RotationalBundle JEEP_Technical_Front_Gunmount
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 10
+
+ObjectTemplate.create Engine JEEP_Technical_Engine
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate JEEP_Technical_nav_LF
+ObjectTemplate.setPosition -0.8436/-0.7092/1.2291
+ObjectTemplate.addTemplate JEEP_Technical_nav_RF
+ObjectTemplate.setPosition 0.8456/-0.7091/1.2290
+ObjectTemplate.addTemplate JEEP_Technical_Wheel_LR
+ObjectTemplate.setPosition -0.8651/-0.7774/-1.5155
+ObjectTemplate.addTemplate JEEP_Technical_Wheel_RR
+ObjectTemplate.setPosition 0.8707/-0.7757/-1.5163
+
+ObjectTemplate.create RotationalBundle JEEP_Technical_nav_LF
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+ObjectTemplate.addTemplate JEEP_Technical_Wheel_LF
+ObjectTemplate.setPosition -0.0248/0/0
+
+ObjectTemplate.create Spring JEEP_Technical_Wheel_LF
+ObjectTemplate.collisionPart 3
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+ObjectTemplate.create RotationalBundle JEEP_Technical_nav_RF
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+ObjectTemplate.addTemplate JEEP_Technical_Wheel_RF
+ObjectTemplate.setPosition 0.0202/0/0
+
+ObjectTemplate.create Spring JEEP_Technical_Wheel_RF
+ObjectTemplate.collisionPart 5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+
+ObjectTemplate.create Spring JEEP_Technical_Wheel_LR
+ObjectTemplate.collisionPart 6
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+
+ObjectTemplate.create Spring JEEP_Technical_Wheel_RR
+ObjectTemplate.collisionPart 7
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+
+include jeep_technical.tweak

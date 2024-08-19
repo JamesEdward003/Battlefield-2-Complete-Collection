@@ -1,0 +1,53 @@
+GeometryTemplate.create BundledMesh rh202_aa
+CollisionManager.createTemplate rh202_aa
+
+ObjectTemplate.create PlayerControlObject rh202_aa
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator X-5JNXO27PFYG9U:Saturn5
+ObjectTemplate.collisionMesh rh202_aa
+ObjectTemplate.mapMaterial 0 metal 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry rh202_aa
+ObjectTemplate.addTemplate RH202seat
+ObjectTemplate.setPosition 0/0.1951/0
+
+ObjectTemplate.create RotationalBundle RH202seat
+ObjectTemplate.collisionPart 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate RH202barrels
+ObjectTemplate.setPosition -0.0082/0.4808/0.4633
+
+ObjectTemplate.create RotationalBundle RH202barrels
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+
+ObjectTemplate.addTemplate rh202_gun
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.setRotation 0/-3/0
+
+ObjectTemplate.create GenericFireArm rh202_gun
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.addTemplate rh202_gun_R_Barrel
+ObjectTemplate.setPosition 0.3/-0.03/5
+ObjectTemplate.setRotation 0/0/0
+ObjectTemplate.addTemplate rh202_gun_L_Barrel
+ObjectTemplate.setPosition -0.3/-0.03/5
+ObjectTemplate.setRotation 0/0/0
+
+ObjectTemplate.create Bundle rh202_gun_R_Barrel
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+
+ObjectTemplate.create Bundle rh202_gun_L_Barrel
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.hasMobilePhysics 1
+
+include rh202_aa.tweak

@@ -1,0 +1,121 @@
+GeometryTemplate.create BundledMesh rah66a
+CollisionManager.createTemplate rah66a
+
+ObjectTemplate.create PlayerControlObject rah66a
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CAMBO:Cihangir
+ObjectTemplate.collisionMesh rah66a
+ObjectTemplate.mapMaterial 0 Armor_6_helicopter 0
+ObjectTemplate.mapMaterial 1 Glass_bulletproof 0
+ObjectTemplate.mapMaterial 2 wreck 0
+ObjectTemplate.mapMaterial 3 Rubber 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry rah66a
+ObjectTemplate.addTemplate RAH66A_gear_baydoorL
+ObjectTemplate.setPosition -0.9371/0.0437/-0.0082
+ObjectTemplate.setRotation -2.2878/0.0751/0.4346
+ObjectTemplate.addTemplate RAH66A_gear_BaydoorR
+ObjectTemplate.setPosition 0.9393/0.0431/-0.0091
+ObjectTemplate.setRotation 1.3224/0/0
+ObjectTemplate.addTemplate RAH66A_COGunner
+ObjectTemplate.setPosition 0.0090/-0.6546/3.5534
+ObjectTemplate.addTemplate RAH66A_GearB_Hatch
+ObjectTemplate.setPosition -0.0328/-0.3220/-5.1822
+ObjectTemplate.setRotation -10.2349/-8.5646/-105.0000
+ObjectTemplate.addTemplate RAH66A_GearL_Hatch
+ObjectTemplate.setPosition -0.7183/-0.2818/1.6543
+ObjectTemplate.setRotation 9.1418/1.7961/16.3164
+ObjectTemplate.addTemplate RAH66A_GearR_Hatch
+ObjectTemplate.setPosition 0.7126/-0.2770/1.6561
+ObjectTemplate.setRotation -9.8103/2.0952/-15.4373
+ObjectTemplate.addTemplate RAH66A_LGearB
+ObjectTemplate.setPosition 0.1141/-0.2817/-5.4496
+ObjectTemplate.addTemplate RAH66A_LGearL
+ObjectTemplate.setPosition -0.3804/-0.3570/1.9666
+ObjectTemplate.addTemplate RAH66A_LGearR
+ObjectTemplate.setPosition 0.3703/-0.3460/1.9654
+
+ObjectTemplate.create LandingGear RAH66A_gear_baydoorL
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+
+ObjectTemplate.create LandingGear RAH66A_gear_BaydoorR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+
+ObjectTemplate.create PlayerControlObject RAH66A_COGunner
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+ObjectTemplate.addTemplate RAH66A_Gunturret1
+ObjectTemplate.setPosition -0.0098/-0.0052/-0.0041
+
+ObjectTemplate.create RotationalBundle RAH66A_Gunturret1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+ObjectTemplate.addTemplate RAH66A_TurretBarrelBase
+ObjectTemplate.setPosition 0.0014/-0.0705/0.1641
+
+ObjectTemplate.create RotationalBundle RAH66A_TurretBarrelBase
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+ObjectTemplate.addTemplate RAH66A_TurretBarrel
+ObjectTemplate.setPosition 0/-0.0100/0.0303
+
+ObjectTemplate.create RotationalBundle RAH66A_TurretBarrel
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+
+ObjectTemplate.create LandingGear RAH66A_GearB_Hatch
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+
+ObjectTemplate.create LandingGear RAH66A_GearL_Hatch
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+
+ObjectTemplate.create LandingGear RAH66A_GearR_Hatch
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 9
+
+ObjectTemplate.create LandingGear RAH66A_LGearB
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 10
+ObjectTemplate.addTemplate tireB
+ObjectTemplate.setPosition 0.0040/-0.5137/0.0024
+
+ObjectTemplate.create Spring tireB
+ObjectTemplate.collisionPart 11
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 11
+
+ObjectTemplate.create LandingGear RAH66A_LGearL
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 12
+ObjectTemplate.addTemplate tireL
+ObjectTemplate.setPosition -0.6710/-0.6844/0.0295
+
+ObjectTemplate.create Spring tireL
+ObjectTemplate.collisionPart 13
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 13
+
+ObjectTemplate.create LandingGear RAH66A_LGearR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 14
+ObjectTemplate.addTemplate tireR
+ObjectTemplate.setPosition 0.6840/-0.6954/0.0307
+
+ObjectTemplate.create Spring tireR
+ObjectTemplate.collisionPart 15
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 15
+
+include rah66a.tweak

@@ -1,0 +1,69 @@
+ObjectTemplate.create Kit US3_Sniper
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.kitType Sniper
+ObjectTemplate.aiTemplate Sniper
+ObjectTemplate.geometry US_Kits
+ObjectTemplate.geometry.kit 6
+ObjectTemplate.geometry.dropGeom 16
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.abilityRestoreRate 0.04
+ObjectTemplate.abilityInVehicleRadius 7
+ObjectTemplate.abilityInVehicleStrength 0.2
+ObjectTemplate.abilityInVehicleMaterial 91
+ObjectTemplate.unlockIndex 6
+ObjectTemplate.cullRadiusScale 2.4
+rem -------------------------------------
+ObjectTemplate.addTemplate kni_knife
+rem ObjectTemplate.addTemplate deserteagle
+ObjectTemplate.addTemplate usrif_mp5_a3_2
+ObjectTemplate.addTemplate rurif_dragunov
+ObjectTemplate.addTemplate USHGR_M67
+rem ObjectTemplate.addTemplate USMIN_Claymore
+ObjectTemplate.addTemplate ammokit
+rem ObjectTemplate.addTemplate m14lm
+rem ObjectTemplate.addTemplate grapplinghook
+ObjectTemplate.addTemplate defibrillator
+rem ObjectTemplate.addTemplate binocular
+ObjectTemplate.addTemplate hgr_gas
+ObjectTemplate.addTemplate designator
+ObjectTemplate.addTemplate ParachuteLauncher
+ObjectTemplate.addTemplate UnlockUS3Sniper
+ObjectTemplate.addTemplate UnlockUS3Sniper2
+rem -------------------------------------
+
+ObjectTemplate.createComponent Ability
+ObjectTemplate.ability.hasHealingAbility 1
+
+ObjectTemplate.createComponent Ability
+ObjectTemplate.ability.hasAmmoAbility 1
+
+ObjectTemplate.createComponent AbilityHud
+ObjectTemplate.abilityHud.ammoSound S_Resupply
+ObjectTemplate.abilityHud.healingSound S_Heal
+ObjectTemplate.abilityHud.repairingSound S_Repair
+
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName 		"US3 SNIPER"
+ObjectTemplate.vehicleHud.miniMapIcon		"Ingame\Kits\Icons\kit_Sniper_outline.tga"
+ObjectTemplate.vehicleHud.vehicleIcon		"Ingame\Kits\Icons\kit_Sniper.tga"
+ObjectTemplate.vehicleHud.pantingSound		S_SprintBreath
+ObjectTemplate.vehicleHud.injurySound		S_Injury
+ObjectTemplate.vehicleHud.vehicleType 		7
+
+ObjectTemplate.sprintStaminaDissipationFactor 	0.2
+
+rem ---BeginComp:Radio ---
+rem ObjectTemplate.createComponent Radio
+rem ObjectTemplate.Radio.spottedMessage		"sniper_spotted"
+rem ---EndComp ---
+
+ObjectTemplate.create ItemContainer UnlockUS3Sniper
+ObjectTemplate.addTemplate USSNI_M82A1
+ObjectTemplate.replaceItem rurif_dragunov
+ObjectTemplate.unlockLevel 1
+
+ObjectTemplate.create ItemContainer UnlockUS3Sniper2
+ObjectTemplate.addTemplate usrif_m24
+ObjectTemplate.replaceItem USSNI_M82A1
+ObjectTemplate.unlockLevel 2

@@ -1,0 +1,15 @@
+<map gsid="35">
+	<name> Remagen Bridge </name>
+	<briefing locid="This time around the Chinese have taken a shine to the bridge at Remagen.  Keep control of the bridge at all costs!
+
+Toetagger">map description for modders maps not localized (english only)</briefing>
+	<music> common/sound/menu/music/load_MEC_music.ogg </music>
+	<modes>
+		<mode type="gpm_cq">
+			<maptype ai="1" players="64" type="doubleassault" locid="GAMEMODE_DESCRIPTION_doubleassault">Unlocalized test for this mode on this map</maptype>
+			</mode>			
+		<mode type="gpm_coop">
+			<maptype ai="1" players="64" type="doubleassault" locid="GAMEMODE_DESCRIPTION_COOP_doubleassault">Unlocalized test for this mode on this map</maptype>
+			</mode>
+	</modes>
+</map>

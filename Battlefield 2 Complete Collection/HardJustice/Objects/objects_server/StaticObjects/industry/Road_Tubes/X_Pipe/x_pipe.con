@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh x_pipe
+CollisionManager.createTemplate x_pipe
+
+ObjectTemplate.create SimpleObject x_pipe
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh x_pipe
+ObjectTemplate.mapMaterial 0 Concrete_slippery 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry x_pipe
+
+include x_pipe.tweak

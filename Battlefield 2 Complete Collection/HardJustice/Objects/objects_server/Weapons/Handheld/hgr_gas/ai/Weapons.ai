@@ -1,0 +1,19 @@
+rem *** Add hgr_gas_AI ***
+weaponTemplate.create hgr_gas_AI
+weaponTemplate.indirect 0
+weaponTemplate.isThrown 1
+weaponTemplate.minRange 8.0
+weaponTemplate.maxRange 45.0
+weaponTemplate.optimalRangePercentage 85
+weaponTemplate.setFiringPose Standing
+weaponTemplate.setStrength Infantry    5.0
+weaponTemplate.setStrength LightArmour 0.0
+weaponTemplate.setStrength HeavyArmour 0.0
+weaponTemplate.setStrength NavalArmour 0
+weaponTemplate.setStrength Helicopter  0
+weaponTemplate.setStrength AirPlane    0
+weaponTemplate.setExplosionRadius 10.0
+weaponTemplate.setSoundSphereRadius    10.0
+weaponTemplate.allowedDeviation 2.3
+weaponTemplate.setFiresThroughTransparent 0
+

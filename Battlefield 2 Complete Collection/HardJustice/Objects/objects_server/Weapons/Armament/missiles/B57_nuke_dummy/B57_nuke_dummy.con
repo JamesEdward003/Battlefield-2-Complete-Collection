@@ -1,0 +1,4 @@
+ObjectTemplate.create SimpleObject B57_nuke_dummy
+ObjectTemplate.createdInEditor 1
+
+include B57_nuke_dummy.tweak

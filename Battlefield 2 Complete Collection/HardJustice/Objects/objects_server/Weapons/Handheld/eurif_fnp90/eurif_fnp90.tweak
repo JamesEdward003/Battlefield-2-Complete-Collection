@@ -1,0 +1,292 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/10/26 7:23]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe GenericFireArm eurif_fnp90
+ObjectTemplate.creator JULIO:julioce
+ObjectTemplate.modifiedByUser "julioce"
+ObjectTemplate.saveInSeparateFile 1
+rem ---BeginComp:WeaponHud ---
+ObjectTemplate.createComponent WeaponHud
+ObjectTemplate.weaponHud.weaponIcon Ingame\Weapons\Icons\Hud\eurif_fnp90.tga
+ObjectTemplate.weaponHud.altWeaponIcon Ingame\Weapons\Icons\Hud\eurif_fnp90_mini.tga
+ObjectTemplate.weaponHud.selectIcon Ingame\Weapons\Icons\Hud\Selection\eurif_fnp90.tga
+ObjectTemplate.weaponHud.hudName "KILLMESSAGE_WEAPON_eurif_FNP90"
+ObjectTemplate.weaponHud.guiIndex 4
+ObjectTemplate.weaponHud.altGuiIndex 53
+ObjectTemplate.weaponHud.deviationFactor 3.4
+ObjectTemplate.weaponHud.maxVisualDeviation 23
+ObjectTemplate.weaponHud.minVisualDeviation 3
+ObjectTemplate.weaponHud.disableOnSprint 0
+rem ---EndComp ---
+rem ---BeginComp:SingleFireComp ---
+ObjectTemplate.createComponent SingleFireComp
+ObjectTemplate.fire.addFireRate 2
+ObjectTemplate.fire.addFireRate 0
+ObjectTemplate.fire.fireInCameraDof 1
+rem ---EndComp ---
+rem ---BeginComp:DefaultAmmoComp ---
+ObjectTemplate.createComponent DefaultAmmoComp
+ObjectTemplate.ammo.ammoType 1
+ObjectTemplate.ammo.nrOfMags 5
+ObjectTemplate.ammo.magSize 50
+ObjectTemplate.ammo.reloadTime 4.5
+ObjectTemplate.ammo.reloadWithoutPlayer 1
+rem ---EndComp ---
+rem ---BeginComp:SoldierBasedRecoilComp ---
+ObjectTemplate.createComponent SoldierBasedRecoilComp
+ObjectTemplate.recoil.hasRecoilForce 1
+ObjectTemplate.recoil.recoilForceUp CRD_UNIFORM/0.08/0.08/0
+ObjectTemplate.recoil.recoilForceLeftRight CRD_UNIFORM/-0.3/0.3/0
+ObjectTemplate.recoil.zoomModifier 0.7
+ObjectTemplate.recoil.recoilGraphFrameCount 7
+ObjectTemplate.recoil.recoilGraphExponent 6
+ObjectTemplate.recoil.recoilGraphTotalMovement 0.5
+rem ---EndComp ---
+rem ---BeginComp:SoldierDeviationComp ---
+ObjectTemplate.createComponent SoldierDeviationComp
+ObjectTemplate.deviation.setFireDev 2 0.06 0.06
+ObjectTemplate.deviation.minDev 0.2
+ObjectTemplate.deviation.setTurnDev 0 0 0 0
+ObjectTemplate.deviation.setSpeedDev 0.3 0.12 0.12 0.01
+ObjectTemplate.deviation.setMiscDev 5 5 0.5
+ObjectTemplate.deviation.devModStand 1
+ObjectTemplate.deviation.devModCrouch 0.8
+ObjectTemplate.deviation.devModLie 0.5
+ObjectTemplate.deviation.devModZoom 0.3
+rem ---EndComp ---
+rem ---BeginComp:DefaultSoundComp ---
+ObjectTemplate.createComponent DefaultSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultAnimationComp ---
+ObjectTemplate.createComponent DefaultAnimationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultZoomComp ---
+ObjectTemplate.createComponent DefaultZoomComp
+ObjectTemplate.zoom.zoomDelay 0.1
+ObjectTemplate.zoom.zoomLod 1
+ObjectTemplate.zoom.addZoomFactor 0
+ObjectTemplate.zoom.addZoomFactor 0.7
+ObjectTemplate.zoom.disableMuzzleWhenZoomed 1
+rem ---EndComp ---
+rem ---BeginComp:DefaultCollisionComp ---
+ObjectTemplate.createComponent DefaultCollisionComp
+rem ---EndComp ---
+ObjectTemplate.geometry eurif_fnp90
+ObjectTemplate.setCollisionMesh eurif_fnp90
+ObjectTemplate.mapMaterial 0 Collision_Material 0
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.aiTemplate usrif_mp5AI
+ObjectTemplate.material 38
+rem -------------------------------------
+ObjectTemplate.addTemplate S_eurif_fnp90_Fire1P
+ObjectTemplate.addTemplate S_eurif_fnp90_Fire1P_Outdoor
+ObjectTemplate.addTemplate S_eurif_fnp90_Fire3P
+ObjectTemplate.addTemplate S_eurif_fnp90_BoltClick
+ObjectTemplate.addTemplate S_eurif_fnp90_TriggerClick
+ObjectTemplate.addTemplate S_eurif_fnp90_SwitchFireRate
+ObjectTemplate.addTemplate S_eurif_fnp90_Reload1P
+ObjectTemplate.addTemplate S_eurif_fnp90_Reload3P
+ObjectTemplate.addTemplate S_eurif_fnp90_Deploy1P
+ObjectTemplate.addTemplate S_eurif_fnp90_Deploy3P
+ObjectTemplate.addTemplate S_eurif_fnp90_Zoom
+ObjectTemplate.addTemplate S_eurif_fnp90_Looping
+ObjectTemplate.addTemplate e_muzz_mp5
+ObjectTemplate.setPosition 0/-0.00460322/0.240836
+ObjectTemplate.addTemplate e_shellejection_9mm
+ObjectTemplate.setPosition 0.0102171/-0.0091859/0.13995
+rem -------------------------------------
+ObjectTemplate.animationSystem1P Objects/Weapons/Handheld/eurif_fnp90/AnimationSystem1p.inc
+ObjectTemplate.animationSystem3P Objects/Weapons/Handheld/eurif_fnp90/AnimationSystem3p.inc
+ObjectTemplate.projectileTemplate eurif_fnp90_Projectile
+ObjectTemplate.keepProjectiles 5
+ObjectTemplate.velocity 1000
+ObjectTemplate.itemIndex 3
+ObjectTemplate.delayToUse 1.2
+
+ObjectTemplate.create GenericProjectile eurif_fnp90_Projectile
+ObjectTemplate.modifiedByUser "julioce"
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:DefaultCollisionComp ---
+ObjectTemplate.createComponent DefaultCollisionComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultDetonationComp ---
+ObjectTemplate.createComponent DefaultDetonationComp
+ObjectTemplate.detonation.detectionRadius 1.5
+ObjectTemplate.detonation.maxDepthForExplosion 2
+rem ---EndComp ---
+rem ---BeginComp:DefaultProjSoundComp ---
+ObjectTemplate.createComponent DefaultProjSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultRicochetComp ---
+ObjectTemplate.createComponent DefaultRicochetComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultPenetrateComp ---
+ObjectTemplate.createComponent DefaultPenetrateComp
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Point
+ObjectTemplate.collisionGroups 8
+ObjectTemplate.material 38
+rem -------------------------------------
+ObjectTemplate.addTemplate S_eurif_fnp90_Projectile_Looping
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.material 38
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.minDamage 20
+ObjectTemplate.damage 100
+ObjectTemplate.distToStartLoseDamage 40
+ObjectTemplate.distToMinDamage 100
+
+ObjectTemplate.activeSafe Sound S_eurif_fnp90_Fire1P
+ObjectTemplate.modifiedByUser "julioce"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/eurif_fnp90/sounds/fnp90_fire_1p.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.98/1.05/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_eurif_fnp90_Fire1P_Outdoor
+ObjectTemplate.modifiedByUser "julioce"
+
+
+ObjectTemplate.activeSafe Sound S_eurif_fnp90_Fire3P
+ObjectTemplate.modifiedByUser "julioce"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/eurif_fnp90/sounds/fnp90_mg_fire_3p.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.98/1.05/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+ObjectTemplate.minDistance 2
+ObjectTemplate.halfVolumeDistance 4
+
+ObjectTemplate.activeSafe Sound S_eurif_fnp90_BoltClick
+ObjectTemplate.modifiedByUser "julioce"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/rurif_gp30/sounds/gp30_bolt_click.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.78
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0.5
+
+ObjectTemplate.activeSafe Sound S_eurif_fnp90_TriggerClick
+ObjectTemplate.modifiedByUser "julioce"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/uspis_92fs/sounds/mono/trigger_click.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_eurif_fnp90_SwitchFireRate
+ObjectTemplate.modifiedByUser "julioce"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/chrif_type95/sounds/type95_firerate.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.65
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0.3
+
+ObjectTemplate.activeSafe Sound S_eurif_fnp90_Reload1P
+ObjectTemplate.modifiedByUser "julioce"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/eurif_fnp90/sounds/fnp_reload_1p.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_eurif_fnp90_Reload3P
+ObjectTemplate.modifiedByUser "julioce"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/eurif_fnp90/sounds/fnp_reload_3p.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 0.5
+ObjectTemplate.halfVolumeDistance 1
+
+ObjectTemplate.activeSafe Sound S_eurif_fnp90_Deploy1P
+ObjectTemplate.modifiedByUser "julioce"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/rurif_ak47/sounds/ak47_deploy_1p.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_eurif_fnp90_Deploy3P
+ObjectTemplate.modifiedByUser "julioce"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/rurif_ak47/sounds/ak47_deploy_3p.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 0.5
+ObjectTemplate.halfVolumeDistance 1
+
+ObjectTemplate.activeSafe Sound S_eurif_fnp90_Zoom
+ObjectTemplate.modifiedByUser "julioce"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/rurif_bizon/sounds/zoom_generic.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_eurif_fnp90_Projectile_Looping
+ObjectTemplate.modifiedByUser "julioce"
+ObjectTemplate.createdInEditor 1
+
+

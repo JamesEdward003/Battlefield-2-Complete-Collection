@@ -1,0 +1,47 @@
+rem *** FirearmsInfo ***
+NetworkableInfo.createNewInfo HandFireArmsInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setForceNetworkableId 1
+
+rem *** Basic ***
+NetworkableInfo.createNewInfo BasicInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+rem *** Spring ***
+NetworkableInfo.createNewInfo SpringInfo
+NetworkableInfo.setPredictionMode PMNone
+NetworkableInfo.setIsUnique 1
+
+rem *** Kit ***
+NetworkableInfo.createNewInfo KitInfo
+NetworkableInfo.setPredictionMode PMNone
+
+rem *** ControlPointnfo ***
+NetworkableInfo.createNewInfo ControlPointInfo
+NetworkableInfo.setBasePriority c_NIGhostAlways
+NetworkableInfo.setPredictionMode PMNone
+
+rem *** Projectile ***
+NetworkableInfo.createNewInfo ProjectileInfo
+NetworkableInfo.setPredictionMode PMLinear
+
+rem *** Always ghost no prediction ***
+NetworkableInfo.createNewInfo GhostAlwaysWOPrediction
+NetworkableInfo.setBasePriority c_NIGhostAlways
+NetworkableInfo.setPredictionMode PMNone
+
+rem *** Always ghost linear prediction ***
+NetworkableInfo.createNewInfo GhostAlwaysWithPrediction
+NetworkableInfo.setBasePriority c_NIGhostAlways
+NetworkableInfo.setPredictionMode PMLinear
+
+rem *** LaserTargetInfo ***
+NetworkableInfo.createNewInfo LaserTargetInfo
+NetworkableInfo.setPredictionMode PMNone
+rem NetworkableInfo.setForceNetworkableId 1
+
+rem *** DestroyableObjectInfo ***
+NetworkableInfo.createNewInfo DestroyableObjectInfo
+NetworkableInfo.setBasePriority c_NIGhostAlways
+NetworkableInfo.setPredictionMode PMNone
+

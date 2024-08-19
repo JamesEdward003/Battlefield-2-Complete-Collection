@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh sails
+CollisionManager.createTemplate sails
+
+ObjectTemplate.create RotationalBundle sails
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator STRYKERJ-DDB4B9:StrykerJ
+ObjectTemplate.collisionMesh sails
+ObjectTemplate.mapMaterial 0 Wood_thin 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry sails
+
+include sails.tweak

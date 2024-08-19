@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh gbgr_sa80a2_l85
+CollisionManager.createTemplate gbgr_sa80a2_l85
+
+ObjectTemplate.create GenericFireArm gbgr_sa80a2_l85
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator JSA-1:jsa
+ObjectTemplate.collisionMesh gbgr_sa80a2_l85
+ObjectTemplate.mapMaterial 0 Collision_Material 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry gbgr_sa80a2_l85
+
+include gbgr_sa80a2_l85.tweak

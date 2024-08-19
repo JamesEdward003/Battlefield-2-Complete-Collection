@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh aircontroltowerstatic
+
+ObjectTemplate.create SimpleObject aircontroltowerstatic
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator DGO-1:dgo
+ObjectTemplate.collisionMesh aircontrolTower
+ObjectTemplate.mapMaterial 0 cgfx_shader1_cgfxShader1 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry aircontroltowerstatic
+ObjectTemplate.anchor -3.0012/-5.1038/-2.3659
+
+include aircontroltowerstatic.tweak

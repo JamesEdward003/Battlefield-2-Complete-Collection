@@ -1,0 +1,24 @@
+if v_arg1 == BF2Editor
+terrain.create TerrainEditable
+terrain.patchSize 128
+terrain.subdividePatches 1
+terrain.primaryWorldScale 2/0.00640869/2
+terrain.secondaryWorldScale 8/1.64063/8
+terrain.patchColormapSize 512
+terrain.lowDetailmapSize 512
+terrain.detailmapBaseName "Levels/Dalian_plant/Detailmaps/tx"
+terrain.lowDetailmapBaseName "Levels/Dalian_plant/LowDetailmaps/tx"
+terrain.colormapBaseName "Levels/Dalian_plant/Colormaps/tx"
+terrain.lightmapBaseName "Levels/Dalian_plant/Lightmaps/tx"
+terrain.farSideTiling 4/2
+terrain.farTopTilingHi 10
+terrain.farTopTilingLow 12
+terrain.farYOffset 0
+terrain.terrainWaterColor 0.207843/0.254902/0.282353
+terrain.init
+
+else
+terrain.create Terrain
+terrain.load Levels/Dalian_plant/terraindata.raw
+endIf
+

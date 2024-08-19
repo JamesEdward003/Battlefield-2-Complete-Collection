@@ -1,0 +1,5 @@
+ObjectTemplate.activeSafe AnimatedBundle animatedParachute
+ObjectTemplate.skeleton Objects/Vehicles/Air/parachute/parachute_setup.ske
+ObjectTemplate.animationSystem1P Objects/Vehicles/Air/parachute/AnimationSystem.inc
+
+

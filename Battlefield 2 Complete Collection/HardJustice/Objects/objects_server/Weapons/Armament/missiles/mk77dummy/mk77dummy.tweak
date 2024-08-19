@@ -1,0 +1,14 @@
+rem *** Generated with Bf2Editor.exe [created: 2004/11/8 0:13]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe SimpleObject mk77dummy
+ObjectTemplate.modifiedByUser mei
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.geometry mk77
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.setCollisionMesh mk77
+ObjectTemplate.mapMaterial 0 Airplane 32

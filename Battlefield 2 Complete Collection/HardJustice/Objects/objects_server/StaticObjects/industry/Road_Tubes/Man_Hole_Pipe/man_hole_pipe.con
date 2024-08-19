@@ -1,0 +1,14 @@
+GeometryTemplate.create StaticMesh man_hole_pipe
+CollisionManager.createTemplate man_hole_pipe
+
+ObjectTemplate.create SimpleObject man_hole_pipe
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh man_hole_pipe
+ObjectTemplate.mapMaterial 0 Concrete_slippery 0
+ObjectTemplate.mapMaterial 1 Metal_solid 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry man_hole_pipe
+
+include man_hole_pipe.tweak

@@ -1,0 +1,25 @@
+<map gsid="32">
+	<name> Island City </name>
+	<briefing locid="The USMC have asked the Canadian Forces to secure Island City, it's harbour and power station. The harbour is vital for US to get supplies to their troops. The MEC forces are also trying to secure the City to stop the US supply line.
+16 Map size = Infantry Battle (Sniper Haven)
+32 Map size = Armor Battle
+64 Map size = All out War!!!
+
+Map by CDN_BiggDogg            ">map description for modders maps not localized (english only)</briefing>
+	<music> common/sound/menu/music/load_MEC_music.ogg </music>
+	<modes>
+		<mode type="gpm_cq">
+			<maptype ai="1" players="16" type="doubleassault" locid="GAMEMODE_DESCRIPTION_doubleassault">Unlocalized test for this mode on this map</maptype>
+			<maptype players="32" type="headon" locid="GAMEMODE_DESCRIPTION_headon">Unlocalized test for this mode on this map</maptype>
+			<maptype players="64" type="headon" locid="GAMEMODE_DESCRIPTION_headon">Unlocalized test for this mode on this map</maptype>
+		</mode>
+ 
+		<mode type="gpm_coop">
+         	<maptype ai="1" players="16" type="assault" locid="GAMEMODE_DESCRIPTION_COOP_assault"></maptype>
+        	<maptype ai="1" players="32" type="doubleassault" locid="GAMEMODE_DESCRIPTION_COOP_doubleassault"></maptype>
+			<maptype ai="1" players="64" type="headon" locid="GAMEMODE_DESCRIPTION_COOP_headon"></maptype>
+      	</mode>
+	</modes>
+</map>
+
+

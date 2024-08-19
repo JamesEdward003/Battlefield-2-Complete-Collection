@@ -1,0 +1,89 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe GenericProjectile javelin_laser_missile
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.createNotInGrid 1
+rem ---BeginComp:DefaultCollisionComp ---
+ObjectTemplate.createComponent DefaultCollisionComp
+ObjectTemplate.collision.hasCollisionEffect 1
+rem ---EndComp ---
+rem ---BeginComp:DefaultDetonationComp ---
+ObjectTemplate.createComponent DefaultDetonationComp
+ObjectTemplate.detonation.explosionMaterial 70
+ObjectTemplate.detonation.explosionRadius 5
+ObjectTemplate.detonation.explosionForce 15
+ObjectTemplate.detonation.explosionDamage 525
+ObjectTemplate.detonation.endEffectTemplate e_exp_medium
+ObjectTemplate.detonation.useMMOnEndEffect 1
+ObjectTemplate.detonation.detectionRadius 1.5
+ObjectTemplate.detonation.maxDepthForExplosion 2
+rem ---EndComp ---
+rem ---BeginComp:DefaultProjSoundComp ---
+ObjectTemplate.createComponent DefaultProjSoundComp
+rem ---EndComp ---
+rem ---BeginComp:SeekClosestTargetComp ---
+ObjectTemplate.createComponent SeekClosestTargetComp
+ObjectTemplate.seek.targetType TTLaser
+ObjectTemplate.seek.trackingDelay 1.2
+ObjectTemplate.seek.maxAngleLock 30
+ObjectTemplate.seek.maxDistLock 1500
+ObjectTemplate.seek.directionBonus 1
+ObjectTemplate.seek.reLockTime 0.3
+rem ---EndComp ---
+rem ---BeginComp:DefaultFollowComp ---
+ObjectTemplate.createComponent DefaultFollowComp
+ObjectTemplate.follow.maxYaw 30
+ObjectTemplate.follow.maxPitch 30
+ObjectTemplate.follow.changePitch 1
+ObjectTemplate.follow.changeYaw 1
+ObjectTemplate.follow.minDist 10
+rem ---EndComp ---
+rem ---BeginComp:DefaultPenetrateComp ---
+ObjectTemplate.createComponent DefaultPenetrateComp
+ObjectTemplate.penetrate.allowSolidPenetration 0
+ObjectTemplate.penetrate.allowLiquidPenetration 0
+rem ---EndComp ---
+ObjectTemplate.geometry javelin_laser_missile
+ObjectTemplate.setCollisionMesh javelin_laser_missile
+ObjectTemplate.mapMaterial 0 lambert2 0
+ObjectTemplate.drag 5
+ObjectTemplate.mass 10
+ObjectTemplate.gravityModifier -4
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Point
+ObjectTemplate.collisionGroups 8
+ObjectTemplate.material 52
+rem -------------------------------------
+ObjectTemplate.addTemplate S_javelin_laser_missile_Looping
+ObjectTemplate.addTemplate e_javelin_trail
+ObjectTemplate.setPosition 0/0/-0.665362
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/20/0/0
+ObjectTemplate.material 52
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.armingDelay 0.5
+ObjectTemplate.minDamage 1200
+ObjectTemplate.damage 1500
+ObjectTemplate.damageOwner 1
+ObjectTemplate.acceleration 150
+ObjectTemplate.maxSpeed 60
+ObjectTemplate.startDelay 0.2
+
+ObjectTemplate.activeSafe Sound S_javelin_laser_missile_Looping
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.soundFilename "objects/weapons/armament/missiles/javelin_laser_missile/sounds/javelin_flight.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 2
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 3
+ObjectTemplate.halfVolumeDistance 6
+

@@ -1,0 +1,18 @@
+GeometryTemplate.create BundledMesh aircontroltower_ca
+CollisionManager.createTemplate aircontroltower_ca
+
+ObjectTemplate.create PlayerControlObject aircontroltower_ca
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator FUL-1:ful
+ObjectTemplate.collisionMesh aircontroltower_ca
+ObjectTemplate.mapMaterial 0 metal_Solid 0
+ObjectTemplate.mapMaterial 1 rubber 0
+ObjectTemplate.mapMaterial 2 glass 0
+ObjectTemplate.mapMaterial 3 Metal_Thin 0
+ObjectTemplate.mapMaterial 4 stair_metal 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry aircontroltower_ca
+
+include aircontroltower_ca.tweak

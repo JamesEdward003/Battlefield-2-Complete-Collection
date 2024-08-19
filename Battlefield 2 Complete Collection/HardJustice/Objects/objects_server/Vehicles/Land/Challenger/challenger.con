@@ -1,0 +1,86 @@
+GeometryTemplate.create BundledMesh challenger
+CollisionManager.createTemplate challenger
+
+ObjectTemplate.create PlayerControlObject challenger
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh challenger
+ObjectTemplate.mapMaterial 0 Pentrable_Metal_thin 0
+ObjectTemplate.mapMaterial 1 Pentrable_Metal_plating 0
+ObjectTemplate.mapMaterial 2 Rubber_heavy 0
+ObjectTemplate.mapMaterial 3 Plastic 0
+ObjectTemplate.mapMaterial 4 Rubber 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry challenger
+ObjectTemplate.addTemplate Challengersteering
+ObjectTemplate.setPosition -0.5785/0.6401/-0.0636
+ObjectTemplate.setRotation 0/19.9904/0
+ObjectTemplate.addTemplate zMotor
+
+ObjectTemplate.create RotationalBundle Challengersteering
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+
+ObjectTemplate.create Engine zMotor
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+ObjectTemplate.addTemplate whl_Nav_BL
+ObjectTemplate.setPosition -0.9945/-0.1/-2.4569
+ObjectTemplate.addTemplate whl_Nav_BR
+ObjectTemplate.setPosition 1.0200/-0.1/-2.4569
+ObjectTemplate.addTemplate whl_Nav_FL
+ObjectTemplate.setPosition -1.0307/-0.1/1.3985
+ObjectTemplate.addTemplate whl_Nav_FR
+ObjectTemplate.setPosition 1.0562/-0.1/1.3985
+
+ObjectTemplate.create Bundle whl_Nav_BL
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+ObjectTemplate.addTemplate whl_BL
+
+ObjectTemplate.create Spring whl_BL
+ObjectTemplate.collisionPart 4
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+ObjectTemplate.create Bundle whl_Nav_BR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+ObjectTemplate.addTemplate whl_BR
+
+ObjectTemplate.create Spring whl_BR
+ObjectTemplate.collisionPart 6
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+
+ObjectTemplate.create RotationalBundle whl_Nav_FL
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+ObjectTemplate.addTemplate whl_FL
+
+ObjectTemplate.create Spring whl_FL
+ObjectTemplate.collisionPart 8
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+
+ObjectTemplate.create RotationalBundle whl_Nav_FR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 9
+ObjectTemplate.addTemplate whl_FR
+
+ObjectTemplate.create Spring whl_FR
+ObjectTemplate.collisionPart 10
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 10
+
+include challenger.tweak

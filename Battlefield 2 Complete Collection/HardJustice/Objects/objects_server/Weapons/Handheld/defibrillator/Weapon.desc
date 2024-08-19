@@ -1,0 +1,4 @@
+<weapon eq="1">
+	<name locid="WEAPON_NAME_shockpaddles">Dummy non-localized text. Modders use this area.</name>
+	<description locid="WEAPON_DESCRIPTION_shockpaddles">Dummy non-localized text. Modders use this area.</description>
+</weapon>

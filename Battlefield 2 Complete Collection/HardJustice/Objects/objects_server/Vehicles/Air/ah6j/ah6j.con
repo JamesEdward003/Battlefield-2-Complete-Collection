@@ -1,0 +1,77 @@
+GeometryTemplate.create BundledMesh ah6j
+CollisionManager.createTemplate ah6j
+
+ObjectTemplate.create PlayerControlObject ah6j
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CAMBO:Cihangir
+ObjectTemplate.collisionMesh ah6j
+ObjectTemplate.mapMaterial 0 Armor_6_helicopter 0
+ObjectTemplate.mapMaterial 1 Glass_bulletproof 0
+ObjectTemplate.mapMaterial 2 wreck 0
+ObjectTemplate.mapMaterial 3 helicopter_landing_rail 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry ah6j
+ObjectTemplate.addTemplate damperLB
+ObjectTemplate.setPosition -0.8862/-0.9513/-1.5308
+ObjectTemplate.addTemplate damperLF
+ObjectTemplate.setPosition -0.8862/-0.9513/1.5455
+ObjectTemplate.addTemplate damperRB
+ObjectTemplate.setPosition 0.8742/-0.9513/-1.5308
+ObjectTemplate.addTemplate damperRF
+ObjectTemplate.setPosition 0.8742/-0.9513/1.5455
+ObjectTemplate.addTemplate MachinegunL_Base
+ObjectTemplate.setPosition -0.8364/-0.2727/-0.2055
+ObjectTemplate.addTemplate MachinegunR_Base
+ObjectTemplate.setPosition 0.8419/-0.2727/-0.2055
+
+ObjectTemplate.create spring damperLB
+ObjectTemplate.collisionPart 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+
+ObjectTemplate.create spring damperLF
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+
+ObjectTemplate.create spring damperRB
+ObjectTemplate.collisionPart 3
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+ObjectTemplate.create spring damperRF
+ObjectTemplate.collisionPart 4
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+ObjectTemplate.create Rotationalbundle MachinegunL_Base
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+ObjectTemplate.addTemplate MachinegunL_barrel
+ObjectTemplate.setPosition 0.0162/0.0168/0.4929
+
+ObjectTemplate.create Rotationalbundle MachinegunL_barrel
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+
+ObjectTemplate.create Rotationalbundle MachinegunR_Base
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+ObjectTemplate.addTemplate MachinegunR_barrel
+ObjectTemplate.setPosition -0.0255/0.0168/0.4929
+
+ObjectTemplate.create Rotationalbundle MachinegunR_barrel
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+
+include ah6j.tweak

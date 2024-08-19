@@ -1,0 +1,4 @@
+ObjectTemplate.create GenericFireArm aas_seasparrow
+
+include aas_seasparrow.tweak
+

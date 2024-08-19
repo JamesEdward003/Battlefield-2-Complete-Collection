@@ -1,0 +1,94 @@
+GeometryTemplate.create BundledMesh apc_cobra
+CollisionManager.createTemplate apc_cobra
+
+ObjectTemplate.create PlayerControlObject apc_cobra
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CAMBO:Cihangir
+ObjectTemplate.collisionMesh apc_cobra
+ObjectTemplate.mapMaterial 0 Light_armored_vehicle 0
+ObjectTemplate.mapMaterial 1 Glass_bulletproof 0
+ObjectTemplate.mapMaterial 2 wreck 0
+ObjectTemplate.mapMaterial 3 Rubber 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry apc_cobra
+ObjectTemplate.addTemplate apc_cobrasteeringwheel
+ObjectTemplate.setPosition -0.4222/0.8464/0.4533
+ObjectTemplate.setRotation 0/18.7842/0
+ObjectTemplate.addTemplate apc_cobracupolabase
+ObjectTemplate.setPosition -0.0116/0.0473/-0.4838
+ObjectTemplate.addTemplate apc_cobraZmotor
+ObjectTemplate.setPosition 0/0.0050/0
+
+ObjectTemplate.create Rotationalbundle apc_cobrasteeringwheel
+ObjectTemplate.collisionPart 3
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+ObjectTemplate.create PlayerControlObject apc_cobracupolabase
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate apc_cobracupola
+ObjectTemplate.setPosition 0/1.7458/0
+
+ObjectTemplate.create Rotationalbundle apc_cobracupola
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+
+ObjectTemplate.create Engine apc_cobraZmotor
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+ObjectTemplate.addTemplate apc_cobraWFL_nav
+ObjectTemplate.setPosition -0.9339/-0.2097/1.7078
+ObjectTemplate.addTemplate apc_cobraWFR_nav
+ObjectTemplate.setPosition 0.9365/-0.2097/1.7078
+ObjectTemplate.addTemplate apc_cobraWRL
+ObjectTemplate.setPosition -0.9339/-0.2097/-1.7094
+ObjectTemplate.addTemplate apc_cobraWRR
+ObjectTemplate.setPosition 0.9365/-0.2097/-1.7094
+
+ObjectTemplate.create Rotationalbundle apc_cobraWFL_nav
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+ObjectTemplate.addTemplate apc_cobraWFL
+
+ObjectTemplate.create Spring apc_cobraWFL
+ObjectTemplate.collisionPart 6
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+
+ObjectTemplate.create Rotationalbundle apc_cobraWFR_nav
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+ObjectTemplate.addTemplate apc_cobraWFR
+
+ObjectTemplate.create Spring apc_cobraWFR
+ObjectTemplate.collisionPart 8
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+
+ObjectTemplate.create Spring apc_cobraWRL
+ObjectTemplate.collisionPart 9
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 9
+
+ObjectTemplate.create Spring apc_cobraWRR
+ObjectTemplate.collisionPart 10
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 10
+
+include apc_cobra.tweak

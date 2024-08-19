@@ -1,0 +1,70 @@
+ObjectTemplate.create Kit CH_Engineer
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.kitType Engineer
+ObjectTemplate.aiTemplate Engineer
+ObjectTemplate.geometry CH_Kits
+ObjectTemplate.geometry.kit 5
+ObjectTemplate.geometry.dropGeom 12
+ObjectTemplate.setNetworkableInfo KitInfo
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.abilityRestoreRate 0.05
+ObjectTemplate.abilityInVehicleRadius 7
+ObjectTemplate.abilityInVehicleStrength 0.1
+ObjectTemplate.abilityInVehicleMaterial 84
+ObjectTemplate.unlockIndex 2
+ObjectTemplate.cullRadiusScale 2.4
+rem -------------------------------------
+ObjectTemplate.addTemplate chpis_qsz92
+ObjectTemplate.addTemplate wrench
+ObjectTemplate.addTemplate at_mine
+ObjectTemplate.addTemplate USHGR_M67
+ObjectTemplate.addTemplate kni_knife
+ObjectTemplate.addTemplate UnlockChEngineer
+ObjectTemplate.addTemplate UnlockChEngineer2
+ObjectTemplate.addTemplate ussht_Jackhammer
+ObjectTemplate.addTemplate ParachuteLauncher
+rem -------------------------------------
+
+
+ObjectTemplate.createComponent Ability
+ObjectTemplate.ability.hasRepairingAbility 1
+
+
+ObjectTemplate.createComponent AbilityHud
+ObjectTemplate.abilityHud.healingSound S_Heal
+ObjectTemplate.abilityHud.repairingSound S_Repair
+ObjectTemplate.abilityHud.ammoSound S_Resupply
+
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName 		"HUD_TEXT_MENU_SPAWN_KIT_ENGINEER"
+ObjectTemplate.vehicleHud.miniMapIcon		"Ingame\Kits\Icons\kit_Engineer_outline.tga"
+ObjectTemplate.vehicleHud.vehicleIcon		"Ingame\Kits\Icons\kit_Engineer.tga"
+ObjectTemplate.vehicleHud.spottedIcon 		"Ingame\Player\Icons\Minimap\mini_Soldier.dds"
+ObjectTemplate.vehicleHud.pantingSound		S_SprintBreath
+ObjectTemplate.vehicleHud.injurySound		S_Injury
+ObjectTemplate.vehicleHud.vehicleType 		7
+
+ObjectTemplate.sprintStaminaDissipationFactor 0.6
+
+rem ---BeginComp:HelpHud ---
+ObjectTemplate.createComponent HelpHud
+ObjectTemplate.HelpHud.helpStringKey "HUD_HELP_KIT_ENGINEER_inVehicle"
+ObjectTemplate.HelpHud.helpSoundKey "HUD_HELP_KIT_ENGINEER_inVehicle"
+rem ---EndComp ---
+
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage	"infantry_spotted"
+rem ---EndComp ---
+
+ObjectTemplate.create ItemContainer UnlockChEngineer
+ObjectTemplate.addTemplate sasrif_mp7
+ObjectTemplate.replaceItem ussht_Jackhammer
+ObjectTemplate.unlockLevel 1
+
+ObjectTemplate.create ItemContainer UnlockChEngineer2
+ObjectTemplate.addTemplate chsht_Norinco982
+ObjectTemplate.replaceItem sasrif_mp7
+ObjectTemplate.replaceItem ussht_Jackhammer
+ObjectTemplate.unlockLevel 2
+

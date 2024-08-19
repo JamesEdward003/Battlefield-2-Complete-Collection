@@ -1,0 +1,7 @@
+ObjectTemplate.active B57_nuke_dummy
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry B57_nuke
+ObjectTemplate.setCollisionMesh B57_nuke
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.mapMaterial 0 Airplane 32

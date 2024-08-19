@@ -1,0 +1,4 @@
+ObjectTemplate.create EffectBundle e_AB_snd
+ObjectTemplate.createdInEditor 1
+
+include e_AB_snd.tweak

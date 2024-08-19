@@ -1,0 +1,26 @@
+<map gsid="38">
+	<name> Desert Sheild Advanced </name>
+	<briefing locid="Re-make of the Classic Desert Combat map Desert Shield, for the HardJustice Mod.">map description for modders maps not localized (english only)</briefing>
+	<music> levels/Desert_Shield_Advanced/music/Desert_Shield_Advanced.ogg </music>
+	<modes>
+		<mode type="gpm_cq">
+			<maptype ai="1" players="16" type="doubleassault" locid="GAMEMODE_DESCRIPTION_assault">Unlocalized test for this mode on this map</maptype>
+			<maptype ai="1" players="32" type="doubleassault" locid="GAMEMODE_DESCRIPTION_assault">Unlocalized test for this mode on this map</maptype>
+			<maptype ai="1" players="64" type="doubleassault" locid="GAMEMODE_DESCRIPTION_assault">Unlocalized test for this mode on this map</maptype>
+		</mode>
+		<mode type="gpm_coop">
+			<maptype ai="1" players="16" type="doubleassault" locid="GAMEMODE_DESCRIPTION_COOP_assault">Unlocalized test for this mode on this map</maptype>
+			<maptype ai="1" players="32" type="doubleassault" locid="GAMEMODE_DESCRIPTION_COOP_assault">Unlocalized test for this mode on this map</maptype>
+			<maptype ai="1" players="64" type="doubleassault" locid="GAMEMODE_DESCRIPTION_COOP_assault">Unlocalized test for this mode on this map</maptype></mode>
+		<mode type="sp1">
+			<maptype ai="1" players="16" type="doubleassault" locid="GAMEMODE_DESCRIPTION_doubleassault">Unlocalized test for this mode on this map</maptype>
+		</mode>
+		<mode type="sp2">
+			<maptype ai="1" players="32" type="doubleassault" locid="GAMEMODE_DESCRIPTION_doubleassault">Unlocalized test for this mode on this map</maptype>
+		</mode>
+		<mode type="sp3">
+			<maptype ai="1" players="64" type="doubleassault" locid="GAMEMODE_DESCRIPTION_doubleassault">Unlocalized test for this mode on this map</maptype>			
+		</mode>
+	</modes>
+</map>
+

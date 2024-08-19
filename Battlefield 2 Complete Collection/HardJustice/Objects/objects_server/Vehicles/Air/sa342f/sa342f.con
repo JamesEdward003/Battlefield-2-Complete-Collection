@@ -1,0 +1,53 @@
+GeometryTemplate.create BundledMesh sa342f
+CollisionManager.createTemplate sa342f
+
+ObjectTemplate.create PlayerControlObject sa342f
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CAMBO:Cihangir
+ObjectTemplate.collisionMesh sa342f
+ObjectTemplate.mapMaterial 0 Armor_6_helicopter 0
+ObjectTemplate.mapMaterial 1 Glass_bulletproof 0
+ObjectTemplate.mapMaterial 2 wreck 0
+ObjectTemplate.mapMaterial 3 helicopter_landing_rail 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry sa342f
+ObjectTemplate.addTemplate sa342f_damperLB
+ObjectTemplate.setPosition -0.8435/-0.8417/-1.8143
+ObjectTemplate.addTemplate sa342f_damperLF
+ObjectTemplate.setPosition -0.8435/-0.8417/1.8144
+ObjectTemplate.addTemplate sa342f_damperRB
+ObjectTemplate.setPosition 0.8435/-0.8417/-1.8143
+ObjectTemplate.addTemplate sa342f_damperRF
+ObjectTemplate.setPosition 0.8435/-0.8417/1.8144
+
+ObjectTemplate.create Spring sa342f_damperLB
+ObjectTemplate.collisionPart 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+
+ObjectTemplate.create Spring sa342f_damperLF
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+
+ObjectTemplate.create Spring sa342f_damperRB
+ObjectTemplate.collisionPart 3
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+ObjectTemplate.create Spring sa342f_damperRF
+ObjectTemplate.collisionPart 4
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+include sa342f.tweak

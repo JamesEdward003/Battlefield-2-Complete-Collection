@@ -1,0 +1,15 @@
+GeometryTemplate.create StaticMesh cart2
+CollisionManager.createTemplate cart2
+
+ObjectTemplate.create SimpleObject cart2
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator STRYKERJ-DDB4B9:StrykerJ
+ObjectTemplate.collisionMesh cart2
+ObjectTemplate.mapMaterial 0 Armor_Pentrable_Metal_thin 0
+ObjectTemplate.mapMaterial 1 Rubber 0
+ObjectTemplate.mapMaterial 2 Armor_1_metal_plating 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry cart2
+
+include cart2.tweak

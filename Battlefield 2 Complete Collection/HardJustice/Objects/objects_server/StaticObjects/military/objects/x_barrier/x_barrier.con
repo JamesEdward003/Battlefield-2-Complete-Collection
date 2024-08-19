@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh x_barrier
+CollisionManager.createTemplate x_barrier
+
+ObjectTemplate.create SimpleObject x_barrier
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh x_barrier
+ObjectTemplate.mapMaterial 0 metal_solid 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry x_barrier
+
+include x_barrier.tweak

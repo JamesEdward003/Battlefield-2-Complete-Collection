@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh javelin_laser_missile
+CollisionManager.createTemplate javelin_laser_missile
+
+ObjectTemplate.create GenericProjectile javelin_laser_missile
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh javelin_laser_missile
+ObjectTemplate.mapMaterial 0 lambert2 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry javelin_laser_missile
+
+include javelin_laser_missile.tweak

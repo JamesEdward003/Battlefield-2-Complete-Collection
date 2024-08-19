@@ -1,0 +1,166 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe PlayerControlObject hmmv_crows
+ObjectTemplate.creator STUDIO:J-MAR
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.hasTurretIcon 1
+ObjectTemplate.vehicleHud.standardHelpEnabled 0
+ObjectTemplate.vehicleHud.vehicleIconPos 34/12
+ObjectTemplate.vehicleHud.useSelectionIcons 0
+ObjectTemplate.vehicleHud.vehicleIcon Ingame\Vehicles\Icons\Hud\VehicleIcons\hummer.tga
+rem ---EndComp ---
+ObjectTemplate.geometry hmmv_crows
+ObjectTemplate.setCollisionMesh hmmv_crows
+ObjectTemplate.mapMaterial 0 07_-_Default 26
+ObjectTemplate.mapMaterial 1 09_-_Default 0
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.aiTemplate CrowsGunner
+rem -------------------------------------
+ObjectTemplate.addTemplate S_hmmv_crows_Ambient
+ObjectTemplate.addTemplate S_hmmv_crows_AmbientDamaged
+ObjectTemplate.addTemplate hmmv_crows_controls_js
+ObjectTemplate.setPosition -0.460972/-0.609364/-0.629498
+rem -------------------------------------
+ObjectTemplate.seatInformation hmmv_crows -0.7/-0.35/-0.75 0/0/-1
+ObjectTemplate.seatAnimationSystem Objects/Vehicles/Common/Animations/3p_aircraftPilot_A_animSys.inc
+ObjectTemplate.controlsCategory VCLand
+
+ObjectTemplate.activeSafe Sound S_hmmv_crows_Ambient
+ObjectTemplate.modifiedByUser "Ziggy"
+
+ObjectTemplate.activeSafe Sound S_hmmv_crows_AmbientDamaged
+ObjectTemplate.modifiedByUser "Ziggy"
+
+ObjectTemplate.activeSafe RotationalBundle CrowsSystem
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_CrowsSystem_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMaxSpeed 100/0/0
+ObjectTemplate.setAcceleration 700/0/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.setInputToPitch PIMouseLookY
+
+ObjectTemplate.activeSafe Sound S_CrowsSystem_RotationRpm
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/ustnk_m1a2/sounds/genericturretmovement.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.64
+ObjectTemplate.pitch 2
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.1/3/0/2/0.003/0.1/0.1/0.505/1.55/0.1/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/3/0.089/0/0/0.168/0.624/0/0.759/1/0/
+ObjectTemplate.minDistance 2
+ObjectTemplate.halfVolumeDistance 4.5
+
+ObjectTemplate.activeSafe RotationalBundle CROWSCradle
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_CROWSCradle_RotationRpm
+ObjectTemplate.addTemplate CROWShmg_m2hb
+ObjectTemplate.setPosition 0.109241/-0.0257806/0.120107
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-50/0
+ObjectTemplate.setMaxRotation 0/20/0
+ObjectTemplate.setMaxSpeed 0/100/0
+ObjectTemplate.setAcceleration 0/700/0
+ObjectTemplate.setInputToPitch PIMouseLookY
+
+ObjectTemplate.activeSafe Sound S_CROWSCradle_RotationRpm
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/ustnk_m1a2/sounds/genericturretmovement.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 2
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.1/3/0/2/0.003/0.1/0.1/0.505/1.55/0.1/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/3/0.089/0/0/0.168/0.624/0/0.759/1/0/
+ObjectTemplate.minDistance 2
+ObjectTemplate.halfVolumeDistance 4.5
+
+ObjectTemplate.activeSafe RotationalBundle CROWSSensors
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_CROWSSensors_RotationRpm
+ObjectTemplate.addTemplate usjep_hmmwvGUN_Camera
+ObjectTemplate.setPosition 0.145113/-0.0762054/0.187215
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-50/0
+ObjectTemplate.setMaxRotation 0/20/0
+ObjectTemplate.setMaxSpeed 0/100/0
+ObjectTemplate.setAcceleration 0/700/0
+ObjectTemplate.setInputToPitch PIMouseLookY
+
+ObjectTemplate.activeSafe Sound S_CROWSSensors_RotationRpm
+ObjectTemplate.modifiedByUser "Ziggy"
+
+ObjectTemplate.create Camera usjep_hmmwvGUN_Camera
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_usjep_hmmwvGUN_Camera_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -1/-0.5/0
+ObjectTemplate.setMaxRotation 1/0.5/0
+ObjectTemplate.setPivotPosition 0/0/-2
+ObjectTemplate.setMaxSpeed 5/5/0
+ObjectTemplate.setAcceleration 2/1/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.cameraShakeSensitivity 0
+ObjectTemplate.bounceLength 0.002
+ObjectTemplate.bounceSensitivity 0.09
+ObjectTemplate.bounceStrength 1
+ObjectTemplate.bounceDamping 15
+ObjectTemplate.followStiffness 6
+ObjectTemplate.chaseDistance 14
+ObjectTemplate.chaseAngle 0.15
+ObjectTemplate.chaseOffset 0/1/7
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.allowInsideDynamicLights 1
+ObjectTemplate.allowInsideStaticSun 0
+ObjectTemplate.insideStaticSunDirection 0/-1/0
+ObjectTemplate.insideStaticSunColor 1/1/1
+ObjectTemplate.insideStaticSunDamageColor 1/1/1
+ObjectTemplate.insideDamageFrequency 3
+ObjectTemplate.insideDamageThreshold 0.1
+ObjectTemplate.insideStaticSunAmbientColor 0.7/0.7/0
+
+ObjectTemplate.activeSafe Sound S_usjep_hmmwvGUN_Camera_RotationRpm
+ObjectTemplate.modifiedByUser "Ziggy"
+

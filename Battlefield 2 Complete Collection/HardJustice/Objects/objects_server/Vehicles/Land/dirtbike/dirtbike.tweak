@@ -1,0 +1,555 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 12:52]
+GeometryTemplate.setSubGeometryLodDistance 1 0 20
+GeometryTemplate.setSubGeometryLodDistance 1 1 70
+GeometryTemplate.setMaterialReflectionScale 1 0 0 0.3
+GeometryTemplate.setMaterialReflectionScale 1 0 1 1
+GeometryTemplate.setSpecularStaticGloss 1 0 0 0
+GeometryTemplate.setSpecularStaticGloss 1 0 1 1
+GeometryTemplate.setSpecularStaticGloss 1 0 2 1
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 8
+ObjectTemplate.activeSafe PlayerControlObject dirtbike
+ObjectTemplate.creator SatNav
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.castsDynamicShadow 1
+rem ---BeginComp:Armor ---
+ObjectTemplate.createComponent Armor
+ObjectTemplate.armor.maxHitPoints 800
+ObjectTemplate.armor.hitPoints 800
+ObjectTemplate.armor.defaultMaterial 72
+ObjectTemplate.armor.hpLostWhileUpSideDown 90
+ObjectTemplate.armor.hpLostWhileInWater 75
+ObjectTemplate.armor.hpLostWhileInDeepWater 250
+ObjectTemplate.armor.hpLostWhileCriticalDamage 12
+ObjectTemplate.armor.waterDamageDelay 1
+ObjectTemplate.armor.deepWaterDamageDelay 0
+ObjectTemplate.armor.waterLevel 0.4
+ObjectTemplate.armor.deepWaterLevel 0.7
+ObjectTemplate.armor.explosionForce 10
+ObjectTemplate.armor.explosionForceMod 15
+ObjectTemplate.armor.explosionForceMax 5000
+ObjectTemplate.armor.explosionDamage 300
+ObjectTemplate.armor.explosionRadius 6
+ObjectTemplate.armor.explosionMaterial 101
+ObjectTemplate.armor.wreckExplosionForce 50
+ObjectTemplate.armor.wreckExplosionForceMax 60
+ObjectTemplate.armor.wreckExplosionDamage 50
+ObjectTemplate.armor.wreckExplosionRadius 2
+ObjectTemplate.armor.wreckExplosionMaterial 70
+ObjectTemplate.armor.wreckHitPoints 750
+ObjectTemplate.armor.timeToStayAsWreck 10
+ObjectTemplate.armor.criticalDamage 76
+ObjectTemplate.armor.addArmorEffect 50 e_dstate_land_lightsmoke -3.27614e-010/0.206367/0.0688563 0/0/0
+ObjectTemplate.armor.addArmorEffect 25 e_dstate_land_mediumsmoke 0/0.037/-0.00424445 0/0/0
+ObjectTemplate.armor.addArmorEffect 10 e_dstate_land_heavysmoke 4.86864e-009/0.347086/0.0724012 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_vexp_trailbikewreck 0/0/0 0/0/0
+ObjectTemplate.armor.addArmorEffectSpectacular 0 e_vexp_armoredcar_spec 0/0/0 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_dstate_static_fire 0.0069882/0.331031/0.0357816 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_sAmb_wreckfire -0.0379711/0.270124/0.0576802 0/0/0
+ObjectTemplate.armor.addArmorEffect -100 e_vexp_armoredcar 0/0/0 0/0/0
+rem ---EndComp ---
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage vehicle_spotted
+rem ---EndComp ---
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "DirtBike"
+ObjectTemplate.vehicleHud.typeIcon Ingame\Vehicles\Icons\Hud\MenuIcons\menuIcon_dirtbike.tga
+ObjectTemplate.vehicleHud.miniMapIcon Ingame\Vehicles\Icons\Minimap\mini_dirtbike.tga
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.vehicleIconPos 32/14
+ObjectTemplate.vehicleHud.vehicleType 3
+ObjectTemplate.vehicleHud.useSelectionIcons 0
+ObjectTemplate.vehicleHud.vehicleIcon Ingame\Vehicles\Icons\Hud\VehicleIcons\dirtbikeicon.tga
+rem ---EndComp ---
+ObjectTemplate.geometry dirtbike
+ObjectTemplate.setCollisionMesh dirtbike
+ObjectTemplate.mapMaterial 0 metal 26
+ObjectTemplate.mapMaterial 1 cloth 10
+ObjectTemplate.mapMaterial 2 rubber 22
+ObjectTemplate.mapMaterial 3 springs 102
+ObjectTemplate.mapMaterial 4 wreck 60
+ObjectTemplate.drag 1
+ObjectTemplate.mass 1000
+ObjectTemplate.gravityModifier 2
+ObjectTemplate.floaterMod 0.1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.aiTemplate dirtbikedriver
+rem -------------------------------------
+ObjectTemplate.addTemplate S_dirtbike_Ambient
+ObjectTemplate.setPosition -0.000666943/0.838208/0.00355203
+ObjectTemplate.addTemplate S_dirtbike_AmbientDamaged
+ObjectTemplate.setPosition 2.22452e-007/0.683605/-4.19059e-007
+ObjectTemplate.addTemplate dirtbike_EntryPoint
+ObjectTemplate.setPosition 0.0667704/-0.12579/-0.0816456
+ObjectTemplate.addTemplate e_amphib_wake
+ObjectTemplate.setPosition -0.000211726/-0.250011/0.874111
+ObjectTemplate.addTemplate e_amphib_wake
+ObjectTemplate.setPosition 0.000219616/-0.271079/-0.811298
+ObjectTemplate.setRotation -180/0/0
+ObjectTemplate.addTemplate e_amphib_wake_sound
+ObjectTemplate.setPosition 0.000111103/-0.0279996/0.854815
+ObjectTemplate.addTemplate dirtbike_Cameramount
+ObjectTemplate.setPosition -0.0046294/1.13504/-0.054653
+ObjectTemplate.addTemplate Car_horn
+ObjectTemplate.setPosition -0.000267159/0.320577/0.349219
+ObjectTemplate.addTemplate dirtbike_Passenger
+ObjectTemplate.setPosition 0.27942/-0.0225279/-0.157236
+ObjectTemplate.addTemplate e_sinking_vehicle
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -1/0.6/0 0/0/0
+ObjectTemplate.altSoldierExitPosition 1/0.6/0
+ObjectTemplate.exitSpeedMod 0.5
+ObjectTemplate.seatInformation dirtbike 0/1.21/0.27 0/0/0
+ObjectTemplate.seatAnimationSystem Objects/Vehicles/Land/dirtbike/Animations/3p_dirtbike_anim.inc
+ObjectTemplate.seatLeftRotationLimit -45
+ObjectTemplate.seatRightRotationLimit 45
+ObjectTemplate.cockpitSubGeom 1
+ObjectTemplate.sprintFactor 1
+ObjectTemplate.groundContactVolume 1
+ObjectTemplate.autoUseAbility 1
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.altSoldierExitPosition 1/0.6/0
+ObjectTemplate.isOpenVehicle 1
+
+ObjectTemplate.activeSafe Sound S_dirtbike_Ambient
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Sound S_dirtbike_AmbientDamaged
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe RotationalBundle dirtbike_motor_mount
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_dirtbike_motor_mount_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/-20
+ObjectTemplate.setMaxRotation 0/0/20
+ObjectTemplate.setPivotPosition 0/-0.12/0
+ObjectTemplate.setMaxSpeed 0/0/100
+ObjectTemplate.setAcceleration 0/0/60
+ObjectTemplate.setInputToRoll PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.restoreRotationOnExit 1
+
+ObjectTemplate.activeSafe Sound S_dirtbike_motor_mount_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Engine dirtbike_motor
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_dirtbike_motor_RotationRpm
+ObjectTemplate.addTemplate S_dirtbike_motor_Idle
+ObjectTemplate.setPosition 5.40952e-009/0.373235/-0.540682
+ObjectTemplate.addTemplate S_dirtbike_motor_Rpm1
+ObjectTemplate.setPosition 6.42233e-009/0.387156/-0.500257
+ObjectTemplate.addTemplate S_dirtbike_motor_Rpm2
+ObjectTemplate.setPosition 7.60765e-009/0.41771/-0.569151
+ObjectTemplate.addTemplate S_dirtbike_motor_Load
+ObjectTemplate.setPosition 1.85887e-007/0.0358557/-0.0390625
+ObjectTemplate.addTemplate e_exhaust_small
+ObjectTemplate.setPosition -0.0871911/0.519248/-0.969049
+ObjectTemplate.addTemplate e_exhaust_small_startup
+ObjectTemplate.setPosition -0.0871911/0.519248/-0.969049
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/-1
+ObjectTemplate.setMaxRotation 0/0/1
+ObjectTemplate.setMaxSpeed 0/0/10000
+ObjectTemplate.setAcceleration 0/0/5
+ObjectTemplate.setInputToRoll PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETNewCar2
+ObjectTemplate.setTorque 400
+ObjectTemplate.setDifferential 4
+ObjectTemplate.setNumberOfGears 5
+ObjectTemplate.setGearUp 0.9
+ObjectTemplate.setGearDown 0.3
+ObjectTemplate.setGearChangeTime 0.7
+ObjectTemplate.setGearRatios 2.66 1.78 1.2 0.9 0.6 
+ObjectTemplate.spinWhenNoEngineInAir 1
+ObjectTemplate.newCar2.minRpm 1000
+ObjectTemplate.newCar2.maxRpm 8000
+ObjectTemplate.newCar2.useClutchedTorque 0
+ObjectTemplate.newCar2.wheelInertia 50
+ObjectTemplate.newCar2.engineFeedbackMod 0.4
+ObjectTemplate.newCar2.brakeTorque 1500
+ObjectTemplate.newCar2.engineBrakeTorque 2000
+ObjectTemplate.newCar2.frictionTorque 100
+ObjectTemplate.newCar2.frictionMod 1.5
+ObjectTemplate.newCar2.slopeTorqueMod 0.5
+ObjectTemplate.newCar2.wheelLongFrictionMod 1.5
+ObjectTemplate.newCar2.wheelLongDriveFrictionMod 2.5
+ObjectTemplate.newCar2.wheelLongPeakAt 0.1
+ObjectTemplate.newCar2.wheelLongMinDynamicFriction 0.7
+ObjectTemplate.newCar2.wheelLongScale 0.05
+ObjectTemplate.newCar2.wheelLatFrictionMod 2
+ObjectTemplate.newCar2.wheelLatDriveFrictionMod 1.2
+ObjectTemplate.newCar2.wheelLatPeakAt 0.1
+ObjectTemplate.newCar2.wheelLatMinDynamicFriction 0.7
+ObjectTemplate.newCar2.wheelLatScale 0.05
+ObjectTemplate.audio.newStyleAudio 1
+
+ObjectTemplate.activeSafe Sound S_dirtbike_motor_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Sound S_dirtbike_motor_Idle
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/dirtbike/sounds/start_idle_stop.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 2
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 1.1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0/1.5/0/2/0.003861/0.718147/0/0.861004/1.5/0/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/3/0.003861/0.637066/0/0.281853/0.583012/0/0.996139/0/0/
+ObjectTemplate.position 5.40952e-009/0.373235/-0.540682
+ObjectTemplate.minDistance 3
+ObjectTemplate.halfVolumeDistance 10
+ObjectTemplate.soundRadius 1.5
+
+ObjectTemplate.activeSafe Sound S_dirtbike_motor_Rpm1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/dirtbike/sounds/rpm1.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 0.25
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0/1.5/0/2/0.003/1.253/0/0.995/1.386/0/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/3/0/0/0/0.162162/0.722008/0/0.996139/0.895753/0/
+ObjectTemplate.position 6.42233e-009/0.387156/-0.500257
+ObjectTemplate.minDistance 3
+ObjectTemplate.halfVolumeDistance 20
+ObjectTemplate.soundRadius 1.5
+
+ObjectTemplate.activeSafe Sound S_dirtbike_motor_Rpm2
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/dirtbike/sounds/rpm2.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 0.55
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0/1.5/0/2/0.003861/0.608108/0/0.988417/1.5/0/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/3/0.003861/0/0/0.328185/0.694981/0/0.988417/1/0/
+ObjectTemplate.position 7.60765e-009/0.41771/-0.569151
+ObjectTemplate.minDistance 3
+ObjectTemplate.halfVolumeDistance 15
+ObjectTemplate.soundRadius 1.5
+
+ObjectTemplate.activeSafe Sound S_dirtbike_motor_Load
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/dirtbike/sounds/gear_shift_01.wav,objects/vehicles/land/dirtbike/sounds/gear_shift_01.wav,objects/vehicles/land/dirtbike/sounds/gear_shift_01.wav,objects/vehicles/land/dirtbike/sounds/gear_shift_01.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 2
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.position 1.85887e-007/0.0358557/-0.0390625
+ObjectTemplate.minDistance 2
+ObjectTemplate.halfVolumeDistance 5
+ObjectTemplate.soundRadius 1.5
+
+ObjectTemplate.activeSafe RotationalBundle dirtbike_steering
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+rem ---BeginComp:Ik ---
+ObjectTemplate.createComponent Ik
+ObjectTemplate.ik.positionLeft -0.306203/0.377054/-0.0118395
+ObjectTemplate.ik.rotationLeft 0.00451854/-63.4272/-178.413
+ObjectTemplate.ik.positionRight 0.316966/0.385277/-0.0193435
+ObjectTemplate.ik.rotationRight 160.575/54.3156/-13.7859
+ObjectTemplate.ik.poleVectorRight 0.014857/0.00400749/-0.0187078
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_dirtbike_steering_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -30/0/0
+ObjectTemplate.setMaxRotation 30/0/0
+ObjectTemplate.setMaxSpeed 1/0/0
+ObjectTemplate.setAcceleration 80/0/0
+ObjectTemplate.setInputToYaw PIYaw
+ObjectTemplate.setAutomaticReset 1
+
+ObjectTemplate.activeSafe Sound S_dirtbike_steering_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Spring dirtbike_wheelFront
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 4
+rem -------------------------------------
+ObjectTemplate.addTemplate S_dirtbike_wheelFront_Rotation
+ObjectTemplate.addTemplate web_wheelBig
+rem -------------------------------------
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 8
+
+ObjectTemplate.activeSafe Sound S_dirtbike_wheelFront_Rotation
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Spring dirtbike_wheelBack
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 4
+rem -------------------------------------
+ObjectTemplate.addTemplate S_dirtbike_wheelBack_Rotation
+ObjectTemplate.addTemplate web_wheelBig
+rem -------------------------------------
+ObjectTemplate.setStrength 50
+ObjectTemplate.setDamping 8
+
+ObjectTemplate.activeSafe Sound S_dirtbike_wheelBack_Rotation
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe RotationalBundle dirtbike_whl_nav_FL
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate S_dirtbike_whl_nav_FL_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -30/0/0
+ObjectTemplate.setMaxRotation 30/0/0
+ObjectTemplate.setMaxSpeed 1/0/0
+ObjectTemplate.setAcceleration 80/0/0
+ObjectTemplate.setInputToYaw PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.snapToZeroOnNoInput 1
+
+ObjectTemplate.activeSafe Sound S_dirtbike_whl_nav_FL_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Spring dirtbike_whl_FL
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 8
+ObjectTemplate.collisionGroups 60
+rem -------------------------------------
+ObjectTemplate.addTemplate S_dirtbike_whl_FL_Rotation
+rem -------------------------------------
+ObjectTemplate.setStrength 20
+ObjectTemplate.setDamping 5
+
+ObjectTemplate.activeSafe Sound S_dirtbike_whl_FL_Rotation
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe RotationalBundle dirtbike_whl_nav_FR
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate S_dirtbike_whl_nav_FR_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -30/0/0
+ObjectTemplate.setMaxRotation 30/0/0
+ObjectTemplate.setMaxSpeed 1/0/0
+ObjectTemplate.setAcceleration 80/0/0
+ObjectTemplate.setInputToYaw PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.snapToZeroOnNoInput 1
+
+ObjectTemplate.activeSafe Sound S_dirtbike_whl_nav_FR_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Spring dirtbike_whl_FR
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 8
+ObjectTemplate.collisionGroups 60
+rem -------------------------------------
+ObjectTemplate.addTemplate S_dirtbike_whl_FR_Rotation
+rem -------------------------------------
+ObjectTemplate.setStrength 20
+ObjectTemplate.setDamping 5
+
+ObjectTemplate.activeSafe Sound S_dirtbike_whl_FR_Rotation
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Spring dirtbike_whl_BL
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 8
+ObjectTemplate.collisionGroups 60
+rem -------------------------------------
+ObjectTemplate.addTemplate S_dirtbike_whl_BL_Rotation
+rem -------------------------------------
+ObjectTemplate.setStrength 20
+ObjectTemplate.setDamping 5
+
+ObjectTemplate.activeSafe Sound S_dirtbike_whl_BL_Rotation
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Spring dirtbike_whl_BR
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 8
+ObjectTemplate.collisionGroups 60
+rem -------------------------------------
+ObjectTemplate.addTemplate S_dirtbike_whl_BR_Rotation
+rem -------------------------------------
+ObjectTemplate.setStrength 20
+ObjectTemplate.setDamping 5
+
+ObjectTemplate.activeSafe Sound S_dirtbike_whl_BR_Rotation
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.create EntryPoint dirtbike_EntryPoint
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setEntryRadius 3.25
+
+ObjectTemplate.create RotationalBundle dirtbike_Cameramount
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_dirtbike_Cameramount_RotationRpm
+ObjectTemplate.addTemplate dirtbike_PilotCamera
+ObjectTemplate.setPosition -0.0013181/0.247351/-0.0205266
+ObjectTemplate.setRotation 1.1/20/0.5
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/-15
+ObjectTemplate.setMaxRotation 0/0/15
+ObjectTemplate.setMaxSpeed 0/0/500
+ObjectTemplate.setAcceleration 0/0/500
+ObjectTemplate.setInputToRoll PIRoll
+ObjectTemplate.setAutomaticReset 1
+
+ObjectTemplate.activeSafe Sound S_dirtbike_Cameramount_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.create Camera dirtbike_PilotCamera
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_dirtbike_PilotCamera_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -120/-50/0
+ObjectTemplate.setMaxRotation 120/0/0
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/5000/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.regulatePitch 0.1/-0.1
+ObjectTemplate.restoreRotationOnExit 1
+ObjectTemplate.CVMFrontChase 0
+ObjectTemplate.nosePos 0/0.5/-0.6
+ObjectTemplate.followStiffness 9
+ObjectTemplate.chaseDistance 4
+ObjectTemplate.chaseAngle 0.4
+ObjectTemplate.chaseOffset 0/1/0
+ObjectTemplate.worldFOV 1.2
+ObjectTemplate.insideFOV 1.2
+ObjectTemplate.worldFOV 1.2
+ObjectTemplate.insideFOV 1.2
+ObjectTemplate.allowInsideDynamicLights 1
+ObjectTemplate.allowInsideStaticSun 0
+ObjectTemplate.insideStaticSunDirection -0.25/-0.5/0.75
+ObjectTemplate.insideStaticSunColor 1/1/1
+ObjectTemplate.insideStaticSunDamageColor 1/0/0
+ObjectTemplate.insideDamageFrequency 3
+ObjectTemplate.insideDamageThreshold 0.15
+ObjectTemplate.insideStaticSunAmbientColor 0.7/0.7/0.7
+
+ObjectTemplate.activeSafe Sound S_dirtbike_PilotCamera_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.create PlayerControlObject dirtbike_Passenger
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "DirtBike"
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.useChildHud 1
+ObjectTemplate.vehicleHud.vehicleIconPos 20/14
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.aiTemplate dirtbikePassenger
+rem -------------------------------------
+ObjectTemplate.addTemplate S_dirtbike_Passenger_Ambient
+ObjectTemplate.setPosition -2.03675e-005/1.26018/-0.727472
+ObjectTemplate.addTemplate S_dirtbike_Passenger_AmbientDamaged
+ObjectTemplate.setPosition -3.70747e-005/1.16436/-0.832655
+rem -------------------------------------
+ObjectTemplate.exitSpeedMod 0.5
+ObjectTemplate.seatInformation dirtbike_Passenger 0/1.32/-0.2 55/0/0
+ObjectTemplate.seatAnimationSystem Objects/Vehicles/Land/dirtbike/Animations/3p_dirtbike_passenger_anim.inc
+ObjectTemplate.soundFilter vehicle
+ObjectTemplate.cockpitSubGeom 1
+ObjectTemplate.damagedAmbientSoundLimit 0.15
+ObjectTemplate.autoUseAbility 1
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.isOpenVehicle 1
+
+ObjectTemplate.activeSafe Sound S_dirtbike_Passenger_Ambient
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Sound S_dirtbike_Passenger_AmbientDamaged
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+

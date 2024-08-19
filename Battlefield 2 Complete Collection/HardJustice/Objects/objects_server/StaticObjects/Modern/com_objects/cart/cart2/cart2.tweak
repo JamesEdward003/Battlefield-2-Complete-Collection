@@ -1,0 +1,20 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+GeometryTemplate.doNotGenerateLightmaps 0
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+GeometryTemplate.glowing 0
+GeometryTemplate.noLighting 0
+ObjectTemplate.activeSafe SimpleObject cart2
+ObjectTemplate.creator STRYKERJ-DDB4B9:StrykerJ
+ObjectTemplate.modifiedByUser "StrykerJ"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry cart2
+ObjectTemplate.setCollisionMesh cart2
+ObjectTemplate.mapMaterial 0 Armor_Pentrable_Metal_thin 1019
+ObjectTemplate.mapMaterial 1 Rubber 22
+ObjectTemplate.mapMaterial 2 Armor_1_metal_plating 26
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+

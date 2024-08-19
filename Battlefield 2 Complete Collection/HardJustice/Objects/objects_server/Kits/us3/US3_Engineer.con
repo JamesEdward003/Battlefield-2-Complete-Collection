@@ -1,0 +1,68 @@
+ObjectTemplate.create Kit US3_Engineer
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.kitType Engineer
+ObjectTemplate.aiTemplate Engineer
+ObjectTemplate.geometry US_Kits
+ObjectTemplate.geometry.kit 2
+ObjectTemplate.geometry.dropGeom 12
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.abilityRestoreRate 0.05
+ObjectTemplate.abilityInVehicleRadius 7
+ObjectTemplate.abilityInVehicleStrength 0.1
+ObjectTemplate.abilityInVehicleMaterial 84
+ObjectTemplate.unlockIndex 2
+ObjectTemplate.cullRadiusScale 2.4
+rem -------------------------------------
+ObjectTemplate.addTemplate kni_knife
+ObjectTemplate.addTemplate deserteagle
+ObjectTemplate.addTemplate eurif_famas
+ObjectTemplate.addTemplate USHGR_M67
+ObjectTemplate.addTemplate USMIN_Claymore
+rem ObjectTemplate.addTemplate m14lm
+ObjectTemplate.addTemplate defibrillator
+rem ObjectTemplate.addTemplate binocular
+ObjectTemplate.addTemplate hgr_gas
+ObjectTemplate.addTemplate designator
+ObjectTemplate.addTemplate ParachuteLauncher
+ObjectTemplate.addTemplate UnlockUS3Engineer
+ObjectTemplate.addTemplate UnlockUS3Engineer2
+rem -------------------------------------
+
+ObjectTemplate.createComponent Ability
+ObjectTemplate.ability.hasRepairingAbility 1
+
+ObjectTemplate.createComponent Ability
+ObjectTemplate.ability.hasHealingAbility 1
+
+ObjectTemplate.createComponent AbilityHud
+ObjectTemplate.abilityHud.healingSound S_Heal
+ObjectTemplate.abilityHud.repairingSound S_Repair
+ObjectTemplate.abilityHud.ammoSound S_Resupply
+
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName 		"US3 ENGINEER"
+ObjectTemplate.vehicleHud.miniMapIcon		"Ingame\Kits\Icons\kit_Engineer_outline.tga"
+ObjectTemplate.vehicleHud.vehicleIcon		"Ingame\Kits\Icons\kit_Engineer.tga"
+ObjectTemplate.vehicleHud.spottedIcon 			"Ingame\Player\Icons\Minimap\mini_Soldier.dds"
+ObjectTemplate.vehicleHud.pantingSound		S_SprintBreath
+ObjectTemplate.vehicleHud.injurySound		S_Injury
+ObjectTemplate.vehicleHud.vehicleType 		7
+
+ObjectTemplate.sprintStaminaDissipationFactor 0.2
+
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage	"infantry_spotted"
+rem ---EndComp ---
+
+ObjectTemplate.create ItemContainer UnlockUS3Engineer
+ObjectTemplate.addTemplate sasrif_mp7
+ObjectTemplate.replaceItem eurif_famas
+ObjectTemplate.unlockLevel 1
+
+ObjectTemplate.create ItemContainer UnlockUS3Engineer2
+ObjectTemplate.addTemplate ussht_Jackhammer
+ObjectTemplate.replaceItem eurif_famas
+ObjectTemplate.replaceItem sasrif_mp7
+ObjectTemplate.unlockLevel 2

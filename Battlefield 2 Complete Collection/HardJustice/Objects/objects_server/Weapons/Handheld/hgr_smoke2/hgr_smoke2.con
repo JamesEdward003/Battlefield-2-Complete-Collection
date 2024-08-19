@@ -1,0 +1,7 @@
+
+ObjectTemplate.create GenericFireArm hgr_smoke2
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator JSA-1:jsa
+ObjectTemplate.geometry hgr_smoke
+
+include hgr_smoke2.tweak

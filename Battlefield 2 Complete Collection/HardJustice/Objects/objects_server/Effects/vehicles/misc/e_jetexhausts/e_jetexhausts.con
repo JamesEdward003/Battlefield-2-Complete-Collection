@@ -1,0 +1,4 @@
+ObjectTemplate.create EffectBundle e_jetexhausts
+ObjectTemplate.createdInEditor 1
+
+include e_jetexhausts.tweak

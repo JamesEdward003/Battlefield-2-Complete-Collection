@@ -1,0 +1,5 @@
+ObjectTemplate.create TargetObject UniqueTarget
+rem ObjectTemplate.setNetworkableInfo LaserTargetInfo
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.timeToLive 500
+ObjectTemplate.targetType TTUnique

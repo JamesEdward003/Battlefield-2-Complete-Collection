@@ -1,0 +1,50 @@
+GeometryTemplate.create BundledMesh boat_rib
+CollisionManager.createTemplate boat_rib
+
+ObjectTemplate.create PlayerControlObject boat_rib
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator PHO-1:pho
+ObjectTemplate.collisionMesh boat_rib
+ObjectTemplate.mapMaterial 0 Armor_2_light_armored_vehicles 0
+ObjectTemplate.mapMaterial 1 rubber 0
+ObjectTemplate.mapMaterial 2 Pentrable_Metal_thin 0
+ObjectTemplate.mapMaterial 3 Glass_bulletproof 0
+ObjectTemplate.mapMaterial 4 Penetrable_Cloth 0
+ObjectTemplate.mapMaterial 5 Cardboard_box 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry boat_rib
+ObjectTemplate.addTemplate BOAT_RIB_Steeringwheel
+ObjectTemplate.setPosition 0.0545/1.2827/-1.3876
+ObjectTemplate.setRotation 0/1.5727/0
+ObjectTemplate.addTemplate BOAT_RIB_gunpod
+ObjectTemplate.setPosition 0.0178/0.2274/2.7609
+
+ObjectTemplate.create RotationalBundle BOAT_RIB_Steeringwheel
+ObjectTemplate.collisionPart 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+
+ObjectTemplate.create PlayerControlObject BOAT_RIB_gunpod
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+ObjectTemplate.addTemplate BOAT_RIB_Gunmount
+ObjectTemplate.setPosition 0/1.4606/0.0016
+
+ObjectTemplate.create RotationalBundle BOAT_RIB_Gunmount
+ObjectTemplate.collisionPart 3
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+ObjectTemplate.addTemplate BOAT_RIB_mount
+ObjectTemplate.setPosition 0/0.0264/0.0057
+
+ObjectTemplate.create RotationalBundle BOAT_RIB_mount
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+include boat_rib.tweak

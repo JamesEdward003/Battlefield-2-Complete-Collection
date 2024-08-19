@@ -1,0 +1,15 @@
+GeometryTemplate.create StaticMesh tire_shop
+CollisionManager.createTemplate tire_shop
+
+ObjectTemplate.create SimpleObject tire_shop
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator STRYKERJ-DDB4B9:StrykerJ
+ObjectTemplate.collisionMesh tire_shop
+ObjectTemplate.mapMaterial 0 concrete 0
+ObjectTemplate.mapMaterial 1 Metal_solid 0
+ObjectTemplate.mapMaterial 2 Wood_solid 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry tire_shop
+
+include tire_shop.tweak

@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh road
+CollisionManager.createTemplate road
+
+ObjectTemplate.create SimpleObject road
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh road
+ObjectTemplate.mapMaterial 0 Tarmac 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry road
+
+include road.tweak

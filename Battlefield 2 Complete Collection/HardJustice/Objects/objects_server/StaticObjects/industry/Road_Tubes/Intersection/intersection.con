@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh intersection
+CollisionManager.createTemplate intersection
+
+ObjectTemplate.create SimpleObject intersection
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh intersection
+ObjectTemplate.mapMaterial 0 Tarmac 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry intersection
+
+include intersection.tweak

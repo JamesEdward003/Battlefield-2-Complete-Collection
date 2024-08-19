@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh us_shutupsign
+CollisionManager.createTemplate us_shutupsign
+
+ObjectTemplate.create SupplyObject us_shutupsign
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh us_shutupsign
+ObjectTemplate.mapMaterial 0 Wood 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry us_shutupsign
+
+include us_shutupsign.tweak

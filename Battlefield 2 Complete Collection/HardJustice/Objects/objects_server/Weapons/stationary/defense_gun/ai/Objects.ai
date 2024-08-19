@@ -1,0 +1,57 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Physical defensegunPhysical
+rem aiTemplatePlugIn.setUseNoPathfindingToGetToObject 1
+aiTemplatePlugIn.setStrType HeavyArmour
+
+aiTemplatePlugIn.create Armament defensegunArmament
+
+aiTemplatePlugIn.create Unit defensegunUnit
+aiTemplatePlugIn.equipmentTypeName Fixed
+aiTemplatePlugIn.setStrategicStrength 0 0
+aiTemplatePlugIn.setStrategicStrength 1 3
+aiTemplatePlugIn.setHasExposedSoldier 0
+
+aiTemplatePlugIn.create ControlInfo defensegunCtrl
+aiTemplatePlugIn.driveTurnControl           PIYaw
+aiTemplatePlugIn.driveThrottleControl       PIThrottle
+aiTemplatePlugIn.aimHorizontalControl       PIMouseLookX
+aiTemplatePlugIn.aimVerticalControl         PIMouseLookY
+aiTemplatePlugIn.lookHorizontalControl      PIMouseLookX
+aiTemplatePlugIn.lookVerticalControl        PIMouseLookY
+aiTemplatePlugIn.throttleSensitivity       -1.0
+rem aiTemplatePlugIn.pitchSensitivity           0.21817
+rem aiTemplatePlugIn.rollSensitivity           -0.21817
+aiTemplatePlugIn.yawSensitivity            -2.5
+rem aiTemplatePlugIn.lookVerticalSensitivity    0.21817
+rem aiTemplatePlugIn.lookHorizontalSensitivity -0.21817   
+aiTemplatePlugIn.throttleLookAhead          1.0
+aiTemplatePlugIn.pitchLookAhead             1.0
+aiTemplatePlugIn.rollLookAhead              1.0
+aiTemplatePlugIn.yawLookAhead               1.0
+aiTemplatePlugIn.lookVerticalLookAhead      1.0
+aiTemplatePlugIn.lookHorizontalLookAhead    1.0
+aiTemplatePlugIn.throttleScale              1.0
+rem *** Angle in radians ***
+aiTemplatePlugIn.pitchScale                 10.0
+aiTemplatePlugIn.rollScale                  10.0
+aiTemplatePlugIn.yawScale                   0.0020
+aiTemplatePlugIn.lookVerticalScale          1.0
+aiTemplatePlugIn.lookHorizontalScale        1.0
+rem *** CHECK NONAI OBJECT.CON FOR THESE VALUES
+aiTemplatePlugIn.setCameraRelativeMinRotationDeg -90/-30/0
+aiTemplatePlugIn.setCameraRelativeMaxRotationDeg 90/10/0
+
+
+rem *** AITemplate ***
+aiTemplate.create defensegun_AI
+aiTemplate.addType ITUnit
+aiTemplate.addType ITBiological
+aiTemplate.addType ITGround
+aiTemplate.degeneration 50
+aiTemplate.allowedTimeDiff 5
+aiTemplate.basicTemp 10
+aiTemplate.commonKnowledge 0
+aiTemplate.addPlugIn defensegunPhysical
+aiTemplate.addPlugIn defensegunArmament
+aiTemplate.addPlugIn defensegunUnit
+aiTemplate.addPlugIn defensegunCtrl

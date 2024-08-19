@@ -1,0 +1,159 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/3/24 10:49]
+ObjectTemplate.activeSafe GenericFireArm aas_seasparrow
+ObjectTemplate.modifiedByUser ljo
+ObjectTemplate.saveInSeparateFile 1
+rem ---BeginComp:WeaponHud ---
+ObjectTemplate.createComponent WeaponHud
+ObjectTemplate.weaponHud.weaponIcon Ingame\Weapons\Icons\Hud\bomb.tga
+ObjectTemplate.weaponHud.hudName "KILLMESSAGE_VEHICLE_WASP"
+ObjectTemplate.weaponHud.guiIndex 55
+ObjectTemplate.weaponHud.showClips 0
+ObjectTemplate.weaponHud.firstLockSound HUD_TargetTrack
+ObjectTemplate.weaponHud.secondLockSound HUD_TargetLock
+rem ---EndComp ---
+rem ---BeginComp:MultiFireComp ---
+ObjectTemplate.createComponent MultiFireComp
+ObjectTemplate.fire.roundsPerMinute 120
+ObjectTemplate.fire.fireInput PIAltFire
+ObjectTemplate.fire.addFireRate 0
+ObjectTemplate.fire.addBarrelName aas_seasparrowBarrel
+rem ---EndComp ---
+rem ---BeginComp:DefaultAmmoComp ---
+ObjectTemplate.createComponent DefaultAmmoComp
+ObjectTemplate.ammo.ammoType 15
+ObjectTemplate.ammo.nrOfMags -1
+ObjectTemplate.ammo.magSize 8
+ObjectTemplate.ammo.minimumTimeUntilReload 3
+ObjectTemplate.ammo.autoReload 1
+rem ---EndComp ---
+rem ---BeginComp:WeaponBasedRecoilComp ---
+ObjectTemplate.createComponent WeaponBasedRecoilComp
+ObjectTemplate.recoil.cameraRecoilSpeed 14
+ObjectTemplate.recoil.cameraRecoilSize 1
+rem ---EndComp ---
+rem ---BeginComp:SimpleDeviationComp ---
+ObjectTemplate.createComponent SimpleDeviationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultSoundComp ---
+ObjectTemplate.createComponent DefaultSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultAnimationComp ---
+ObjectTemplate.createComponent DefaultAnimationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultZoomComp ---
+ObjectTemplate.createComponent DefaultZoomComp
+ObjectTemplate.zoom.addZoomFactor 0
+rem ---EndComp ---
+rem ---BeginComp:MultiFireArmTargetComp ---
+ObjectTemplate.createComponent MultiFireArmTargetComp
+ObjectTemplate.target.maxDistance 500
+ObjectTemplate.target.targetSystem TSHeatSeeking
+ObjectTemplate.target.lockDelay 1
+ObjectTemplate.target.loseLockDelay 0.5
+ObjectTemplate.target.lockAngle 15
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_aas_seasparrow_Fire1P
+ObjectTemplate.addTemplate S_aas_seasparrow_Fire1P_Outdoor
+ObjectTemplate.addTemplate S_aas_seasparrow_Fire3P
+ObjectTemplate.addTemplate S_aas_seasparrow_BoltClick
+ObjectTemplate.addTemplate S_aas_seasparrow_TriggerClick
+ObjectTemplate.addTemplate S_aas_seasparrow_SwitchFireRate
+ObjectTemplate.addTemplate S_aas_seasparrow_Reload1P
+ObjectTemplate.addTemplate S_aas_seasparrow_Reload3P
+ObjectTemplate.addTemplate S_aas_seasparrow_Deploy1P
+ObjectTemplate.addTemplate S_aas_seasparrow_Deploy3P
+ObjectTemplate.addTemplate S_aas_seasparrow_Zoom
+ObjectTemplate.addTemplate aas_seasparrowBarrel
+ObjectTemplate.setPosition 0.85686/0.28239/0
+ObjectTemplate.addTemplate aas_seasparrowBarrel
+ObjectTemplate.setPosition -0.85686/0.28239/0
+ObjectTemplate.addTemplate aas_seasparrowBarrel
+ObjectTemplate.setPosition 0.85686/-0.28239/0
+ObjectTemplate.addTemplate aas_seasparrowBarrel
+ObjectTemplate.setPosition -0.85686/-0.28239/0
+ObjectTemplate.addTemplate aas_seasparrowBarrel
+ObjectTemplate.setPosition 1.42276/0.28239/0
+ObjectTemplate.addTemplate aas_seasparrowBarrel
+ObjectTemplate.setPosition -1.42276/0.28239/0
+ObjectTemplate.addTemplate aas_seasparrowBarrel
+ObjectTemplate.setPosition 1.42276/-0.28239/0
+ObjectTemplate.addTemplate aas_seasparrowBarrel
+ObjectTemplate.setPosition -1.42276/-0.28239/0
+rem -------------------------------------
+ObjectTemplate.projectileTemplate aim9m_sidewinder
+ObjectTemplate.velocity 25
+
+ObjectTemplate.activeSafe Sound S_aas_seasparrow_Fire1P
+ObjectTemplate.modifiedByUser ljo
+ObjectTemplate.soundFilename "objects/vehicles/land/aav_tunguska/sounds/mono/missile_fire.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.97/1.03/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+
+ObjectTemplate.activeSafe Sound S_aas_seasparrow_Fire1P_Outdoor
+ObjectTemplate.modifiedByUser ljo
+
+ObjectTemplate.activeSafe Sound S_aas_seasparrow_Fire3P
+ObjectTemplate.modifiedByUser ljo
+ObjectTemplate.soundFilename "objects/vehicles/land/aav_tunguska/sounds/mono/missile_fire.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.9
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.97/1.03/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+ObjectTemplate.minDistance 4
+ObjectTemplate.halfVolumeDistance 8
+
+ObjectTemplate.activeSafe Sound S_aas_seasparrow_BoltClick
+ObjectTemplate.modifiedByUser ljo
+
+ObjectTemplate.activeSafe Sound S_aas_seasparrow_TriggerClick
+ObjectTemplate.modifiedByUser ljo
+
+ObjectTemplate.activeSafe Sound S_aas_seasparrow_SwitchFireRate
+ObjectTemplate.modifiedByUser ljo
+
+ObjectTemplate.activeSafe Sound S_aas_seasparrow_Reload1P
+ObjectTemplate.modifiedByUser ljo
+ObjectTemplate.soundFilename "objects/vehicles/land/usaav_m6/sounds/missile_reload_vehicle.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.55
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_aas_seasparrow_Reload3P
+ObjectTemplate.modifiedByUser ljo
+
+ObjectTemplate.activeSafe Sound S_aas_seasparrow_Deploy1P
+ObjectTemplate.modifiedByUser ljo
+
+ObjectTemplate.activeSafe Sound S_aas_seasparrow_Deploy3P
+ObjectTemplate.modifiedByUser ljo
+
+ObjectTemplate.activeSafe Sound S_aas_seasparrow_Zoom
+ObjectTemplate.modifiedByUser ljo
+
+ObjectTemplate.create Bundle aas_seasparrowBarrel
+ObjectTemplate.modifiedByUser ljo
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate e_muzz_tunguska_SA19
+rem -------------------------------------
+

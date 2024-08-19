@@ -1,0 +1,13 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 12:52]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe SimpleObject hmmv_crows_controls
+ObjectTemplate.creator STUDIO:J-MAR
+ObjectTemplate.modifiedByUser "J-MAR"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry hmmv_crows_controls
+ObjectTemplate.mapMaterial 0 UNDEFINED 26
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh

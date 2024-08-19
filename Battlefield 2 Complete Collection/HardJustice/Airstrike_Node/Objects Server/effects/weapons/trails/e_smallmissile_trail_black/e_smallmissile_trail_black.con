@@ -1,0 +1,4 @@
+ObjectTemplate.create EffectBundle e_smallmissile_trail_black
+ObjectTemplate.createdInEditor 1
+
+include e_smallmissile_trail_black.tweak

@@ -1,0 +1,55 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/4/4 13:40]
+GeometryTemplate.setMaterialParallaxHeightScale 0 0 1 5
+GeometryTemplate.doNotGenerateLightmaps 0
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe SupplyObject supply_crate
+ObjectTemplate.creator DFR-1:dfr
+ObjectTemplate.modifiedByUser ful
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.castsDynamicShadow 1
+ObjectTemplate.cullRadiusScale 4
+rem ---BeginComp:Armor ---
+ObjectTemplate.createComponent Armor
+ObjectTemplate.armor.maxHitPoints 100
+ObjectTemplate.armor.hitPoints 100
+ObjectTemplate.armor.defaultMaterial 1003
+ObjectTemplate.armor.waterLevel -0.3
+ObjectTemplate.armor.explosionDamage 10
+ObjectTemplate.armor.explosionRadius 1
+ObjectTemplate.armor.wreckHitPoints 100
+ObjectTemplate.armor.addArmorEffect 0 e_fence_sound 0/1/0 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_destruction_supplycrate 0/0/0 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_destruction_supplycrate 0/0/0 120/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_destruction_supplycrate 0/0/0 -120/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_crateobjects_medical 0/0/0 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_crateobjects_tools 0/0/0 0/0/0
+rem ---EndComp ---
+ObjectTemplate.geometry supply_crate
+ObjectTemplate.setCollisionMesh supply_crate
+ObjectTemplate.mapMaterial 0 cardboard 1003
+ObjectTemplate.mapMaterial 1 metal_solid 0
+ObjectTemplate.drag 1
+ObjectTemplate.mass 200
+ObjectTemplate.inertiaModifier 4/4/4
+ObjectTemplate.floaterMod 0.9
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate e_destruction_supplycrate
+ObjectTemplate.addTemplate supply_parachute
+ObjectTemplate.setPosition 0.000253394/2.24049/-0.189235
+rem -------------------------------------
+ObjectTemplate.radius 5
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.healSpeed 3
+ObjectTemplate.refillAmmoSpeed 7
+ObjectTemplate.healStorageSize 0
+ObjectTemplate.ammoStorageSize 0
+ObjectTemplate.sharedStorageSize 500
+ObjectTemplate.destroyWhenEmptyStorage 1
+ObjectTemplate.otherCollisionLod 2
+

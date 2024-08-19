@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh metal_fence_end
+CollisionManager.createTemplate metal_fence_end
+
+ObjectTemplate.create SimpleObject metal_fence_end
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator STRYKERJ-DDB4B9:StrykerJ
+ObjectTemplate.collisionMesh metal_fence_end
+ObjectTemplate.mapMaterial 0 Metal_solid 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry metal_fence_end
+
+include metal_fence_end.tweak

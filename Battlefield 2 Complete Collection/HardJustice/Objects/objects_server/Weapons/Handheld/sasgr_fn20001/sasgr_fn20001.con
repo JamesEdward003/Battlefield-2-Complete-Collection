@@ -1,0 +1,6 @@
+ObjectTemplate.create GenericFireArm sasgr_fn20001
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator RICK:rickgi
+ObjectTemplate.geometry sasgr_fn2000
+
+include sasgr_fn20001.tweak

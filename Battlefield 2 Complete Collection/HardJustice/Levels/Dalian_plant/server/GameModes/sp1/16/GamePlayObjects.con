@@ -1,0 +1,2730 @@
+rem ********** Object Spawner **********
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_reactors_shooper]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_reactors_shooper
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_reactors_shooper
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 sa342a
+ObjectTemplate.setObjectTemplate 2 ah6j
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_reactors_jeep]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_reactors_jeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_reactors_jeep
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_NANJING
+ObjectTemplate.setObjectTemplate 2 apc_cobra
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_shopper]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_shopper
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_shopper
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 rah66a
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_southdocks_jeep]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_southdocks_jeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_southdocks_jeep
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_NANJING
+ObjectTemplate.setObjectTemplate 2 Humvee_AA_AG
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_northdocks_AA]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_northdocks_AA
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_northdocks_AA
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_reactors_AT]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_reactors_AT
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_reactors_AT
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ats_hj8
+ObjectTemplate.setObjectTemplate 2 ats_tow
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_mainentrance_heavytank]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_mainentrance_heavytank
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_mainentrance_heavytank
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 tnk_type98
+ObjectTemplate.setObjectTemplate 2 ustnk_m1a2
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_mainentrance_at]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_mainentrance_at
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_mainentrance_at
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ats_hj8
+ObjectTemplate.setObjectTemplate 2 ats_tow
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_tshooper]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_tshooper
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_tshooper
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 ah6c
+ObjectTemplate.maxSpawnDelay 30
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_southdocks_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_southdocks_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_southdocks_LightJeep
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 tow_technical
+ObjectTemplate.setObjectTemplate 2 jeep_technical
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_LightJeep
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 mobileradar_ch_dest
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_mobileradar_us_dest]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_mobileradar_us_dest
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_mobileradar_us_dest
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 mobileradar_us_dest
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_0_0]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_0_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_0_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 tow_technical
+ObjectTemplate.setObjectTemplate 2 jeep_technical
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_AttakHeli]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_AttakHeli
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_AttakHeli
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ahe_z10
+ObjectTemplate.setObjectTemplate 2 rah66a
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_HeavyTank]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_HeavyTank
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 TNK_TYPE98
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_1]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 aircontroltower_chi
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_Fighter]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_Fighter
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_Fighter
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 su25
+ObjectTemplate.minSpawnDelay 50
+ObjectTemplate.maxSpawnDelay 70
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_aircontroltower]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_aircontroltower
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_aircontroltower
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 aircontroltower
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_ART]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_ART
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_ART
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ARS_D30
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_0_1]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_0_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_0_1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ARS_D30
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_0_2]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_0_2
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_0_2
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ARS_D30
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_TransHeli]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_TransHeli
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_TransHeli
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 sa342f
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_ART]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_ART
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_ART
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USART_LW155
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_0_2]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_0_2
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_0_2
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USART_LW155
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_1]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 USART_LW155
+ObjectTemplate.minSpawnDelay 600
+ObjectTemplate.maxSpawnDelay 600
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_mainentrance_AttakHeli]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_mainentrance_AttakHeli
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_mainentrance_AttakHeli
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 sa342a
+ObjectTemplate.setObjectTemplate 2 ah6j
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_warehouse_APC]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_warehouse_APC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_warehouse_APC
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jeep_technical
+ObjectTemplate.setObjectTemplate 2 jeep_technical
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_warehouse_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_warehouse_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_warehouse_LightJeep
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 apc_wz551
+ObjectTemplate.setObjectTemplate 2 apc_cobraat
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_maintenancebuilding_APC]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_APC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_APC
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 APC_WZ551
+ObjectTemplate.setObjectTemplate 2 apc_cobraat
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_southdocks_HeavyTank]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_southdocks_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_southdocks_HeavyTank
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 TNK_TYPE98
+ObjectTemplate.setObjectTemplate 2 USTNK_M1A2
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_northdocks_APC]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_northdocks_APC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_northdocks_APC
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 aa_technical
+ObjectTemplate.setObjectTemplate 2 jeep_technical
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_CH_US_SMG]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_SMG
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_SMG
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_CH_US_SMG_0]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_SMG_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_SMG_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_Defence_Back]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_Defence_Back
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_Defence_Back
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 wasp_defence_back
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_Defence_Front]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_Defence_Front
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_Defence_Front
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 wasp_defence_front
+ObjectTemplate.teamOnVehicle 1
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_mainentrance_CH_US_SMG]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_mainentrance_CH_US_SMG
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_mainentrance_CH_US_SMG
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_mainentrance_CH_US_SMG_0]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_mainentrance_CH_US_SMG_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_mainentrance_CH_US_SMG_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_mainentrance_CH_US_SMG_1]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_mainentrance_CH_US_SMG_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_mainentrance_CH_US_SMG_1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_warehouse_CH_US_SMG]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_warehouse_CH_US_SMG
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_warehouse_CH_US_SMG
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_warehouse_CH_US_SMG_0]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_warehouse_CH_US_SMG_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_warehouse_CH_US_SMG_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CH_BIPOD
+ObjectTemplate.setObjectTemplate 2 US_BIPOD
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_AAS]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_AAS
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_AAS
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.treeCollisionDiameter 0.1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_CH_US_SpdBoat]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_CH_US_SpdBoat
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_CH_US_SpdBoat
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 BOAT_RIB
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_AS]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_AS
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_AS
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.treeCollisionDiameter 0.1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_as2]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_as2
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_as2
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.treeCollisionDiameter 0.1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_as3]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_as3
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_as3
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.treeCollisionDiameter 0.1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_as4]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_as4
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_as4
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.treeCollisionDiameter 0.1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ATS_HJ8
+ObjectTemplate.setObjectTemplate 2 ATS_TOW
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_as5]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_as5
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_as5
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.treeCollisionDiameter 0.1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_CH_US_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_LightJeep
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 aa_technical
+ObjectTemplate.setObjectTemplate 2 usjep_amrpr
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_northdocks_CH_US_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_northdocks_CH_US_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_northdocks_CH_US_LightJeep
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_PARATROOPER
+ObjectTemplate.setObjectTemplate 2 JEEP_FAAV
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_northdocks_CH_US_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_northdocks_CH_US_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_northdocks_CH_US_LightJeep_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_nanjing
+ObjectTemplate.setObjectTemplate 2 apc_cobraat
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_warehouse_CH_US_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_warehouse_CH_US_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_warehouse_CH_US_LightJeep
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 tow_technical
+ObjectTemplate.setObjectTemplate 2 jeep_technical
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_reactors_CH_US_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_reactors_CH_US_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_reactors_CH_US_LightJeep
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_vodnik
+ObjectTemplate.setObjectTemplate 2 apc_cobra
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_maintenancebuilding_CH_US_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_CH_US_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_CH_US_LightJeep
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 aa_technical
+ObjectTemplate.setObjectTemplate 2 jeep_technical
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_mainentrance_CH_US_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_mainentrance_CH_US_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_mainentrance_CH_US_LightJeep
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 aav_type95
+ObjectTemplate.setObjectTemplate 2 bradly
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_maintenancebuilding_CH_US_AAS]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_CH_US_AAS
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_CH_US_AAS
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_mainentrance_CH_US_AAS]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_mainentrance_CH_US_AAS
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_mainentrance_CH_US_AAS
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_southdocks_CH_US_AAS]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_southdocks_CH_US_AAS
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_southdocks_CH_US_AAS
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 IGLA_DJIGIT
+ObjectTemplate.setObjectTemplate 2 USAAS_STINGER
+ObjectTemplate.minSpawnDelay 300
+ObjectTemplate.maxSpawnDelay 300
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_CH_US_APC]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_APC
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_APC
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 APC_WZ551
+ObjectTemplate.setObjectTemplate 2 USAPC_LAV25
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_reactors_CH_US_HeavyTank]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_reactors_CH_US_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_reactors_CH_US_HeavyTank
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 tnk_type98
+ObjectTemplate.setObjectTemplate 2 bradly
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_CH_US_TransHeli]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_CH_US_TransHeli
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_CH_US_TransHeli
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 naw_apache
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_CH_US_Fi_bomb]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_CH_US_Fi_bomb
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_CH_US_Fi_bomb
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 f22a
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_CH_US_VTOL]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_CH_US_VTOL
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_CH_US_VTOL
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 a10w2
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_reactors_CH_US_LightJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_reactors_CH_US_LightJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_reactors_CH_US_LightJeep_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 tow_technical
+ObjectTemplate.setObjectTemplate 2 usjep_amrpr
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_warehouse_CH_US_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_warehouse_CH_US_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_warehouse_CH_US_HeavyJeep
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_NANJING
+ObjectTemplate.setObjectTemplate 2 apc_cobra
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_warehouse_CH_US_HeavyJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_warehouse_CH_US_HeavyJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_warehouse_CH_US_HeavyJeep_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_nanjing
+ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_maintenancebuilding_CH_US_HeavyTank]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_CH_US_HeavyTank
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_CH_US_HeavyTank
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 TNK_TYPE98
+ObjectTemplate.setObjectTemplate 2 ustnk_m1a2
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_maintenancebuilding_CH_US_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_CH_US_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_CH_US_HeavyJeep
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 tow_technical
+ObjectTemplate.setObjectTemplate 2 jeep_technical
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_southdocks_CH_US_LightJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_southdocks_CH_US_LightJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_southdocks_CH_US_LightJeep
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 jep_nanjing
+ObjectTemplate.setObjectTemplate 2 apc_cobra
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_CH_US_APC_0]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_APC_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_APC_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_NANJING
+ObjectTemplate.setObjectTemplate 2 apc_cobra
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_CH_US_HeavyJeep]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_HeavyJeep
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_HeavyJeep
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_NANJING
+ObjectTemplate.setObjectTemplate 2 Humvee_AA_AG
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_CH_US_APC_1]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_APC_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_APC_1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 APC_WZ551
+ObjectTemplate.setObjectTemplate 2 apc_cobraat
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_CH_US_HeavyJeep_0]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_HeavyJeep_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_HeavyJeep_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 JEP_NANJING
+ObjectTemplate.setObjectTemplate 2 USJEP_HMMWV
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_CH_US_LightJeep_1]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_LightJeep_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_CH_US_LightJeep_1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 tow_technical
+ObjectTemplate.setObjectTemplate 2 jeep_technical
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_CH_US_SpdBoat_0]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_CH_US_SpdBoat_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_CH_US_SpdBoat_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 BOAT_RIB
+ObjectTemplate.maxSpawnDelay 30
+ObjectTemplate.TimeToLive 30
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_CH_US_AttakHeli]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_CH_US_AttakHeli
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_CH_US_AttakHeli
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 AHE_AH1Z
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_CH_US_JetSki]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_CH_US_JetSki
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_CH_US_JetSki
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 BOAT_RIB
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_CH_US_JetSki_0]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_CH_US_JetSki_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_CH_US_JetSki_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 BOAT_RIB
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_Fighter1]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_Fighter1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_Fighter1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 air_j10
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_uscarrier_Fighter]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_uscarrier_Fighter
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_uscarrier_Fighter
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 2 usair_f15
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_southdocks_HJ_Quads500]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_southdocks_HJ_Quads500
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_southdocks_HJ_Quads500
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ZERO_QUAD
+ObjectTemplate.setObjectTemplate 2 ZERO_QUAD
+ObjectTemplate.maxNrOfObjectSpawned 3
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_southdocks_HJ_Quads250]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_southdocks_HJ_Quads250
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_southdocks_HJ_Quads250
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ZERO_QUAD250CC
+ObjectTemplate.setObjectTemplate 2 ZERO_QUAD250CC
+ObjectTemplate.maxNrOfObjectSpawned 3
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_maintenancebuilding_HJ_CivilianCars]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_HJ_CivilianCars
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_HJ_CivilianCars
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CHALLENGER
+ObjectTemplate.setObjectTemplate 2 CHALLENGER
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_maintenancebuilding_HJ_CivilianCars_0]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_HJ_CivilianCars_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_HJ_CivilianCars_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 BAJA_BUG
+ObjectTemplate.setObjectTemplate 2 BAJA_BUG
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_reactors_HJ_Quads125]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_reactors_HJ_Quads125
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_reactors_HJ_Quads125
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ZERO_QUAD125CC
+ObjectTemplate.setObjectTemplate 2 ZERO_QUAD125CC
+ObjectTemplate.maxNrOfObjectSpawned 3
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_reactors_HJ_Quads250]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_reactors_HJ_Quads250
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_reactors_HJ_Quads250
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ZERO_QUAD250CC
+ObjectTemplate.setObjectTemplate 2 ZERO_QUAD250CC
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_northdocks_HJ_Quads500]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_northdocks_HJ_Quads500
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_northdocks_HJ_Quads500
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ZERO_QUAD
+ObjectTemplate.setObjectTemplate 2 ZERO_QUAD
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_northdocks_HJ_Quads125]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_northdocks_HJ_Quads125
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_northdocks_HJ_Quads125
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ZERO_QUAD125CC
+ObjectTemplate.setObjectTemplate 2 ZERO_QUAD125CC
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_warehouse_HJ_CivilianCars]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_warehouse_HJ_CivilianCars
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_warehouse_HJ_CivilianCars
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CHALLENGER
+ObjectTemplate.setObjectTemplate 2 CHALLENGER
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_warehouse_HJ_CivilianCars_0]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_warehouse_HJ_CivilianCars_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_warehouse_HJ_CivilianCars_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 BAJA_BUG
+ObjectTemplate.setObjectTemplate 2 BAJA_BUG
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_warehouse_HJ_Quads250]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_warehouse_HJ_Quads250
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_warehouse_HJ_Quads250
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ZERO_QUAD250CC
+ObjectTemplate.setObjectTemplate 2 ZERO_QUAD250CC
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_warehouse_HJ_Quads125]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_warehouse_HJ_Quads125
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_warehouse_HJ_Quads125
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ZERO_QUAD125CC
+ObjectTemplate.setObjectTemplate 2 ZERO_QUAD125CC
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_warehouse_HJ_CivilianCars_1]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_warehouse_HJ_CivilianCars_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_warehouse_HJ_CivilianCars_1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 CHALLENGER
+ObjectTemplate.setObjectTemplate 2 CHALLENGER
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_warehouse_HJ_CivilianCars_2]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_warehouse_HJ_CivilianCars_2
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_warehouse_HJ_CivilianCars_2
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 BAJA_BUG
+ObjectTemplate.setObjectTemplate 2 BAJA_BUG
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_maintenancebuilding_HJ_CivilianCars_1]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_HJ_CivilianCars_1
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_HJ_CivilianCars_1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 BAJA_BUG
+ObjectTemplate.setObjectTemplate 2 BAJA_BUG
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_mainentrance_HJ_Quads500]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_mainentrance_HJ_Quads500
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_mainentrance_HJ_Quads500
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ZERO_QUAD
+ObjectTemplate.setObjectTemplate 2 ZERO_QUAD
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_mainentrance_HJ_Quads250]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_mainentrance_HJ_Quads250
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_mainentrance_HJ_Quads250
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ZERO_QUAD250CC
+ObjectTemplate.setObjectTemplate 2 ZERO_QUAD250CC
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_maintenancebuilding_HJ_Quads125]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_HJ_Quads125
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_HJ_Quads125
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ZERO_QUAD125CC
+ObjectTemplate.setObjectTemplate 2 ZERO_QUAD125CC
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_maintenancebuilding_HJ_Quads125_0]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_HJ_Quads125_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_maintenancebuilding_HJ_Quads125_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ZERO_QUAD125CC
+ObjectTemplate.setObjectTemplate 2 ZERO_QUAD125CC
+ObjectTemplate.maxNrOfObjectSpawned 2
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_southdocks_HJ_Dirtbike]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_southdocks_HJ_Dirtbike
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_southdocks_HJ_Dirtbike
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 DIRTBIKE
+ObjectTemplate.setObjectTemplate 2 DIRTBIKE
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_northdocks_HJ_Dirtbike]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_northdocks_HJ_Dirtbike
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_northdocks_HJ_Dirtbike
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 DIRTBIKE
+ObjectTemplate.setObjectTemplate 2 DIRTBIKE
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_mainentrance_HJ_Dirtbike]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_mainentrance_HJ_Dirtbike
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_mainentrance_HJ_Dirtbike
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 DIRTBIKE
+ObjectTemplate.setObjectTemplate 2 DIRTBIKE
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_HJ_Quads500]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_HJ_Quads500
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_HJ_Quads500
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ZERO_QUAD
+ObjectTemplate.setObjectTemplate 2 ZERO_QUAD
+ObjectTemplate.maxNrOfObjectSpawned 3
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_HJ_Quads500_0]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_HJ_Quads500_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_HJ_Quads500_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ZERO_QUAD
+ObjectTemplate.setObjectTemplate 2 ZERO_QUAD
+ObjectTemplate.maxNrOfObjectSpawned 3
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_HJ_Quads250]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_HJ_Quads250
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_HJ_Quads250
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ZERO_QUAD250CC
+ObjectTemplate.setObjectTemplate 2 ZERO_QUAD250CC
+ObjectTemplate.maxNrOfObjectSpawned 3
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_HJ_Quads125]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_HJ_Quads125
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_HJ_Quads125
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 ZERO_QUAD125CC
+ObjectTemplate.setObjectTemplate 2 ZERO_QUAD125CC
+ObjectTemplate.maxNrOfObjectSpawned 3
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_HJ_Dirtbike]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_HJ_Dirtbike
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_HJ_Dirtbike
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 DIRTBIKE
+ObjectTemplate.setObjectTemplate 2 DIRTBIKE
+ObjectTemplate.maxNrOfObjectSpawned 3
+
+rem [ObjectSpawnerTemplate: CPNAME_DP_SP16_airfield_HJ_Dirtbike_0]
+ObjectTemplate.create ObjectSpawner CPNAME_DP_SP16_airfield_HJ_Dirtbike_0
+ObjectTemplate.activeSafe ObjectSpawner CPNAME_DP_SP16_airfield_HJ_Dirtbike_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setObjectTemplate 1 DIRTBIKE
+ObjectTemplate.setObjectTemplate 2 DIRTBIKE
+ObjectTemplate.maxNrOfObjectSpawned 3
+
+if v_arg1 == host
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_reactors_shooper]
+   Object.create CPNAME_DP_SP16_reactors_shooper
+   Object.absolutePosition 115.086/153.200/-95.006
+   Object.rotation -32.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_reactors_jeep]
+   Object.create CPNAME_DP_SP16_reactors_jeep
+   Object.absolutePosition 164.000/147.092/-49.000
+   Object.rotation -111.163/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_shopper]
+   Object.create CPNAME_DP_SP16_uscarrier_shopper
+   Object.absolutePosition 788.159/162.074/5.126
+   Object.rotation -93.206/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_southdocks_jeep]
+   Object.create CPNAME_DP_SP16_southdocks_jeep
+   Object.absolutePosition 247.928/147.099/-223.103
+   Object.rotation -158.483/0.000/0.000
+   Object.setControlPointId 8
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_northdocks_AA]
+   Object.create CPNAME_DP_SP16_northdocks_AA
+   Object.absolutePosition 105.707/144.394/176.318
+   Object.rotation 128.268/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_reactors_AT]
+   Object.create CPNAME_DP_SP16_reactors_AT
+   Object.absolutePosition 72.798/153.181/-54.195
+   Object.rotation -118.796/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_mainentrance_heavytank]
+   Object.create CPNAME_DP_SP16_mainentrance_heavytank
+   Object.absolutePosition -250.000/153.296/-247.000
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 11
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_mainentrance_at]
+   Object.create CPNAME_DP_SP16_mainentrance_at
+   Object.absolutePosition -219.008/153.296/-216.014
+   Object.rotation 72.885/0.000/0.000
+   Object.setControlPointId 11
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_tshooper]
+   Object.create CPNAME_DP_SP16_uscarrier_tshooper
+   Object.absolutePosition 791.553/163.591/-23.268
+   Object.rotation -50.000/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_southdocks_LightJeep]
+   Object.create CPNAME_DP_SP16_southdocks_LightJeep
+   Object.absolutePosition 261.000/147.735/-264.000
+   Object.rotation -12.500/0.000/0.000
+   Object.setControlPointId 8
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_LightJeep]
+   Object.create CPNAME_DP_SP16_airfield_LightJeep
+   Object.absolutePosition -750.139/185.017/-279.313
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_mobileradar_us_dest]
+   Object.create CPNAME_DP_SP16_uscarrier_mobileradar_us_dest
+   Object.absolutePosition 784.000/171.478/69.000
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_0_0]
+   Object.create CPNAME_DP_SP16_airfield_0_0
+   Object.absolutePosition -633.449/184.096/-350.576
+   Object.rotation 35.507/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_AttakHeli]
+   Object.create CPNAME_DP_SP16_airfield_AttakHeli
+   Object.absolutePosition -817.636/184.146/-132.367
+   Object.rotation 150.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_HeavyTank]
+   Object.create CPNAME_DP_SP16_airfield_HeavyTank
+   Object.absolutePosition -604.000/184.096/-375.000
+   Object.rotation 37.105/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_1]
+   Object.create CPNAME_DP_SP16_airfield_1
+   Object.absolutePosition -731.907/184.096/-333.141
+   Object.rotation 59.394/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_Fighter]
+   Object.create CPNAME_DP_SP16_airfield_Fighter
+   Object.absolutePosition -792.149/186.243/-121.133
+   Object.rotation 152.108/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_aircontroltower]
+   Object.create CPNAME_DP_SP16_uscarrier_aircontroltower
+   Object.absolutePosition 753.156/144.069/-429.473
+   Object.rotation 1.276/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_ART]
+   Object.create CPNAME_DP_SP16_airfield_ART
+   Object.absolutePosition -607.119/191.998/-267.050
+   Object.rotation 89.288/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_0_1]
+   Object.create CPNAME_DP_SP16_airfield_0_1
+   Object.absolutePosition -571.000/182.699/-275.000
+   Object.rotation 89.495/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_0_2]
+   Object.create CPNAME_DP_SP16_airfield_0_2
+   Object.absolutePosition -570.601/182.699/-302.938
+   Object.rotation 89.959/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_TransHeli]
+   Object.create CPNAME_DP_SP16_airfield_TransHeli
+   Object.absolutePosition -638.150/184.096/-316.071
+   Object.rotation 80.848/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_ART]
+   Object.create CPNAME_DP_SP16_uscarrier_ART
+   Object.absolutePosition 797.000/149.797/-438.000
+   Object.rotation -70.095/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_0_2]
+   Object.create CPNAME_DP_SP16_uscarrier_0_2
+   Object.absolutePosition 815.068/149.797/-448.401
+   Object.rotation -69.427/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_1]
+   Object.create CPNAME_DP_SP16_uscarrier_1
+   Object.absolutePosition 795.000/149.797/-457.000
+   Object.rotation -72.932/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_mainentrance_AttakHeli]
+   Object.create CPNAME_DP_SP16_mainentrance_AttakHeli
+   Object.absolutePosition -249.751/153.097/-184.498
+   Object.rotation 133.100/0.700/0.000
+   Object.setControlPointId 11
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_warehouse_APC]
+   Object.create CPNAME_DP_SP16_warehouse_APC
+   Object.absolutePosition -211.027/153.378/75.677
+   Object.rotation -10.625/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_warehouse_LightJeep]
+   Object.create CPNAME_DP_SP16_warehouse_LightJeep
+   Object.absolutePosition -164.121/153.809/73.894
+   Object.rotation -86.756/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_maintenancebuilding_APC]
+   Object.create CPNAME_DP_SP16_maintenancebuilding_APC
+   Object.absolutePosition -35.762/153.833/-357.872
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_southdocks_HeavyTank]
+   Object.create CPNAME_DP_SP16_southdocks_HeavyTank
+   Object.absolutePosition 258.000/147.099/-222.000
+   Object.rotation -156.672/0.000/0.000
+   Object.setControlPointId 8
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_northdocks_APC]
+   Object.create CPNAME_DP_SP16_northdocks_APC
+   Object.absolutePosition 76.910/144.394/190.348
+   Object.rotation -89.453/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_CH_US_SMG]
+   Object.create CPNAME_DP_SP16_airfield_CH_US_SMG
+   Object.absolutePosition -578.756/189.239/-313.853
+   Object.rotation 1.916/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_CH_US_SMG_0]
+   Object.create CPNAME_DP_SP16_airfield_CH_US_SMG_0
+   Object.absolutePosition -605.853/189.275/-306.710
+   Object.rotation 18.083/0.398/1.982
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_Defence_Back]
+   Object.create CPNAME_DP_SP16_uscarrier_Defence_Back
+   Object.absolutePosition 774.404/159.805/-53.000
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_Defence_Front]
+   Object.create CPNAME_DP_SP16_uscarrier_Defence_Front
+   Object.absolutePosition 787.117/168.686/105.928
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_mainentrance_CH_US_SMG]
+   Object.create CPNAME_DP_SP16_mainentrance_CH_US_SMG
+   Object.absolutePosition -216.326/154.405/-199.851
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 11
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_mainentrance_CH_US_SMG_0]
+   Object.create CPNAME_DP_SP16_mainentrance_CH_US_SMG_0
+   Object.absolutePosition -216.329/154.405/-218.000
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 11
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_mainentrance_CH_US_SMG_1]
+   Object.create CPNAME_DP_SP16_mainentrance_CH_US_SMG_1
+   Object.absolutePosition -265.793/154.786/-213.997
+   Object.rotation -90.000/0.800/-0.100
+   Object.setControlPointId 11
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_warehouse_CH_US_SMG]
+   Object.create CPNAME_DP_SP16_warehouse_CH_US_SMG
+   Object.absolutePosition -189.596/154.309/24.436
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_warehouse_CH_US_SMG_0]
+   Object.create CPNAME_DP_SP16_warehouse_CH_US_SMG_0
+   Object.absolutePosition -199.176/154.290/100.104
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_AAS]
+   Object.create CPNAME_DP_SP16_uscarrier_AAS
+   Object.absolutePosition 804.000/149.797/-450.000
+   Object.rotation -67.931/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_CH_US_SpdBoat]
+   Object.create CPNAME_DP_SP16_uscarrier_CH_US_SpdBoat
+   Object.absolutePosition 745.000/141.400/-462.000
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_AS]
+   Object.create CPNAME_DP_SP16_airfield_AS
+   Object.absolutePosition -626.699/184.096/-365.602
+   Object.rotation 55.950/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_as2]
+   Object.create CPNAME_DP_SP16_airfield_as2
+   Object.absolutePosition -643.243/184.096/-335.699
+   Object.rotation 55.950/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_as3]
+   Object.create CPNAME_DP_SP16_airfield_as3
+   Object.absolutePosition -659.000/184.096/-304.000
+   Object.rotation 91.501/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_as4]
+   Object.create CPNAME_DP_SP16_airfield_as4
+   Object.absolutePosition -794.816/184.096/-173.562
+   Object.rotation 80.451/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_as5]
+   Object.create CPNAME_DP_SP16_airfield_as5
+   Object.absolutePosition -788.357/184.096/-158.166
+   Object.rotation 111.542/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_CH_US_LightJeep]
+   Object.create CPNAME_DP_SP16_airfield_CH_US_LightJeep
+   Object.absolutePosition -797.982/184.096/-157.030
+   Object.rotation 160.538/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_northdocks_CH_US_LightJeep]
+   Object.create CPNAME_DP_SP16_northdocks_CH_US_LightJeep
+   Object.absolutePosition 43.385/144.394/201.895
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_northdocks_CH_US_LightJeep_0]
+   Object.create CPNAME_DP_SP16_northdocks_CH_US_LightJeep_0
+   Object.absolutePosition 80.797/144.394/177.993
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_warehouse_CH_US_LightJeep]
+   Object.create CPNAME_DP_SP16_warehouse_CH_US_LightJeep
+   Object.absolutePosition -154.807/153.181/43.432
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_reactors_CH_US_LightJeep]
+   Object.create CPNAME_DP_SP16_reactors_CH_US_LightJeep
+   Object.absolutePosition 89.936/153.116/-25.912
+   Object.rotation 180.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_maintenancebuilding_CH_US_LightJeep]
+   Object.create CPNAME_DP_SP16_maintenancebuilding_CH_US_LightJeep
+   Object.absolutePosition -20.000/154.249/-397.000
+   Object.rotation -136.078/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_mainentrance_CH_US_LightJeep]
+   Object.create CPNAME_DP_SP16_mainentrance_CH_US_LightJeep
+   Object.absolutePosition -250.000/153.296/-255.000
+   Object.rotation 90.687/0.000/0.000
+   Object.setControlPointId 11
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_maintenancebuilding_CH_US_AAS]
+   Object.create CPNAME_DP_SP16_maintenancebuilding_CH_US_AAS
+   Object.absolutePosition -25.046/153.296/-459.021
+   Object.rotation 52.073/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_mainentrance_CH_US_AAS]
+   Object.create CPNAME_DP_SP16_mainentrance_CH_US_AAS
+   Object.absolutePosition -251.625/153.097/-139.157
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 11
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_southdocks_CH_US_AAS]
+   Object.create CPNAME_DP_SP16_southdocks_CH_US_AAS
+   Object.absolutePosition 245.487/153.296/-186.584
+   Object.rotation 40.073/0.000/0.000
+   Object.setControlPointId 8
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_CH_US_APC]
+   Object.create CPNAME_DP_SP16_airfield_CH_US_APC
+   Object.absolutePosition -628.873/184.096/-353.189
+   Object.rotation 39.963/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_reactors_CH_US_HeavyTank]
+   Object.create CPNAME_DP_SP16_reactors_CH_US_HeavyTank
+   Object.absolutePosition 149.000/146.974/-36.000
+   Object.rotation -137.618/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_CH_US_TransHeli]
+   Object.create CPNAME_DP_SP16_uscarrier_CH_US_TransHeli
+   Object.absolutePosition 793.882/162.444/-13.849
+   Object.rotation -54.672/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_CH_US_Fi_bomb]
+   Object.create CPNAME_DP_SP16_uscarrier_CH_US_Fi_bomb 
+   Object.absolutePosition 787.793/163.416/17.905
+   Object.rotation -89.557/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_CH_US_VTOL]
+   Object.create CPNAME_DP_SP16_uscarrier_CH_US_VTOL
+   Object.absolutePosition 786.252/161.965/133.605
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_reactors_CH_US_LightJeep_0]
+   Object.create CPNAME_DP_SP16_reactors_CH_US_LightJeep_0
+   Object.absolutePosition 92.980/153.181/-64.948
+   Object.rotation -121.595/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_warehouse_CH_US_HeavyJeep]
+   Object.create CPNAME_DP_SP16_warehouse_CH_US_HeavyJeep
+   Object.absolutePosition -166.455/153.181/63.539
+   Object.rotation -91.678/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_warehouse_CH_US_HeavyJeep_0]
+   Object.create CPNAME_DP_SP16_warehouse_CH_US_HeavyJeep_0
+   Object.absolutePosition -156.828/153.181/33.301
+   Object.rotation -92.251/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_maintenancebuilding_CH_US_HeavyTank]
+   Object.create CPNAME_DP_SP16_maintenancebuilding_CH_US_HeavyTank
+   Object.absolutePosition -56.890/153.296/-403.858
+   Object.rotation -86.860/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_maintenancebuilding_CH_US_HeavyJeep]
+   Object.create CPNAME_DP_SP16_maintenancebuilding_CH_US_HeavyJeep
+   Object.absolutePosition -56.189/153.296/-396.172
+   Object.rotation -90.187/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_southdocks_CH_US_LightJeep]
+   Object.create CPNAME_DP_SP16_southdocks_CH_US_LightJeep
+   Object.absolutePosition 235.763/147.364/-260.494
+   Object.rotation -91.146/0.000/0.000
+   Object.setControlPointId 8
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_CH_US_APC_0]
+   Object.create CPNAME_DP_SP16_airfield_CH_US_APC_0
+   Object.absolutePosition -734.803/183.925/-161.729
+   Object.rotation 123.723/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_CH_US_HeavyJeep]
+   Object.create CPNAME_DP_SP16_airfield_CH_US_HeavyJeep
+   Object.absolutePosition -740.180/184.066/-179.309
+   Object.rotation 63.625/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_CH_US_APC_1]
+   Object.create CPNAME_DP_SP16_airfield_CH_US_APC_1
+   Object.absolutePosition -815.244/184.096/-147.958
+   Object.rotation 139.237/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_CH_US_HeavyJeep_0]
+   Object.create CPNAME_DP_SP16_airfield_CH_US_HeavyJeep_0
+   Object.absolutePosition -694.962/184.344/-264.302
+   Object.rotation 96.893/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_CH_US_LightJeep_1]
+   Object.create CPNAME_DP_SP16_airfield_CH_US_LightJeep_1
+   Object.absolutePosition -675.948/184.096/-334.185
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_CH_US_SpdBoat_0]
+   Object.create CPNAME_DP_SP16_uscarrier_CH_US_SpdBoat_0
+   Object.absolutePosition 769.732/141.378/-25.427
+   Object.rotation -176.984/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_CH_US_AttakHeli]
+   Object.create CPNAME_DP_SP16_uscarrier_CH_US_AttakHeli
+   Object.absolutePosition 789.190/162.074/-42.296
+   Object.rotation -25.416/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_CH_US_JetSki]
+   Object.create CPNAME_DP_SP16_uscarrier_CH_US_JetSki
+   Object.absolutePosition 783.835/141.378/-35.784
+   Object.rotation -131.775/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_CH_US_JetSki_0]
+   Object.create CPNAME_DP_SP16_uscarrier_CH_US_JetSki_0
+   Object.absolutePosition 783.293/141.378/-32.021
+   Object.rotation -132.105/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_Fighter1]
+   Object.create CPNAME_DP_SP16_airfield_Fighter1
+   Object.absolutePosition -711.238/184.096/-327.364
+   Object.rotation -15.051/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_uscarrier_Fighter]
+   Object.create CPNAME_DP_SP16_uscarrier_Fighter
+   Object.absolutePosition 766.264/162.074/-42.617
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 6
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_southdocks_HJ_Quads500]
+   Object.create CPNAME_DP_SP16_southdocks_HJ_Quads500
+   Object.absolutePosition 255.574/147.099/-296.629
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 8
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_southdocks_HJ_Quads250]
+   Object.create CPNAME_DP_SP16_southdocks_HJ_Quads250
+   Object.absolutePosition 236.208/147.099/-227.734
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 8
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_maintenancebuilding_HJ_CivilianCars]
+   Object.create CPNAME_DP_SP16_maintenancebuilding_HJ_CivilianCars
+   Object.absolutePosition -23.191/153.186/-245.408
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_maintenancebuilding_HJ_CivilianCars_0]
+   Object.create CPNAME_DP_SP16_maintenancebuilding_HJ_CivilianCars_0
+   Object.absolutePosition 17.638/153.296/-358.993
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_reactors_HJ_Quads125]
+   Object.create CPNAME_DP_SP16_reactors_HJ_Quads125
+   Object.absolutePosition 97.794/153.200/-107.067
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_reactors_HJ_Quads250]
+   Object.create CPNAME_DP_SP16_reactors_HJ_Quads250
+   Object.absolutePosition 77.854/153.182/-32.343
+   Object.rotation 153.640/0.000/0.000
+   Object.setControlPointId 1
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_northdocks_HJ_Quads500]
+   Object.create CPNAME_DP_SP16_northdocks_HJ_Quads500
+   Object.absolutePosition 64.318/144.482/172.946
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_northdocks_HJ_Quads125]
+   Object.create CPNAME_DP_SP16_northdocks_HJ_Quads125
+   Object.absolutePosition 25.850/144.292/195.843
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_warehouse_HJ_CivilianCars]
+   Object.create CPNAME_DP_SP16_warehouse_HJ_CivilianCars
+   Object.absolutePosition -157.787/150.598/243.556
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_warehouse_HJ_CivilianCars_0]
+   Object.create CPNAME_DP_SP16_warehouse_HJ_CivilianCars_0
+   Object.absolutePosition -148.510/150.598/242.132
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_warehouse_HJ_Quads250]
+   Object.create CPNAME_DP_SP16_warehouse_HJ_Quads250
+   Object.absolutePosition -215.697/153.367/54.226
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_warehouse_HJ_Quads125]
+   Object.create CPNAME_DP_SP16_warehouse_HJ_Quads125
+   Object.absolutePosition -164.997/153.181/51.466
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_warehouse_HJ_CivilianCars_1]
+   Object.create CPNAME_DP_SP16_warehouse_HJ_CivilianCars_1
+   Object.absolutePosition -208.680/153.181/-27.976
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_warehouse_HJ_CivilianCars_2]
+   Object.create CPNAME_DP_SP16_warehouse_HJ_CivilianCars_2
+   Object.absolutePosition -153.389/153.181/-63.986
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 102
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_maintenancebuilding_HJ_CivilianCars_1]
+   Object.create CPNAME_DP_SP16_maintenancebuilding_HJ_CivilianCars_1
+   Object.absolutePosition -66.359/153.181/-263.891
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_mainentrance_HJ_Quads500]
+   Object.create CPNAME_DP_SP16_mainentrance_HJ_Quads500
+   Object.absolutePosition -226.011/153.296/-191.187
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 11
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_mainentrance_HJ_Quads250]
+   Object.create CPNAME_DP_SP16_mainentrance_HJ_Quads250
+   Object.absolutePosition -227.589/153.302/-243.240
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 11
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_maintenancebuilding_HJ_Quads125]
+   Object.create CPNAME_DP_SP16_maintenancebuilding_HJ_Quads125
+   Object.absolutePosition -25.975/153.452/-369.817
+   Object.rotation -180.000/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_maintenancebuilding_HJ_Quads125_0]
+   Object.create CPNAME_DP_SP16_maintenancebuilding_HJ_Quads125_0
+   Object.absolutePosition -49.305/153.411/-357.821
+   Object.rotation 47.563/0.000/0.000
+   Object.setControlPointId 103
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_southdocks_HJ_Dirtbike]
+   Object.create CPNAME_DP_SP16_southdocks_HJ_Dirtbike
+   Object.absolutePosition 246.892/147.099/-265.073
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 8
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_northdocks_HJ_Dirtbike]
+   Object.create CPNAME_DP_SP16_northdocks_HJ_Dirtbike
+   Object.absolutePosition 102.035/144.394/188.706
+   Object.rotation -90.000/0.000/0.000
+   Object.setControlPointId 7
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_mainentrance_HJ_Dirtbike]
+   Object.create CPNAME_DP_SP16_mainentrance_HJ_Dirtbike
+   Object.absolutePosition -222.551/153.296/-268.400
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 11
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_HJ_Quads500]
+   Object.create CPNAME_DP_SP16_airfield_HJ_Quads500
+   Object.absolutePosition -792.697/184.104/-179.938
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_HJ_Quads500_0]
+   Object.create CPNAME_DP_SP16_airfield_HJ_Quads500_0
+   Object.absolutePosition -645.189/184.096/-413.621
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_HJ_Quads250]
+   Object.create CPNAME_DP_SP16_airfield_HJ_Quads250
+   Object.absolutePosition -653.223/184.096/-327.841
+   Object.rotation 90.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_HJ_Quads125]
+   Object.create CPNAME_DP_SP16_airfield_HJ_Quads125
+   Object.absolutePosition -624.949/184.096/-386.600
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_HJ_Dirtbike]
+   Object.create CPNAME_DP_SP16_airfield_HJ_Dirtbike
+   Object.absolutePosition -733.498/183.885/-150.013
+   Object.rotation 150.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+   rem [ObjectSpawner: CPNAME_DP_SP16_airfield_HJ_Dirtbike_0]
+   Object.create CPNAME_DP_SP16_airfield_HJ_Dirtbike_0
+   Object.absolutePosition -694.042/184.096/-344.220
+   Object.rotation 0.000/0.000/0.000
+   Object.setControlPointId 101
+   Object.layer 1
+
+endIf
+
+rem ********** Spawn Points **********
+rem [SpawnPointTemplate: CPNAME_DP_SP16_reactors_1]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_reactors_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_reactors_1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_reactors_1]
+Object.create CPNAME_DP_SP16_reactors_1
+Object.absolutePosition 78.808/154.114/-53.510
+Object.rotation 152.358/0.073/0.367
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_northdocks_1]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_northdocks_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_northdocks_1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 7
+ObjectTemplate.setOnlyForHuman 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_northdocks_1]
+Object.create CPNAME_DP_SP16_northdocks_1
+Object.absolutePosition 53.230/144.394/161.020
+Object.rotation -90.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_uscarrier_2]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_uscarrier_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_uscarrier_2
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 6
+ObjectTemplate.setOnlyForHuman 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_uscarrier_2]
+Object.create CPNAME_DP_SP16_uscarrier_2
+Object.absolutePosition 782.920/163.961/123.954
+Object.rotation 10.690/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_reactors_2]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_reactors_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_reactors_2
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 1
+ObjectTemplate.setOnlyForHuman 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_reactors_2]
+Object.create CPNAME_DP_SP16_reactors_2
+Object.absolutePosition 68.000/153.200/-31.000
+Object.rotation 60.138/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_reactors_3]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_reactors_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_reactors_3
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 1
+ObjectTemplate.setOnlyForHuman 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_reactors_3]
+Object.create CPNAME_DP_SP16_reactors_3
+Object.absolutePosition 136.000/146.996/-31.000
+Object.rotation 40.500/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_reactors_4]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_reactors_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_reactors_4
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_reactors_4]
+Object.create CPNAME_DP_SP16_reactors_4
+Object.absolutePosition 91.000/154.045/-59.000
+Object.rotation 53.126/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_reactors_6]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_reactors_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_reactors_6
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_reactors_6]
+Object.create CPNAME_DP_SP16_reactors_6
+Object.absolutePosition 73.000/153.200/-23.000
+Object.rotation -113.214/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_southdocks_1]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_southdocks_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_southdocks_1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 8
+
+rem [SpawnPoint: CPNAME_DP_SP16_southdocks_1]
+Object.create CPNAME_DP_SP16_southdocks_1
+Object.absolutePosition 247.000/147.099/-273.000
+Object.rotation 90.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_southdocks_2]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_southdocks_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_southdocks_2
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 8
+
+rem [SpawnPoint: CPNAME_DP_SP16_southdocks_2]
+Object.create CPNAME_DP_SP16_southdocks_2
+Object.absolutePosition 224.166/147.213/-256.762
+Object.rotation 90.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_southdocks_3]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_southdocks_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_southdocks_3
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 8
+
+rem [SpawnPoint: CPNAME_DP_SP16_southdocks_3]
+Object.create CPNAME_DP_SP16_southdocks_3
+Object.absolutePosition 262.000/147.099/-280.000
+Object.rotation -90.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_northdocks_2]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_northdocks_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_northdocks_2
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CPNAME_DP_SP16_northdocks_2]
+Object.create CPNAME_DP_SP16_northdocks_2
+Object.absolutePosition 51.243/144.331/150.277
+Object.rotation 89.881/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_northdocks_3]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_northdocks_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_northdocks_3
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 7
+ObjectTemplate.setOnlyForHuman 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_northdocks_3]
+Object.create CPNAME_DP_SP16_northdocks_3
+Object.absolutePosition 38.000/144.503/211.000
+Object.rotation -180.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_northdocks_4]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_northdocks_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_northdocks_4
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CPNAME_DP_SP16_northdocks_4]
+Object.create CPNAME_DP_SP16_northdocks_4
+Object.absolutePosition 96.000/144.394/177.000
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_northdocks_5]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_northdocks_5
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_northdocks_5
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CPNAME_DP_SP16_northdocks_5]
+Object.create CPNAME_DP_SP16_northdocks_5
+Object.absolutePosition 32.000/144.394/171.674
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_northdocks_6]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_northdocks_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_northdocks_6
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 7
+ObjectTemplate.setOnlyForHuman 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_northdocks_6]
+Object.create CPNAME_DP_SP16_northdocks_6
+Object.absolutePosition 50.000/144.394/211.000
+Object.rotation -180.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_northdocks_7]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_northdocks_7
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_northdocks_7
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CPNAME_DP_SP16_northdocks_7]
+Object.create CPNAME_DP_SP16_northdocks_7
+Object.absolutePosition 76.876/144.883/197.593
+Object.rotation -173.370/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_reactors_60]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_reactors_60
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_reactors_60
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 1
+ObjectTemplate.setAIEnterOnSpawn 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_reactors_60]
+Object.create CPNAME_DP_SP16_reactors_60
+Object.absolutePosition 174.411/147.906/-59.602
+Object.rotation 30.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_reactors_7]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_reactors_7
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_reactors_7
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_reactors_7]
+Object.create CPNAME_DP_SP16_reactors_7
+Object.absolutePosition 97.000/153.181/-100.000
+Object.rotation -31.400/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_southdocks_4]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_southdocks_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_southdocks_4
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 8
+ObjectTemplate.setOnlyForHuman 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_southdocks_4]
+Object.create CPNAME_DP_SP16_southdocks_4
+Object.absolutePosition 263.020/147.099/-207.562
+Object.rotation 90.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_southdocks_5]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_southdocks_5
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_southdocks_5
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 8
+
+rem [SpawnPoint: CPNAME_DP_SP16_southdocks_5]
+Object.create CPNAME_DP_SP16_southdocks_5
+Object.absolutePosition 238.227/147.099/-214.246
+Object.rotation -90.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_southdocks_6]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_southdocks_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_southdocks_6
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 8
+ObjectTemplate.setOnlyForHuman 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_southdocks_6]
+Object.create CPNAME_DP_SP16_southdocks_6
+Object.absolutePosition 258.000/147.105/-212.000
+Object.rotation -90.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_mainentrance_1]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_mainentrance_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_mainentrance_1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 11
+
+rem [SpawnPoint: CPNAME_DP_SP16_mainentrance_1]
+Object.create CPNAME_DP_SP16_mainentrance_1
+Object.absolutePosition -264.000/153.097/-187.000
+Object.rotation 180.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_mainentrance_2]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_mainentrance_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_mainentrance_2
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 11
+
+rem [SpawnPoint: CPNAME_DP_SP16_mainentrance_2]
+Object.create CPNAME_DP_SP16_mainentrance_2
+Object.absolutePosition -232.528/153.296/-269.993
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_mainentrance_3]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_mainentrance_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_mainentrance_3
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 11
+
+rem [SpawnPoint: CPNAME_DP_SP16_mainentrance_3]
+Object.create CPNAME_DP_SP16_mainentrance_3
+Object.absolutePosition -221.247/153.296/-240.663
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_mainentrance_4]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_mainentrance_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_mainentrance_4
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 11
+
+rem [SpawnPoint: CPNAME_DP_SP16_mainentrance_4]
+Object.create CPNAME_DP_SP16_mainentrance_4
+Object.absolutePosition -213.999/153.181/-185.545
+Object.rotation 1.805/-0.322/0.179
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_mainentrance_6]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_mainentrance_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_mainentrance_6
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 11
+
+rem [SpawnPoint: CPNAME_DP_SP16_mainentrance_6]
+Object.create CPNAME_DP_SP16_mainentrance_6
+Object.absolutePosition -255.567/153.775/-237.344
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_mainentrance_7]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_mainentrance_7
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_mainentrance_7
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setControlPointId 11
+
+rem [SpawnPoint: CPNAME_DP_SP16_mainentrance_7]
+Object.create CPNAME_DP_SP16_mainentrance_7
+Object.absolutePosition -261.000/153.302/-232.000
+Object.rotation 0.115/0.022/-2.580
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_northdocks_8]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_northdocks_8
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_northdocks_8
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 7
+
+rem [SpawnPoint: CPNAME_DP_SP16_northdocks_8]
+Object.create CPNAME_DP_SP16_northdocks_8
+Object.absolutePosition 39.372/144.491/214.580
+Object.rotation -90.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_mainentrance_7_0]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_mainentrance_7_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_mainentrance_7_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 11
+
+rem [SpawnPoint: CPNAME_DP_SP16_mainentrance_7_0]
+Object.create CPNAME_DP_SP16_mainentrance_7_0
+Object.absolutePosition -226.708/153.097/-177.801
+Object.rotation -90.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_uscarrier_0]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_uscarrier_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_uscarrier_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 6
+ObjectTemplate.setAIEnterOnSpawn 1
+ObjectTemplate.setOnlyForAI 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_uscarrier_0]
+Object.create CPNAME_DP_SP16_uscarrier_0
+Object.absolutePosition 775.912/162.785/-43.045
+Object.rotation 6.187/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_uscarrier_0_0]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_uscarrier_0_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_uscarrier_0_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 6
+ObjectTemplate.setOnlyForHuman 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_uscarrier_0_0]
+Object.create CPNAME_DP_SP16_uscarrier_0_0
+Object.absolutePosition 791.000/162.074/30.000
+Object.rotation 180.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_airfield_2]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_airfield_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_airfield_2
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+ObjectTemplate.setAIEnterOnSpawn 1
+ObjectTemplate.setOnlyForAI 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_airfield_2]
+Object.create CPNAME_DP_SP16_airfield_2
+Object.absolutePosition -704.669/184.096/-338.704
+Object.rotation 60.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_airfield_0]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_airfield_0
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_airfield_0
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 101
+
+rem [SpawnPoint: CPNAME_DP_SP16_airfield_0]
+Object.create CPNAME_DP_SP16_airfield_0
+Object.absolutePosition -806.000/184.096/-144.000
+Object.rotation -30.004/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_airfield_3]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_airfield_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_airfield_3
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+ObjectTemplate.setOnlyForHuman 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_airfield_3]
+Object.create CPNAME_DP_SP16_airfield_3
+Object.absolutePosition -646.851/184.096/-428.219
+Object.rotation -30.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_airfield_6]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_airfield_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_airfield_6
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 101
+ObjectTemplate.setAIEnterOnSpawn 1
+ObjectTemplate.setOnlyForAI 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_airfield_6]
+Object.create CPNAME_DP_SP16_airfield_6
+Object.absolutePosition -748.382/185.000/-155.305
+Object.rotation 156.440/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_airfield_7]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_airfield_7
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_airfield_7
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 101
+ObjectTemplate.setAIEnterOnSpawn 1
+ObjectTemplate.setOnlyForAI 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_airfield_7]
+Object.create CPNAME_DP_SP16_airfield_7
+Object.absolutePosition -793.830/184.102/-123.420
+Object.rotation 140.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_airfield_8]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_airfield_8
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_airfield_8
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+ObjectTemplate.setAIEnterOnSpawn 1
+ObjectTemplate.setOnlyForAI 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_airfield_8]
+Object.create CPNAME_DP_SP16_airfield_8
+Object.absolutePosition -644.494/184.096/-341.686
+Object.rotation 34.724/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_warehouse_1]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_warehouse_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_warehouse_1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 102
+
+rem [SpawnPoint: CPNAME_DP_SP16_warehouse_1]
+Object.create CPNAME_DP_SP16_warehouse_1
+Object.absolutePosition -165.549/153.181/59.000
+Object.rotation -65.771/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_warehouse_2]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_warehouse_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_warehouse_2
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 102
+
+rem [SpawnPoint: CPNAME_DP_SP16_warehouse_2]
+Object.create CPNAME_DP_SP16_warehouse_2
+Object.absolutePosition -196.316/154.398/49.316
+Object.rotation 3.022/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_warehouse_3]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_warehouse_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_warehouse_3
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 102
+
+rem [SpawnPoint: CPNAME_DP_SP16_warehouse_3]
+Object.create CPNAME_DP_SP16_warehouse_3
+Object.absolutePosition -155.742/153.181/29.038
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_warehouse_4]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_warehouse_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_warehouse_4
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setGroup 1
+ObjectTemplate.setControlPointId 102
+
+rem [SpawnPoint: CPNAME_DP_SP16_warehouse_4]
+Object.create CPNAME_DP_SP16_warehouse_4
+Object.absolutePosition -212.711/153.352/66.684
+Object.rotation 0.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_warehouse_5]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_warehouse_5
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_warehouse_5
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 102
+
+rem [SpawnPoint: CPNAME_DP_SP16_warehouse_5]
+Object.create CPNAME_DP_SP16_warehouse_5
+Object.absolutePosition -161.970/153.181/70.075
+Object.rotation -57.409/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_warehouse_6]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_warehouse_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_warehouse_6
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 102
+
+rem [SpawnPoint: CPNAME_DP_SP16_warehouse_6]
+Object.create CPNAME_DP_SP16_warehouse_6
+Object.absolutePosition -169.000/153.181/82.000
+Object.rotation -90.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_maintenancebuilding_1]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_maintenancebuilding_1
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_maintenancebuilding_1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CPNAME_DP_SP16_maintenancebuilding_1]
+Object.create CPNAME_DP_SP16_maintenancebuilding_1
+Object.absolutePosition -35.823/153.387/-370.112
+Object.rotation 116.593/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_maintenancebuilding_2]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_maintenancebuilding_2
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_maintenancebuilding_2
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CPNAME_DP_SP16_maintenancebuilding_2]
+Object.create CPNAME_DP_SP16_maintenancebuilding_2
+Object.absolutePosition -22.559/153.433/-362.016
+Object.rotation -3.829/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_maintenancebuilding_3]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_maintenancebuilding_3
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_maintenancebuilding_3
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CPNAME_DP_SP16_maintenancebuilding_3]
+Object.create CPNAME_DP_SP16_maintenancebuilding_3
+Object.absolutePosition -50.000/154.296/-367.000
+Object.rotation -180.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_maintenancebuilding_4]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_maintenancebuilding_4
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_maintenancebuilding_4
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CPNAME_DP_SP16_maintenancebuilding_4]
+Object.create CPNAME_DP_SP16_maintenancebuilding_4
+Object.absolutePosition -48.664/153.483/-344.309
+Object.rotation 180.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_maintenancebuilding_5]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_maintenancebuilding_5
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_maintenancebuilding_5
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CPNAME_DP_SP16_maintenancebuilding_5]
+Object.create CPNAME_DP_SP16_maintenancebuilding_5
+Object.absolutePosition -18.979/155.388/-404.299
+Object.rotation 145.585/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_maintenancebuilding_6]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_maintenancebuilding_6
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_maintenancebuilding_6
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 103
+
+rem [SpawnPoint: CPNAME_DP_SP16_maintenancebuilding_6]
+Object.create CPNAME_DP_SP16_maintenancebuilding_6
+Object.absolutePosition -45.864/154.296/-397.529
+Object.rotation 140.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_airfield_9]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_airfield_9
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_airfield_9
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+ObjectTemplate.setAIEnterOnSpawn 1
+ObjectTemplate.setOnlyForAI 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_airfield_9]
+Object.create CPNAME_DP_SP16_airfield_9
+Object.absolutePosition -607.224/184.096/-372.964
+Object.rotation -14.800/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_mainentrance_8]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_mainentrance_8
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_mainentrance_8
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 11
+
+rem [SpawnPoint: CPNAME_DP_SP16_mainentrance_8]
+Object.create CPNAME_DP_SP16_mainentrance_8
+Object.absolutePosition -230.213/153.296/-255.608
+Object.rotation -90.000/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_uscarrier_9]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_uscarrier_9
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_uscarrier_9
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 6
+ObjectTemplate.setAIEnterOnSpawn 1
+ObjectTemplate.setOnlyForAI 1
+ObjectTemplate.setAllowSpawnCloseToVehicle 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_uscarrier_9]
+Object.create CPNAME_DP_SP16_uscarrier_9
+Object.absolutePosition 786.009/162.114/10.528
+Object.rotation -160.719/0.000/0.000
+Object.layer 1
+
+rem [SpawnPointTemplate: CPNAME_DP_SP16_airfield_10]
+ObjectTemplate.create SpawnPoint CPNAME_DP_SP16_airfield_10
+ObjectTemplate.activeSafe SpawnPoint CPNAME_DP_SP16_airfield_10
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.setSpawnPositionOffset 0/1.25/0
+ObjectTemplate.setControlPointId 101
+ObjectTemplate.setOnlyForAI 1
+
+rem [SpawnPoint: CPNAME_DP_SP16_airfield_10]
+Object.create CPNAME_DP_SP16_airfield_10
+Object.absolutePosition -420.579/170.497/-241.239
+Object.rotation -113.779/0.000/0.000
+Object.layer 1
+
+rem ********** Control Points **********
+rem [ControlPointTemplate: CPNAME_DP_SP16_reactors]
+ObjectTemplate.create ControlPoint CPNAME_DP_SP16_reactors
+ObjectTemplate.activeSafe ControlPoint CPNAME_DP_SP16_reactors
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_DP_SP16_reactors
+ObjectTemplate.radius 10
+ObjectTemplate.controlPointId 1
+ObjectTemplate.areaValueTeam1 25
+ObjectTemplate.areaValueTeam2 25
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+
+rem [ControlPointTemplate: CPNAME_DP_SP16_uscarrier]
+ObjectTemplate.create ControlPoint CPNAME_DP_SP16_uscarrier
+ObjectTemplate.activeSafe ControlPoint CPNAME_DP_SP16_uscarrier
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_DP_SP16_uscarrier
+ObjectTemplate.radius 8
+ObjectTemplate.team 2
+ObjectTemplate.controlPointId 6
+ObjectTemplate.unableToChangeTeam 1
+
+rem [ControlPointTemplate: CPNAME_DP_SP16_northdocks]
+ObjectTemplate.create ControlPoint CPNAME_DP_SP16_northdocks
+ObjectTemplate.activeSafe ControlPoint CPNAME_DP_SP16_northdocks
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_DP_SP16_northdocks
+ObjectTemplate.radius 22
+ObjectTemplate.controlPointId 7
+ObjectTemplate.areaValueTeam1 25
+ObjectTemplate.areaValueTeam2 25
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+
+rem [ControlPointTemplate: CPNAME_DP_SP16_southdocks]
+ObjectTemplate.create ControlPoint CPNAME_DP_SP16_southdocks
+ObjectTemplate.activeSafe ControlPoint CPNAME_DP_SP16_southdocks
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_DP_SP16_southdocks
+ObjectTemplate.radius 10
+ObjectTemplate.controlPointId 8
+ObjectTemplate.areaValueTeam1 25
+ObjectTemplate.areaValueTeam2 25
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+
+rem [ControlPointTemplate: CPNAME_DP_SP16_mainentrance]
+ObjectTemplate.create ControlPoint CPNAME_DP_SP16_mainentrance
+ObjectTemplate.activeSafe ControlPoint CPNAME_DP_SP16_mainentrance
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_DP_SP16_mainentrance
+ObjectTemplate.radius 20
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 11
+ObjectTemplate.areaValueTeam1 25
+ObjectTemplate.areaValueTeam2 25
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+
+rem [ControlPointTemplate: CPNAME_DP_SP16_airfield]
+ObjectTemplate.create ControlPoint CPNAME_DP_SP16_airfield
+ObjectTemplate.activeSafe ControlPoint CPNAME_DP_SP16_airfield
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_DP_SP16_airfield
+ObjectTemplate.radius 10
+ObjectTemplate.team 1
+ObjectTemplate.controlPointId 101
+ObjectTemplate.timeToGetControl 60
+ObjectTemplate.timeToLoseControl 60
+
+rem [ControlPointTemplate: CPNAME_DP_SP16_warehouse]
+ObjectTemplate.create ControlPoint CPNAME_DP_SP16_warehouse
+ObjectTemplate.activeSafe ControlPoint CPNAME_DP_SP16_warehouse
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_DP_SP16_warehouse
+ObjectTemplate.radius 20
+ObjectTemplate.controlPointId 102
+ObjectTemplate.areaValueTeam1 25
+ObjectTemplate.areaValueTeam2 25
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+
+rem [ControlPointTemplate: CPNAME_DP_SP16_maintenancebuilding]
+ObjectTemplate.create ControlPoint CPNAME_DP_SP16_maintenancebuilding
+ObjectTemplate.activeSafe ControlPoint CPNAME_DP_SP16_maintenancebuilding
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo ControlPointInfo
+ObjectTemplate.isNotSaveable 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate flagpole
+rem -------------------------------------
+ObjectTemplate.setControlPointName CPNAME_DP_SP16_maintenancebuilding
+ObjectTemplate.radius 7
+ObjectTemplate.controlPointId 103
+ObjectTemplate.areaValueTeam1 25
+ObjectTemplate.areaValueTeam2 25
+ObjectTemplate.timeToGetControl 20
+ObjectTemplate.timeToLoseControl 20
+
+if v_arg1 == host
+
+   rem [ControlPoint: CPNAME_DP_SP16_reactors]
+   Object.create CPNAME_DP_SP16_reactors
+   Object.absolutePosition 88.000/153.170/-40.000
+   Object.layer 1
+
+   rem [ControlPoint: CPNAME_DP_SP16_uscarrier]
+   Object.create CPNAME_DP_SP16_uscarrier
+   Object.absolutePosition 806.420/149.713/-456.213
+   Object.layer 1
+
+   rem [ControlPoint: CPNAME_DP_SP16_northdocks]
+   Object.create CPNAME_DP_SP16_northdocks
+   Object.absolutePosition 52.000/144.384/184.000
+   Object.layer 1
+
+   rem [ControlPoint: CPNAME_DP_SP16_southdocks]
+   Object.create CPNAME_DP_SP16_southdocks
+   Object.absolutePosition 230.368/147.088/-251.805
+   Object.layer 1
+
+   rem [ControlPoint: CPNAME_DP_SP16_mainentrance]
+   Object.create CPNAME_DP_SP16_mainentrance
+   Object.absolutePosition -254.000/153.285/-210.000
+   Object.layer 1
+
+   rem [ControlPoint: CPNAME_DP_SP16_airfield]
+   Object.create CPNAME_DP_SP16_airfield
+   Object.absolutePosition -706.000/184.086/-367.000
+   Object.layer 1
+
+   rem [ControlPoint: CPNAME_DP_SP16_warehouse]
+   Object.create CPNAME_DP_SP16_warehouse
+   Object.absolutePosition -190.252/153.181/54.736
+   Object.layer 1
+
+   rem [ControlPoint: CPNAME_DP_SP16_maintenancebuilding]
+   Object.create CPNAME_DP_SP16_maintenancebuilding
+   Object.absolutePosition -32.615/153.296/-391.094
+   Object.layer 1
+
+endIf
+
+CombatAreaManager.use 0
+CombatAreaManager.timeAllowedOutside 10.000000

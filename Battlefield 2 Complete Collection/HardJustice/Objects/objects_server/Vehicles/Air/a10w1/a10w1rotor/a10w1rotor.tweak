@@ -1,0 +1,17 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe Rotor a10w1rotor
+ObjectTemplate.creator CAMBO:Cihangir
+ObjectTemplate.modifiedByUser "Cihangir"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry a10wrotor
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.changeLodAt 0.2
+ObjectTemplate.tolerance 0.00625
+ObjectTemplate.rotationSpeedMod 1
+ObjectTemplate.rotationSpeedModBlur 0.1
+ObjectTemplate.rotationAxle 2
+ObjectTemplate.engineName a10w1_EngineL
+

@@ -1,0 +1,12 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+GeometryTemplate.setSubGeometryLodDistance 1 0 5
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 8
+ObjectTemplate.activeSafe SimpleObject interior_m3a3
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.modifiedByUser "Radar O'Reilly"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry interior_m3a3
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.physicsType Mesh

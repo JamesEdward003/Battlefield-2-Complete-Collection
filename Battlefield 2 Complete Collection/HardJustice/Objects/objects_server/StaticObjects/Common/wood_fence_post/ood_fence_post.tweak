@@ -1,0 +1,18 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+GeometryTemplate.doNotGenerateLightmaps 0
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+GeometryTemplate.glowing 0
+GeometryTemplate.noLighting 0
+ObjectTemplate.activeSafe SimpleObject wood_fence_post
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.modifiedByUser "Radar O'Reilly"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry wood_fence_post
+ObjectTemplate.setCollisionMesh wood_fence_post
+ObjectTemplate.mapMaterial 0 Wood 15
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+

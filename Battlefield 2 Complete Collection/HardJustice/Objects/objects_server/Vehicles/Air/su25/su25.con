@@ -1,0 +1,177 @@
+GeometryTemplate.create BundledMesh su25
+CollisionManager.createTemplate su25
+
+ObjectTemplate.create PlayerControlObject su25
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator SONY:Sony
+ObjectTemplate.collisionMesh su25
+ObjectTemplate.mapMaterial 0 Airplane 0
+ObjectTemplate.mapMaterial 1 rubber 0
+ObjectTemplate.mapMaterial 2 UNDEFINED 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry su25
+ObjectTemplate.addTemplate su25_cframe
+ObjectTemplate.setPosition 0.5959/1.2679/5.0886
+ObjectTemplate.addTemplate su25_cockpit
+ObjectTemplate.addTemplate su25_FGear
+ObjectTemplate.setPosition 0.0132/0.2331/4.6635
+ObjectTemplate.addTemplate su25_FHatch01
+ObjectTemplate.setPosition 0.3205/-0.1746/4.6743
+ObjectTemplate.setRotation 0/-1.7041/0
+ObjectTemplate.addTemplate su25_glass
+ObjectTemplate.addTemplate su25_holder01
+ObjectTemplate.setPosition 0.0480/1.5526/6.0049
+ObjectTemplate.setRotation 0/-90.0000/0
+ObjectTemplate.addTemplate su25_hudglass01
+ObjectTemplate.setPosition 0.0433/1.6962/6.0484
+ObjectTemplate.setRotation 0/-90.0000/0
+ObjectTemplate.addTemplate su25_interior
+ObjectTemplate.addTemplate su25_LBackFlaps01
+ObjectTemplate.setPosition -0.3577/0.5526/-6.4793
+ObjectTemplate.addTemplate su25_Lflap
+ObjectTemplate.setPosition -3.6334/0.9353/-1.1570
+ObjectTemplate.addTemplate su25_LFrontFlaps01
+ObjectTemplate.setPosition -6.8935/0.8047/-1.5495
+ObjectTemplate.addTemplate su25_LGear
+ObjectTemplate.setPosition -1.3334/-0.1659/0.1910
+ObjectTemplate.addTemplate su25_LHatch01
+ObjectTemplate.setPosition -0.3860/-0.4357/0.0180
+ObjectTemplate.setRotation 0/-1.0034/0
+ObjectTemplate.addTemplate su25_RBackFlaps01
+ObjectTemplate.setPosition 0.4076/0.5726/-6.4705
+ObjectTemplate.addTemplate su25_rflap
+ObjectTemplate.setPosition 3.7282/0.9036/-1.2271
+ObjectTemplate.addTemplate su25_RFrontFlaps01
+ObjectTemplate.setPosition 6.9075/0.7968/-1.5574
+ObjectTemplate.addTemplate su25_RGear
+ObjectTemplate.setPosition 1.3776/-0.1615/0.1884
+ObjectTemplate.addTemplate su25_RHatch01
+ObjectTemplate.setPosition 0.4278/-0.4436/0.0037
+ObjectTemplate.setRotation 0/-0.8561/0
+ObjectTemplate.addTemplate su25_rudder1
+ObjectTemplate.setPosition 0.0132/2.1018/-5.8105
+ObjectTemplate.setRotation 94.9811/0.1650/-94.9811
+ObjectTemplate.addTemplate su25_SU25ANTE
+
+ObjectTemplate.create RotationalBundle su25_cframe
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate su25_glass1
+ObjectTemplate.setPosition -0.0095/-0.0259/0
+
+ObjectTemplate.create SimpleObject su25_glass1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+
+ObjectTemplate.create SimpleObject su25_cockpit
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+ObjectTemplate.create LandingGear su25_FGear
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+ObjectTemplate.addTemplate su25_FGear_Rot
+ObjectTemplate.setPosition 0/-0.6452/0.0022
+
+ObjectTemplate.create RotationalBundle su25_FGear_Rot
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+ObjectTemplate.addTemplate su25_Fwheel
+ObjectTemplate.setPosition 0/-0.6967/-0.2823
+
+ObjectTemplate.create Spring su25_Fwheel
+ObjectTemplate.collisionPart 6
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+
+ObjectTemplate.create LandingGear su25_FHatch01
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+
+ObjectTemplate.create SimpleObject su25_glass
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+
+ObjectTemplate.create SimpleObject su25_holder01
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 9
+
+ObjectTemplate.create SimpleObject su25_hudglass01
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 10
+
+ObjectTemplate.create SimpleObject su25_interior
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 11
+
+ObjectTemplate.create RotationalBundle su25_LBackFlaps01
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 12
+
+ObjectTemplate.create RotationalBundle su25_Lflap
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 13
+
+ObjectTemplate.create RotationalBundle su25_LFrontFlaps01
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 14
+
+ObjectTemplate.create LandingGear su25_LGear
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 15
+ObjectTemplate.addTemplate su25_Lwheel
+ObjectTemplate.setPosition -0.3256/-0.9393/-0.5443
+
+ObjectTemplate.create Spring su25_Lwheel
+ObjectTemplate.collisionPart 16
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 16
+
+ObjectTemplate.create LandingGear su25_LHatch01
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 17
+
+ObjectTemplate.create RotationalBundle su25_RBackFlaps01
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 18
+
+ObjectTemplate.create RotationalBundle su25_rflap
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 19
+
+ObjectTemplate.create RotationalBundle su25_RFrontFlaps01
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 20
+
+ObjectTemplate.create LandingGear su25_RGear
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 21
+ObjectTemplate.addTemplate su25_Rwheel
+ObjectTemplate.setPosition 0.3064/-0.9374/-0.5417
+
+ObjectTemplate.create Spring su25_Rwheel
+ObjectTemplate.collisionPart 22
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 22
+
+ObjectTemplate.create LandingGear su25_RHatch01
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 23
+
+ObjectTemplate.create RotationalBundle su25_rudder1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 24
+
+ObjectTemplate.create SimpleObject su25_SU25ANTE
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 25
+
+include su25.tweak

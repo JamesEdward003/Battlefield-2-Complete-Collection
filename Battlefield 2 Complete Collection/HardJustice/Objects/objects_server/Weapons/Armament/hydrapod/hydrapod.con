@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh hydrapod
+CollisionManager.createTemplate hydrapod
+
+ObjectTemplate.create SimpleObject hydrapod
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator SONY:Sony
+ObjectTemplate.collisionMesh hydrapod
+ObjectTemplate.mapMaterial 0 UNDEFINED 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry hydrapod
+
+include hydrapod.tweak

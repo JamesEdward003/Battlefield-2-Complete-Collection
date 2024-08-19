@@ -1,0 +1,11 @@
+GeometryTemplate.create StaticMesh grapattach
+CollisionManager.createTemplate grapattach
+ObjectTemplate.create HookLink hookLink
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator "SatNav"
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 1
+ObjectTemplate.geometry grapattach
+
+include grapattach.tweak

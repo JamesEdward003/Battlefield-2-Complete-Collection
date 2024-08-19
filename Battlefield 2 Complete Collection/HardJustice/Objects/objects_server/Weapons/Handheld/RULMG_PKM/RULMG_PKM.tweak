@@ -1,0 +1,289 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/4/5 15:44]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 8
+ObjectTemplate.activeSafe GenericFireArm rulmg_pkm
+ObjectTemplate.creator OCA-1:oca
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.saveInSeparateFile 1
+rem ---BeginComp:WeaponHud ---
+ObjectTemplate.createComponent WeaponHud
+ObjectTemplate.weaponHud.weaponIcon Ingame\Weapons\Icons\Hud\RULMG_PKM.tga
+ObjectTemplate.weaponHud.altWeaponIcon Ingame\Weapons\Icons\Hud\RULMG_PKM_mini.tga
+ObjectTemplate.weaponHud.selectIcon Ingame\Weapons\Icons\Hud\Selection\RULMG_PKM.tga
+ObjectTemplate.weaponHud.hudName "KILLMESSAGE_WEAPON_pkm"
+ObjectTemplate.weaponHud.guiIndex 4
+ObjectTemplate.weaponHud.altGuiIndex 52
+ObjectTemplate.weaponHud.deviationFactor 5
+ObjectTemplate.weaponHud.maxVisualDeviation 45
+ObjectTemplate.weaponHud.minVisualDeviation 6
+ObjectTemplate.weaponHud.overheatSound S_Weapon_Handheld_Overheat
+ObjectTemplate.weaponHud.disableOnSprint 0
+rem ---EndComp ---
+rem ---BeginComp:SingleFireComp ---
+ObjectTemplate.createComponent SingleFireComp
+ObjectTemplate.fire.roundsPerMinute 900
+ObjectTemplate.fire.addFireRate 2
+ObjectTemplate.fire.addFireRate 0
+ObjectTemplate.fire.fireInCameraDof 1
+rem ---EndComp ---
+rem ---BeginComp:DefaultAmmoComp ---
+ObjectTemplate.createComponent DefaultAmmoComp
+ObjectTemplate.ammo.ammoType 1
+ObjectTemplate.ammo.nrOfMags 3
+ObjectTemplate.ammo.magSize 200
+ObjectTemplate.ammo.reloadTime 5.1
+ObjectTemplate.ammo.reloadWithoutPlayer 1
+rem ---EndComp ---
+rem ---BeginComp:SoldierBasedRecoilComp ---
+ObjectTemplate.createComponent SoldierBasedRecoilComp
+ObjectTemplate.recoil.hasRecoilForce 1
+ObjectTemplate.recoil.recoilForceUp CRD_UNIFORM/0.15/0.25/0
+ObjectTemplate.recoil.recoilForceLeftRight CRD_UNIFORM/-0.15/0.15/0
+ObjectTemplate.recoil.zoomModifier 0.5
+ObjectTemplate.recoil.recoilGraphFrameCount 5
+ObjectTemplate.recoil.recoilGraphExponent 5
+ObjectTemplate.recoil.recoilGraphTotalMovement 0.11
+rem ---EndComp ---
+rem ---BeginComp:SoldierDeviationComp ---
+ObjectTemplate.createComponent SoldierDeviationComp
+ObjectTemplate.deviation.setFireDev 0.8 0.4 0.02
+ObjectTemplate.deviation.minDev 0.02
+ObjectTemplate.deviation.setTurnDev 0 0 0 0
+ObjectTemplate.deviation.setSpeedDev 0.8 0.6 0.6 0.1
+ObjectTemplate.deviation.setMiscDev 0.8 0.8 0.1
+ObjectTemplate.deviation.devModStand 0.8
+ObjectTemplate.deviation.devModCrouch 0.6
+ObjectTemplate.deviation.devModLie 0.1
+ObjectTemplate.deviation.devModZoom 0.1
+rem ---EndComp ---
+rem ---BeginComp:DefaultSoundComp ---
+ObjectTemplate.createComponent DefaultSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultAnimationComp ---
+ObjectTemplate.createComponent DefaultAnimationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultZoomComp ---
+ObjectTemplate.createComponent DefaultZoomComp
+ObjectTemplate.zoom.zoomDelay 0.07
+ObjectTemplate.zoom.zoomLod 1
+ObjectTemplate.zoom.addZoomFactor 0
+ObjectTemplate.zoom.addZoomFactor 0.6
+rem ---EndComp ---
+ObjectTemplate.geometry RULMG_PKM
+ObjectTemplate.setCollisionMesh rulmg_pkm
+ObjectTemplate.mapMaterial 0 Collisionmaterial 68
+ObjectTemplate.mapMaterial 1 lambert1 68
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Point
+ObjectTemplate.aiTemplate rulmg_pkmAI
+rem -------------------------------------
+ObjectTemplate.addTemplate S_rulmg_pkm_Fire1P
+ObjectTemplate.setPosition 0/0.0191075/0.654545
+ObjectTemplate.addTemplate S_rulmg_pkm_Fire1P_Outdoor
+ObjectTemplate.setPosition 0/0.0192688/0.652409
+ObjectTemplate.addTemplate S_rulmg_pkm_Fire3P
+ObjectTemplate.setPosition 0/0.0188387/0.654696
+ObjectTemplate.addTemplate S_rulmg_pkm_BoltClick
+ObjectTemplate.setPosition -2.37332e-006/0.0195286/-0.184294
+ObjectTemplate.addTemplate S_rulmg_pkm_TriggerClick
+ObjectTemplate.setPosition -6.67808e-007/-0.047193/-0.13633
+ObjectTemplate.addTemplate S_rulmg_pkm_SwitchFireRate
+ObjectTemplate.setPosition -4.33016e-007/0.0382652/-0.190892
+ObjectTemplate.addTemplate S_rulmg_pkm_Reload1P
+ObjectTemplate.setPosition 6.75697e-007/-0.0289087/-0.0730332
+ObjectTemplate.addTemplate S_rulmg_pkm_Reload3P
+ObjectTemplate.setPosition 1.29303e-006/-0.0337615/-0.0779355
+ObjectTemplate.addTemplate S_rulmg_pkm_Deploy1P
+ObjectTemplate.setPosition 4.20152e-007/0.0874095/-0.274652
+ObjectTemplate.addTemplate S_rulmg_pkm_Deploy3P
+ObjectTemplate.setPosition 2.94522e-006/0.0572581/-0.314642
+ObjectTemplate.addTemplate S_rulmg_pkm_Zoom
+ObjectTemplate.setPosition 1.24856e-006/0.0865917/-0.210496
+ObjectTemplate.addTemplate e_muzz_pkm
+ObjectTemplate.setPosition -0.000522621/0.0184769/0.680804
+ObjectTemplate.addTemplate e_shellejection_pkm
+ObjectTemplate.setPosition -0.0612516/0.0192102/-0.0728952
+ObjectTemplate.setRotation 3.49679/0/0
+rem -------------------------------------
+ObjectTemplate.animationSystem1P Objects/Weapons/Handheld/RULMG_PKM/AnimationSystem1p.inc
+ObjectTemplate.animationSystem3P Objects/Weapons/Handheld/RULMG_PKM/AnimationSystem3p.inc
+ObjectTemplate.projectileTemplate RULMG_PKM_Projectile
+ObjectTemplate.velocity 700
+ObjectTemplate.itemIndex 3
+ObjectTemplate.delayToUse 1.83
+ObjectTemplate.heatAddWhenFire 0.011
+ObjectTemplate.coolDownPerSec 0.2
+ObjectTemplate.overheatPenalty 1.2
+
+ObjectTemplate.create GenericProjectile RULMG_PKM_Projectile
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:DefaultCollisionComp ---
+ObjectTemplate.createComponent DefaultCollisionComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultDetonationComp ---
+ObjectTemplate.createComponent DefaultDetonationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultProjSoundComp ---
+ObjectTemplate.createComponent DefaultProjSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultRicochetComp ---
+ObjectTemplate.createComponent DefaultRicochetComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultPenetrateComp ---
+ObjectTemplate.createComponent DefaultPenetrateComp
+ObjectTemplate.penetrate.allowSolidPenetration 1
+ObjectTemplate.penetrate.allowLiquidPenetration 1
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Point
+ObjectTemplate.collisionGroups 8
+ObjectTemplate.material 38
+rem -------------------------------------
+ObjectTemplate.addTemplate S_RULMG_PKM_Projectile_Looping
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.material 38
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.tracerScaler 30
+ObjectTemplate.maxTracerScaler 30
+ObjectTemplate.minTracerScaler 1
+ObjectTemplate.tracerSizeModifier 5
+ObjectTemplate.tracerTemplate p_tracer_g
+ObjectTemplate.tracerInterval 3
+ObjectTemplate.minDamage 20
+ObjectTemplate.damage 120
+ObjectTemplate.distToStartLoseDamage 80
+ObjectTemplate.distToMinDamage 120
+
+ObjectTemplate.activeSafe Sound S_rulmg_pkm_Fire1P
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.soundFilename "objects/weapons/handheld/rulmg_pkm/sounds/pkm_fire_1p_outdoor.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.85
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.98/1.045/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.94/1/
+
+
+ObjectTemplate.activeSafe Sound S_rulmg_pkm_Fire3P
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.soundFilename "objects/weapons/handheld/rulmg_pkm/sounds/pkm_fire_3p.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.96/1.04/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+ObjectTemplate.position 0/0.0188387/0.654696
+ObjectTemplate.minDistance 2
+ObjectTemplate.halfVolumeDistance 5
+ObjectTemplate.soundRadius 0.5
+
+ObjectTemplate.activeSafe Sound S_rulmg_pkm_BoltClick
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.soundFilename "objects/weapons/handheld/rurif_gp30/sounds/gp30_bolt_click.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.9
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.position -2.37332e-006/0.0195286/-0.184294
+
+ObjectTemplate.activeSafe Sound S_rulmg_pkm_TriggerClick
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.soundFilename "objects/weapons/handheld/uspis_92fs/sounds/mono/trigger_click.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.position -6.67808e-007/-0.047193/-0.13633
+
+ObjectTemplate.activeSafe Sound S_rulmg_pkm_SwitchFireRate
+ObjectTemplate.modifiedByUser "Ziggy"
+
+ObjectTemplate.activeSafe Sound S_rulmg_pkm_Reload1P
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.soundFilename "objects/weapons/handheld/rulmg_pkm/sounds/pkm_reload_1p.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.65
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.position 6.75697e-007/-0.0289087/-0.0730332
+
+ObjectTemplate.activeSafe Sound S_rulmg_pkm_Reload3P
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.soundFilename "objects/weapons/handheld/rulmg_pkm/sounds/pkm_reload_3p.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.65
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.position 1.29303e-006/-0.0337615/-0.0779355
+ObjectTemplate.minDistance 0.5
+ObjectTemplate.halfVolumeDistance 1
+
+ObjectTemplate.activeSafe Sound S_rulmg_pkm_Deploy1P
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.soundFilename "objects/weapons/handheld/rulmg_pkm/sounds/pkm_deploy.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.72
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.position 4.20152e-007/0.0874095/-0.274652
+
+ObjectTemplate.activeSafe Sound S_rulmg_pkm_Deploy3P
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.soundFilename "objects/weapons/handheld/rulmg_pkm/sounds/pkm_deploy.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.72
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.position 2.94522e-006/0.0572581/-0.314642
+ObjectTemplate.minDistance 0.3
+ObjectTemplate.halfVolumeDistance 0.6
+
+ObjectTemplate.activeSafe Sound S_rulmg_pkm_Zoom
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.soundFilename "objects/weapons/handheld/rurif_bizon/sounds/zoom_generic.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.position 1.24856e-006/0.0865917/-0.210496
+
+ObjectTemplate.activeSafe Sound S_RULMG_PKM_Projectile_Looping
+ObjectTemplate.modifiedByUser "Ziggy"
+

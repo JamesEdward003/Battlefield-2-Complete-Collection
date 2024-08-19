@@ -1,0 +1,121 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+GeometryTemplate.useRadiusForShadowDepth 1
+GeometryTemplate.useRadiusForShadowSpatial 1
+ObjectTemplate.activeSafe GenericProjectile rgm109h_tomahawk
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.createNotInGrid 1
+rem ---BeginComp:DefaultCollisionComp ---
+ObjectTemplate.createComponent DefaultCollisionComp
+ObjectTemplate.collision.hasCollisionEffect 1
+rem ---EndComp ---
+rem ---BeginComp:DefaultDetonationComp ---
+ObjectTemplate.createComponent DefaultDetonationComp
+ObjectTemplate.detonation.explosionMaterial 56
+ObjectTemplate.detonation.explosionRadius 20
+ObjectTemplate.detonation.explosionForce 25
+ObjectTemplate.detonation.explosionDamage 1600
+ObjectTemplate.detonation.endEffectTemplate e_exp_xlarge
+ObjectTemplate.detonation.useMMOnEndEffect 1
+ObjectTemplate.detonation.detectionRadius 1.5
+ObjectTemplate.detonation.maxDepthForExplosion 2
+rem ---EndComp ---
+rem ---BeginComp:DefaultProjSoundComp ---
+ObjectTemplate.createComponent DefaultProjSoundComp
+rem ---EndComp ---
+rem ---BeginComp:SeekClosestTargetComp ---
+ObjectTemplate.createComponent SeekClosestTargetComp
+ObjectTemplate.seek.targetType TTUnique
+ObjectTemplate.seek.trackingDelay 0.01
+ObjectTemplate.seek.maxAngleLock 360
+ObjectTemplate.seek.maxDistLock 3000
+ObjectTemplate.seek.reLockTime 0
+rem ---EndComp ---
+rem ---BeginComp:DefaultFollowComp ---
+ObjectTemplate.createComponent DefaultFollowComp
+ObjectTemplate.follow.maxYaw 30
+ObjectTemplate.follow.maxPitch 30
+ObjectTemplate.follow.changePitch 1
+ObjectTemplate.follow.changeYaw 1
+ObjectTemplate.follow.minDist 10
+rem ---EndComp ---
+rem ---BeginComp:DefaultPenetrateComp ---
+ObjectTemplate.createComponent DefaultPenetrateComp
+ObjectTemplate.penetrate.allowSolidPenetration 0
+ObjectTemplate.penetrate.allowLiquidPenetration 0
+rem ---EndComp ---
+ObjectTemplate.geometry rgm109h_tomahawk
+ObjectTemplate.setCollisionMesh rgm109h_tomahawk
+ObjectTemplate.mapMaterial 0 Metal 32
+ObjectTemplate.drag 0.1
+ObjectTemplate.mass 500
+ObjectTemplate.gravityModifier 0.1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Point
+ObjectTemplate.collisionGroups 8
+ObjectTemplate.material 56
+rem -------------------------------------
+ObjectTemplate.addTemplate S_rgm109h_tomahawk_Looping
+ObjectTemplate.addTemplate e_missile_trail
+ObjectTemplate.setPosition 0/0/-3.10747
+ObjectTemplate.addTemplate e_jetexhausts_s
+ObjectTemplate.setPosition 0/0/-3.10747
+ObjectTemplate.addTemplate rgm109h_tv_Camera
+ObjectTemplate.setPosition 0/0.82404/-0.127938
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/25/0/0
+ObjectTemplate.material 56
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.damage 3000
+ObjectTemplate.acceleration 50
+ObjectTemplate.maxSpeed 55
+ObjectTemplate.useProjectileCamera 1
+
+ObjectTemplate.activeSafe Sound S_rgm109h_tomahawk_Looping
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/air/sounds/jet_distant.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 25
+ObjectTemplate.halfVolumeDistance 50
+
+ObjectTemplate.create Camera rgm109h_tv_Camera
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.CameraId 5
+ObjectTemplate.CVMChase 1
+ObjectTemplate.CVMInside 0
+ObjectTemplate.CVMFrontChase 0
+ObjectTemplate.CVMFlyBy 0
+ObjectTemplate.followStiffness 6
+ObjectTemplate.chaseDistance 25
+ObjectTemplate.chaseAngle 0
+ObjectTemplate.chaseOffset 0/1/2
+ObjectTemplate.worldFOV 0.6
+ObjectTemplate.insideFOV 0.6
+ObjectTemplate.worldFOV 0.6
+ObjectTemplate.insideFOV 0.6
+ObjectTemplate.allowInsideDynamicLights 1
+ObjectTemplate.allowInsideStaticSun 0
+ObjectTemplate.insideStaticSunDirection -0.25/-0.5/0.75
+ObjectTemplate.insideStaticSunColor 1/1/1
+ObjectTemplate.insideStaticSunDamageColor 1/0/0
+ObjectTemplate.insideDamageFrequency 3
+ObjectTemplate.insideDamageThreshold 0.15
+ObjectTemplate.insideStaticSunAmbientColor 0.7/0.7/0.7
+
+

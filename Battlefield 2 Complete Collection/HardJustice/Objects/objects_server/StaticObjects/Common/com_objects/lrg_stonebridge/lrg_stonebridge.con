@@ -1,0 +1,16 @@
+GeometryTemplate.create StaticMesh lrg_stonebridge
+CollisionManager.createTemplate lrg_stonebridge
+
+ObjectTemplate.create DestroyableObject lrg_stonebridge
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator FUL-1:ful
+ObjectTemplate.collisionMesh lrg_stonebridge
+ObjectTemplate.mapMaterial 0 stone 0
+ObjectTemplate.mapMaterial 1 tarmac 0
+ObjectTemplate.mapMaterial 2 gravel 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry lrg_stonebridge
+ObjectTemplate.anchor -5.0000/4.7666/0
+
+include lrg_stonebridge.tweak

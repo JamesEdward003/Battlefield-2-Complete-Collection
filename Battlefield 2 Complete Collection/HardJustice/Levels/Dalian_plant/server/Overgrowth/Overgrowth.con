@@ -1,0 +1,90 @@
+Overgrowth.viewDistance 500
+Overgrowth.viewDistanceScale 1
+Overgrowth.closeDistPercentage 0.15
+
+Overgrowth.addMaterial bjorkcluster 3
+Overgrowth.setActiveMaterial bjorkcluster
+Overgrowth.addType bjork1
+Overgrowth.setActiveType bjork1
+OvergrowthType.geometry nc_birch_cluster01
+OvergrowthType.density 5
+OvergrowthType.normalScale 0
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0.3
+OvergrowthType.minRadiusToOthers 0.3
+Overgrowth.addType bjork2
+Overgrowth.setActiveType bjork2
+OvergrowthType.geometry nc_birch_cluster02
+OvergrowthType.density 5
+OvergrowthType.normalScale 0
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0.4
+OvergrowthType.minRadiusToOthers 0.3
+
+Overgrowth.addMaterial stubbs 4
+Overgrowth.setActiveMaterial stubbs
+Overgrowth.addType bubbs
+Overgrowth.setActiveType bubbs
+OvergrowthType.geometry nc_stump01
+OvergrowthType.density 5
+OvergrowthType.normalScale 0
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0
+OvergrowthType.minRadiusToOthers 0
+Overgrowth.addType bubbs2
+Overgrowth.setActiveType bubbs2
+OvergrowthType.geometry nc_stump02
+OvergrowthType.density 5
+OvergrowthType.normalScale 0
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0
+OvergrowthType.minRadiusToOthers 0
+Overgrowth.addType bubbs3
+Overgrowth.setActiveType bubbs3
+OvergrowthType.geometry nc_stump03
+OvergrowthType.density 6
+OvergrowthType.normalScale 0
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0
+OvergrowthType.minRadiusToOthers 0
+
+Overgrowth.addMaterial fern 1
+Overgrowth.setActiveMaterial fern
+Overgrowth.addType fern
+Overgrowth.setActiveType fern
+OvergrowthType.geometry nc_fern01
+OvergrowthType.density 50
+OvergrowthType.normalScale 1
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0.5
+OvergrowthType.minRadiusToOthers 0.5
+
+Overgrowth.addMaterial bushes 2
+Overgrowth.setActiveMaterial bushes
+Overgrowth.addType fern
+Overgrowth.setActiveType fern
+OvergrowthType.geometry nc_fern01
+OvergrowthType.density 35
+OvergrowthType.normalScale 1
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0.2
+OvergrowthType.minRadiusToOthers 0.2
+Overgrowth.addType slybush
+Overgrowth.setActiveType slybush
+OvergrowthType.geometry nc_slybush01
+OvergrowthType.density 35
+OvergrowthType.normalScale 1
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0.2
+OvergrowthType.minRadiusToOthers 0.2
+Overgrowth.addType mediumbush
+Overgrowth.setActiveType mediumbush
+OvergrowthType.geometry nc_medbush01
+OvergrowthType.density 40
+OvergrowthType.normalScale 1
+OvergrowthType.rotationScale 0
+OvergrowthType.minRadiusToSame 0.2
+OvergrowthType.minRadiusToOthers 0.2
+
+Overgrowth.path levels\dalian_plant\overgrowth\
+Overgrowth.preLoad

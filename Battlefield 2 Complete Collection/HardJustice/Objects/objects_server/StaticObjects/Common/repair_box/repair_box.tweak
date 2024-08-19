@@ -1,0 +1,35 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/1/4 7:47]
+GeometryTemplate.doNotGenerateLightmaps 0
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+GeometryTemplate.glowing 0
+GeometryTemplate.noLighting 0
+ObjectTemplate.activeSafe SupplyObject repair_box
+ObjectTemplate.creator GAME:Radar_OReilly
+ObjectTemplate.modifiedByUser "Radar_OReilly"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 4
+ObjectTemplate.geometry repair_box
+ObjectTemplate.setCollisionMesh repair_box
+ObjectTemplate.mapMaterial 0 metal_thin 1019
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.material 45
+rem -------------------------------------
+ObjectTemplate.addTemplate Vehicle_heal_ammo1
+rem -------------------------------------
+ObjectTemplate.workOnSoldiers 0
+
+ObjectTemplate.create SupplyObject Vehicle_heal_ammo1
+ObjectTemplate.modifiedByUser "Radar_OReilly"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 5
+ObjectTemplate.workOnSoldiers 0
+ObjectTemplate.workOnVehicles 1
+ObjectTemplate.healSpeed 15
+ObjectTemplate.teamFromClosestCP 1
+

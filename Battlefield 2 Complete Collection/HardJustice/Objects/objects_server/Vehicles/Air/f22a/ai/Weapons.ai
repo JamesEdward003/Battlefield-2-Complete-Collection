@@ -1,0 +1,41 @@
+rem *** Weaponory ***
+
+rem * Machine gun *
+weaponTemplate.create f22a_MachineGun
+weaponTemplate.indirect 0
+weaponTemplate.minRange 10.0
+weaponTemplate.maxRange 65.0
+weaponTemplate.setStrength Infantry    5.0
+weaponTemplate.setStrength LightArmour 10.0
+weaponTemplate.setStrength HeavyArmour 8.0
+weaponTemplate.setStrength NavalArmour 0.0
+weaponTemplate.setStrength Helicopter  7.0
+weaponTemplate.setStrength Airplane    9.0
+weaponTemplate.allowedDeviation 20.0
+
+rem * AAM *
+weaponTemplate.create f22a_sidewinder_AI
+weaponTemplate.indirect 0
+weaponTemplate.minRange 15.0
+weaponTemplate.maxRange 60.0
+weaponTemplate.setStrength Infantry    0.0
+weaponTemplate.setStrength LightArmour 0.0
+weaponTemplate.setStrength HeavyArmour 0.0
+weaponTemplate.setStrength NavalArmour 0.0
+weaponTemplate.setStrength Helicopter  25
+weaponTemplate.setStrength Airplane    31
+weaponTemplate.allowedDeviation 15.0
+
+rem * Bombs *
+weaponTemplate.create f22a_Bombs
+weaponTemplate.indirect 1
+weaponTemplate.minRange 30.0
+weaponTemplate.maxRange 500.0
+weaponTemplate.setStrength Infantry    8
+weaponTemplate.setStrength LightArmour 15
+weaponTemplate.setStrength HeavyArmour 20
+weaponTemplate.setStrength NavalArmour 3
+weaponTemplate.setStrength Helicopter  1
+weaponTemplate.setStrength Airplane    1
+weaponTemplate.allowedDeviation 15.0
+

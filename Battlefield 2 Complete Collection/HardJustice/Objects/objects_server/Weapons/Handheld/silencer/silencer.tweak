@@ -1,0 +1,9 @@
+rem *** Generated with Bf2Editor.exe [created: 2004/10/26 12:13]
+ObjectTemplate.activeSafe SimpleObject silencer
+ObjectTemplate.creator MBA-1:mba
+ObjectTemplate.modifiedByUser LJO
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry silencer
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+

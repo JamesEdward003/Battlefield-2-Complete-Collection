@@ -1,0 +1,30 @@
+rem *** Use this file to tweak scores set from scoreManager ***
+
+rem *** Points given ***
+scoreManager.setDeath 0
+scoreManager.setKill 2
+scoreManager.setAssistKill 1
+scoreManager.setInDirectKill 1
+scoreManager.setTk -4
+scoreManager.setHeal 1
+scoreManager.setSoldierRevive 2
+scoreManager.setRepair 1
+scoreManager.setVehicleRevive 2
+scoreManager.setAmmo 1
+scoreManager.setFlagCapture 5
+scoreManager.setFlagReturn 2
+scoreManager.setControlPointCapture 4
+scoreManager.setObjective 5
+scoreManager.setDriverPassenger 1
+scoreManager.setTeamDamage -2
+scoreManager.setTeamVehicleDamage -1
+
+
+rem *** Limits ***
+scoreManager.setHealScoreLimit 100
+scoreManager.setRepairScoreLimit 100
+scoreManager.setAmmoScoreLimit 100
+
+rem The below ones are in percent
+scoreManager.setTeamDamageLimit 50
+scoreManager.setTeamVehicleDamageLimit 25

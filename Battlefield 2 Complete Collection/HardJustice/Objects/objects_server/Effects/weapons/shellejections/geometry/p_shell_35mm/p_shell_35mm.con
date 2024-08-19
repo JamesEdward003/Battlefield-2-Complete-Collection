@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh p_shell_35mm
+CollisionManager.createTemplate p_shell_35mm
+
+ObjectTemplate.create Particle p_shell_35mm
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator "SatNav"
+ObjectTemplate.collisionMesh p_shell_35mm
+ObjectTemplate.mapMaterial 0 shell_35 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry p_shell_35mm
+
+include p_shell_35mm.tweak

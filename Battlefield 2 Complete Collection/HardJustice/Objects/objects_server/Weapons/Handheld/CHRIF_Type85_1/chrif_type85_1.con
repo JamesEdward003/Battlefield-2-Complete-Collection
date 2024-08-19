@@ -1,0 +1,6 @@
+ObjectTemplate.create GenericFireArm chrif_type85_1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator MBA-1:mba
+ObjectTemplate.geometry chrif_type85
+
+include chrif_type85_1.tweak

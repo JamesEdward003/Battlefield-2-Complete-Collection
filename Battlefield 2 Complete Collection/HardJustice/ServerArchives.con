@@ -1,0 +1,9 @@
+fileManager.mountArchive Objects_server.zip Objects
+fileManager.mountArchive Objects_binocular_server.zip Objects
+fileManager.mountArchive Menu_server.zip Menu
+
+fileManager.mountArchive mods/bf2/Objects_server.zip Objects
+fileManager.mountArchive mods/bf2/Menu_server.zip Menu
+fileManager.mountArchive mods/bf2/Voices_server.zip Common
+fileManager.mountArchive mods/bf2/Common_server.zip Common
+fileManager.mountArchive mods/bf2/Booster_server.zip Objects

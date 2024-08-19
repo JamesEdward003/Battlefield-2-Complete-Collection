@@ -1,0 +1,199 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe GenericFireArm sa7
+ObjectTemplate.creator CAMBO-DB1C4BB91:cambo
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.castsDynamicShadow 1
+rem ---BeginComp:WeaponHud ---
+ObjectTemplate.createComponent WeaponHud
+ObjectTemplate.weaponHud.weaponIcon Ingame\Weapons\Icons\Hud\sa7.tga
+ObjectTemplate.weaponHud.altWeaponIcon Ingame\Weapons\Icons\Hud\USATP_Predator_mini.tga
+ObjectTemplate.weaponHud.selectIcon Ingame\Weapons\Icons\Hud\Selection\sa7.tga
+ObjectTemplate.weaponHud.specialAbilityIcon Ingame\Weapons\Icons\Hud\SpecialKitIcons\antiAir.tga
+ObjectTemplate.weaponHud.hudName "SA-7"
+ObjectTemplate.weaponHud.guiIndex 0
+ObjectTemplate.weaponHud.altGuiIndex 66
+ObjectTemplate.weaponHud.deviationFactor 5
+ObjectTemplate.weaponHud.hasFireRate 0
+ObjectTemplate.weaponHud.hasRangeFinder 1
+ObjectTemplate.weaponHud.firstLockSound HUD_TargetTrack
+ObjectTemplate.weaponHud.secondLockSound HUD_TargetLock
+rem ---EndComp ---
+rem ---BeginComp:SingleFireComp ---
+ObjectTemplate.createComponent SingleFireComp
+ObjectTemplate.fire.roundsPerMinute 120
+ObjectTemplate.fire.addFireRate 0
+ObjectTemplate.fire.showWeaponAfterReloadDelay 1.6
+ObjectTemplate.fire.busyUntilButtonRelease 1
+rem ---EndComp ---
+rem ---BeginComp:DefaultAmmoComp ---
+ObjectTemplate.createComponent DefaultAmmoComp
+ObjectTemplate.ammo.ammoType 1
+ObjectTemplate.ammo.nrOfMags 6
+ObjectTemplate.ammo.magSize 1
+ObjectTemplate.ammo.reloadTime 3
+ObjectTemplate.ammo.minimumTimeUntilReload 1.8
+ObjectTemplate.ammo.reloadWithoutPlayer 1
+rem ---EndComp ---
+rem ---BeginComp:SoldierBasedRecoilComp ---
+ObjectTemplate.createComponent SoldierBasedRecoilComp
+rem ---EndComp ---
+rem ---BeginComp:SoldierDeviationComp ---
+ObjectTemplate.createComponent SoldierDeviationComp
+ObjectTemplate.deviation.setTurnDev 0 0 0 0
+ObjectTemplate.deviation.setSpeedDev 0 0 0 0
+ObjectTemplate.deviation.setMiscDev 0 0 0
+rem ---EndComp ---
+rem ---BeginComp:DefaultSoundComp ---
+ObjectTemplate.createComponent DefaultSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultAnimationComp ---
+ObjectTemplate.createComponent DefaultAnimationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultZoomComp ---
+ObjectTemplate.createComponent DefaultZoomComp
+ObjectTemplate.zoom.zoomDelay 0.08
+ObjectTemplate.zoom.zoomLod 1
+ObjectTemplate.zoom.addZoomFactor 0
+ObjectTemplate.zoom.addZoomFactor 0.85
+ObjectTemplate.zoom.changeFovDelay 0.05
+rem ---EndComp ---
+rem ---BeginComp:MultiFireArmTargetComp ---
+ObjectTemplate.createComponent MultiFireArmTargetComp
+ObjectTemplate.target.maxDistance 300
+ObjectTemplate.target.targetSystem TSHeatSeeking
+ObjectTemplate.target.connectionEffectOnlyWhenZoomed 1
+ObjectTemplate.target.useCameraDirectionToTarget 1
+ObjectTemplate.target.lockDelay 1.2
+ObjectTemplate.target.lockAngle 15
+rem ---EndComp ---
+ObjectTemplate.geometry sa7
+ObjectTemplate.setCollisionMesh sa7
+ObjectTemplate.mapMaterial 0 Collision_Material 68
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Point
+ObjectTemplate.aiTemplate sa7_AI
+rem -------------------------------------
+ObjectTemplate.addTemplate S_sa7_Fire1P
+ObjectTemplate.setPosition -0.00307178/0.00170866/0.415331
+ObjectTemplate.addTemplate S_sa7_Fire1P_Outdoor
+ObjectTemplate.setPosition 0/0.000669107/0.415355
+ObjectTemplate.addTemplate S_sa7_Fire3P
+ObjectTemplate.setPosition 0.0131125/-0.00612263/0.413292
+ObjectTemplate.addTemplate S_sa7_BoltClick
+ObjectTemplate.setPosition 0/0.0704511/0
+ObjectTemplate.addTemplate S_sa7_TriggerClick
+ObjectTemplate.setPosition 0/-0.026988/0.366589
+ObjectTemplate.addTemplate S_sa7_SwitchFireRate
+ObjectTemplate.setPosition 0/0.0476625/0
+ObjectTemplate.addTemplate S_sa7_Reload1P
+ObjectTemplate.setPosition 0/0.0468495/0.0667839
+ObjectTemplate.addTemplate S_sa7_Reload3P
+ObjectTemplate.setPosition 0/0.0268768/-0.00257115
+ObjectTemplate.addTemplate S_sa7_Deploy1P
+ObjectTemplate.setPosition 0/0.0357821/0
+ObjectTemplate.addTemplate S_sa7_Deploy3P
+ObjectTemplate.setPosition 0/0.041555/0
+ObjectTemplate.addTemplate S_sa7_Zoom
+ObjectTemplate.setPosition 0/0.086032/0.280326
+ObjectTemplate.addTemplate e_muzz_sa7
+ObjectTemplate.setPosition 0.000571549/0.0280321/-1.11795
+ObjectTemplate.addTemplate e_zig_backblast
+ObjectTemplate.setPosition -0.0275728/0.0257221/-1.09061
+rem -------------------------------------
+ObjectTemplate.animationSystem1P Objects/Weapons/Handheld/sa7/AnimationSystem1p.inc
+ObjectTemplate.animationSystem3P Objects/Weapons/Handheld/sa7/AnimationSystem3p.inc
+ObjectTemplate.projectileTemplate igla_9k38
+ObjectTemplate.keepProjectiles 5
+ObjectTemplate.velocity 20
+ObjectTemplate.itemIndex 6
+ObjectTemplate.delayToUse 1
+
+ObjectTemplate.activeSafe Sound S_sa7_Fire1P
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.soundFilename "objects/weapons/stationary/usaas_stinger/sounds/stinger_fire_1p.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.9
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.97/1.03/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+ObjectTemplate.position -0.00307178/0.00170866/0.415331
+
+ObjectTemplate.activeSafe Sound S_sa7_Fire1P_Outdoor
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.soundFilename "objects/weapons/stationary/usaas_stinger/sounds/stinger_fire_1p.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.9
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.97/1.03/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+ObjectTemplate.position 0/0.000669107/0.415355
+
+ObjectTemplate.activeSafe Sound S_sa7_Fire3P
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.soundFilename "objects/weapons/stationary/usaas_stinger/sounds/stinger_fire_3p.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.9
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.97/1.03/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+ObjectTemplate.position 0.0131125/-0.00612263/0.413292
+ObjectTemplate.minDistance 7
+ObjectTemplate.halfVolumeDistance 14
+
+ObjectTemplate.activeSafe Sound S_sa7_BoltClick
+ObjectTemplate.modifiedByUser "Ziggy"
+
+ObjectTemplate.activeSafe Sound S_sa7_TriggerClick
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.soundFilename "objects/weapons/handheld/uspis_92fs/sounds/mono/trigger_click.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.7
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.position 0/-0.026988/0.366589
+
+ObjectTemplate.activeSafe Sound S_sa7_SwitchFireRate
+ObjectTemplate.modifiedByUser "Ziggy"
+
+ObjectTemplate.activeSafe Sound S_sa7_Reload1P
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.soundFilename "objects/weapons/handheld/sasgr_fn2000/sounds/fn2000g_1p_reload.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.88
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.position 0/0.0468495/0.0667839
+
+ObjectTemplate.activeSafe Sound S_sa7_Reload3P
+ObjectTemplate.modifiedByUser "Ziggy"
+
+ObjectTemplate.activeSafe Sound S_sa7_Deploy1P
+ObjectTemplate.modifiedByUser "Ziggy"
+
+ObjectTemplate.activeSafe Sound S_sa7_Deploy3P
+ObjectTemplate.modifiedByUser "Ziggy"
+
+ObjectTemplate.activeSafe Sound S_sa7_Zoom
+ObjectTemplate.modifiedByUser "Ziggy"
+

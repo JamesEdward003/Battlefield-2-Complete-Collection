@@ -1,0 +1,16 @@
+<map gsid="37">
+	<name> The_Harbor </name>
+	<briefing locid="Terrorists have taken over the Harbor and are planning to use the Manufacturing plan to make chemical weapons. Stop them at all costs.">map description for modders maps not localized (english only)</briefing>
+	<music> levels/The_Harbor/Music/The_Harbor.ogg </music>
+	<modes>
+		<mode type="gpm_cq">
+			<maptype ai="1" players="64" type="doubleassault" locid="GAMEMODE_DESCRIPTION_assault">Unlocalized test for this mode on this map</maptype>
+		</mode>
+		<mode type="gpm_coop">
+			<maptype ai="1" players="64" type="doubleassault" locid="GAMEMODE_DESCRIPTION_COOP_assault">Unlocalized test for this mode on this map</maptype></mode>
+		<mode type="sp3">
+			<maptype ai="1" players="64" type="doubleassault" locid="GAMEMODE_DESCRIPTION_doubleassault">Unlocalized test for this mode on this map</maptype>
+		</mode>
+	</modes>
+</map>
+

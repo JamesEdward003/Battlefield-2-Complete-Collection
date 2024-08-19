@@ -1,0 +1,33 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/5/11 17:11]
+ObjectTemplate.activeSafe EffectBundle e_sfx_exp_distant3
+ObjectTemplate.modifiedByUser ngo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_e_sfx_exp_distant3_Start
+
+rem -------------------------------------
+
+ObjectTemplate.setStartOnEffects 0
+ObjectTemplate.setStopOnEffects 0
+ObjectTemplate.timeToLive CRD_NONE/8/0/0
+ObjectTemplate.randomAgeFactor CRD_NONE/1/0/0
+ObjectTemplate.startAtCreation 0
+ObjectTemplate.speedFromPhysics 1
+
+ObjectTemplate.activeSafe Sound S_e_sfx_exp_distant3_Start
+ObjectTemplate.modifiedByUser dsu
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/effects/sound/explosions/explode1.wav,objects/effects/sound/explosions/explode2.wav,objects/effects/sound/explosions/explode3.wav,objects/effects/sound/explosions/explode4.wav,objects/effects/sound/explosions/explode5.wav,objects/effects/sound/explosions/explode6.wav,objects/effects/sound/explosions/explode7.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.93/1.05/
+ObjectTemplate.minDistance 120
+ObjectTemplate.halfVolumeDistance 400
+ObjectTemplate.soundRadius 10

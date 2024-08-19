@@ -1,0 +1,7 @@
+rem -- Make sure muzzle flashes are visible at least one frame.
+rem renderer.presentAsync 0
+
+rem sound.setReverb "levels/the_dam_play/reverb.txt"
+
+
+

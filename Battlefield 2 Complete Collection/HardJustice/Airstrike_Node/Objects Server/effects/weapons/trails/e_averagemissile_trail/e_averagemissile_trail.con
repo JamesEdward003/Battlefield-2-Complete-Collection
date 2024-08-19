@@ -1,0 +1,4 @@
+ObjectTemplate.create EffectBundle e_averagemissile_trail
+ObjectTemplate.createdInEditor 1
+
+include e_averagemissile_trail.tweak

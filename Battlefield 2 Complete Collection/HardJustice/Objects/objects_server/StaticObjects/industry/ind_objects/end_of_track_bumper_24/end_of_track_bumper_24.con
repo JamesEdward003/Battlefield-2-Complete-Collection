@@ -1,0 +1,15 @@
+GeometryTemplate.create StaticMesh end_of_track_bumper_24
+CollisionManager.createTemplate end_of_track_bumper_24
+
+ObjectTemplate.create SimpleObject end_of_track_bumper_24
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh end_of_track_bumper_24
+ObjectTemplate.mapMaterial 0 Gravel 0
+ObjectTemplate.mapMaterial 1 Metal_solid 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry end_of_track_bumper_24
+ObjectTemplate.anchor 0/-0.2576/-12.0000
+
+include end_of_track_bumper_24.tweak

@@ -1,0 +1,5 @@
+ObjectTemplate.create DropVehicle dropVehicle
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.NoPassengerTimeToLive 30
+CommanderMenu.VehicleDropReloadTime 30
+gameLogic.VehicleDropHeight 50

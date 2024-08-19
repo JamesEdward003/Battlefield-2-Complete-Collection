@@ -1,0 +1,4 @@
+<weapon eq="1">
+	<name locid="WEAPON_NAME_nshgr_flashbang">Dummy non-localized text. Modders use this area.</name>
+	<description locid="WEAPON_DESCRIPTION_nshgr_flashbang">Dummy non-localized text. Modders use this area.</description>
+</weapon>

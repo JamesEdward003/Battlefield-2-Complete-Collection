@@ -1,0 +1,20 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 12:52]
+GeometryTemplate.doNotGenerateLightmaps 0
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+GeometryTemplate.glowing 0
+GeometryTemplate.noLighting 0
+ObjectTemplate.activeSafe SimpleObject barrack
+ObjectTemplate.creator BATTLEMAPPER2:StrykerJ
+ObjectTemplate.modifiedByUser "StrykerJ"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry barrack
+ObjectTemplate.setCollisionMesh barrack
+ObjectTemplate.mapMaterial 0 concrete 78
+ObjectTemplate.mapMaterial 1 Stairs_concrete 34
+ObjectTemplate.mapMaterial 2 Default 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+

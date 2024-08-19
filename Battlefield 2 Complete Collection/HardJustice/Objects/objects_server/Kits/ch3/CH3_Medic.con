@@ -1,0 +1,60 @@
+ObjectTemplate.create Kit CH3_Medic
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.kitType Medic
+ObjectTemplate.aiTemplate Medic
+ObjectTemplate.geometry CH_Kits
+ObjectTemplate.geometry.kit 4
+ObjectTemplate.geometry.dropGeom 11
+ObjectTemplate.setNetworkableInfo KitInfo
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.abilityRestoreRate 0.05
+ObjectTemplate.abilityInVehicleRadius 7
+ObjectTemplate.abilityInVehicleStrength 0.25
+ObjectTemplate.abilityInVehicleMaterial 73
+ObjectTemplate.unlockIndex 3
+ObjectTemplate.cullRadiusScale 2.4
+rem -------------------------------------
+ObjectTemplate.addTemplate medikit
+ObjectTemplate.addTemplate defibrillator
+ObjectTemplate.addTemplate RUPIS_Baghira
+ObjectTemplate.addTemplate kni_knife
+ObjectTemplate.addTemplate rurif_bizon
+ObjectTemplate.addTemplate USHGR_M67
+Objecttemplate.addTemplate hgr_gas
+ObjectTemplate.addTemplate UnlockCH3Medic
+ObjectTemplate.addTemplate UnlockCH3Medic2
+rem -------------------------------------
+
+ObjectTemplate.createComponent Ability
+ObjectTemplate.ability.hasHealingAbility 1
+
+ObjectTemplate.createComponent AbilityHud
+ObjectTemplate.abilityHud.healingSound S_Heal
+ObjectTemplate.abilityHud.repairingSound S_Repair
+ObjectTemplate.abilityHud.ammoSound S_Resupply
+
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName 		"CH3 MEDIC"
+ObjectTemplate.vehicleHud.miniMapIcon		"Ingame\Kits\Icons\kit_Medic_outline.tga"
+ObjectTemplate.vehicleHud.vehicleIcon		"Ingame\Kits\Icons\kit_Medic.tga"
+ObjectTemplate.vehicleHud.spottedIcon 		"Ingame\Player\Icons\Minimap\mini_Soldier.dds"
+ObjectTemplate.vehicleHud.pantingSound		S_SprintBreath
+ObjectTemplate.vehicleHud.injurySound		S_Injury
+ObjectTemplate.vehicleHud.vehicleType 		7
+
+ObjectTemplate.sprintStaminaDissipationFactor 0.6
+
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage	"infantry_spotted"
+rem ---EndComp ---
+
+ObjectTemplate.create ItemContainer UnlockCH3Medic
+ObjectTemplate.addTemplate chrif_type85
+ObjectTemplate.unlockLevel 1
+
+ObjectTemplate.create ItemContainer UnlockCH3Medic2
+ObjectTemplate.addTemplate chsht_protecta
+ObjectTemplate.replaceItem usrif_sa80
+ObjectTemplate.replaceItem chrif_type85
+ObjectTemplate.unlockLevel 2

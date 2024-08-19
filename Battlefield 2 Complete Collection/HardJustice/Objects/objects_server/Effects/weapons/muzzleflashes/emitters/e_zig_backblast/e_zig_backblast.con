@@ -1,0 +1,4 @@
+ObjectTemplate.create EffectBundle e_zig_backblast
+ObjectTemplate.createdInEditor 1
+
+include e_zig_backblast.tweak

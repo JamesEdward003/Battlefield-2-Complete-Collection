@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh man_hole_cover
+CollisionManager.createTemplate man_hole_cover
+
+ObjectTemplate.create SimpleObject man_hole_cover
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh man_hole_cover
+ObjectTemplate.mapMaterial 0 Metal_solid 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry man_hole_cover
+
+include man_hole_cover.tweak

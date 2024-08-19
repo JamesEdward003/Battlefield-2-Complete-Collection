@@ -1,0 +1,21 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/8/2 9:59]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe Rotor rah66a_tailrotor
+ObjectTemplate.creator CAMBO-DB1C4BB91:cambo
+ObjectTemplate.modifiedByUser "cambo"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry rah66a_tailrotor
+ObjectTemplate.setCollisionMesh rah66a_tailrotor
+ObjectTemplate.mapMaterial 0 rotor 31
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.changeLodAt 0.15
+ObjectTemplate.tolerance 0.000390625
+ObjectTemplate.rotationSpeedMod 2.5
+ObjectTemplate.rotationSpeedModBlur 0.1
+ObjectTemplate.rotationAxle 1
+ObjectTemplate.engineName rah66a_TailRotor_Engine
+

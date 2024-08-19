@@ -1,0 +1,6 @@
+ObjectTemplate.create GenericProjectile decoy_agmf
+ObjectTemplate.createdInEditor 1
+
+
+include decoy_agmf.tweak
+

@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh sa7
+CollisionManager.createTemplate sa7
+
+ObjectTemplate.create GenericFireArm sa7
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CAMBO-DB1C4BB91:cambo
+ObjectTemplate.collisionMesh sa7
+ObjectTemplate.mapMaterial 0 Collision_Material 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry sa7
+
+include sa7.tweak

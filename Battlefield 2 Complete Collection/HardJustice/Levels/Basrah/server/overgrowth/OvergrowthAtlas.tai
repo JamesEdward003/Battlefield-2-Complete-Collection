@@ -1,0 +1,20 @@
+# mods/Radar/levels\basrah\overgrowth\OvergrowthAtlas.tai
+# 
+# 
+# <filename>		<atlas filename>, <atlas idx>, <woffset>, <hoffset>, <width>, <height>
+# 
+# Texture <filename> can be found in texture atlas <atlas filename>, i.e.,
+# <group><idx>.dds with texture coordinates boundary given by:
+#   A = ( <woffset>, <hoffset> )
+#   B = ( <woffset> + <width>, <hoffset> + <height> )
+# 
+# where coordinates (0,0) and (1,1) of the original texture map correspond
+# to coordinates A and B, respectively, in the texture atlas.
+
+
+objects/vegitation/asia/textures/leaf_nc_birch01de_lod.dds		levels\basrah\overgrowth\OvergrowthAtlas0.dds, 0, 0, 0, 0.125, 1
+objects/vegitation/middle-east/textures/leaf_me_vines01de_lod.dds		levels\basrah\overgrowth\OvergrowthAtlas0.dds, 0, 0.125, 0, 0.125, 1
+objects/vegitation/middle-east/textures/leaf_meolivebig01_lod.dds		levels\basrah\overgrowth\OvergrowthAtlas0.dds, 0, 0.25, 0, 0.125, 1
+objects/vegitation/middle-east/textures/leaf_meolivebig04_lod.dds		levels\basrah\overgrowth\OvergrowthAtlas0.dds, 0, 0.375, 0, 0.125, 1
+objects/vegitation/asia/textures/tile_ncbark01de_lod.dds		levels\basrah\overgrowth\OvergrowthAtlas0.dds, 0, 0.5, 0, 0.125, 0.5
+objects/vegitation/middle-east/textures/tile_mebark01de_lod.dds		levels\basrah\overgrowth\OvergrowthAtlas0.dds, 0, 0.5, 0.5, 0.125, 0.5

@@ -1,0 +1,77 @@
+GeometryTemplate.create BundledMesh sa342a
+CollisionManager.createTemplate sa342a
+
+ObjectTemplate.create PlayerControlObject sa342a
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CAMBO:Cihangir
+ObjectTemplate.collisionMesh sa342a
+ObjectTemplate.mapMaterial 0 Armor_6_helicopter 0
+ObjectTemplate.mapMaterial 1 Glass_bulletproof 0
+ObjectTemplate.mapMaterial 2 wreck 0
+ObjectTemplate.mapMaterial 3 helicopter_landing_rail 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry sa342a
+ObjectTemplate.addTemplate sa342a_damperLB
+ObjectTemplate.setPosition -0.8435/-0.8417/-1.8143
+ObjectTemplate.addTemplate sa342a_damperLF
+ObjectTemplate.setPosition -0.8435/-0.8417/1.8144
+ObjectTemplate.addTemplate sa342a_damperRB
+ObjectTemplate.setPosition 0.8435/-0.8417/-1.8143
+ObjectTemplate.addTemplate sa342a_damperRF
+ObjectTemplate.setPosition 0.8435/-0.8417/1.8144
+ObjectTemplate.addTemplate sa342aMG_L_Base
+ObjectTemplate.setPosition -1.3833/0.2886/-0.3753
+ObjectTemplate.addTemplate sa342aMG_R_Base
+ObjectTemplate.setPosition 1.3847/0.2886/-0.3753
+
+ObjectTemplate.create Spring sa342a_damperLB
+ObjectTemplate.collisionPart 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+
+ObjectTemplate.create Spring sa342a_damperLF
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+
+ObjectTemplate.create Spring sa342a_damperRB
+ObjectTemplate.collisionPart 3
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+ObjectTemplate.create Spring sa342a_damperRF
+ObjectTemplate.collisionPart 4
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+ObjectTemplate.create Rotationalbundle sa342aMG_L_Base
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+ObjectTemplate.addTemplate sa342aMG_L_Barrel
+ObjectTemplate.setPosition -0.0018/0/0.4169
+
+ObjectTemplate.create Rotationalbundle sa342aMG_L_Barrel
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+
+ObjectTemplate.create Rotationalbundle sa342aMG_R_Base
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+ObjectTemplate.addTemplate sa342aMG_R_Barrel
+ObjectTemplate.setPosition -0.0018/0/0.4169
+
+ObjectTemplate.create Rotationalbundle sa342aMG_R_Barrel
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+
+include sa342a.tweak

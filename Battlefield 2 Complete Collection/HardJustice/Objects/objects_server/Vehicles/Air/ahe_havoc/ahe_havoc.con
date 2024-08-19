@@ -1,0 +1,87 @@
+GeometryTemplate.create BundledMesh ahe_havoc
+CollisionManager.createTemplate ahe_havoc
+
+ObjectTemplate.create PlayerControlObject ahe_havoc
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator PHO-1:pho
+ObjectTemplate.collisionMesh ahe_havoc
+ObjectTemplate.mapMaterial 0 helicopter_armour 0
+ObjectTemplate.mapMaterial 1 Bulletproof_glass 0
+ObjectTemplate.mapMaterial 2 metalplale 0
+ObjectTemplate.mapMaterial 3 wreck 0
+ObjectTemplate.mapMaterial 4 rubber 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry ahe_havoc
+ObjectTemplate.addTemplate AHE_HAVOC_COgunner
+ObjectTemplate.setPosition 0/-0.9891/3.0563
+ObjectTemplate.addTemplate AHE_HAVOC_L_Wheel
+ObjectTemplate.setPosition -1.2936/-2.1123/1.2023
+ObjectTemplate.addTemplate AHE_HAVOC_R_Wheel
+ObjectTemplate.setPosition 1.2936/-2.1123/1.2023
+ObjectTemplate.addTemplate AHE_HAVOC_B_Wheel
+ObjectTemplate.setPosition 0/-0.8050/-10.4079
+
+ObjectTemplate.create PlayerControlObject AHE_HAVOC_COgunner
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate AHE_HAVOC_GunTurret
+ObjectTemplate.setPosition 0/-0.2804/-0.0363
+ObjectTemplate.addTemplate AHE_HAVOC_Sensors
+ObjectTemplate.setPosition 0.0010/0.0730/1.4171
+
+ObjectTemplate.create RotationalBundle AHE_HAVOC_GunTurret
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+ObjectTemplate.addTemplate AHE_HAVOC_Barrel_Base
+ObjectTemplate.setPosition 0/-0.4550/0.1084
+
+ObjectTemplate.create RotationalBundle AHE_HAVOC_Barrel_Base
+ObjectTemplate.collisionPart 3
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+ObjectTemplate.addTemplate AHE_HAVOC_Gun
+ObjectTemplate.setPosition 0/0.0381/2.5158
+
+ObjectTemplate.create GenericFireArm AHE_HAVOC_Gun
+ObjectTemplate.collisionPart 4
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+ObjectTemplate.create RotationalBundle AHE_HAVOC_Sensors
+ObjectTemplate.collisionPart 5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+
+ObjectTemplate.create Spring AHE_HAVOC_L_Wheel
+ObjectTemplate.collisionPart 6
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+
+ObjectTemplate.create Spring AHE_HAVOC_R_Wheel
+ObjectTemplate.collisionPart 7
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+
+ObjectTemplate.create Spring AHE_HAVOC_B_Wheel
+ObjectTemplate.collisionPart 8
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+
+include ahe_havoc.tweak

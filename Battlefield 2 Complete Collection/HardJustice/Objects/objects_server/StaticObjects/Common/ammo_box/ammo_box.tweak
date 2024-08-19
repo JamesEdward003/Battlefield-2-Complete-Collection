@@ -1,0 +1,33 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/8/2 9:59]
+GeometryTemplate.doNotGenerateLightmaps 0
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe SupplyObject ammo_box
+ObjectTemplate.creator GAME:Radar_OReilly
+ObjectTemplate.modifiedByUser "Radar_OReilly"
+rem ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 4
+ObjectTemplate.geometry ammo_box
+ObjectTemplate.setCollisionMesh ammo_box
+ObjectTemplate.mapMaterial 0 metal_thin 1019
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.material 45
+rem -------------------------------------
+ObjectTemplate.addTemplate soldier_ammo1
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------
+
+ObjectTemplate.create SupplyObject soldier_ammo1
+ObjectTemplate.modifiedByUser Radar_OReilly
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 2
+ObjectTemplate.workOnSoldiers 1
+ObjectTemplate.workOnVehicles 0
+ObjectTemplate.refillAmmoSpeed 15
+ObjectTemplate.teamFromClosestCP 1

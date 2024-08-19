@@ -1,0 +1,452 @@
+
+rem *******************
+rem **    Basarah    **
+rem *******************
+
+rem ** Create Conditions **
+
+rem *** MEC ***
+rem ** Common **
+aiStrategy.createConstantCondition timeCond Fuzzy EqualSmaller Friendly StartTime 300
+aiStrategy.setConditionStrength AdvisoryNegative
+aiStrategy.setIsAbortCondition 1
+
+rem ** centre ** 
+rem * step1 *
+aiStrategy.createConstantCondition noFriendlyBaseCond Crisp Equal Friendly Base 0
+aiStrategy.setConditionStrength Required
+
+rem * step2 *
+aiStrategy.createConstantCondition friendlyBaseCond Crisp EqualGreater Friendly Base 1
+aiStrategy.setConditionStrength Required
+
+rem * step3 *
+aiStrategy.createConstantCondition enemyBaseCond Crisp EqualGreater Enemy Base 1
+aiStrategy.setConditionStrength Required
+
+rem ** cleanUp **
+aiStrategy.createConstantCondition maxOneEnemyCPCond Crisp EqualSmaller Enemy ControlPoint 1
+aiStrategy.setConditionStrength Required
+
+rem ** singleSpread **
+aiStrategy.createConstantCondition oneEnemyFrontCond Crisp Equal Enemy Front 1
+aiStrategy.setConditionStrength Required
+
+rem *** USA ***
+rem ** noFront **
+aiStrategy.createConstantCondition noEnemyFrontCond Crisp Equal Enemy Front 0
+aiStrategy.setConditionStrength Required
+
+rem ** singleFront **
+aiStrategy.createConstantCondition minOneEnemyFrontCond Crisp EqualGreater Enemy Front 1
+aiStrategy.setConditionStrength Required
+
+rem ** multipleFront **
+aiStrategy.createConstantCondition minTwoEnemyFrontCond Crisp EqualGreater Enemy Front 2
+aiStrategy.setConditionStrength Required
+
+rem ** maxOneCP **
+aiStrategy.createConstantCondition maxOneCPPrereq Crisp EqualSmaller Friendly ControlPoint 1
+aiStrategy.setConditionStrength Required
+
+rem *** old ones ***
+rem ** singleFlank **
+rem * step1 *
+aiStrategy.createConstantCondition oneRemoteCond Crisp EqualGreater Enemy Remote 1
+aiStrategy.setConditionStrength Required
+
+rem * step2 *
+aiStrategy.createConstantCondition noCPCond Crisp Equal Friendly ControlPoint 2
+aiStrategy.setConditionStrength Required
+
+rem * step3 *
+aiStrategy.createConstantCondition oneFlankCond Crisp Equal Enemy FrontFlank 1
+aiStrategy.setConditionStrength Required
+
+rem * step4 *
+aiStrategy.createConstantCondition oneCloseCond Crisp Equal Enemy FrontClose 1
+aiStrategy.setConditionStrength Required
+
+rem * step5 *
+aiStrategy.createConstantCondition oneCPCond Crisp Equal Friendly ControlPoint 1
+aiStrategy.setConditionStrength Required
+
+rem * step6 *
+aiStrategy.createConstantCondition baseCond Crisp EqualGreater Enemy FrontBase 1
+aiStrategy.setConditionStrength Required
+
+rem * step7 *
+aiStrategy.createConstantCondition twoCPCond Crisp Equal Friendly ControlPoint 2
+aiStrategy.setConditionStrength Required
+
+rem ** doubleFlank **
+rem * step1 *
+aiStrategy.createConstantCondition twoOwnRemoteCond Crisp Equal Friendly Remote 2
+aiStrategy.setConditionStrength Required
+
+rem * step2 *
+aiStrategy.createConstantCondition maxOneCPCond Crisp EqualSmaller Friendly ControlPoint 1
+aiStrategy.setConditionStrength Required
+
+rem * step3 *
+aiStrategy.createConstantCondition twoOwnFlankCond Crisp Equal Friendly Flank 2
+aiStrategy.setConditionStrength Required
+
+rem * step4 *
+aiStrategy.createConstantCondition maxThreeCPCond Crisp EqualSmaller Friendly ControlPoint 3
+aiStrategy.setConditionStrength Required
+
+rem * step5 *
+aiStrategy.createConstantCondition minTwoCPCond Crisp EqualGreater Friendly ControlPoint 2
+aiStrategy.setConditionStrength Required
+
+rem * step6 *
+aiStrategy.createConstantCondition twoOwnCloseCond Crisp Equal Friendly Close 2
+aiStrategy.setConditionStrength Required
+
+rem * step7 *
+aiStrategy.createConstantCondition fourCPCond Crisp Equal Friendly ControlPoint 4
+aiStrategy.setConditionStrength Required
+
+
+rem *** Create Prerequisites ***
+
+rem *** MEC ***
+rem ** centre **
+aiStrategy.createPrerequisite centreStep1Prereq
+aiStrategy.addCondition noFriendlyBaseCond      5.0
+aiStrategy.addCondition noCPCond  		5.0
+rem aiStrategy.addCondition timeCond   		0.02
+
+aiStrategy.createPrerequisite centreStep2Prereq
+aiStrategy.addCondition friendlyBaseCond	5.0
+aiStrategy.addCondition enemyBaseCond		5.0
+
+aiStrategy.createPrerequisite crLandingPrereq
+aiStrategy.addCondition noCPCond  	       40.0
+rem aiStrategy.addCondition timeCond   		0.02
+
+aiStrategy.createPrerequisite fnLandingPrereq
+aiStrategy.addCondition noCPCond  	        5.0
+rem aiStrategy.addCondition timeCond   		0.02
+
+aiStrategy.createPrerequisite mLandingPrereq
+aiStrategy.addCondition noCPCond  	        5.0
+rem aiStrategy.addCondition timeCond   		0.02
+
+rem ** cleanUp **
+aiStrategy.createPrerequisite cleanUpPrereq
+aiStrategy.addCondition maxOneEnemyCPCond	5.0
+
+rem ** singleSpread ** 
+aiStrategy.createPrerequisite singleSpreadPrereq
+aiStrategy.addCondition oneEnemyFrontCond	 5.0
+rem aiStrategy.addCondition timeCond   		 0.02
+
+rem ** doubleSpread ** 
+aiStrategy.createPrerequisite doubleSpreadPrereq
+aiStrategy.addCondition minTwoEnemyFrontCond	 5.0
+rem aiStrategy.addCondition timeCond   		 0.02
+
+rem *** USA ***
+aiStrategy.createPrerequisite noFrontPrereq
+aiStrategy.addCondition noEnemyFrontCond	 5.0
+
+aiStrategy.createPrerequisite singleFrontPrereq
+aiStrategy.addCondition minOneEnemyFrontCond	 5.0
+
+aiStrategy.createPrerequisite multipleFrontPrereq
+aiStrategy.addCondition minTwoEnemyFrontCond	 5.0
+
+aiStrategy.createPrerequisite maxOneCPPrereq
+aiStrategy.addCondition maxOneCPCond		15.0
+
+rem *** old ones ***
+rem ** singleFlank **
+aiStrategy.createPrerequisite singleFlankStep1Prereq
+aiStrategy.addCondition oneRemoteCond       	5.0
+aiStrategy.addCondition noCPCond  		5.0
+aiStrategy.addCondition timeCond   		0.002
+
+aiStrategy.createPrerequisite singleFlankStep2Prereq
+aiStrategy.addCondition oneFlankCond		 5.0
+aiStrategy.addCondition noCPCond  		 5.0
+
+aiStrategy.createPrerequisite singleFlankStep3Prereq
+aiStrategy.addCondition oneCloseCond		 5.0
+aiStrategy.addCondition oneCPCond  		 5.0
+
+aiStrategy.createPrerequisite singleFlankStep4Prereq
+aiStrategy.addCondition baseCond		 5.0
+aiStrategy.addCondition twoCPCond  		 5.0
+
+rem ** doubleFlank **
+aiStrategy.createPrerequisite doubleFlankStep1Prereq
+aiStrategy.addCondition oneRemoteCond       	5.0
+aiStrategy.addCondition noCPCond  		5.0
+aiStrategy.addCondition timeCond   		0.002
+
+aiStrategy.createPrerequisite doubleFlankStep2Prereq
+aiStrategy.addCondition twoOwnRemoteCond	 5.0
+aiStrategy.addCondition maxOneCPCond  		 5.0
+
+aiStrategy.createPrerequisite doubleFlankStep3Prereq
+aiStrategy.addCondition twoOwnFlankCond		 5.0
+aiStrategy.addCondition maxThreeCPCond  	 3.0
+aiStrategy.addCondition minTwoCPCond  	 	 2.0
+
+aiStrategy.createPrerequisite doubleFlankStep4Prereq
+aiStrategy.addCondition twoOwnCloseCond		 5.0
+aiStrategy.addCondition fourCPCond  	 	 5.0
+
+
+rem *** Create Strategies ***
+
+rem *** MEC ***
+aiStrategy.createStrategy centreStep1
+aiStrategy.Aggression 2.0
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 0
+aiStrategy.TimeLimit 300
+aiStrategy.setPrerequisite centreStep1Prereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 2.0 Hostile
+aiStrategy.setStrategicObjectsModifier Base 		10.0 Hostile
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 2.0 Neutral
+aiStrategy.setStrategicObjectsModifier Base 		10.0 Neutral
+
+aiStrategy.createStrategy centreStep2
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 1
+aiStrategy.setPrerequisite centreStep2Prereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 2.0 
+aiStrategy.setStrategicObjectsModifier Base 		10.0 
+
+aiStrategy.createStrategy singleSpread
+aiStrategy.Aggression 2.0
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 0
+aiStrategy.TimeLimit 180
+aiStrategy.setPrerequisite singleSpreadPrereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 5.0 
+aiStrategy.setStrategicObjectsModifier Safe 		 0.1 
+aiStrategy.setStrategicObjectsModifier Route 		20.0 
+
+aiStrategy.createStrategy doubleSpread
+aiStrategy.Aggression 2.0
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 0
+aiStrategy.TimeLimit 200
+aiStrategy.setPrerequisite doubleSpreadPrereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 5.0 
+aiStrategy.setStrategicObjectsModifier Safe 		 0.1 
+aiStrategy.setStrategicObjectsModifier Route 		20.0 
+aiStrategy.setStrategicObjectsModifier South 		10.0 
+
+aiStrategy.createStrategy crossroadsLanding
+aiStrategy.Aggression 3.0
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 1
+aiStrategy.TimeLimit 300
+aiStrategy.setPrerequisite crLandingPrereq
+aiStrategy.setStrategicObjectsModifier StrongPoint 	 1.1
+aiStrategy.setStrategicObjectsModifier Close    	 5.0
+aiStrategy.setStrategicObjectsModifier Safe 		 0.1 
+aiStrategy.setStrategicObjectsModifier Route 		20.0 
+aiStrategy.setStrategicObjectsModifier South 		10.0 
+
+aiStrategy.createStrategy firstNorhternLanding
+aiStrategy.Aggression 2.0
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 1
+aiStrategy.TimeLimit 200
+aiStrategy.setPrerequisite fnLandingPrereq
+aiStrategy.setStrategicObjectsModifier StrongPoint 	50.0 
+aiStrategy.setStrategicObjectsModifier Close    	 0.1 
+aiStrategy.setStrategicObjectsModifier Safe 		 0.1 
+
+aiStrategy.createStrategy multipleLanding
+aiStrategy.Aggression 2.0
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 0
+aiStrategy.TimeLimit 300
+aiStrategy.setPrerequisite mLandingPrereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 5.0 
+aiStrategy.setStrategicObjectsModifier Safe 		 0.1 
+aiStrategy.setStrategicObjectsModifier Route 		20.0 
+aiStrategy.setStrategicObjectsModifier South 		10.0 
+
+rem ** cleanUp **
+aiStrategy.createStrategy cleanUp
+aiStrategy.Aggression 0.75
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 2
+aiStrategy.setPrerequisite cleanUpPrereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 5.0 
+aiStrategy.setStrategicObjectsModifier Safe 		 0.1 
+aiStrategy.setStrategicObjectsModifier Route 		20.0 
+
+rem *** USA ***
+aiStrategy.createStrategy noFront
+aiStrategy.Aggression 0.1
+aiStrategy.NumberOfAttacks 0
+aiStrategy.NumberOfDefences 3
+aiStrategy.setPrerequisite noFrontPrereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 5.0 
+aiStrategy.setStrategicObjectsModifier Base 		 0.1 
+aiStrategy.setStrategicObjectsModifier Safe 		 0.1 
+aiStrategy.setStrategicObjectsModifier Flank 		 0.5 
+aiStrategy.setStrategicObjectsModifier Close 		 0.5 
+aiStrategy.setStrategicObjectsModifier Remote 	        10.0 
+aiStrategy.setStrategicObjectsModifier ChokePoint	20.0 
+
+aiStrategy.createStrategy singleFront
+aiStrategy.Aggression 0.5
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 2
+aiStrategy.setPrerequisite singleFrontPrereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 5.0 
+aiStrategy.setStrategicObjectsModifier Base 		 5.0 
+aiStrategy.setStrategicObjectsModifier Safe 		 0.1 
+aiStrategy.setStrategicObjectsModifier Flank 		 1.0 
+aiStrategy.setStrategicObjectsModifier ChokePoint	 0.2 
+aiStrategy.setStrategicObjectsModifier Front		10.0 Hostile
+aiStrategy.setStrategicObjectsModifier Front		10.0 Neutral
+
+aiStrategy.createStrategy multipleFront
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 1
+aiStrategy.setPrerequisite multipleFrontPrereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 5.0 
+aiStrategy.setStrategicObjectsModifier Base 		 5.0 
+aiStrategy.setStrategicObjectsModifier Safe 		 0.1 
+aiStrategy.setStrategicObjectsModifier Flank 		 1.0 
+aiStrategy.setStrategicObjectsModifier ChokePoint	 0.75 
+aiStrategy.setStrategicObjectsModifier Front		10.0 Hostile
+aiStrategy.setStrategicObjectsModifier Front		10.0 Neutral
+
+aiStrategy.createStrategy maxOneCP
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite maxOneCPPrereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 	10.0 
+
+rem *** Old ones ***
+aiStrategy.createStrategy singleFlankStep1
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite singleFlankStep1Prereq
+aiStrategy.setStrategicObjectsModifier Base 		 0.1 Hostile
+aiStrategy.setStrategicObjectsModifier Centre 		 0.3 Hostile
+aiStrategy.setStrategicObjectsModifier Close 		 0.3 Hostile
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 2.0 Hostile
+aiStrategy.setStrategicObjectsModifier Flank 		 0.5 Hostile
+aiStrategy.setStrategicObjectsModifier Remote 		10.0 Hostile
+
+aiStrategy.createStrategy singleFlankStep2
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite singleFlankStep2Prereq
+aiStrategy.setStrategicObjectsModifier Base 		 0.3 Hostile
+aiStrategy.setStrategicObjectsModifier Centre 		 0.6 Hostile
+aiStrategy.setStrategicObjectsModifier Close 		 0.6 Hostile
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 2.0 Hostile
+aiStrategy.setStrategicObjectsModifier Flank 		10.0 Hostile
+aiStrategy.setStrategicObjectsModifier Remote 		 1.0 Hostile
+
+aiStrategy.createStrategy singleFlankStep3
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite singleFlankStep3Prereq
+aiStrategy.setStrategicObjectsModifier Base 		 0.6 Hostile
+aiStrategy.setStrategicObjectsModifier Centre 		 1.0 Hostile
+aiStrategy.setStrategicObjectsModifier Close 		10.0 Hostile
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 2.0 Hostile
+aiStrategy.setStrategicObjectsModifier Flank 		 1.0 Hostile
+aiStrategy.setStrategicObjectsModifier Remote 		 1.0 Hostile
+
+aiStrategy.createStrategy singleFlankStep4
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 1
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite singleFlankStep4Prereq
+aiStrategy.setStrategicObjectsModifier Base 		10.0 Hostile
+aiStrategy.setStrategicObjectsModifier Centre 		 1.0 Hostile
+aiStrategy.setStrategicObjectsModifier Close 		 1.0 Hostile
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 2.0 Hostile
+aiStrategy.setStrategicObjectsModifier Flank 		 1.0 Hostile
+aiStrategy.setStrategicObjectsModifier Remote 		 1.0 Hostile
+
+aiStrategy.createStrategy doubleFlankStep1
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite doubleFlankStep1Prereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 2.0 Hostile
+aiStrategy.setStrategicObjectsModifier Base 		 0.5 Hostile
+aiStrategy.setStrategicObjectsModifier Close 		 0.5 Hostile
+aiStrategy.setStrategicObjectsModifier Centre 		 0.5 Hostile
+aiStrategy.setStrategicObjectsModifier Flank 		 1.0 Hostile
+aiStrategy.setStrategicObjectsModifier Remote 		10.0 Hostile
+
+aiStrategy.createStrategy doubleFlankStep2
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite doubleFlankStep2Prereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 2.0 Hostile
+aiStrategy.setStrategicObjectsModifier Base 		 0.5 Hostile
+aiStrategy.setStrategicObjectsModifier Close 		 1.0 Hostile
+aiStrategy.setStrategicObjectsModifier Centre 		 0.5 Hostile
+aiStrategy.setStrategicObjectsModifier Flank 		10.0 Hostile
+aiStrategy.setStrategicObjectsModifier Remote 		 1.0 
+
+aiStrategy.createStrategy doubleFlankStep3
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite doubleFlankStep3Prereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 2.0 Hostile
+aiStrategy.setStrategicObjectsModifier Base 		 1.0 Hostile
+aiStrategy.setStrategicObjectsModifier Close 		10.0 Hostile
+aiStrategy.setStrategicObjectsModifier Centre 		 0.5 Hostile
+aiStrategy.setStrategicObjectsModifier Flank 		 1.0 
+aiStrategy.setStrategicObjectsModifier Remote 		 1.0 
+
+aiStrategy.createStrategy doubleFlankStep4
+aiStrategy.Aggression 1.0
+aiStrategy.NumberOfAttacks 2
+aiStrategy.NumberOfDefences 0
+aiStrategy.setPrerequisite doubleFlankStep4Prereq
+aiStrategy.setStrategicObjectsModifier ControlPoint 	 2.0 Hostile
+aiStrategy.setStrategicObjectsModifier Base 		10.0 Hostile
+aiStrategy.setStrategicObjectsModifier Close 		 1.0 
+aiStrategy.setStrategicObjectsModifier Flank 		 1.0 
+aiStrategy.setStrategicObjectsModifier Remote 		 1.0 
+rem *** end old ones ***
+
+
+rem *** Add Strategies ***
+
+rem --- MEC ---
+ai.addSAIStrategy 1 cleanUp
+ai.addSAIStrategy 1 centreStep1
+ai.addSAIStrategy 1 centreStep2
+ai.addSAIStrategy 1 singleSpread
+ai.addSAIStrategy 1 doubleSpread
+ai.addSAIStrategy 1 crossroadsLanding
+ai.addSAIStrategy 1 firstNorhternLanding
+ai.addSAIStrategy 1 multipleLanding
+ai.addSAIStrategy 1 doubleFlankStep2
+ai.addSAIStrategy 1 singleFlankStep4
+
+rem ---USA ---
+ai.addSAIStrategy 2 noFront
+ai.addSAIStrategy 2 singleFront
+ai.addSAIStrategy 2 multipleFront
+ai.addSAIStrategy 2 maxOneCP

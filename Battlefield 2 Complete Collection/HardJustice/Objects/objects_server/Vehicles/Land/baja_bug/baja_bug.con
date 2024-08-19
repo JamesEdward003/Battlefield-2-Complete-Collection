@@ -1,0 +1,86 @@
+GeometryTemplate.create BundledMesh baja_bug
+CollisionManager.createTemplate baja_bug
+
+ObjectTemplate.create PlayerControlObject baja_bug
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh baja_bug
+ObjectTemplate.mapMaterial 0 Penetrable_Glass_vehicle 0
+ObjectTemplate.mapMaterial 1 light_armored_vehicle 0
+ObjectTemplate.mapMaterial 2 Metal_solid 0
+ObjectTemplate.mapMaterial 3 Rubber 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry baja_bug
+ObjectTemplate.addTemplate baja_bug_zMotor
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate baja_bugsteering
+ObjectTemplate.setPosition -0.0016/0.5197/0.6982
+ObjectTemplate.setRotation 0/10.0344/0
+
+ObjectTemplate.create Engine baja_bug_zMotor
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate baja_bug_Nav_BL
+ObjectTemplate.setPosition -0.8211/-0.3/-0.8866
+ObjectTemplate.addTemplate baja_bug_Nav_BR
+ObjectTemplate.setPosition 0.8175/-0.3/-0.8866
+ObjectTemplate.addTemplate baja_bug_Nav_FL
+ObjectTemplate.setPosition -0.8211/-0.1/1.5488
+ObjectTemplate.addTemplate baja_bug_Nav_FR
+ObjectTemplate.setPosition 0.8211/-0.1/1.5488
+
+ObjectTemplate.create Bundle baja_bug_Nav_BL
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+ObjectTemplate.addTemplate baja_bug_whl_BL
+
+ObjectTemplate.create Spring baja_bug_whl_BL
+ObjectTemplate.collisionPart 3
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+ObjectTemplate.create Bundle baja_bug_Nav_BR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+ObjectTemplate.addTemplate baja_bug_whl_BR
+
+ObjectTemplate.create Spring baja_bug_whl_BR
+ObjectTemplate.collisionPart 5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+
+ObjectTemplate.create RotationalBundle baja_bug_Nav_FL
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+ObjectTemplate.addTemplate baja_bug_whl_FL
+
+ObjectTemplate.create Spring baja_bug_whl_FL
+ObjectTemplate.collisionPart 7
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+
+ObjectTemplate.create RotationalBundle baja_bug_Nav_FR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+ObjectTemplate.addTemplate baja_bug_whl_FR
+
+ObjectTemplate.create Spring baja_bug_whl_FR
+ObjectTemplate.collisionPart 9
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 9
+
+ObjectTemplate.create RotationalBundle baja_bugsteering
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 10
+
+include baja_bug.tweak

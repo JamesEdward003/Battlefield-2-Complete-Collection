@@ -1,0 +1,14 @@
+GeometryTemplate.doNotGenerateLightmaps 1
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe HookLink hookLink
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry grapattach
+ObjectTemplate.mapMaterial 0 metal 27
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 1
+
+
+

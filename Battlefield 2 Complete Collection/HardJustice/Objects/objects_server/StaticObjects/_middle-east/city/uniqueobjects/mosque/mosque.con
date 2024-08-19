@@ -1,0 +1,19 @@
+GeometryTemplate.create StaticMesh mosque
+CollisionManager.createTemplate mosque
+
+ObjectTemplate.create SimpleObject mosque
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator MEI-2:mei
+ObjectTemplate.collisionMesh mosque
+ObjectTemplate.mapMaterial 0 concrete 0
+ObjectTemplate.mapMaterial 1 Metal_plate_thin 0
+ObjectTemplate.mapMaterial 2 Metal_solid 0
+ObjectTemplate.mapMaterial 3 Wood_thin 0
+ObjectTemplate.mapMaterial 4 Tarmac 0
+ObjectTemplate.mapMaterial 5 Rubber 0
+ObjectTemplate.mapMaterial 6 rock 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry mosque
+
+include mosque.tweak

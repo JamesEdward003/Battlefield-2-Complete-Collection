@@ -1,0 +1,111 @@
+GeometryTemplate.create BundledMesh ahe_ah1z
+CollisionManager.createTemplate ahe_ah1z
+
+ObjectTemplate.create PlayerControlObject ahe_ah1z
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator DSU-1:dsu
+ObjectTemplate.collisionMesh ahe_ah1z
+ObjectTemplate.mapMaterial 0 Armor_6_helicopter 0
+ObjectTemplate.mapMaterial 1 Glass_bulletproof 0
+ObjectTemplate.mapMaterial 2 helicopter_landing_rail 0
+ObjectTemplate.mapMaterial 3 helicopter_rotor 0
+ObjectTemplate.mapMaterial 4 wreck 0
+ObjectTemplate.mapMaterial 5 MetalSolid 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry ahe_ah1z
+ObjectTemplate.addTemplate AHE_AH1Z_COgunner
+ObjectTemplate.setPosition 0/-0.4127/3.4107
+ObjectTemplate.addTemplate AHE_AH1Z_Damper0
+ObjectTemplate.setPosition -0.8846/-1.2000/2.4000
+ObjectTemplate.addTemplate AHE_AH1Z_Damper1
+ObjectTemplate.setPosition 0.8786/-1.2000/2.4000
+ObjectTemplate.addTemplate AHE_AH1Z_Damper2
+ObjectTemplate.setPosition -1.0000/-1.2000/-3.4000
+ObjectTemplate.addTemplate AHE_AH1Z_Damper3
+ObjectTemplate.setPosition 1.0000/-1.2000/-3.4000
+
+ObjectTemplate.create PlayerControlObject AHE_AH1Z_COgunner
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate AHE_AH1Z_gunturret1
+ObjectTemplate.setPosition 0/-0.3144/0.0062
+ObjectTemplate.addTemplate AHE_AH1Z_Sensors1
+ObjectTemplate.setPosition 0.0031/0.4202/0.9622
+
+ObjectTemplate.create RotationalBundle AHE_AH1Z_gunturret1
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+ObjectTemplate.addTemplate AHE_AH1Z_Barrel_Base
+ObjectTemplate.setPosition 0/0.0172/0.1092
+ObjectTemplate.setRotation 0/-7.0000/0
+
+ObjectTemplate.create RotationalBundle AHE_AH1Z_Barrel_Base
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+ObjectTemplate.addTemplate AHE_AH1Z_Barrel
+ObjectTemplate.setPosition -0.0033/-0.0246/0.0286
+ObjectTemplate.addTemplate AHE_AH1Z_Gun
+ObjectTemplate.setPosition 0/-0.0246/1.4778
+
+ObjectTemplate.create RotationalBundle AHE_AH1Z_Barrel
+ObjectTemplate.collisionPart 4
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+ObjectTemplate.create GenericFireArm AHE_AH1Z_Gun
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+
+ObjectTemplate.create RotationalBundle AHE_AH1Z_Sensors1
+ObjectTemplate.collisionPart 6
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+ObjectTemplate.addTemplate AHE_AH1Z_Sensors2
+ObjectTemplate.setPosition -0.0031/-0.2379/-0.0229
+ObjectTemplate.setRotation 0/-7.0000/0
+
+ObjectTemplate.create RotationalBundle AHE_AH1Z_Sensors2
+ObjectTemplate.collisionPart 7
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+
+ObjectTemplate.create Spring AHE_AH1Z_Damper0
+ObjectTemplate.collisionPart 8
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+
+ObjectTemplate.create Spring AHE_AH1Z_Damper1
+ObjectTemplate.collisionPart 9
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 9
+
+ObjectTemplate.create Spring AHE_AH1Z_Damper2
+ObjectTemplate.collisionPart 10
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 10
+
+ObjectTemplate.create Spring AHE_AH1Z_Damper3
+ObjectTemplate.collisionPart 11
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 11
+
+include ahe_ah1z.tweak

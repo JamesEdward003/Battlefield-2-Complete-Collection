@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh binoculars_mec_ch
+CollisionManager.createTemplate binoculars_mec_ch
+
+ObjectTemplate.create GenericFirearm binoculars_mec_ch
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator "SatNav"
+ObjectTemplate.collisionMesh binoculars_mec_ch
+ObjectTemplate.mapMaterial 0 Rubber_Heavy  0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry binoculars_mec_ch
+
+include binoculars_mec_ch.tweak

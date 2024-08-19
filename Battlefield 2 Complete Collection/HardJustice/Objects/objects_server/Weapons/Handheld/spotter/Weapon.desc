@@ -1,0 +1,4 @@
+<weapon eq="1">
+	<name locid="WEAPON_NAME_spotter">Dummy non-localized text. Target Designator.</name>
+	<description locid="WEAPON_DESCRIPTION_laserpainter">Dummy non-localized text. Target Designator.</description>
+</weapon>

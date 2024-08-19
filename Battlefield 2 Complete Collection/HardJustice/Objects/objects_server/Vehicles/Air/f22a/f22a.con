@@ -1,0 +1,183 @@
+GeometryTemplate.create BundledMesh f22a
+CollisionManager.createTemplate f22a
+
+ObjectTemplate.create PlayerControlObject f22a
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CAMBO:Cihangir
+ObjectTemplate.collisionMesh f22a
+ObjectTemplate.mapMaterial 0 Airplane 0
+ObjectTemplate.mapMaterial 1 Glass_bulletproof 0
+ObjectTemplate.mapMaterial 2 wreck 0
+ObjectTemplate.mapMaterial 3 Rubber_heavy 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry f22a
+ObjectTemplate.addTemplate f22a_BombbaydoorL1
+ObjectTemplate.setPosition 0.0059/-0.1282/-0.2965
+ObjectTemplate.setRotation 180.0000/0/180.0000
+ObjectTemplate.addTemplate f22a_BombbaydoorL2
+ObjectTemplate.setPosition 1.1732/-0.1282/-0.2965
+ObjectTemplate.addTemplate f22a_BombbaydoorR1
+ObjectTemplate.setPosition -0.0056/-0.1282/-0.2965
+ObjectTemplate.addTemplate f22a_BombbaydoorR2
+ObjectTemplate.setPosition -1.1731/-0.1282/-0.2965
+ObjectTemplate.setRotation 180.0000/0/180.0000
+ObjectTemplate.addTemplate f22a_FlapsLeftFront
+ObjectTemplate.setPosition -5.1880/0.8024/-5.5872
+ObjectTemplate.setRotation 14.0000/0/0
+ObjectTemplate.addTemplate f22a_FlapsLeftReardown
+ObjectTemplate.setPosition -2.0038/0.8351/-8.3902
+ObjectTemplate.addTemplate f22a_FlapsLeftRearup
+ObjectTemplate.setPosition -2.2666/2.7533/-6.9720
+ObjectTemplate.setRotation 11.8156/22.6020/-61.4400
+ObjectTemplate.addTemplate f22a_FlapsRightFront
+ObjectTemplate.setPosition 5.1880/0.8024/-5.5874
+ObjectTemplate.setRotation -14.0000/0/0
+ObjectTemplate.addTemplate f22a_FlapsRightReardown
+ObjectTemplate.setPosition 2.0040/0.8351/-8.3902
+ObjectTemplate.addTemplate f22a_FlapsRightRearup
+ObjectTemplate.setPosition 2.2666/2.7533/-6.9816
+ObjectTemplate.setRotation -11.8621/22.0868/-119.1880
+ObjectTemplate.addTemplate f22a_GearFront
+ObjectTemplate.setPosition 0.0100/-0.0168/2.8475
+ObjectTemplate.addTemplate f22a_GearRLeft
+ObjectTemplate.setPosition -0.9633/0.2193/-3.0274
+ObjectTemplate.addTemplate f22a_GearRRight
+ObjectTemplate.setPosition 0.9630/0.2193/-3.0274
+ObjectTemplate.addTemplate f22a_LanGearHatchFL
+ObjectTemplate.setPosition -0.2491/-0.0348/3.2812
+ObjectTemplate.addTemplate f22a_LanGearHatchFR
+ObjectTemplate.setPosition 0.2490/-0.0324/3.2812
+ObjectTemplate.addTemplate f22a_LanGearHatchRLdown
+ObjectTemplate.setPosition -1.3771/0.0905/-3.0298
+ObjectTemplate.addTemplate f22a_LanGearHatchRLup
+ObjectTemplate.setPosition -3.2741/0.7632/-2.9623
+ObjectTemplate.addTemplate f22a_LanGearHatchRRdown
+ObjectTemplate.setPosition 1.3768/0.0905/-3.0298
+ObjectTemplate.addTemplate f22a_LanGearHatchRRup
+ObjectTemplate.setPosition 3.2736/0.7632/-2.9623
+ObjectTemplate.addTemplate f22a_MissilebaydoorL
+ObjectTemplate.setPosition 1.9731/0.5628/-0.3777
+ObjectTemplate.addTemplate f22a_MissilebaydoorR
+ObjectTemplate.setPosition -1.9731/0.5628/-0.3777
+ObjectTemplate.setRotation 180.0000/0/180.0000
+
+ObjectTemplate.create Rotationalbundle f22a_BombbaydoorL1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+
+ObjectTemplate.create Rotationalbundle f22a_BombbaydoorL2
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+
+ObjectTemplate.create Rotationalbundle f22a_BombbaydoorR1
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+ObjectTemplate.create Rotationalbundle f22a_BombbaydoorR2
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+ObjectTemplate.create Wing f22a_FlapsLeftFront
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+
+ObjectTemplate.create Wing f22a_FlapsLeftReardown
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+
+ObjectTemplate.create Wing f22a_FlapsLeftRearup
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+
+ObjectTemplate.create Wing f22a_FlapsRightFront
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+
+ObjectTemplate.create Wing f22a_FlapsRightReardown
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 9
+
+ObjectTemplate.create Wing f22a_FlapsRightRearup
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 10
+
+ObjectTemplate.create LandingGear f22a_GearFront
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 11
+ObjectTemplate.addTemplate f22a_GearrotF
+ObjectTemplate.setPosition -0.0092/-0.3908/0.1853
+
+ObjectTemplate.create Rotationalbundle f22a_GearrotF
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 12
+ObjectTemplate.addTemplate f22a_WheelFront
+ObjectTemplate.setPosition 0.0033/-0.4804/-0.0029
+
+ObjectTemplate.create Spring f22a_WheelFront
+ObjectTemplate.collisionPart 13
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 13
+
+ObjectTemplate.create LandingGear f22a_GearRLeft
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 14
+ObjectTemplate.addTemplate f22a_WheelRL
+ObjectTemplate.setPosition -0.7683/-0.9477/0
+
+ObjectTemplate.create Spring f22a_WheelRL
+ObjectTemplate.collisionPart 15
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 15
+
+ObjectTemplate.create LandingGear f22a_GearRRight
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 16
+ObjectTemplate.addTemplate f22a_WheelRR
+ObjectTemplate.setPosition 0.7683/-0.9477/0
+
+ObjectTemplate.create Spring f22a_WheelRR
+ObjectTemplate.collisionPart 17
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 17
+
+ObjectTemplate.create LandingGear f22a_LanGearHatchFL
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 18
+
+ObjectTemplate.create LandingGear f22a_LanGearHatchFR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 19
+
+ObjectTemplate.create LandingGear f22a_LanGearHatchRLdown
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 20
+
+ObjectTemplate.create LandingGear f22a_LanGearHatchRLup
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 21
+
+ObjectTemplate.create LandingGear f22a_LanGearHatchRRdown
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 22
+
+ObjectTemplate.create LandingGear f22a_LanGearHatchRRup
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 23
+
+ObjectTemplate.create Rotationalbundle f22a_MissilebaydoorL
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 24
+
+ObjectTemplate.create Rotationalbundle f22a_MissilebaydoorR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 25
+
+include f22a.tweak

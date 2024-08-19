@@ -1,0 +1,139 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/1/12 23:18]
+ObjectTemplate.activeSafe GenericFireArm Dixie_horn
+ObjectTemplate.modifiedByUser ljo
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+rem ---BeginComp:WeaponHud ---
+ObjectTemplate.createComponent WeaponHud
+ObjectTemplate.weaponHud.guiIndex -1
+ObjectTemplate.weaponHud.hasMag 0
+ObjectTemplate.weaponHud.hasFireRate 0
+ObjectTemplate.weaponHud.showAmmo 0
+ObjectTemplate.weaponHud.showClips 0
+ObjectTemplate.weaponHud.showInfo 0
+rem ---EndComp ---
+rem ---BeginComp:SingleFireComp ---
+ObjectTemplate.createComponent SingleFireComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultAmmoComp ---
+ObjectTemplate.createComponent DefaultAmmoComp
+ObjectTemplate.ammo.nrOfMags -1
+ObjectTemplate.ammo.magSize -1
+rem ---EndComp ---
+rem ---BeginComp:DefaultSoundComp ---
+ObjectTemplate.createComponent DefaultSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultAnimationComp ---
+ObjectTemplate.createComponent DefaultAnimationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultZoomComp ---
+ObjectTemplate.createComponent DefaultZoomComp
+ObjectTemplate.zoom.addZoomFactor 0
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_Dixie_horn_Fire1P
+ObjectTemplate.addTemplate S_Dixie_horn_Fire1P_Outdoor
+ObjectTemplate.addTemplate S_Dixie_horn_Fire3P
+ObjectTemplate.addTemplate S_Dixie_horn_BoltClick
+ObjectTemplate.addTemplate S_Dixie_horn_TriggerClick
+ObjectTemplate.addTemplate S_Dixie_horn_SwitchFireRate
+ObjectTemplate.addTemplate S_Dixie_horn_Reload1P
+ObjectTemplate.addTemplate S_Dixie_horn_Reload3P
+ObjectTemplate.addTemplate S_Dixie_horn_Deploy1P
+ObjectTemplate.addTemplate S_Dixie_horn_Deploy3P
+ObjectTemplate.addTemplate S_Dixie_horn_Zoom
+rem -------------------------------------
+ObjectTemplate.projectileTemplate Dixie_horn_Projectile
+
+ObjectTemplate.create GenericProjectile Dixie_horn_Projectile
+ObjectTemplate.modifiedByUser ljo
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:DefaultCollisionComp ---
+ObjectTemplate.createComponent DefaultCollisionComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultDetonationComp ---
+ObjectTemplate.createComponent DefaultDetonationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultProjSoundComp ---
+ObjectTemplate.createComponent DefaultProjSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultPenetrateComp ---
+ObjectTemplate.createComponent DefaultPenetrateComp
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Point
+rem -------------------------------------
+ObjectTemplate.addTemplate S_Dixie_horn_Projectile_Looping
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/0.01/0/0
+ObjectTemplate.material -1
+ObjectTemplate.minDamage 0.2
+ObjectTemplate.damage 0
+
+ObjectTemplate.activeSafe Sound S_Dixie_horn_Fire1P
+ObjectTemplate.modifiedByUser ljo
+ObjectTemplate.soundFilename "objects/vehicles/common/Dixie_horn/sound/DIXIEHorn.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 2
+ObjectTemplate.volume 0.6
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_Dixie_horn_Fire1P_Outdoor
+ObjectTemplate.modifiedByUser ljo
+ObjectTemplate.soundFilename "objects/vehicles/common/Dixie_horn/sound/DIXIEHorn.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 2
+ObjectTemplate.volume 0.6
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_Dixie_horn_Fire3P
+ObjectTemplate.modifiedByUser ljo
+ObjectTemplate.soundFilename "objects/vehicles/common/Dixie_horn/sound/DIXIEHorn.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 2
+ObjectTemplate.volume 0.9
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 3
+ObjectTemplate.halfVolumeDistance 6.5
+
+ObjectTemplate.activeSafe Sound S_Dixie_horn_BoltClick
+ObjectTemplate.modifiedByUser ljo
+
+ObjectTemplate.activeSafe Sound S_Dixie_horn_TriggerClick
+ObjectTemplate.modifiedByUser ljo
+
+ObjectTemplate.activeSafe Sound S_Dixie_horn_SwitchFireRate
+ObjectTemplate.modifiedByUser ljo
+
+ObjectTemplate.activeSafe Sound S_Dixie_horn_Reload1P
+ObjectTemplate.modifiedByUser ljo
+
+ObjectTemplate.activeSafe Sound S_Dixie_horn_Reload3P
+ObjectTemplate.modifiedByUser ljo
+
+ObjectTemplate.activeSafe Sound S_Dixie_horn_Deploy1P
+ObjectTemplate.modifiedByUser ljo
+
+ObjectTemplate.activeSafe Sound S_Dixie_horn_Deploy3P
+ObjectTemplate.modifiedByUser ljo
+
+ObjectTemplate.activeSafe Sound S_Dixie_horn_Zoom
+ObjectTemplate.modifiedByUser ljo
+
+ObjectTemplate.activeSafe Sound S_Dixie_horn_Projectile_Looping
+ObjectTemplate.modifiedByUser ljo
+ObjectTemplate.createdInEditor 1
+

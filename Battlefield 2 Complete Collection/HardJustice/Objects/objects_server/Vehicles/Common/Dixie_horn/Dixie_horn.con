@@ -1,0 +1,4 @@
+ObjectTemplate.create GenericFireArm Dixie_horn
+
+include Dixie_horn.tweak
+

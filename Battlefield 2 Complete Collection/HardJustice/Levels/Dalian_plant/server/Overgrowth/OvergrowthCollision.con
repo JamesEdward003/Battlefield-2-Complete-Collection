@@ -1,0 +1,2175 @@
+rem Patch: 0, 0
+
+
+rem Patch: 1, 0
+
+
+rem Patch: 2, 0
+
+
+rem Patch: 3, 0
+
+
+rem Patch: 4, 0
+
+
+rem Patch: 5, 0
+
+
+rem Patch: 6, 0
+
+
+rem Patch: 7, 0
+
+
+rem Patch: 8, 0
+
+
+rem Patch: 9, 0
+
+
+rem Patch: 10, 0
+
+
+rem Patch: 11, 0
+
+
+rem Patch: 12, 0
+
+
+rem Patch: 13, 0
+
+
+rem Patch: 14, 0
+
+
+rem Patch: 15, 0
+
+
+rem Patch: 0, 1
+
+
+rem Patch: 1, 1
+
+
+rem Patch: 2, 1
+
+
+rem Patch: 3, 1
+
+
+rem Patch: 4, 1
+
+
+rem Patch: 5, 1
+
+
+rem Patch: 6, 1
+
+
+rem Patch: 7, 1
+
+
+rem Patch: 8, 1
+
+
+rem Patch: 9, 1
+
+
+rem Patch: 10, 1
+
+
+rem Patch: 11, 1
+
+
+rem Patch: 12, 1
+
+
+rem Patch: 13, 1
+
+
+rem Patch: 14, 1
+
+
+rem Patch: 15, 1
+
+
+rem Patch: 0, 2
+
+
+rem Patch: 1, 2
+
+
+rem Patch: 2, 2
+
+
+rem Patch: 3, 2
+
+
+rem Patch: 4, 2
+
+
+rem Patch: 5, 2
+
+
+rem Patch: 6, 2
+
+
+rem Patch: 7, 2
+
+
+rem Patch: 8, 2
+
+
+rem Patch: 9, 2
+
+
+rem Patch: 10, 2
+
+
+rem Patch: 11, 2
+
+
+rem Patch: 12, 2
+
+
+rem Patch: 13, 2
+
+
+rem Patch: 14, 2
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.710641/-0.178882/-0.411799/0][-0.426358/0.821334/0.378985/0][0.270431/0.444896/-0.659941/0][792.566/153.702/-661.823/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.729258/-0.331471/0.579725/0][-0.352254/0.93161/0.089556/0][-0.569762/-0.138901/-0.796145/0][780.378/159.202/-675.989/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.0244683/-0.442159/-0.592731/0][-0.653921/0.593236/-0.46953/0][0.559237/0.399088/-0.274622/0][789.623/159.651/-688.124/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.653065/0.49552/-0.493973/0][-0.220404/0.818842/0.530018/0][0.667121/-0.237263/0.643971/0][789.237/155.002/-667.188/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.193226/-0.234583/0.847008/0][-0.373034/0.868769/0.325709/0][-0.81226/-0.378898/0.0803613/0][805.753/165.938/-684.904/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.883437/-0.297648/-0.0668616/0][-0.323638/0.885963/0.332155/0][-0.0396285/0.315077/-0.879023/0][806.145/166.869/-685.997/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.653005/-0.09226/0.728923/0][-0.0752619/0.978644/0.191291/0][-0.731004/-0.179774/0.632115/0][812.802/166.387/-672.779/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.226368/0.363941/0.776941/0][-0.544552/0.809247/-0.220414/0][-0.708955/-0.37319/0.381373/0][788.548/161.93/-681.329/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.444183/0.320411/0.729177/0][-0.517088/0.853814/-0.0601901/0][-0.641867/-0.350313/0.54493/0][771.676/153.904/-672.981/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.891677/0.161391/-0.422873/0][-0.148627/0.986869/0.0632454/0][0.427528/0.00645579/0.903955/0][801.1/162.077/-677.714/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.169724/0.567327/0.710749/0][-0.501085/0.730732/-0.463621/0][-0.782391/-0.277458/0.408302/0][783.123/159.126/-680.023/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.884087/0.428763/-0.169451/0][-0.406712/0.900179/0.155762/0][0.219322/-0.0687893/0.97022/0][770.416/153.184/-669.901/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.893787/0.146834/0.380011/0][-0.208512/0.971218/0.115148/0][-0.352165/-0.182155/0.898678/0][813.222/166.757/-679.582/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.769885/-0.22468/0.355628/0][-0.00271746/0.848053/0.529904/0][-0.420651/0.406999/-0.653514/0][809.673/163.595/-664.999/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.823449/0.45974/-0.133348/0][-0.502522/0.834176/-0.227204/0][0.00678141/0.254101/0.917931/0][786.45/160.934/-680.206/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.0608289/0.108731/-0.9749/0][-0.19093/0.976796/0.0970298/0][0.962829/0.180235/0.0801775/0][815.493/167.171/-675.621/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.608552/0.156007/-0.725365/0][-0.115291/0.946831/0.300363/0][0.733657/0.266415/-0.55821/0][791.028/163.118/-678.963/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.749897/-0.138522/0.25618/0][0.0609426/0.792448/0.606887/0][-0.287077/0.470715/-0.585813/0][810.539/160.619/-661.363/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.507874/-0.31065/0.773266/0][0.0118578/0.925136/0.37945/0][-0.833253/0.201882/-0.466169/0][796.277/161.534/-674.878/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.743367/-0.362136/-0.237729/0][-0.500169/0.780455/0.375127/0][0.0496898/0.397762/-0.761294/0][794.999/155.587/-662.118/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.587708/0.481136/-0.483766/0][-0.0951272/0.761203/0.641499/0][0.676893/-0.330994/0.493134/0][787.036/157.674/-670.978/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.830828/0.120019/-0.543428/0][-0.101798/0.992769/0.0636235/0][0.547134/0.00245948/0.837038/0][814.741/167.313/-678.889/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.902925/0.313368/0.27886/0][-0.327038/0.945006/-0.00302813/0][-0.264474/-0.0884637/0.955753/0][782.491/160.013/-676.298/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.847573/0.0151105/-0.0285292/0][-0.00271746/0.848053/0.529904/0][0.0322014/0.44921/-0.718746/0][810.358/163.907/-665.495/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.537268/-0.306915/0.668687/0][-0.129186/0.857788/0.497505/0][-0.726283/-0.353679/0.421212/0][784.3/153.342/-665.506/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.7162/-0.512565/0.137738/0][-0.588926/0.729324/-0.348214/0][0.0780261/-0.330508/-0.824204/0][786.411/160.332/-681.507/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.549953/-0.284914/0.655318/0][-0.148032/0.855506/0.496182/0][-0.701997/-0.369885/0.428312/0][793.432/159.464/-672.172/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.789517/0.356655/0.47249/0][-0.389178/0.9201/-0.0442248/0][-0.450512/-0.148967/0.865237/0][803.313/163.084/-673.956/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.0355893/0.0138673/-0.903957/0][-0.426129/0.904658/-0.00289884/0][0.817732/0.385306/0.0381054/0][784.103/160.556/-676.22/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.779888/0.141316/0.44806/0][-0.328559/0.899435/0.28821/0][-0.362272/-0.371986/0.74789/0][809.899/166.753/-681.995/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.644055/-0.367993/0.46826/0][-0.0153095/0.796288/0.604724/0][-0.595404/0.382307/-0.518487/0][807.178/160.112/-660.048/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.991634/0.0603095/-0.0981699/0][0.0542822/0.996481/0.0638614/0][0.101676/0.0579983/-0.991419/0][797.403/164.353/-687.381/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.755831/0.569528/-0.231021/0][-0.478652/0.790349/0.382415/0][0.400383/-0.178463/0.869976/0][801.099/160.234/-663.369/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.91768/-0.363596/0.13781/0][-0.371692/0.92797/-0.0267618/0][-0.118153/-0.0757815/-0.986726/0][790.544/163.308/-681.898/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.61637/0.631754/-0.0505326/0][-0.667829/0.618438/-0.414173/0][-0.230404/0.289031/0.80309/0][790.723/161.347/-687.359/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.558021/0.482766/-0.582686/0][-0.087898/0.80679/0.584263/0][0.752168/-0.274814/0.49264/0][789.419/159.789/-672.852/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 15, 2
+
+
+rem Patch: 0, 3
+
+
+rem Patch: 1, 3
+
+
+rem Patch: 2, 3
+
+
+rem Patch: 3, 3
+
+
+rem Patch: 4, 3
+
+
+rem Patch: 5, 3
+
+
+rem Patch: 6, 3
+
+
+rem Patch: 7, 3
+
+
+rem Patch: 8, 3
+
+
+rem Patch: 9, 3
+
+
+rem Patch: 10, 3
+
+
+rem Patch: 11, 3
+
+
+rem Patch: 12, 3
+
+
+rem Patch: 13, 3
+
+
+rem Patch: 14, 3
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.644966/-0.367872/-0.58185/0][-0.495448/0.868638/0/0][0.505417/0.288276/-0.742503/0][847.282/173.845/-537.233/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.554749/0.0119343/0.790938/0][0.204315/0.96609/-0.15788/0][-0.766001/0.249184/0.533499/0][802.35/146.69/-545.572/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.122276/0.073373/-0.789567/0][-0.578606/0.798979/0.163853/0][0.64287/0.476883/-0.0552417/0][831.495/164.836/-607.484/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.542566/-0.0816565/0.801767/0][0.241965/0.968096/-0.0651444/0][-0.770868/0.229345/0.545014/0][843.961/173.178/-543.233/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.876791/0.455801/-0.144141/0][-0.441324/0.88856/0.125279/0][0.18518/-0.0462308/0.980237/0][837.698/165.424/-594.773/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.864035/-0.47351/0.16911/0][0.459855/0.880428/0.115669/0][-0.20366/-0.0221758/0.978466/0][806.566/144.986/-552.029/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.797577/-0.463771/-0.113691/0][-0.511146/0.805639/0.299459/0][-0.0472865/0.296954/-0.879614/0][838.699/171.455/-615.473/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.17046/-0.498042/0.850167/0][-0.108359/0.867087/0.486228/0][-0.979331/-0.00924133/-0.201771/0][849.834/174.362/-579.039/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.936272/0.0341605/-0.339451/0][0.0606334/0.995908/-0.0670159/0][0.335773/-0.0833272/-0.934512/0][791.271/144.328/-541.816/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.887057/0/-0.46166/0][0/1/0/0][0.46166/0/-0.887057/0][797.1/144.803/-557.879/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.966233/-0.256804/-0.0137054/0][-0.257006/0.96633/0.0123858/0][0.0100632/0.01549/-0.999701/0][852.925/177.717/-590.244/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.049321/-0.111243/-0.990373/0][-0.0603711/0.9916/-0.114387/0][0.994779/0.0654316/0.0421909/0][802.467/145.879/-549.721/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.76338/0.630724/-0.139278/0][-0.621628/0.775981/0.10692/0][0.175514/0.00495864/0.984444/0][849.12/175.033/-533.866/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.713092/-0.285568/-0.40953/0][-0.492746/0.822323/0.284581/0][0.255499/0.404727/-0.727104/0][839.807/167.608/-600.259/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.171427/-0.251989/0.937641/0][-0.119119/0.953183/0.277944/0][-0.963782/-0.159338/0.133385/0][842.489/171.049/-532.603/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.00311544/0.1751/0.837058/0][-0.517673/0.837064/-0.177028/0][-0.731669/-0.433874/0.0880367/0][848.417/174.044/-542.35/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.00499751/0.218252/0.807853/0][-0.548802/0.807868/-0.214861/0][-0.699533/-0.442277/0.123814/0][839.694/167.342/-585.271/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.142207/-0.081111/0.856918/0][-0.495448/0.868638/0/0][-0.744351/-0.424558/-0.163712/0][846.965/173.665/-536.252/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.804781/-0.331561/-0.418071/0][0.17436/0.906893/-0.383592/0][0.50633/0.235813/0.787661/0][802.414/145.058/-555.208/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.660715/0.473361/-0.549612/0][-0.487441/0.859429/0.154219/0][0.545354/0.166009/0.798573/0][830.354/161.958/-598.467/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.696223/0.634847/0.205274/0][-0.68381/0.725854/0.0744283/0][-0.101748/-0.192187/0.939471/0][844.577/172.343/-583.874/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.980816/-0.111643/-0.0292822/0][-0.106905/0.981253/-0.160358/0][0.0466361/-0.154151/-0.974363/0][803.03/145.954/-552.507/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.0143562/0.0250367/-0.976734/0][-0.212849/0.976839/0.0219109/0][0.954661/0.207582/0.0193528/0][808.903/144.695/-570.86/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.875961/0/0.482381/0][0/1/0/0][-0.482381/0/0.875961/0][796.554/144.803/-562.92/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.877348/0.163228/-0.434214/0][-0.200755/0.978918/-0.0376415/0][0.418916/0.120195/0.89162/0][835.603/166.574/-578.612/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.729076/-0.583907/-0.356946/0][-0.520235/0.811764/-0.26532/0][0.444678/-0.00774256/-0.895606/0][843.396/171.072/-520.846/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.205209/0.0480053/0.962945/0][-0.15459/0.984568/-0.0820273/0][-0.952022/-0.165694/-0.194621/0][834.199/166.701/-573.274/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.171531/0/-0.985179/0][0/1/0/0][0.985179/0/0.171531/0][804.06/144.441/-566.909/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.782317/0.392718/0.222924/0][-0.495254/0.813459/0.304972/0][-0.0615714/-0.348989/0.830878/0][830.172/164.815/-525.116/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.810161/0.301881/0.472205/0][-0.174279/0.93773/-0.300481/0][-0.53351/0.161143/0.812324/0][847.747/172.23/-545.951/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.949011/0/-0.315244/0][0/1/0/0][0.315244/0/-0.949011/0][782.619/144.803/-555.631/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.554163/-0.367382/0.582101/0][-0.592328/0.803702/-0.0566575/0][-0.447021/-0.376192/-0.662992/0][847.136/173.863/-587.336/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.781065/0.361768/-0.480702/0][-0.220411/0.917135/0.332086/0][0.561007/-0.153429/0.79608/0][837.261/169.702/-529.792/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.01831/0/0.999832/0][0/1/0/0][-0.999832/0/-0.01831/0][790.632/144.803/-558.87/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.88045/0/0.474139/0][0/1/0/0][-0.474139/0/-0.88045/0][802.65/144.441/-580.021/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.797086/0.265313/-0.477426/0][-0.095272/0.929129/0.35727/0][0.538378/-0.23929/0.765873/0][838.82/170.735/-532.646/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.706881/0/-0.707332/0][0/1/0/0][0.707332/0/0.706881/0][783.742/144.775/-559.165/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.447142/-0.367822/0.570618/0][-0.685275/0.724943/-0.069689/0][-0.388032/-0.422191/-0.576211/0][837.633/170.677/-617.605/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.63167/0.248322/0.639073/0][0.431897/0.898566/0.0777415/0][-0.554944/0.325121/-0.674847/0][839.764/175.12/-544.325/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.927229/-0.341364/-0.136588/0][-0.327352/0.937235/-0.120129/0][0.169023/-0.0666747/-0.980778/0][799.923/146.042/-543.998/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.230485/0.185738/-0.77809/0][-0.478465/0.811509/0.335446/0][0.693732/0.449604/-0.0981718/0][837.2/167.723/-603.456/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.941792/-0.322686/-0.00222849/0][-0.322908/0.941795/0.0935529/0][-0.0280895/0.088827/-0.991174/0][850.233/175.964/-584.211/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.708848/0.297718/0.626978/0][-0.306274/0.946344/-0.103102/0][-0.624032/-0.118943/0.761997/0][800.581/146.481/-541.945/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.577994/-0.331293/0.610513/0][-0.538789/0.840716/-0.0538789/0][-0.495418/-0.360079/-0.664426/0][842.847/171.054/-519.11/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.781492/-0.612641/-0.0895812/0][-0.599895/0.786609/-0.146193/0][0.160029/-0.0605092/-0.982248/0][843.372/171.985/-518.029/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.738239/-0.674286/-0.00341349/0][-0.674195/0.738246/-0.0212904/0][0.0168758/-0.013416/-0.999602/0][840.29/166.936/-589.742/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.957188/0.184383/-0.0959255/0][-0.163374/0.961982/0.218859/0][0.132633/-0.193818/0.950921/0][840.927/170.4/-529.536/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.711648/-0.685764/-0.0995154/0][-0.663136/0.718573/-0.209533/0][0.215199/-0.0831213/-0.966126/0][847.054/173.997/-589.086/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.798237/-0.0567288/0.587551/0][0.0254081/0.99116/0.130217/0][-0.589744/0.118872/-0.789739/0][842.659/172.957/-538.252/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.643721/0.595797/-0.2997/0][-0.698519/0.710069/-0.0887369/0][0.159939/0.266468/0.873262/0][843.655/170.995/-586.54/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.391279/-0.375762/-0.658369/0][-0.640519/0.765865/-0.0564442/0][0.525432/0.399613/-0.540349/0][850.307/176.015/-536.068/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.540597/-0.523458/0.610079/0][-0.532841/0.815133/0.227241/0][-0.616247/-0.202229/-0.719578/0][837.375/169.747/-608.93/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.534921/0.567072/0.525171/0][-0.643756/0.74963/-0.153733/0][-0.480862/-0.255847/0.766048/0][844.853/172.138/-585.988/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.815243/-0.5228/0.192851/0][-0.472457/0.837742/0.27381/0][-0.304708/0.132108/-0.929964/0][850.46/176.387/-586.905/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.794418/0.590649/0.0364277/0][-0.596294/0.795253/0.109575/0][0.0357513/-0.10877/0.983963/0][841.153/167.708/-595.277/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.0662059/0.240219/-0.783625/0][-0.546829/0.786417/0.287274/0][0.685264/0.447528/0.0792933/0][835.471/167.235/-605.617/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.626564/0.45856/0.484637/0][-0.609175/0.792121/0.0380734/0][-0.366433/-0.319085/0.775658/0][840.832/166.94/-593.303/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.212977/0.0927682/0.799369/0][-0.559321/0.827254/0.0530162/0][-0.656363/-0.458395/0.228073/0][847.878/174.146/-535.139/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.232812/0.167362/-0.737016/0][-0.634029/0.772912/-0.0247668/0][0.565503/0.473056/0.286056/0][840.745/167.246/-590.874/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.806174/0.0052909/-0.57383/0][-0.079271/0.989544/0.120492/0][0.568467/0.142626/-0.797326/0][785.924/144.517/-543.141/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.326648/0.0110028/0.935047/0][0.133299/0.990461/0.0349116/0][-0.925744/0.136044/-0.324999/0][843.805/172.904/-541.673/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.944355/-0.216924/-0.24125/0][0.196763/0.974684/-0.10619/0][0.258178/0.0528115/0.96313/0][804.538/145.63/-554.452/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.999526/-0.019217/-0.0240427/0][-0.0192225/0.999815/0/0][0.0240382/0.000462161/-0.999711/0][807.573/144.471/-569.585/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.861039/-0.329862/-0.33736/0][-0.376337/0.92477/0.0563024/0][0.293409/0.17544/-0.920403/0][838.432/167.768/-577.882/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.993763/0/0.111509/0][0/1/0/0][-0.111509/0/-0.993763/0][790.285/144.803/-562.355/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.614107/0.719051/-0.115374/0][-0.762852/0.624851/-0.166186/0][-0.0474047/0.190069/0.932255/0][841.577/169.338/-585.678/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.747434/0.520135/0.275125/0][-0.594648/0.796461/0.109742/0][-0.162046/-0.245627/0.904599/0][847.989/174.026/-533.127/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.604439/-0.556911/0.544232/0][-0.526462/0.813348/0.247594/0][-0.580538/-0.136862/-0.784812/0][832.545/164.959/-603.726/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.106383/-0.203358/0.889587/0][-0.416274/0.895926/0.155026/0][-0.82853/-0.35382/-0.179964/0][833.349/163.471/-596.206/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.379744/0.43159/-0.658811/0][-0.635964/0.760419/0.131579/0][0.55776/0.369014/0.56324/0][851.674/175.874/-524.994/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.64194/0.55427/0.223043/0][-0.365841/0.679585/-0.635866/0][-0.504018/0.326589/0.639027/0][799.291/143.375/-584.892/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.783737/-0.447868/-0.0656827/0][0.410787/0.786484/-0.46119/0][0.258211/0.33447/0.800375/0][844.331/171.978/-548.178/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.71593/0/-0.698172/0][0/1/0/0][0.698172/0/-0.71593/0][804.471/144.441/-577.851/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.991683/0/0.128708/0][0/1/0/0][-0.128708/0/0.991683/0][801.502/144.441/-563.311/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.829599/-0.00963896/0.556136/0][-0.0352041/0.99876/-0.0352041/0][-0.555107/-0.0487835/-0.828909/0][804.028/144.749/-584.75/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.260104/0.274683/-0.834212/0][-0.464804/0.873822/0.142801/0][0.768178/0.350602/0.354959/0][854.899/175.345/-571.2/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.777349/0.102127/0.615436/0][0.130259/0.99148/0/0][-0.610192/0.080166/-0.784029/0][802.766/144.674/-556.783/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.462253/0/0.886748/0][0/1/0/0][-0.886748/0/-0.462253/0][806.388/144.775/-575.651/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.529428/-0.281362/-0.800234/0][-0.166029/0.959515/-0.227522/0][0.831852/0.012406/-0.554708/0][833.971/164.256/-588.456/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.649317/-0.18163/-0.486759/0][-0.478465/0.811509/0.335446/0][0.334082/0.450708/-0.613831/0][836.609/167.489/-603.802/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.282262/-0.125556/0.5675/0][-0.739276/0.63382/-0.22747/0][-0.331133/-0.483745/-0.271724/0][843.441/170.796/-588.183/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.31363/0.218702/-0.723673/0][-0.614135/0.788711/-0.0278003/0][0.564689/0.453151/0.381676/0][810.35/145.493/-582.347/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.255586/-0.317491/0.90874/0][-0.172419/0.943999/0.281315/0][-0.947164/-0.0847839/-0.296014/0][838.747/169.778/-528.855/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.626899/0.482533/0.58576/0][-0.472869/0.857972/-0.200694/0][-0.599407/-0.151173/0.766037/0][839.802/167.583/-583.283/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.904513/-0.201214/-0.359485/0][-0.227679/0.973332/0.02807/0][0.34425/0.107237/-0.926204/0][836.751/167.162/-575.211/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.801463/0.406787/0.192157/0][-0.303709/0.824176/-0.478011/0][-0.352819/0.324748/0.784091/0][797.348/144.038/-582.684/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.916066/0/-0.401028/0][0/1/0/0][0.401028/0/-0.916066/0][804.845/144.441/-569.358/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.367387/-0.371698/-0.828635/0][-0.334018/0.906427/-0.258501/0][0.847181/0.181809/-0.457163/0][848.264/174.202/-517.965/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.190924/-0.110936/-0.881802/0][-0.43077/0.902235/-0.0202375/0][0.797838/0.37599/-0.220046/0][838.903/167.631/-579.649/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.0210547/0.206159/-0.859171/0][-0.462656/0.859429/0.217559/0][0.783248/0.402081/0.0772857/0][835.48/165.295/-599.524/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.772389/0.563613/-0.290838/0][-0.539508/0.825331/0.166613/0][0.333943/0.0282195/0.94155/0][851.748/174.266/-574.043/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.112015/-0.0618441/0.768126/0][-0.611894/0.77625/0.15173/0][-0.605641/-0.487007/0.0491092/0][852.107/176.761/-527.823/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.452587/-0.42954/0.694824/0][-0.534082/0.829226/0.164742/0][-0.64693/-0.296533/-0.604707/0][828.459/161.326/-601.086/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.915984/-0.211502/-0.0315065/0][-0.199707/0.916526/-0.34655/0][0.102172/-0.311143/-0.881762/0][795.799/142.451/-584.759/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.634999/-0.0807512/-0.537008/0][-0.29313/0.831625/-0.471672/0][0.484677/0.456924/0.50441/0][797.656/142.401/-585.111/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.664531/-0.169282/0.686775/0][-0.290911/0.955647/-0.0459333/0][-0.648539/-0.230315/-0.684303/0][835.575/163.95/-591.286/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.82555/0.0447608/-0.559894/0][-0.00639269/0.997504/0.0703196/0][0.561644/-0.0544731/0.823775/0][778.333/144.659/-546.379/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.0478334/-0.294168/0.774112/0][-0.5393/0.775588/0.328053/0][-0.696895/-0.43317/-0.121546/0][835.997/168.362/-606.613/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.0276129/-0.0852545/0.901873/0][-0.425016/0.902295/0.0722816/0][-0.819918/-0.381314/-0.0611495/0][834.436/163.58/-595.629/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.331272/-0.0357441/0.898847/0][-0.254777/0.957949/0.131993/0][-0.865768/-0.272731/0.308235/0][842.984/170.258/-528.031/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.856039/-0.380884/-0.345819/0][-0.334301/0.923252/-0.189339/0][0.391394/-0.0464738/-0.91767/0][832.191/163.003/-591.799/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.625214/0/0.780454/0][0/1/0/0][-0.780454/0/0.625214/0][786.221/144.441/-552.18/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.527938/-0.343587/0.699034/0][-0.477188/0.875995/0.0701747/0][-0.636461/-0.296523/-0.626426/0][844.894/173.431/-610.844/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.332571/-0.274932/0.838582/0][-0.410481/0.902122/0.132973/0][-0.793062/-0.299999/-0.412874/0][837.947/168.67/-524.364/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.474349/0.209196/0.728018/0][-0.490039/0.868917/0.0696078/0][-0.618026/-0.389775/0.514684/0][811.092/145.963/-570.872/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.0953848/0.351024/-0.80399/0][-0.508488/0.809628/0.293159/0][0.753838/0.380856/0.255718/0][835.148/166.447/-603.366/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.378335/-0.411512/-0.821768/0][-0.272496/0.904677/-0.327575/0][0.878236/0.0999957/-0.454406/0][837.877/167.118/-582.193/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.594347/0.582804/0.549391/0][-0.477204/0.809369/-0.342342/0][-0.644179/-0.0587017/0.759163/0][849.452/173.801/-519.929/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.436925/-0.332345/0.690335/0][-0.575939/0.816985/0.0287969/0][-0.573564/-0.385009/-0.548372/0][811.25/145.791/-574.221/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.362139/0.0385007/-0.738289/0][-0.492746/0.822323/0.284581/0][0.618068/0.466847/-0.278824/0][838.614/166.946/-600.411/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.190393/0.299435/-0.832462/0][-0.481602/0.853957/0.197019/0][0.769882/0.363404/0.306796/0][846.38/173.688/-515.601/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.22837/-0.411372/0.724683/0][-0.603808/0.759815/0.241036/0][-0.64978/-0.382524/-0.421908/0][837.466/170.833/-618.764/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.952492/0.254634/-0.0766983/0][-0.241897/0.955575/0.16841/0][0.116174/-0.141856/0.971773/0][849.103/174.559/-581.563/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.303182/0.103775/0.670072/0][-0.652805/0.735469/0.181466/0][-0.473986/-0.492444/0.290726/0][844.789/172.437/-581.056/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.696458/0.308119/0.644753/0][-0.270666/0.949084/-0.161183/0][-0.661588/-0.0622555/0.744394/0][793.107/144.311/-543.46/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.123332/0.0395696/-0.746418/0][-0.637568/0.756539/0.145453/0][0.57045/0.493831/-0.0680773/0][839.589/172.087/-618.498/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.109353/-0.127674/0.830425/0][-0.509949/0.837594/0.195928/0][-0.720575/-0.4449/0.0264864/0][830.358/162.933/-601.49/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.334612/-0.390597/0.739544/0][-0.556621/0.81172/0.17687/0][-0.669388/-0.352462/-0.489026/0][827.886/161.335/-602.922/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.0605392/-0.797623/0.553963/0][-0.316061/0.557261/0.767832/0][-0.921142/-0.128602/-0.285834/0][798.681/143.526/-538.381/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.659428/0.103912/0.605031/0][-0.36993/0.894934/0.249488/0][-0.515538/-0.388339/0.628585/0][838.951/171.196/-609.952/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.484388/0/0.874853/0][0/1/0/0][-0.874853/0/-0.484388/0][796.449/144.775/-558.839/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.8074/0.226707/-0.149698/0][-0.318385/0.821161/-0.473631/0][0.0155508/0.430071/0.735186/0][805.186/144.376/-556.871/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.922193/0.361247/-0.0414187/0][0.366792/0.923122/-0.115362/0][-0.00343963/-0.121578/-0.983799/0][804.584/145.945/-546.52/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.0540993/-0.199789/0.906828/0][-0.378424/0.908441/0.177568/0][-0.859276/-0.33356/-0.124751/0][844.442/171.318/-531.707/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.653175/0/0.757207/0][0/1/0/0][-0.757207/0/-0.653175/0][783.449/144.775/-555.582/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.68806/0.628107/-0.342888/0][-0.615847/0.768764/0.172437/0][0.371909/0.0925191/0.915773/0][844.931/172.824/-605.885/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.703903/-0.0288688/-0.699616/0][-0.0636025/0.992442/-0.104944/0][0.697358/0.118368/0.696747/0][799.451/144.643/-582.914/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.858066/-0.425562/0.254223/0][-0.36993/0.894934/0.249488/0][-0.333685/0.120033/-0.925341/0][838.23/170.611/-608.923/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.615714/0.261156/-0.741875/0][0.12975/0.964096/0.231697/0][0.775748/0.0464005/-0.627492/0][842.281/173.18/-539.035/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.361736/0.356477/0.554597/0][-0.746849/0.662141/0.0615301/0][-0.345288/-0.436458/0.505755/0][844.409/171.651/-600.39/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.0894628/0.195967/-0.789025/0][-0.549614/0.79408/0.25954/0][0.67741/0.456878/0.0366653/0][831.673/165.176/-523.561/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.884677/0.026067/-0.452321/0][-0.0732285/0.993603/-0.0859639/0][0.447187/0.109173/0.880927/0][837.049/167.087/-571.556/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.705626/0/0.708584/0][0/1/0/0][-0.708584/0/-0.705626/0][802.277/144.441/-565.946/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.262478/-0.50117/0.710791/0][-0.565713/0.757706/0.325346/0][-0.701625/-0.316708/-0.482399/0][827.092/161.687/-523.625/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.70283/0/0.711357/0][0/1/0/0][-0.711357/0/-0.70283/0][795.289/144.775/-567.699/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.690112/0.0775353/0.481839/0][-0.369493/0.841679/0.393766/0][-0.375022/-0.449779/0.609501/0][841.118/170.592/-605.267/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.960214/0/0.279266/0][0/1/0/0][-0.279266/0/0.960214/0][801.859/144.441/-582.427/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.414442/-0.00976961/0.767955/0][-0.425033/0.872649/0.240479/0][-0.672504/-0.426071/0.35751/0][846.416/173.26/-580.818/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.000241972/-0.080762/0.870552/0][-0.485381/0.870552/0.0808969/0][-0.764394/-0.422569/-0.0389897/0][829.537/161.623/-596.334/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.820089/0/0.572236/0][0/1/0/0][-0.572236/0/-0.820089/0][797.697/144.803/-567.827/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.587467/0.0556132/0.614635/0][-0.416839/0.850232/0.321483/0][-0.504703/-0.445065/0.522665/0][832.781/167.124/-527.273/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.705188/-0.332322/-0.573589/0][-0.416526/0.909007/-0.0145639/0][0.526236/0.228645/-0.779441/0][850.557/176.101/-585.1/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.473259/-0.0625442/0.874854/0][-0.101991/0.994658/0.0159361/0][-0.871177/-0.0816856/-0.477109/0][832.067/166.213/-580.688/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.0859553/-0.0964234/-0.949554/0][-0.293293/0.953437/-0.0702682/0][0.912115/0.272458/-0.110233/0][846.323/173.056/-541.001/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.313175/0/0.949695/0][0/1/0/0][-0.949695/0/0.313175/0][798.79/144.803/-562.162/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.834171/0.41369/0.2295/0][-0.474062/0.865166/0.163565/0][-0.13089/-0.245239/0.917811/0][841.886/173.739/-617.218/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.610623/-0.3385/0.626156/0][0.484838/0.874604/0/0][-0.547638/0.303584/0.698171/0][843.271/173.188/-545.634/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.553894/-0.475278/-0.627597/0][-0.517673/0.837064/-0.177028/0][0.609476/0.226835/-0.709683/0][849.977/174.858/-542.927/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.870931/-0.385995/-0.0712352/0][-0.408812/0.873839/0.263208/0][-0.0393487/0.258357/-0.918852/0][852.909/176.631/-583.97/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.563446/0.451822/-0.36773/0][-0.698534/0.672827/-0.243625/0][0.137344/0.394142/0.694715/0][790.858/142.243/-578.672/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.403807/0.274315/0.721927/0][-0.561926/0.827187/0/0][-0.597169/-0.40567/0.488169/0][848.621/174.677/-537.022/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.528882/0/-0.848695/0][0/1/0/0][0.848695/0/-0.528882/0][798.966/144.441/-561.011/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.999106/-0.0416439/0.00385266/0][-0.0416195/0.999113/0.00640301/0][-0.00411589/0.00623693/-0.999953/0][783.81/144.765/-547.637/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.782309/0.556078/-0.018915/0][-0.549147/0.782538/0.29338/0][0.177944/-0.219127/0.917555/0][829.152/163.532/-524.528/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.159591/-0.287259/-0.732445/0][-0.643756/0.74963/-0.153733/0][0.593224/0.446981/-0.304559/0][844.37/172.24/-585.235/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.358859/0.477116/-0.75149/0][-0.458982/0.832776/0.309546/0][0.773512/0.233837/0.517837/0][837.286/166.753/-600.938/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.370633/0.259115/-0.635045/0][-0.671495/0.73529/-0.0918888/0][0.443132/0.460487/0.446517/0][841.756/168.122/-591.156/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.45346/-0.433526/-0.634305/0][-0.619629/0.779724/-0.0899462/0][0.533577/0.352247/-0.622199/0][851.055/175.078/-521.628/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.129376/0/0.991596/0][0/1/0/0][-0.991596/0/0.129376/0][784.985/144.803/-548.052/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 15, 3
+
+
+rem Patch: 0, 4
+
+
+rem Patch: 1, 4
+
+
+rem Patch: 2, 4
+
+
+rem Patch: 3, 4
+
+
+rem Patch: 4, 4
+
+
+rem Patch: 5, 4
+
+
+rem Patch: 6, 4
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.774945/0.319515/-0.478102/0][-0.134217/0.910561/0.390979/0][0.560264/-0.238818/0.748519/0][-130.706/181.204/-465.726/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.931234/0.0141254/0.363675/0][0.00640695/0.999728/-0.0224243/0][-0.363893/-0.0185522/-0.931071/0][-176.313/153.702/-385.221/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.16189/-0.30315/0.83278/0][-0.483888/0.84837/0.214759/0][-0.77161/-0.368205/-0.284033/0][-136.079/172.514/-444.175/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.687674/-0.0119876/0.696628/0][0.153695/0.97887/-0.134875/0][-0.680291/0.199819/0.674986/0][-169.363/152.686/-389.716/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.587441/0.0311069/0.800651/0][0.073187/0.99304/-0.0922792/0][-0.797948/0.112806/0.581076/0][-174.369/153.356/-389.116/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 7, 4
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.0394265/-0.286822/0.926443/0][-0.252563/0.927282/0.276334/0][-0.938333/-0.223091/-0.109/0][-126.869/180.315/-459.817/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.829018/-0.1933/0.506481/0][-0.0933897/0.971491/0.217909/0][-0.534164/0.133351/-0.823435/0][-117.452/182.345/-460.905/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 8, 4
+
+
+rem Patch: 9, 4
+
+
+rem Patch: 10, 4
+
+
+rem Patch: 11, 4
+
+
+rem Patch: 12, 4
+
+
+rem Patch: 13, 4
+
+
+rem Patch: 14, 4
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.0820941/0.160695/0.94659/0][-0.280102/0.950143/-0.137006/0][-0.921412/-0.253894/0.123012/0][828.479/150.847/-476.47/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.0885916/-0.0512625/0.907576/0][-0.400315/0.91189/0.0905823/0][-0.832253/-0.371341/0.0602646/0][835.776/152.734/-484.987/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.2148/0.136875/0.959408/0][-0.148068/0.98316/-0.107113/0][-0.957912/-0.11905/0.231449/0][824.846/149.485/-478.695/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.535012/0.214778/-0.763549/0][-0.36149/0.932333/0.00896255/0][0.713807/0.27122/0.57645/0][831.488/153.212/-462.048/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.864138/0.267/0.345849/0][-0.155092/0.930777/-0.331061/0][-0.410301/0.232444/0.845729/0][816.459/149.444/-483.391/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.861456/-0.25965/-0.359356/0][-0.334986/0.933404/0.128611/0][0.302031/0.231172/-0.891066/0][836.678/152.599/-482.328/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.822495/-0.475707/0.308353/0][-0.461608/0.878396/0.123846/0][-0.329771/-0.0404755/-0.942067/0][833.722/152.148/-489.632/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.878215/0.462224/-0.110958/0][-0.465182/0.885197/0.00567295/0][0.100842/0.0466337/0.992411/0][832.434/150.874/-487.178/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.464873/-0.234487/-0.806101/0][-0.360795/0.930541/-0.0626173/0][0.764793/0.261728/-0.517185/0][832.302/153.516/-466.543/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 15, 4
+
+
+rem Patch: 0, 5
+
+
+rem Patch: 1, 5
+
+
+rem Patch: 2, 5
+
+
+rem Patch: 3, 5
+
+
+rem Patch: 4, 5
+
+
+rem Patch: 5, 5
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.631854/0.181129/0.706683/0][0.315912/0.947966/0.039489/0][-0.662759/0.248201/-0.656197/0][-295.122/154.673/-267.276/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 6, 5
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.27511/0/0.961413/0][0/1/0/0][-0.961413/0/0.27511/0][-187.628/153.74/-342.593/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.978029/0/0.208469/0][0/1/0/0][-0.208469/0/0.978029/0][-189.914/153.74/-341.1/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.788483/0/0.615056/0][0/1/0/0][-0.615056/0/0.788483/0][-169.121/153.74/-347.768/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.520873/0.0206548/0.852937/0][-0.0128098/0.999405/-0.0320244/0][-0.853091/-0.0276066/-0.520299/0][-184.451/153.681/-350.872/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.487498/0/0.873124/0][0/1/0/0][-0.873124/0/0.487498/0][-187.3/153.74/-382.021/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.199755/0/-0.979846/0][0/1/0/0][0.979846/0/-0.199755/0][-164.281/153.74/-341.184/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.802852/0/0.596178/0][0/1/0/0][-0.596178/0/-0.802852/0][-165.508/153.74/-371.055/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.999904/0/-0.0138458/0][0/1/0/0][0.0138458/0/0.999904/0][-206.119/153.74/-340.922/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.601737/0/0.798694/0][0/1/0/0][-0.798694/0/-0.601737/0][-136.298/153.74/-340.49/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.129274/-0.108456/-0.975436/0][-0.126119/0.983966/-0.126119/0][0.973474/0.139325/0.113523/0][-212.959/153.597/-342.159/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.283455/0/0.958985/0][0/1/0/0][-0.958985/0/0.283455/0][-132.871/153.74/-344.022/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.900055/0.00418812/0.435671/0][0/0.999954/-0.00961259/0][-0.435691/0.00865186/0.900013/0][-142.304/153.726/-351.477/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.146964/0.0471453/0.98794/0][-0.0192032/0.998811/-0.0448075/0][-0.988878/-0.0123865/0.147694/0][-193.59/153.552/-350.639/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.221004/-0.0832108/-0.971503/0][0.0383108/0.996324/-0.0766216/0][0.974308/-0.0202854/0.223379/0][-163.145/153.627/-376.046/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.869637/0/-0.493691/0][0/1/0/0][0.493691/0/-0.869637/0][-182.862/153.74/-379.311/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.952741/0/-0.303784/0][0/1/0/0][0.303784/0/-0.952741/0][-134.374/153.74/-346.835/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.365218/0/0.930922/0][0/1/0/0][-0.930922/0/-0.365218/0][-178.564/153.74/-373.988/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.531602/0/0.846994/0][0/1/0/0][-0.846994/0/0.531602/0][-176.198/153.74/-376.337/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.786387/0/0.617734/0][0/1/0/0][-0.617734/0/0.786387/0][-156.264/153.74/-343.646/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.177923/0.00573614/0.984018/0][-0.00320426/0.999974/-0.00640853/0][-0.98403/-0.00429328/-0.1779/0][-191.182/153.732/-345.706/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.955781/0/-0.294078/0][0/1/0/0][0.294078/0/0.955781/0][-155.73/153.74/-338.946/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.849658/0/0.527333/0][0/1/0/0][-0.527333/0/0.849658/0][-185.12/153.74/-375.204/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 7, 5
+
+
+rem Patch: 8, 5
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.46129/0/-0.887249/0][0/1/0/0][0.887249/0/0.46129/0][62.63/153.74/-338.138/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.565008/0/0.825086/0][0/1/0/0][-0.825086/0/0.565008/0][44.0683/153.74/-342.803/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.608928/0/-0.793226/0][0/1/0/0][0.793226/0/0.608928/0][52.7073/153.74/-378.532/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.588848/0/0.808244/0][0/1/0/0][-0.808244/0/0.588848/0][50.2794/153.74/-374.702/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.704516/0/0.709688/0][0/1/0/0][-0.709688/0/-0.704516/0][68.5826/153.74/-335.93/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.860159/-0.25227/0.422476/0][0.28558/0.95831/-0.00921227/0][-0.402539/0.128575/0.896342/0][93.8068/152.116/-329.581/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.962264/0/0.272118/0][0/1/0/0][-0.272118/0/0.962264/0][43.0505/153.74/-356.128/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.181716/0/0.983351/0][0/1/0/0][-0.983351/0/0.181716/0][73.4341/153.74/-360.864/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.422374/0.0323682/-0.895638/0][0.136442/0.990236/-0.0285575/0][0.885969/-0.134264/-0.422667/0][86.4166/153.635/-336.74/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.993306/0/-0.115509/0][0/1/0/0][0.115509/0/0.993306/0][58.3064/153.74/-382.551/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 9, 5
+
+
+rem Patch: 10, 5
+
+
+rem Patch: 11, 5
+
+
+rem Patch: 12, 5
+
+
+rem Patch: 13, 5
+
+
+rem Patch: 14, 5
+
+
+rem Patch: 15, 5
+
+
+rem Patch: 0, 6
+
+
+rem Patch: 1, 6
+
+
+rem Patch: 2, 6
+
+
+rem Patch: 3, 6
+
+
+rem Patch: 4, 6
+
+
+rem Patch: 5, 6
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.17122/0/-0.985233/0][0/1/0/0][0.985233/0/0.17122/0][-286.101/153.74/-246.061/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.793171/0.234825/-0.506629/0][0.328724/0.941165/-0.0784113/0][0.458408/-0.228735/-0.823697/0][-294.358/154.204/-253.777/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.0254729/-0.187177/0.916706/0][0.346752/0.91706/0.196885/0][-0.877527/0.322885/0.0415439/0][-296.898/155.013/-245.064/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 6, 6
+
+
+rem Patch: 7, 6
+
+
+rem Patch: 8, 6
+
+
+rem Patch: 9, 6
+
+
+rem Patch: 10, 6
+
+
+rem Patch: 11, 6
+
+
+rem Patch: 12, 6
+
+
+rem Patch: 13, 6
+
+
+rem Patch: 14, 6
+
+
+rem Patch: 15, 6
+
+
+rem Patch: 0, 7
+
+
+rem Patch: 1, 7
+
+
+rem Patch: 2, 7
+
+
+rem Patch: 3, 7
+
+
+rem Patch: 4, 7
+
+
+rem Patch: 5, 7
+
+Object.create nc_birch_cluster01
+Object.absoluteTransformation [-0.961036/0/-0.276423/0][0/1/0/0][0.276423/0/-0.961036/0][-293.381/163.873/-46.4939/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster01
+Object.absoluteTransformation [0.277027/0/0.960862/0][0/1/0/0][-0.960862/0/0.277027/0][-318.811/163.313/-82.4325/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster01
+Object.absoluteTransformation [-0.179774/0/0.983708/0][0/1/0/0][-0.983708/0/-0.179774/0][-279.14/163.271/-8.31271/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster02
+Object.absoluteTransformation [-0.427724/0/-0.903909/0][0/1/0/0][0.903909/0/-0.427724/0][-322.83/161.289/-101.281/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster01
+Object.absoluteTransformation [-0.806027/0/-0.591878/0][0/1/0/0][0.591878/0/-0.806027/0][-280.789/163.271/-34.495/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster02
+Object.absoluteTransformation [0.973609/0/0.228223/0][0/1/0/0][-0.228223/0/0.973609/0][-302.386/161.669/-111.971/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster02
+Object.absoluteTransformation [-0.00299005/0/-0.999996/0][0/1/0/0][0.999996/0/-0.00299005/0][-289.833/160.124/-55.2095/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster02
+Object.absoluteTransformation [0.166826/0/0.985986/0][0/1/0/0][-0.985986/0/0.166826/0][-276.894/160.109/-43.6032/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster01
+Object.absoluteTransformation [0.918288/0/-0.395913/0][0/1/0/0][0.395913/0/0.918288/0][-294.644/164.518/-99.6737/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster01
+Object.absoluteTransformation [-0.406725/0/0.913551/0][0/1/0/0][-0.913551/0/-0.406725/0][-279.943/163.271/-66.8801/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster02
+Object.absoluteTransformation [0.495626/0/0.868536/0][0/1/0/0][-0.868536/0/0.495626/0][-297.098/161.926/-65.2921/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster01
+Object.absoluteTransformation [0.764309/0/0.64485/0][0/1/0/0][-0.64485/0/0.764309/0][-309.036/165.366/-91.9592/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster02
+Object.absoluteTransformation [-0.953184/0/0.302391/0][0/1/0/0][-0.302391/0/-0.953184/0][-300.094/162.039/-85.9063/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 6, 7
+
+
+rem Patch: 7, 7
+
+
+rem Patch: 8, 7
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.125094/0.0539888/-0.990493/0][-0.0255927/0.998361/0.0511855/0][0.991633/0.0189465/0.12627/0][55.8555/154.126/-63.342/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.921761/-0.35963/0.0311694/0][-0.354639/0.922288/0.153677/0][-0.0840141/0.1306/-0.977668/0][43.6341/151.798/-11.7313/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.99386/0/-0.110642/0][0/1/0/0][0.110642/0/0.99386/0][31.2471/153.987/-84.9449/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.996195/0/0.0871465/0][0/1/0/0][-0.0871465/0/0.996195/0][110.208/153.987/-67.8757/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.645249/-0.020676/-0.763301/0][-0.032027/0.999487/0/0][0.762909/0.0244462/-0.64558/0][59.5014/153.943/-12.6424/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.999762/0/-0.0218245/0][0/1/0/0][0.0218245/0/0.999762/0][69.5965/153.625/-6.11996/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.758393/-0.0240813/-0.647005/0][-0.0670815/0.996883/0.0415266/0][0.643988/0.0748956/-0.757645/0][60.3693/153.281/-0.378143/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.990693/0.111108/0.0781346/0][0.111453/0.99377/0/0][-0.0776478/0.00870836/-0.996904/0][116.022/153.472/-50.7368/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.540523/0/0.841329/0][0/1/0/0][-0.841329/0/0.540523/0][101.71/153.625/-71.3482/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.236844/0/-0.971548/0][0/1/0/0][0.971548/0/-0.236844/0][53.1958/154.006/-19.9765/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.51749/-0.102281/0.849511/0][0.060561/0.994718/0.0828729/0][-0.8535/0.00856131/0.520951/0][103.922/153.155/-28.3803/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.654705/-0.206416/0.725631/0][-0.103346/0.977333/0.184771/0][-0.747323/0.045979/-0.661197/0][97.568/153.404/-17.3767/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.917965/-0.00882443/-0.396545/0][0.00961259/0.999954/0/0][0.396526/-0.00381182/0.918007/0][127.738/153.989/-84.2449/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.989082/0/0.147365/0][0/1/0/0][-0.147365/0/0.989082/0][68.9452/153.987/-70.7589/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.93895/-0.141986/-0.267072/0][0.181428/0.976194/0.118866/0][0.243837/-0.160064/0.942357/0][121.869/152.005/-44.758/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.887391/0/-0.461018/0][0/1/0/0][0.461018/0/0.887391/0][38.8005/154.006/-37.1359/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.547262/0.137288/-0.82554/0][-0.085692/0.990461/0.107908/0][0.83248/0.011688/0.553806/0][57.657/153.662/-10.1397/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.937743/0/-0.347329/0][0/1/0/0][0.347329/0/0.937743/0][11.3084/153.625/-81.7693/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.836011/0/-0.548712/0][0/1/0/0][0.548712/0/-0.836011/0][107.003/153.987/-71.9863/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.845101/0.0717713/0.528926/0][0.0766716/0.996974/-0.0127786/0][-0.528243/0.0297544/-0.848047/0][114.314/153.243/-52.8531/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.874932/0.0125869/0.482125/0][0.0320106/0.998975/0.0320106/0][-0.481228/0.0434402/-0.874438/0][71.2935/153.622/-7.2294/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.935923/0.0189558/0.34798/0][0/0.99852/-0.0543932/0][-0.348496/0.0509079/0.934537/0][64.5974/153.957/-82.0239/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.549562/0.00259761/-0.823795/0][0.114235/0.990281/0.0793301/0][0.815995/-0.137703/0.543924/0][102.967/153.166/-31.3448/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.59225/0.0025819/-0.805748/0][0/0.999995/0.00320433/0][0.805752/0.00189776/-0.592247/0][45.6749/153.643/-25.837/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.985341/7.18582e-005/-0.166092/0][0.00640383/0.999241/0.038423/0][0.165969/-0.0389233/0.984592/0][59.1979/153.618/-13.7083/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.850977/0.168914/-0.497244/0][0.14212/0.985603/0.0915882/0][0.505556/0.0072713/-0.862732/0][120.993/150.233/-28.9395/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.184555/0/0.982822/0][0/1/0/0][-0.982822/0/0.184555/0][38.1466/153.978/-38.8622/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.0524437/0/-0.998624/0][0/1/0/0][0.998624/0/0.0524437/0][61.8133/153.987/-87.8135/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.557045/-0.176334/0.776671/0][-0.294015/0.955781/0.00612531/0][-0.743408/-0.224941/-0.584258/0][48.4749/152.31/-3.485/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.488181/-0.0125144/0.872366/0][-0.0256263/0.999672/0/0][-0.87208/-0.0223556/-0.488341/0][52.5397/153.972/-64.8864/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.949851/0/0.312702/0][0/1/0/0][-0.312702/0/-0.949851/0][121.85/153.959/-80.3706/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.597511/0.0622202/-0.780175/0][0.176338/0.982696/-0.0566802/0][0.763149/-0.171442/-0.598143/0][99.271/152.949/-21.5422/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.686468/0.0918012/0.709303/0][0.158149/0.987091/0.0253038/0][-0.697823/0.129546/-0.692125/0][95.7819/153.617/-28.7963/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 9, 7
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.690701/-0.178242/0.697293/0][-0.0754793/0.981471/0.176118/0][-0.715764/0.069014/-0.691357/0][174.839/152.308/-92.3731/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.204601/-0.180291/0.959264/0][0.0345725/0.980841/0.19172/0][-0.97545/0.0723901/-0.194447/0][157.697/153.34/-84.864/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.60902/0.0795899/0.787336/0][-0.00637915/0.995391/-0.0956873/0][-0.791323/0.0532529/0.606721/0][170.777/153.209/-96.0087/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.932352/0/0.361551/0][0/1/0/0][-0.361551/0/-0.932352/0][154.674/154.006/-96.7715/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.700643/-8.58499e-005/-0.674197/0][0.162017/0.972339/0.168248/0][0.655534/-0.227113/0.681277/0][153.106/151.883/-74.0537/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.0539331/0.141254/-0.983772/0][0.104184/0.985249/0.135754/0][0.988437/-0.0951713/-0.0678539/0][171.623/151.855/-83.5598/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.959952/0.0895988/-0.081461/0][0.0679156/0.963402/0.259314/0][0.101714/0.243397/-0.930905/0][168.074/151.114/-77.0594/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.0406932/0.228541/-0.96724/0][0.0930634/0.968096/0.232658/0][0.989553/-0.0994822/0.0181261/0][165.313/151.223/-76.6112/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.935198/0.149303/-0.213081/0][0.0922049/0.959166/0.267394/0][0.244303/0.230419/-0.910776/0][164.89/150.808/-74.8904/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.801746/0/0.597665/0][0/1/0/0][-0.597665/0/-0.801746/0][138.092/153.625/-87.2904/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.0606599/0/0.998159/0][0/1/0/0][-0.998159/0/-0.0606599/0][132.176/153.987/-98.4494/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.893627/0/0.448811/0][0/1/0/0][-0.448811/0/0.893627/0][136.103/153.987/-83.1577/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 10, 7
+
+
+rem Patch: 11, 7
+
+
+rem Patch: 12, 7
+
+
+rem Patch: 13, 7
+
+
+rem Patch: 14, 7
+
+
+rem Patch: 15, 7
+
+
+rem Patch: 0, 8
+
+
+rem Patch: 1, 8
+
+
+rem Patch: 2, 8
+
+
+rem Patch: 3, 8
+
+
+rem Patch: 4, 8
+
+
+rem Patch: 5, 8
+
+Object.create nc_birch_cluster02
+Object.absoluteTransformation [0.0221451/0/0.999755/0][0/1/0/0][-0.999755/0/0.0221451/0][-282.18/160.109/56.277/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster01
+Object.absoluteTransformation [0.981109/0/0.193454/0][0/1/0/0][-0.193454/0/0.981109/0][-293.595/163.958/35.4423/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster02
+Object.absoluteTransformation [-0.930374/0/-0.366613/0][0/1/0/0][0.366613/0/-0.930374/0][-280.159/160.109/79.536/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster01
+Object.absoluteTransformation [0.989146/0/-0.146935/0][0/1/0/0][0.146935/0/0.989146/0][-272.117/163.271/102.841/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster02
+Object.absoluteTransformation [0.979258/0/-0.202619/0][0/1/0/0][0.202619/0/0.979258/0][-265.715/160.207/10.738/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster01
+Object.absoluteTransformation [0.993116/0/-0.117135/0][0/1/0/0][0.117135/0/0.993116/0][-280.847/163.271/38.7468/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster02
+Object.absoluteTransformation [-0.997203/0/0.0747449/0][0/1/0/0][-0.0747449/0/-0.997203/0][-285.401/160.109/8.07948/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster02
+Object.absoluteTransformation [0.713755/0/-0.700395/0][0/1/0/0][0.700395/0/0.713755/0][-284.482/160.109/90.1679/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster01
+Object.absoluteTransformation [0.863092/0/0.505047/0][0/1/0/0][-0.505047/0/0.863092/0][-288.331/163.276/68.0498/1]
+Object.isOvergrowth 1
+
+Object.create nc_birch_cluster01
+Object.absoluteTransformation [0.872739/0/0.488188/0][0/1/0/0][-0.488188/0/0.872739/0][-287.757/163.271/26.1542/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 6, 8
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.714906/0/-0.69922/0][0/1/0/0][0.69922/0/-0.714906/0][-242.699/153.644/126.332/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.999527/0/0.0307699/0][0/1/0/0][-0.0307699/0/0.999527/0][-233.421/153.644/122.771/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 7, 8
+
+
+rem Patch: 8, 8
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.18249/0.277483/-0.942917/0][0.0769374/0.960414/0.267742/0][0.979884/-0.0236854/-0.196614/0][93.1886/148.44/14.0761/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.441445/-0.199245/0.800043/0][0.213742/0.913752/0.345501/0][-0.799881/0.323523/-0.360785/0][96.399/146.852/17.2769/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.528311/-0.0867367/0.740822/0][0.279903/0.909907/0.306144/0][-0.700633/0.369098/-0.456436/0][87.1507/151.947/1.89799/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.0903936/0.272337/-0.942914/0][0.194258/0.947237/0.254963/0][0.962599/-0.160121/-0.138528/0][78.0185/149.57/25.5136/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.289407/-0.154212/0.922909/0][0.238647/0.967221/0.0867807/0][-0.906039/0.195134/0.316723/0][81.6907/149.566/18.0125/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 9, 8
+
+
+rem Patch: 10, 8
+
+
+rem Patch: 11, 8
+
+
+rem Patch: 12, 8
+
+
+rem Patch: 13, 8
+
+
+rem Patch: 14, 8
+
+
+rem Patch: 15, 8
+
+
+rem Patch: 0, 9
+
+
+rem Patch: 1, 9
+
+
+rem Patch: 2, 9
+
+
+rem Patch: 3, 9
+
+
+rem Patch: 4, 9
+
+
+rem Patch: 5, 9
+
+
+rem Patch: 6, 9
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.999994/0/0.00347843/0][0/1/0/0][-0.00347843/0/-0.999994/0][-186.133/151.574/211.412/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.0910549/0/0.995846/0][0/1/0/0][-0.995846/0/-0.0910549/0][-131.207/151.603/219.079/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.260148/0/0.965569/0][0/1/0/0][-0.965569/0/-0.260148/0][-180.628/151.24/221.009/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.781964/0/0.623323/0][0/1/0/0][-0.623323/0/0.781964/0][-179.523/151.603/224.046/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.208092/0/0.978109/0][0/1/0/0][-0.978109/0/0.208092/0][-150.912/151.603/187.26/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.972058/0/-0.234739/0][0/1/0/0][0.234739/0/-0.972058/0][-130.979/151.24/220.655/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.126383/0/-0.991982/0][0/1/0/0][0.991982/0/0.126383/0][-164.871/151.24/185.065/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.324216/0/-0.945983/0][0/1/0/0][0.945983/0/-0.324216/0][-190.367/151.603/222.373/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.149668/0/-0.988736/0][0/1/0/0][0.988736/0/-0.149668/0][-172.103/151.574/189.254/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.229677/0.0684317/-0.970723/0][0/0.997524/0.0703211/0][0.973132/0.0161511/-0.229108/0][-168.972/151.586/184.237/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [-0.394908/0/0.918721/0][0/1/0/0][-0.918721/0/-0.394908/0][-129.765/151.24/214.78/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.589753/0/-0.807584/0][0/1/0/0][0.807584/0/0.589753/0][-151.575/151.24/185.035/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.318436/0.276439/-0.903665/0][-0.0214912/0.95813/0.285527/0][0.944759/-0.071501/0.311044/0][-184.694/151.676/180.636/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.672799/0/-0.739825/0][0/1/0/0][0.739825/0/-0.672799/0][-139.176/151.574/228.802/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.972707/0.0239274/0.00424978/0][-0.0249354/0.972717/0.230652/0][0.00138507/-0.224463/0.946765/0][-146.846/152.102/177.25/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.126244/-0.304589/0.941812/0][-0.0243591/0.950236/0.310578/0][-0.989542/-0.0621501/0.112542/0][-147.765/152.221/178.039/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.715766/0/-0.69834/0][0/1/0/0][0.69834/0/-0.715766/0][-174.783/151.574/222.073/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.612651/0/0.790353/0][0/1/0/0][-0.790353/0/0.612651/0][-152.185/151.24/186.398/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.511065/-0.0928987/0.852691/0][0/0.994117/0.108307/0][-0.857737/0.0553519/-0.508059/0][-172.281/151.599/181.77/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.926156/0.102034/-0.282259/0][-0.0310249/0.968212/0.248199/0][0.298611/-0.221114/0.899881/0][-187.335/152.62/178.24/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.950818/0/0.30975/0][0/1/0/0][-0.30975/0/0.950818/0][-157.31/151.603/197.357/1]
+Object.isOvergrowth 1
+
+Object.create nc_fern01
+Object.absoluteTransformation [0.748177/0/-0.6635/0][0/1/0/0][0.6635/0/0.748177/0][-180.983/151.24/223.922/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 7, 9
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.411899/0/0.911229/0][0/1/0/0][-0.911229/0/0.411899/0][-119.335/151.574/216.47/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [-0.933062/-0.0356999/-0.0465775/0][-0.0179614/0.934224/-0.356235/0][0.0562313/-0.331553/-0.872329/0][-19.3399/148.927/168.11/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.441009/0.191113/0.865788/0][-0.0373615/0.971636/-0.233509/0][-0.885858/-0.135327/-0.42136/0][-34.4064/149.155/168.451/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.672185/0.0355117/-0.738825/0][0/0.998847/0.0480097/0][0.739678/-0.0322714/0.67141/0][-105.182/151.63/207.431/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [-0.351777/0.0145645/-0.934978/0][-0.0352113/0.998965/0.0288092/0][0.934429/0.0430562/-0.3509/0][-123.215/151.635/208.877/1]
+Object.isOvergrowth 1
+
+Object.create nc_slybush01
+Object.absoluteTransformation [0.91285/-0.305946/0.193498/0][0.260137/0.933133/0.248177/0][-0.256488/-0.176212/0.931398/0][-114.16/151.469/212.468/1]
+Object.isOvergrowth 1
+
+Object.create nc_medbush01
+Object.absoluteTransformation [0.761675/-0.121644/-0.274884/0][-0.0804371/0.809759/-0.581223/0][0.293292/0.464814/0.606988/0][-13.721/148.361/166.989/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 8, 9
+
+
+rem Patch: 9, 9
+
+
+rem Patch: 10, 9
+
+
+rem Patch: 11, 9
+
+
+rem Patch: 12, 9
+
+
+rem Patch: 13, 9
+
+
+rem Patch: 14, 9
+
+
+rem Patch: 15, 9
+
+
+rem Patch: 0, 10
+
+
+rem Patch: 1, 10
+
+
+rem Patch: 2, 10
+
+
+rem Patch: 3, 10
+
+
+rem Patch: 4, 10
+
+
+rem Patch: 5, 10
+
+
+rem Patch: 6, 10
+
+
+rem Patch: 7, 10
+
+
+rem Patch: 8, 10
+
+
+rem Patch: 9, 10
+
+
+rem Patch: 10, 10
+
+
+rem Patch: 11, 10
+
+
+rem Patch: 12, 10
+
+
+rem Patch: 13, 10
+
+
+rem Patch: 14, 10
+
+
+rem Patch: 15, 10
+
+
+rem Patch: 0, 11
+
+
+rem Patch: 1, 11
+
+
+rem Patch: 2, 11
+
+
+rem Patch: 3, 11
+
+
+rem Patch: 4, 11
+
+
+rem Patch: 5, 11
+
+
+rem Patch: 6, 11
+
+
+rem Patch: 7, 11
+
+
+rem Patch: 8, 11
+
+
+rem Patch: 9, 11
+
+
+rem Patch: 10, 11
+
+
+rem Patch: 11, 11
+
+
+rem Patch: 12, 11
+
+
+rem Patch: 13, 11
+
+
+rem Patch: 14, 11
+
+
+rem Patch: 15, 11
+
+
+rem Patch: 0, 12
+
+
+rem Patch: 1, 12
+
+
+rem Patch: 2, 12
+
+
+rem Patch: 3, 12
+
+
+rem Patch: 4, 12
+
+
+rem Patch: 5, 12
+
+
+rem Patch: 6, 12
+
+
+rem Patch: 7, 12
+
+
+rem Patch: 8, 12
+
+
+rem Patch: 9, 12
+
+
+rem Patch: 10, 12
+
+
+rem Patch: 11, 12
+
+
+rem Patch: 12, 12
+
+
+rem Patch: 13, 12
+
+
+rem Patch: 14, 12
+
+
+rem Patch: 15, 12
+
+
+rem Patch: 0, 13
+
+
+rem Patch: 1, 13
+
+
+rem Patch: 2, 13
+
+
+rem Patch: 3, 13
+
+
+rem Patch: 4, 13
+
+
+rem Patch: 5, 13
+
+
+rem Patch: 6, 13
+
+
+rem Patch: 7, 13
+
+
+rem Patch: 8, 13
+
+
+rem Patch: 9, 13
+
+
+rem Patch: 10, 13
+
+
+rem Patch: 11, 13
+
+
+rem Patch: 12, 13
+
+
+rem Patch: 13, 13
+
+
+rem Patch: 14, 13
+
+
+rem Patch: 15, 13
+
+
+rem Patch: 0, 14
+
+
+rem Patch: 1, 14
+
+
+rem Patch: 2, 14
+
+
+rem Patch: 3, 14
+
+
+rem Patch: 4, 14
+
+
+rem Patch: 5, 14
+
+
+rem Patch: 6, 14
+
+
+rem Patch: 7, 14
+
+
+rem Patch: 8, 14
+
+
+rem Patch: 9, 14
+
+
+rem Patch: 10, 14
+
+
+rem Patch: 11, 14
+
+
+rem Patch: 12, 14
+
+
+rem Patch: 13, 14
+
+
+rem Patch: 14, 14
+
+
+rem Patch: 15, 14
+
+
+rem Patch: 0, 15
+
+
+rem Patch: 1, 15
+
+
+rem Patch: 2, 15
+
+
+rem Patch: 3, 15
+
+
+rem Patch: 4, 15
+
+
+rem Patch: 5, 15
+
+
+rem Patch: 6, 15
+
+
+rem Patch: 7, 15
+
+
+rem Patch: 8, 15
+
+
+rem Patch: 9, 15
+
+
+rem Patch: 10, 15
+
+
+rem Patch: 11, 15
+
+
+rem Patch: 12, 15
+
+
+rem Patch: 13, 15
+
+
+rem Patch: 14, 15
+
+
+rem Patch: 15, 15
+
+
+
+rem Patches: 16x16
+rem Objects: 351

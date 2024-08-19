@@ -1,0 +1,35 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe RotationalBundle sails
+ObjectTemplate.creator STRYKERJ-DDB4B9:StrykerJ
+ObjectTemplate.modifiedByUser "StrykerJ"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry sails
+ObjectTemplate.setCollisionMesh sails
+ObjectTemplate.mapMaterial 0 Wood_thin 14
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_sails_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMaxSpeed 0/0/40
+ObjectTemplate.setContinousRotationSpeed 0/0/40
+
+ObjectTemplate.activeSafe Sound S_sails_RotationRpm
+ObjectTemplate.modifiedByUser "StrykerJ"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/effects/sounds/mill_sails.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.85
+ObjectTemplate.pitch 1.2
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 3.5
+ObjectTemplate.halfVolumeDistance 5
+ObjectTemplate.soundRadius 20
+

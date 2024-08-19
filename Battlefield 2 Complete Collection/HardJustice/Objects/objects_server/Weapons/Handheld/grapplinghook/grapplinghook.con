@@ -1,0 +1,12 @@
+GeometryTemplate.create BundledMesh grapplehook
+
+ObjectTemplate.create GenericFireArm grapplinghook
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator "SatNav"
+ObjectTemplate.collisionMesh grapplinghook
+ObjectTemplate.mapMaterial 0 metal 0
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.physicsType 0
+ObjectTemplate.geometry grapplehook
+
+include grapplinghook.tweak

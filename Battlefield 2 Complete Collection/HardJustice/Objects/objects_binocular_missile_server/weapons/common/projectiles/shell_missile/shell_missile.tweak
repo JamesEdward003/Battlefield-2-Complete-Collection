@@ -1,0 +1,67 @@
+rem *** Generated with Bf2Editor.exe [created: 2003/10/21 13:57]
+ObjectTemplate.activeSafe shell_missile
+ObjectTemplate.createComponent DefaultCollisionComp
+ObjectTemplate.createComponent DefaultDetonationComp
+ObjectTemplate.createComponent DefaultRicochetComp
+ObjectTemplate.createComponent DefaultPenetrateComp
+ObjectTemplate.createComponent DefaultProjSoundComp
+ObjectTemplate.creator DSU-1:dsu
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.createNotInGrid 1
+rem ---EndComp ---
+ObjectTemplate.projectileTemplate shell_missile
+rem ---EndComp ---
+ObjectTemplate.create GenericProjectile shell_missile
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.createNotInGrid 1
+rem ---BeginComp:DefaultCollisionComp ---
+ObjectTemplate.createComponent DefaultCollisionComp
+ObjectTemplate.collision.hasCollisionEffect 1
+rem ---BeginComp:DefaultDetonationComp ---
+ObjectTemplate.createComponent DefaultDetonationComp
+ObjectTemplate.detonation.explosionMaterial 70
+ObjectTemplate.detonation.explosionRadius 10
+ObjectTemplate.detonation.explosionForce 7
+ObjectTemplate.detonation.explosionDamage 200
+ObjectTemplate.detonation.endEffectTemplate e_exp_large
+rem e_exp_xlarge
+ObjectTemplate.detonation.useMMOnEndEffect 1 
+ObjectTemplate.detonation.detectionRadius 1.5 
+ObjectTemplate.detonation.maxDepthForExplosion 2
+rem ---EndComp ---
+ObjectTemplate.geometry hydra_70
+ObjectTemplate.setCollisionMesh hydra_70
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType RotationalPoint
+ObjectTemplate.collisionGroups 8
+ObjectTemplate.mapMaterial 0 Collision_Material 55
+rem -------------------------------------
+ObjectTemplate.addTemplate S_shell_missile_Looping
+ObjectTemplate.addTemplate e_dumbrocket_trail
+ObjectTemplate.setPosition 0/0/-2
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_UNIFORM/30/0/0
+ObjectTemplate.material 55
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.minDamage 2000
+ObjectTemplate.damage 2000
+ObjectTemplate.acceleration 300
+ObjectTemplate.maxSpeed 125
+
+ObjectTemplate.active Sound S_shell_missile_Looping
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/armament/missiles/sounds/mono/hydra_engine_start_idle.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.93/1.1/
+ObjectTemplate.minDistance 8
+ObjectTemplate.halfVolumeDistance 25
+

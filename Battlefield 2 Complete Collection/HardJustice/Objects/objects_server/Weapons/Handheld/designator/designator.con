@@ -1,0 +1,10 @@
+ObjectTemplate.create GenericFireArm designator
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator PAN-1:pan
+ObjectTemplate.collisionMesh simrad
+ObjectTemplate.mapMaterial 0 Rubber 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry simrad
+
+include designator.tweak

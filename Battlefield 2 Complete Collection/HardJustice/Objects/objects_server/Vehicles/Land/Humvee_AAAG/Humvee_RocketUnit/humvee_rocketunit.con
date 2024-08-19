@@ -1,0 +1,30 @@
+GeometryTemplate.create BundledMesh humvee_rocketunit
+CollisionManager.createTemplate humvee_rocketunit
+
+ObjectTemplate.create RotationalBundle humvee_rocketunit
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator PERSONAL:SatNav
+ObjectTemplate.collisionMesh humvee_rocketunit
+ObjectTemplate.mapMaterial 0 metal 0
+ObjectTemplate.mapMaterial 1 wreck  0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry humvee_rocketunit
+ObjectTemplate.addTemplate Humvee_RocketPod_drive
+ObjectTemplate.setPosition 0/1.19/0
+
+ObjectTemplate.create RotationalBundle Humvee_RocketPod_drive
+ObjectTemplate.collisionPart 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate Humvee_RocketPod_rockets
+ObjectTemplate.setPosition -0.0040/-0.1313/0.0831
+
+ObjectTemplate.create RotationalBundle Humvee_RocketPod_rockets
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometryPart 2
+
+include humvee_rocketunit.tweak

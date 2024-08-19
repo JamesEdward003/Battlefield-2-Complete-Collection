@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh p_fire_hydrant
+CollisionManager.createTemplate p_fire_hydrant
+
+ObjectTemplate.create Particle p_fire_hydrant
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh p_fire_hydrant
+ObjectTemplate.mapMaterial 0 Metal_Solid 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry p_fire_hydrant
+
+include p_fire_hydrant.tweak

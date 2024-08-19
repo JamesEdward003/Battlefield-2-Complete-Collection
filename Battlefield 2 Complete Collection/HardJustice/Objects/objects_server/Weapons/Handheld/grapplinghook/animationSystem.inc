@@ -1,0 +1,38 @@
+animationSystem.createAnimation Objects/Weapons/Handheld/grapplinghook/Animations/3P/3p_grapplehook_up.baf
+animationSystem.createAnimation Objects/Weapons/Handheld/grapplinghook/Animations/3P/3p_grapplehook_down.baf
+animationSystem.createAnimation Objects/Weapons/Handheld/grapplinghook/Animations/3P/3p_grapplehook_idle.baf
+
+animationSystem.createBundle grappleup
+animationBundle.fadeInTime 0.0
+animationBundle.fadeOutTime 0.0
+animationBundle.addAnimation Objects/Weapons/Handheld/grapplinghook/Animations/3P/3p_grapplehook_up.baf
+
+animationSystem.createBundle grappledown
+animationBundle.fadeInTime 0.0
+animationBundle.fadeOutTime 0.0
+animationBundle.addAnimation Objects/Weapons/Handheld/grapplinghook/Animations/3P/3p_grapplehook_down.baf
+
+animationSystem.createBundle grappleidle
+animationBundle.fadeInTime 0.0
+animationBundle.fadeOutTime 0.0
+animationBundle.addAnimation Objects/Weapons/Handheld/grapplinghook/Animations/3P/3p_grapplehook_idle.baf
+
+animationSystem.createTrigger MessageTrigger grappleUp
+animationTrigger.addBundle grappleup
+animationTrigger.message 1
+
+animationSystem.createTrigger MessageTrigger grappleDown
+animationTrigger.addBundle grappledown
+animationTrigger.message 2
+
+animationSystem.createTrigger MessageTrigger grappleidle
+animationTrigger.addBundle grappleidle
+animationTrigger.message 4
+
+animationSystem.createTrigger Trigger root
+animationTrigger.addChild grappleUp
+animationTrigger.addChild grappleDown
+animationTrigger.addChild grappleidle
+
+animationSystem.createTrigger Trigger completeTree
+animationTrigger.addChild root

@@ -1,0 +1,8 @@
+GeometryTemplate.create BundledMesh nsrif_crossbow
+
+ObjectTemplate.create GenericFireArm nsrif_crossbow
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator BOB_XP:robertha
+ObjectTemplate.geometry nsrif_crossbow
+
+include nsrif_crossbow.tweak

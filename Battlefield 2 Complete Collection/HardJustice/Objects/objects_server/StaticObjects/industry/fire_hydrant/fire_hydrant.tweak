@@ -1,0 +1,39 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/3/24 14:57]
+GeometryTemplate.setSubGeometryLodDistance 0 0 20
+GeometryTemplate.setSubGeometryLodDistance 0 1 150
+GeometryTemplate.setSubGeometryLodDistance 0 2 200
+GeometryTemplate.setSubGeometryLodDistance 0 3 250
+GeometryTemplate.doNotGenerateLightmaps 0
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe DestroyableObject fire_hydrant
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.modifiedByUser "Radar_O'Reilly"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+rem ---BeginComp:Armor ---
+ObjectTemplate.createComponent Armor
+ObjectTemplate.armor.maxHitPoints 1
+ObjectTemplate.armor.hitPoints 1
+ObjectTemplate.armor.defaultMaterial 97
+ObjectTemplate.armor.waterLevel -0.3
+ObjectTemplate.armor.explosionMaterial 97
+ObjectTemplate.armor.wreckHitPoints 1
+ObjectTemplate.armor.timeToStayAsWreck -1
+ObjectTemplate.armor.timeToStayAfterDestroyed -1
+ObjectTemplate.armor.wreckDelay 0.05
+ObjectTemplate.armor.canBeRepairedWhenWreck 1
+ObjectTemplate.armor.canBeDestroyed 0
+ObjectTemplate.armor.showDamageAsDirt 500
+ObjectTemplate.armor.alignLastEffectToHitDirection 0
+ObjectTemplate.armor.addArmorEffect -25 e_destruction_fire_hydrant 0/0/0 0/0/0
+rem ---EndComp ---
+ObjectTemplate.geometry fire_hydrant
+ObjectTemplate.setCollisionMesh fire_hydrant
+ObjectTemplate.mapMaterial 0 Metal_Solid 20
+ObjectTemplate.treeCollisionDiameter 0.3
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+

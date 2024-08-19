@@ -1,0 +1,38 @@
+GeometryTemplate.create BundledMesh civ2_tow
+CollisionManager.createTemplate civ2_tow
+
+ObjectTemplate.create PlayerControlObject civ2_tow
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator MEI-2:mei
+ObjectTemplate.collisionMesh ats_hj8
+ObjectTemplate.mapMaterial 0 metal_plating 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry civ2_tow
+ObjectTemplate.addTemplate civ2_tow_BarrelBase
+ObjectTemplate.setPosition 0.0015/0.5777/0.0017
+
+ObjectTemplate.create RotationalBundle civ2_tow_BarrelBase
+ObjectTemplate.collisionPart 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate civ2_tow_Barrel
+ObjectTemplate.setPosition -0.0704/0.2491/0
+
+ObjectTemplate.create RotationalBundle civ2_tow_Barrel
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+ObjectTemplate.addTemplate civ2_tow_sights
+ObjectTemplate.setPosition -0.1176/0.1599/-0.1619
+
+ObjectTemplate.create SimpleObject civ2_tow_sights
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+include civ2_tow.tweak

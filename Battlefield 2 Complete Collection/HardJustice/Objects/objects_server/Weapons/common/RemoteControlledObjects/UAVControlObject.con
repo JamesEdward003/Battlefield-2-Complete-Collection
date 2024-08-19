@@ -1,0 +1,9 @@
+ObjectTemplate.create RemoteControlledObject UAVControlObject
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.rcType RCUav
+ObjectTemplate.minTimeBetweenActivation 70
+objectTemplate.uavVehicleTemplate uav_pred
+objectTemplate.uavVehicleSpeed 30
+objectTemplate.uavVehicleRadius	60
+objectTemplate.uavVehicleFlightHeight 120
+objectTemplate.uavVehicleSampleResolution 60

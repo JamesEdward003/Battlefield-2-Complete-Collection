@@ -1,0 +1,35 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 10:52]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe Bundle blu_xx
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 4
+rem ---BeginComp:Armor ---
+ObjectTemplate.createComponent Armor
+ObjectTemplate.armor.maxHitPoints 1000
+ObjectTemplate.armor.hitPoints 1000
+ObjectTemplate.armor.defaultMaterial 69
+ObjectTemplate.armor.waterLevel -0.3
+ObjectTemplate.armor.explosionForce 10
+ObjectTemplate.armor.explosionForceMax 10
+ObjectTemplate.armor.explosionDamage 350
+ObjectTemplate.armor.explosionRadius 10
+ObjectTemplate.armor.explosionMaterial 69
+ObjectTemplate.armor.wreckHitPoints 0
+ObjectTemplate.armor.addArmorEffect 0 e_exp_blu_xx 0/0/0 0/0/0
+rem ---EndComp ---
+ObjectTemplate.geometry blu_xx
+ObjectTemplate.setCollisionMesh blu_xx
+ObjectTemplate.mapMaterial 0 Collision_Material 31
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.drag 1
+ObjectTemplate.mass 25
+ObjectTemplate.inertiaModifier 4/4/4
+ObjectTemplate.floaterMod 0.9
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.collisionGroups 40
+
+

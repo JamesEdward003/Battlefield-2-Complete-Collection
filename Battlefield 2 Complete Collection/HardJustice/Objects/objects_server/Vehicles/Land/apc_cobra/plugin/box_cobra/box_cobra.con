@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh box_cobra
+CollisionManager.createTemplate box_cobra
+
+ObjectTemplate.create SimpleObject box_cobra
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh box_cobra
+ObjectTemplate.mapMaterial 0 Light_armored_vehicle 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry box_cobra
+
+include box_cobra.tweak

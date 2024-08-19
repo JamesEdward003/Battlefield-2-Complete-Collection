@@ -1,0 +1,4 @@
+ObjectTemplate.create EffectBundle e_exp_AA_Large
+ObjectTemplate.createdInEditor 1
+
+include e_exp_AA_Large.tweak

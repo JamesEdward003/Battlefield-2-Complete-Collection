@@ -1,0 +1,182 @@
+GeometryTemplate.create BundledMesh m270_m109h
+GeometryTemplate.nrOfAnimatedUVMatrix 6
+CollisionManager.createTemplate m270_m109h
+
+ObjectTemplate.create PlayerControlObject m270_m109h
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CAMBO:Cihangir
+ObjectTemplate.collisionMesh m270
+ObjectTemplate.mapMaterial 0 Armor_4_Tank_sides 0
+ObjectTemplate.mapMaterial 1 Glass_bulletproof 0
+ObjectTemplate.mapMaterial 2 Wreck 0
+ObjectTemplate.mapMaterial 3 Tank_tracks 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry m270
+ObjectTemplate.addTemplate m270_m109h_Zmotor
+ObjectTemplate.addTemplate m270_m109h_rocketbase
+ObjectTemplate.setPosition -0.0018/0.4835/-1.9012
+
+ObjectTemplate.create Engine m270_m109h_Zmotor
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate m270_m109h_Wheel_RDriveB
+ObjectTemplate.setPosition 1.3205/0.0402/-2.9395
+ObjectTemplate.addTemplate m270_m109h_Wheel_LDriveB
+ObjectTemplate.setPosition -1.3060/0.0402/-2.9395
+ObjectTemplate.addTemplate m270_m109h_Wheel_LDriveF
+ObjectTemplate.setPosition -1.3060/0.0402/3.1235
+ObjectTemplate.addTemplate m270_m109h_Wheel_RDriveF
+ObjectTemplate.setPosition 1.3205/0.0402/3.1235
+ObjectTemplate.addTemplate m270_m109h_WheelL1
+ObjectTemplate.setPosition -1.3170/-0.2911/-2.3041
+ObjectTemplate.addTemplate m270_m109h_WheelL2
+ObjectTemplate.setPosition -1.3170/-0.2911/-1.5616
+ObjectTemplate.addTemplate m270_m109h_WheelL3
+ObjectTemplate.setPosition -1.3170/-0.2911/-0.2764
+ObjectTemplate.addTemplate m270_m109h_WheelL4
+ObjectTemplate.setPosition -1.3170/-0.2911/0.4727
+ObjectTemplate.addTemplate m270_m109h_WheelL5
+ObjectTemplate.setPosition -1.3170/-0.2911/1.5775
+ObjectTemplate.addTemplate m270_m109h_WheelL6
+ObjectTemplate.setPosition -1.3170/-0.2911/2.3378
+ObjectTemplate.addTemplate m270_m109h_WheelR1
+ObjectTemplate.setPosition 1.3166/-0.2911/-2.3041
+ObjectTemplate.addTemplate m270_m109h_WheelR2
+ObjectTemplate.setPosition 1.3166/-0.2911/-1.5612
+ObjectTemplate.addTemplate m270_m109h_WheelR3
+ObjectTemplate.setPosition 1.3166/-0.2911/-0.2764
+ObjectTemplate.addTemplate m270_m109h_WheelR4
+ObjectTemplate.setPosition 1.3166/-0.2911/0.4730
+ObjectTemplate.addTemplate m270_m109h_WheelR5
+ObjectTemplate.setPosition 1.3166/-0.2911/1.5792
+ObjectTemplate.addTemplate m270_m109h_WheelR6
+ObjectTemplate.setPosition 1.3166/-0.2911/2.3378
+
+ObjectTemplate.create Rotationalbundle m270_m109h_Wheel_RDriveB
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+
+ObjectTemplate.create Rotationalbundle m270_m109h_Wheel_LDriveB
+ObjectTemplate.collisionPart 3
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+ObjectTemplate.create Rotationalbundle m270_m109h_Wheel_LDriveF
+ObjectTemplate.collisionPart 4
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+ObjectTemplate.create Rotationalbundle m270_m109h_Wheel_RDriveF
+ObjectTemplate.collisionPart 5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+
+ObjectTemplate.create Spring m270_m109h_WheelL1
+ObjectTemplate.collisionPart 6
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+
+ObjectTemplate.create Spring m270_m109h_WheelL2
+ObjectTemplate.collisionPart 7
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+
+ObjectTemplate.create Spring m270_m109h_WheelL3
+ObjectTemplate.collisionPart 8
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+
+ObjectTemplate.create Spring m270_m109h_WheelL4
+ObjectTemplate.collisionPart 9
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 9
+
+ObjectTemplate.create Spring m270_m109h_WheelL5
+ObjectTemplate.collisionPart 10
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 10
+
+ObjectTemplate.create Spring m270_m109h_WheelL6
+ObjectTemplate.collisionPart 11
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 11
+
+ObjectTemplate.create Spring m270_m109h_WheelR1
+ObjectTemplate.collisionPart 12
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 12
+
+ObjectTemplate.create Spring m270_m109h_WheelR2
+ObjectTemplate.collisionPart 13
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 13
+
+ObjectTemplate.create Spring m270_m109h_WheelR3
+ObjectTemplate.collisionPart 14
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 14
+
+ObjectTemplate.create Spring m270_m109h_WheelR4
+ObjectTemplate.collisionPart 15
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 15
+
+ObjectTemplate.create Spring m270_m109h_WheelR5
+ObjectTemplate.collisionPart 16
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 16
+
+ObjectTemplate.create Spring m270_m109h_WheelR6
+ObjectTemplate.collisionPart 17
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 17
+
+ObjectTemplate.create Playercontrolobject m270_m109h_rocketbase
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 18
+ObjectTemplate.addTemplate m270_m109h_RocketPod_Base
+ObjectTemplate.setPosition 0/0.1431/0
+
+ObjectTemplate.create Rotationalbundle m270_m109h_RocketPod_Base
+ObjectTemplate.collisionPart 19
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 19
+
+include m270_m109h.tweak

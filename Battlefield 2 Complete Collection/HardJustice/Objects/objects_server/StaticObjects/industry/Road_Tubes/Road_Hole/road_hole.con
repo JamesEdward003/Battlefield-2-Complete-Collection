@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh road_hole
+CollisionManager.createTemplate road_hole
+
+ObjectTemplate.create SimpleObject road_hole
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh road_hole
+ObjectTemplate.mapMaterial 0 Tarmac 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry road_hole
+
+include road_hole.tweak

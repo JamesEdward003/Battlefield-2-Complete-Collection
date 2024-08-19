@@ -1,0 +1,8 @@
+GeometryTemplate.create BundledMesh hmmv_crows_controls
+
+ObjectTemplate.create SimpleObject hmmv_crows_controls
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator STUDIO:J-MAR
+ObjectTemplate.geometry hmmv_crows_controls
+
+include hmmv_crows_controls.tweak

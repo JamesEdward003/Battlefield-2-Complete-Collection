@@ -1,0 +1,8 @@
+GeometryTemplate.create BundledMesh mk19
+
+ObjectTemplate.create Genericfirearm mk19
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator STUDIO:J-MAR
+ObjectTemplate.geometry mk19
+
+include mk19.tweak

@@ -1,0 +1,62 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Mobile ParachuteMobile
+aiTemplatePlugIn.setPathfindingMap Infantry
+aiTemplatePlugIn.maxSpeed 3.0
+aiTemplatePlugIn.turnRadius 15.0
+
+aiTemplatePlugIn.create Physical ParachutePhysical
+aiTemplatePlugIn.setStrType Infantry
+
+aiTemplatePlugIn.create Unit ParachuteUnit
+aiTemplatePlugIn.setStrategicStrength 0 0
+aiTemplatePlugIn.setStrategicStrength 1 0
+aiTemplatePlugIn.equipmentTypeName Parachute
+aiTemplatePlugIn.setHasExposedSoldier 1
+
+aiTemplatePlugIn.create ControlInfo ParachuteCtrl
+aiTemplatePlugIn.driveTurnControl           PIYaw
+aiTemplatePlugIn.driveThrottleControl       PIThrottle
+aiTemplatePlugIn.aimHorizontalControl       PIMouseLookX
+aiTemplatePlugIn.aimVerticalControl         PIMouseLookY
+aiTemplatePlugIn.lookHorizontalControl      PIMouseLookX
+aiTemplatePlugIn.lookVerticalControl        PIMouseLookY
+aiTemplatePlugIn.throttleSensitivity       -1.0
+rem aiTemplatePlugIn.pitchSensitivity           0.021817
+rem aiTemplatePlugIn.rollSensitivity           -0.021817
+aiTemplatePlugIn.pitchSensitivity           0.21817
+aiTemplatePlugIn.rollSensitivity           -0.21817
+aiTemplatePlugIn.yawSensitivity            -2.5
+rem aiTemplatePlugIn.lookVerticalSensitivity    0.021817
+rem aiTemplatePlugIn.lookHorizontalSensitivity -0.021817
+aiTemplatePlugIn.lookVerticalSensitivity    0.21817
+aiTemplatePlugIn.lookHorizontalSensitivity -0.21817
+aiTemplatePlugIn.throttleLookAhead          1.0
+aiTemplatePlugIn.pitchLookAhead             1.0
+aiTemplatePlugIn.rollLookAhead              1.0
+aiTemplatePlugIn.yawLookAhead               1.0
+aiTemplatePlugIn.lookVerticalLookAhead      1.0
+aiTemplatePlugIn.lookHorizontalLookAhead    1.0
+aiTemplatePlugIn.throttleScale              1.0
+rem *** Angle in radians ***
+aiTemplatePlugIn.pitchScale                 1.0
+aiTemplatePlugIn.rollScale                  1.0
+aiTemplatePlugIn.yawScale                   0.0020
+aiTemplatePlugIn.lookVerticalScale          1.0
+aiTemplatePlugIn.lookHorizontalScale        1.0
+aiTemplatePlugIn.setCameraRelativeMinRotationDeg 0/-90/0
+aiTemplatePlugIn.setCameraRelativeMaxRotationDeg 0/90/0
+
+rem *** AITemplate ***
+aiTemplate.create Parachute
+aiTemplate.addType ITBiological
+aiTemplate.addType ITMobile
+aiTemplate.degeneration 10
+aiTemplate.allowedTimeDiff 2
+aiTemplate.basicTemp 6
+aiTemplate.commonKnowledge 0
+aiTemplate.addPlugIn ParachuteMobile
+aiTemplate.addPlugIn ParachutePhysical
+aiTemplate.addPlugIn ParachuteCtrl
+aiTemplate.addPlugIn ParachuteUnit
+
+

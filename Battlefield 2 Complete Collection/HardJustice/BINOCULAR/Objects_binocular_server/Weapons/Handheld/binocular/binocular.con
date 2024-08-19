@@ -1,0 +1,8 @@
+GeometryTemplate.create BundledMesh binocular
+
+ObjectTemplate.create GenericFireArm binocular
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CHUC-PASOCON:Main
+ObjectTemplate.geometry binocular
+
+include binocular.tweak

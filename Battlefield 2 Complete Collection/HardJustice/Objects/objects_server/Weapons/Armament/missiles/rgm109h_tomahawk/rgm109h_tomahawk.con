@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh rgm109h_tomahawk
+CollisionManager.createTemplate rgm109h_tomahawk
+
+ObjectTemplate.create GenericProjectile rgm109h_tomahawk
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh rgm109h_tomahawk
+ObjectTemplate.mapMaterial 0 Metal 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry rgm109h_tomahawk
+
+include rgm109h_tomahawk.tweak

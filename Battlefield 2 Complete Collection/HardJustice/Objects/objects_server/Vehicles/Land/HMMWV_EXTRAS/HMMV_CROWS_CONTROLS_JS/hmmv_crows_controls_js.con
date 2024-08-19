@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh hmmv_crows_controls_js
+CollisionManager.createTemplate hmmv_crows_controls_js
+
+ObjectTemplate.create SimpleObject hmmv_crows_controls_js
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator STUDIO:J-MAR
+ObjectTemplate.collisionMesh hmmv_crows_controls_js
+ObjectTemplate.mapMaterial 0 CrowsControl 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry hmmv_crows_controls_js
+
+include hmmv_crows_controls_js.tweak

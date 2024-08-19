@@ -1,0 +1,12 @@
+GeometryTemplate.create BundledMesh hydra_70
+
+ObjectTemplate.create GenericProjectile shell_missile
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator DSU-1:dsu
+ObjectTemplate.collisionMesh hydra_70
+ObjectTemplate.mapMaterial 0 metal 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry hydra_70
+
+include shell_missile.tweak

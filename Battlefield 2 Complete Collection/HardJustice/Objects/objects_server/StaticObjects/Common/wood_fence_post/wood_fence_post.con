@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh wood_fence_post
+CollisionManager.createTemplate wood_fence_post
+
+ObjectTemplate.create SimpleObject wood_fence_post
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh wood_fence_post
+ObjectTemplate.mapMaterial 0 Wood 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry wood_fence_post
+
+include wood_fence_post.tweak

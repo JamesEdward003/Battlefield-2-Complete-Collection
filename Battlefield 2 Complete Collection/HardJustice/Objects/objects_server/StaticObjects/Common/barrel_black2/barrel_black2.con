@@ -1,0 +1,12 @@
+GeometryTemplate.create StaticMesh barrel_black2
+CollisionManager.createTemplate barrel_black2
+
+ObjectTemplate.create SimpleObject barrel_black2
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.collisionMesh barrel_black2
+ObjectTemplate.mapMaterial 0 metal_thin 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry barrel_black2
+
+include barrel_black2.tweak

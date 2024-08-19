@@ -1,0 +1,16 @@
+GeometryTemplate.create StaticMesh wpbunker
+CollisionManager.createTemplate wpbunker
+
+ObjectTemplate.create SimpleObject wpbunker
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh wpbunker
+ObjectTemplate.mapMaterial 0 glass_common 0
+ObjectTemplate.mapMaterial 1 metal_plate_thin 0
+ObjectTemplate.mapMaterial 2 metal_solid 0
+ObjectTemplate.mapMaterial 3 concrete 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry wpbunker
+
+include wpbunker.tweak

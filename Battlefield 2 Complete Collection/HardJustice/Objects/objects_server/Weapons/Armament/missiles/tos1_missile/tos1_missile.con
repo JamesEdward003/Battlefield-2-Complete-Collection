@@ -1,0 +1,7 @@
+
+ObjectTemplate.create GenericProjectile tos1_missile
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CAMBO:Cihangir
+ObjectTemplate.geometry m270_missile
+
+include tos1_missile.tweak

@@ -1,0 +1,5 @@
+ObjectTemplate.create GenericProjectile tow2_missile
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry tow_missile
+
+include tow2_missile.tweak

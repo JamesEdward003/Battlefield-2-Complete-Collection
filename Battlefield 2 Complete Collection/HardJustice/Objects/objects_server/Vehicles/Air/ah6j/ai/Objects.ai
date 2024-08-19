@@ -1,0 +1,127 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Unit Ah6jUnit
+aiTemplatePlugIn.equipmentTypeName Helicopter
+aiTemplatePlugIn.setStrategicStrength 0 3
+aiTemplatePlugIn.setStrategicStrength 1 3
+
+aiTemplatePlugIn.create Cover Ah6jCover
+aiTemplatePlugIn.coverValue 2.0
+
+aiTemplatePlugIn.create Physical Ah6jPhysical
+aiTemplatePlugIn.setStrType Helicopter
+
+aiTemplatePlugIn.create ControlInfo Ah6jCtrl
+aiTemplatePlugIn.driveTurnControl     PIYaw
+aiTemplatePlugIn.driveThrottleControl PIThrottle
+aiTemplatePlugIn.aimHorizontalControl PIYaw
+aiTemplatePlugIn.aimVerticalControl   PIPitch
+aiTemplatePlugIn.driveRollControl     PIRoll
+aiTemplatePlugIn.drivePitchControl    PIPitch
+aiTemplatePlugIn.aimRollControl       PIRoll
+aiTemplatePlugIn.aimThrottleControl   PIThrottle
+aiTemplatePlugIn.throttleSensitivity -3.0
+rem aiTemplatePlugIn.pitchSensitivity -0.5
+aiTemplatePlugIn.pitchSensitivity    -1.0
+aiTemplatePlugIn.rollSensitivity     -1.3
+aiTemplatePlugIn.yawSensitivity       0.3
+aiTemplatePlugIn.throttleLookAhead    1.0
+aiTemplatePlugIn.pitchLookAhead       1.2
+aiTemplatePlugIn.rollLookAhead        1.5
+aiTemplatePlugIn.yawLookAhead         0.3
+aiTemplatePlugIn.throttleScale        1.0
+rem *** Angle in radians ***
+aiTemplatePlugIn.pitchScale           0.0010
+aiTemplatePlugIn.rollScale            0.0020
+aiTemplatePlugIn.yawScale             0.0175
+aiTemplatePlugIn.maxRollAngle         0.9900
+aiTemplatePlugIn.maxClimbAngle        0.3333
+
+aiTemplatePlugIn.create Mobile Ah6jMobile
+aiTemplatePlugIn.vehicleNumber -1
+aiTemplatePlugIn.maxSpeed 75.0
+aiTemplatePlugIn.turnRadius 5.0
+aiTemplatePlugIn.setSoundSphereRadius 0.0 75.0
+aiTemplatePlugIn.setHearingProbability 0.01 0.3
+
+aiTemplatePlugIn.create Armament Ah6jArms
+rem aiTemplatePlugIn.setIsAntiAircraft 1
+
+
+rem *** AITemplate ***
+aiTemplate.create Ah6j
+aiTemplate.addType ITUnit
+aiTemplate.addType ITMobile
+aiTemplate.addType ITAir
+aiTemplate.addType ITHelicopter
+aiTemplate.addType ITHasWreck
+rem aiTemplate.addType ITCover
+aiTemplate.degeneration 5
+aiTemplate.allowedTimeDiff 0.5
+aiTemplate.basicTemp 15
+aiTemplate.commonKnowledge 0
+aiTemplate.addPlugIn Ah6jUnit
+aiTemplate.addPlugIn Ah6jCover
+aiTemplate.addPlugIn Ah6jPhysical
+aiTemplate.addPlugIn Ah6jCtrl
+aiTemplate.addPlugIn Ah6jMobile
+aiTemplate.addPlugIn Ah6jArms
+
+
+
+aiTemplatePlugIn.create Unit Ah6j_Passenger1Unit
+aiTemplatePlugIn.equipmentTypeName ParatrooperFixed
+aiTemplatePlugIn.setStrategicStrength 0 1
+aiTemplatePlugIn.setStrategicStrength 1 1
+
+aiTemplatePlugIn.create ControlInfo Ah6j_Passenger1Ctrl
+aiTemplatePlugIn.driveTurnControl           PIYaw
+aiTemplatePlugIn.driveThrottleControl       PIThrottle
+aiTemplatePlugIn.aimHorizontalControl       PIMouseLookX
+aiTemplatePlugIn.aimVerticalControl         PIMouseLookY
+aiTemplatePlugIn.lookHorizontalControl      PIMouseLookX
+aiTemplatePlugIn.lookVerticalControl        PIMouseLookY
+aiTemplatePlugIn.throttleSensitivity       -1.0
+rem aiTemplatePlugIn.pitchSensitivity           0.021817
+rem aiTemplatePlugIn.rollSensitivity           -0.021817
+aiTemplatePlugIn.pitchSensitivity           0.21817
+aiTemplatePlugIn.rollSensitivity           -0.21817
+aiTemplatePlugIn.yawSensitivity            -2.5
+rem aiTemplatePlugIn.lookVerticalSensitivity    0.021817
+rem aiTemplatePlugIn.lookHorizontalSensitivity -0.021817
+aiTemplatePlugIn.lookVerticalSensitivity    0.21817
+aiTemplatePlugIn.lookHorizontalSensitivity -0.21817
+aiTemplatePlugIn.proportionalConstant	   -7
+aiTemplatePlugIn.derivativeConstant	   -1
+aiTemplatePlugIn.throttleLookAhead          1.0
+aiTemplatePlugIn.pitchLookAhead             1.0
+aiTemplatePlugIn.rollLookAhead              1.0
+aiTemplatePlugIn.yawLookAhead               1.0
+aiTemplatePlugIn.lookVerticalLookAhead      1.0
+aiTemplatePlugIn.lookHorizontalLookAhead    1.0
+aiTemplatePlugIn.throttleScale              1.0
+rem *** Angle in radians ***
+aiTemplatePlugIn.pitchScale                 5.0
+aiTemplatePlugIn.rollScale                  5.0
+aiTemplatePlugIn.yawScale                   0.0020
+aiTemplatePlugIn.lookVerticalScale          1.0
+aiTemplatePlugIn.lookHorizontalScale        1.0
+aiTemplatePlugIn.setCameraRelativeMinRotationDeg -60/-80/0
+aiTemplatePlugIn.setCameraRelativeMaxRotationDeg 45/60/0
+
+rem *** AITemplate ***
+aiTemplate.create Ah6j_Passenger1
+aiTemplate.addType ITUnit
+aiTemplate.addType ITBiological
+aiTemplate.addType ITAir
+aiTemplate.addType ITHelicopter
+aiTemplate.degeneration 10
+aiTemplate.allowedTimeDiff 2
+aiTemplate.basicTemp 5
+aiTemplate.commonKnowledge 0
+aiTemplate.secondary 1
+aiTemplate.addPlugIn Ah6j_Passenger1Unit
+aiTemplate.addPlugIn Ah6j_Passenger1Ctrl
+
+
+
+

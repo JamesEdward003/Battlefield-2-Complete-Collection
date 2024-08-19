@@ -1,0 +1,104 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+ObjectTemplate.activeSafe EffectBundle e_exp_explosion2
+ObjectTemplate.modifiedByUser "Enton"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:WindAffector ---
+ObjectTemplate.createComponent WindAffector
+ObjectTemplate.windType Point
+ObjectTemplate.windIsDynamic 1
+ObjectTemplate.windDirection 0/-1/0
+ObjectTemplate.windSpeed 20
+ObjectTemplate.windBlowTime 20
+ObjectTemplate.windFalloff 10
+ObjectTemplate.windRadialFalloff 10
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.physicsType Point
+rem -------------------------------------
+ObjectTemplate.addTemplate S_e_exp_explosion2_Start
+ObjectTemplate.addTemplate e_sfx_exp_distant4
+ObjectTemplate.addTemplate e_sfx_exp_distant3
+ObjectTemplate.addTemplate e_exp_explosion2_fire
+ObjectTemplate.setPosition -1.41498/26.7/0.794117
+rem -------------------------------------
+ObjectTemplate.setStartOnEffects 0
+ObjectTemplate.setStopOnEffects 0
+ObjectTemplate.timeToLive CRD_NONE/1.6/0/0
+ObjectTemplate.randomAgeFactor CRD_NONE/1/0/0
+ObjectTemplate.startAtCreation 0
+ObjectTemplate.speedFromPhysics 1
+
+ObjectTemplate.activeSafe Sound S_e_exp_explosion2_Start
+ObjectTemplate.modifiedByUser "Enton"
+
+ObjectTemplate.create SpriteParticleSystem e_exp_explosion2_fire
+ObjectTemplate.modifiedByUser "Enton"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.showInFirstPerson 1
+ObjectTemplate.showInThirdPerson 1
+ObjectTemplate.emitPrio High
+ObjectTemplate.lodDistance High
+ObjectTemplate.qualityLevel Medium
+ObjectTemplate.emitterType Standard
+ObjectTemplate.isLocalSystem 1
+ObjectTemplate.emitRadius 0/0/0
+ObjectTemplate.emitRangeX CRD_NONE/0/0/0
+ObjectTemplate.emitRangeY CRD_NONE/0/0/0
+ObjectTemplate.emitRangeZ CRD_NONE/0/0/0
+ObjectTemplate.randomRadialDirection 360
+ObjectTemplate.radialDirection 0
+ObjectTemplate.emitFrequency 22
+ObjectTemplate.preWarmTime 1
+ObjectTemplate.emitTime 0.1
+ObjectTemplate.emitDelay 0
+ObjectTemplate.isLooping 0
+ObjectTemplate.emitSpeed 0.1
+ObjectTemplate.emitDirection 0/0/0
+ObjectTemplate.timeToLive 4
+ObjectTemplate.randomTimeToLive 1
+ObjectTemplate.windAffectionFactor 0
+ObjectTemplate.forceToWaterSurface 0
+ObjectTemplate.waterSurfaceOffset 0.03
+ObjectTemplate.rotationGraph 0/0/0/1
+ObjectTemplate.alignRotationToSpeed 0
+ObjectTemplate.transparencyGraph -4.93/4.01/-1.06/1.39
+ObjectTemplate.gravity 0
+ObjectTemplate.gravityGraph 0/0/1/0
+ObjectTemplate.airResistanceGraph 0/0/0/1
+ObjectTemplate.emitSpeedGraph 0/0/0/1
+ObjectTemplate.randomSpeed 0
+ObjectTemplate.randomDirectionAngle 0/0/0
+ObjectTemplate.airResistance 0
+ObjectTemplate.collisionEnable 0
+ObjectTemplate.collisionSpeedAlongNormal 0.7
+ObjectTemplate.collisionSpeedAlongPlane 0.8
+ObjectTemplate.randomSize 0
+ObjectTemplate.particleMaxSize 35
+ObjectTemplate.sizeGraph 0/0/1/1
+ObjectTemplate.randomIntensity 0
+ObjectTemplate.lightMapIntensityOffset 0
+ObjectTemplate.lightAffectionFactor 1
+ObjectTemplate.color1 1.00392/1.00392/1.00392
+ObjectTemplate.color2 1/1/1
+ObjectTemplate.colorBlendGraph 0.85/1/1/-0.1
+ObjectTemplate.alphaCull 0
+ObjectTemplate.particleType Sorted
+ObjectTemplate.drawOrder Front
+ObjectTemplate.randomRotation 0
+ObjectTemplate.randomRotationSpeed 0
+ObjectTemplate.rotationSpeed 0
+ObjectTemplate.pivotOffset 0/0
+ObjectTemplate.selfShadowIntensity 1
+ObjectTemplate.textureName objects\effects\textures\animated\explosion_3
+ObjectTemplate.animationEnable 1
+ObjectTemplate.animationSpeed 12.25
+ObjectTemplate.animationPlayOnce 0
+ObjectTemplate.setAnimationFrameWidthRelative 0.111111
+ObjectTemplate.setAnimationFrameHeightRelative 0.111111
+ObjectTemplate.animationRandomizedStartFrame 0
+ObjectTemplate.animationFrameCount 81
+ObjectTemplate.animationFrameCountX 9
+ObjectTemplate.nearCullingEnable 1
+

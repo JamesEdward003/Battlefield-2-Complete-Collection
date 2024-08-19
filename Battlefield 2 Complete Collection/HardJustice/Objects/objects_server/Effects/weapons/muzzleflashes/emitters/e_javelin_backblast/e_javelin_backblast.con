@@ -1,0 +1,4 @@
+ObjectTemplate.create EffectBundle e_javelin_backblast
+ObjectTemplate.createdInEditor 1
+
+include e_javelin_backblast.tweak

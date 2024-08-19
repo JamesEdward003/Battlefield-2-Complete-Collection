@@ -1,0 +1,6 @@
+ObjectTemplate.create GenericProjectile zigs_hellfire
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator MEI-2:mei
+ObjectTemplate.geometry agm114_hellfire
+
+include zigs_hellfire.tweak

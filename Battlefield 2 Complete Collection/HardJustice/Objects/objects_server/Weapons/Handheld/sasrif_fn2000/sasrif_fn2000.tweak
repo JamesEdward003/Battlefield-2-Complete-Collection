@@ -1,0 +1,287 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/7/30 12:37]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe GenericFireArm sasrif_fn2000
+ObjectTemplate.creator DANR_XP:danri
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.saveInSeparateFile 1
+rem ---BeginComp:WeaponHud ---
+ObjectTemplate.createComponent WeaponHud
+ObjectTemplate.weaponHud.weaponIcon Ingame\Weapons\Icons\Hud\sasrif_fn2000.tga
+ObjectTemplate.weaponHud.altWeaponIcon Ingame\Weapons\Icons\Hud\sasrif_fn2000_mini.tga
+ObjectTemplate.weaponHud.selectIcon Ingame\Weapons\Icons\Hud\Selection\sasrif_fn2000.tga
+ObjectTemplate.weaponHud.hudName "KILLMESSAGE_WEAPON_fn2000"
+ObjectTemplate.weaponHud.guiIndex 4
+ObjectTemplate.weaponHud.altGuiIndex 52
+ObjectTemplate.weaponHud.deviationFactor 5
+ObjectTemplate.weaponHud.maxVisualDeviation 23
+ObjectTemplate.weaponHud.minVisualDeviation 2
+ObjectTemplate.weaponHud.disableOnSprint 1
+rem ---EndComp ---
+rem ---BeginComp:SingleFireComp ---
+ObjectTemplate.createComponent SingleFireComp
+ObjectTemplate.fire.roundsPerMinute 600
+ObjectTemplate.fire.addFireRate 2
+ObjectTemplate.fire.addFireRate 0
+ObjectTemplate.fire.fireInCameraDof 1
+rem ---EndComp ---
+rem ---BeginComp:DefaultAmmoComp ---
+ObjectTemplate.createComponent DefaultAmmoComp
+ObjectTemplate.ammo.ammoType 1
+ObjectTemplate.ammo.reloadTime 4.7
+rem ---EndComp ---
+rem ---BeginComp:SoldierBasedRecoilComp ---
+ObjectTemplate.createComponent SoldierBasedRecoilComp
+ObjectTemplate.recoil.hasRecoilForce 1
+ObjectTemplate.recoil.recoilForceUp CRD_UNIFORM/0.08/0.08/0
+ObjectTemplate.recoil.recoilForceLeftRight CRD_UNIFORM/-0.3/0.3/0
+ObjectTemplate.recoil.zoomModifier 0.7
+ObjectTemplate.recoil.recoilGraphFrameCount 7
+ObjectTemplate.recoil.recoilGraphExponent 6
+ObjectTemplate.recoil.recoilGraphTotalMovement 0.5
+rem ---EndComp ---
+rem ---BeginComp:SoldierDeviationComp ---
+ObjectTemplate.createComponent SoldierDeviationComp
+ObjectTemplate.deviation.setFireDev 2 0.06 0.06
+ObjectTemplate.deviation.minDev 0.2
+ObjectTemplate.deviation.setTurnDev 0 0 0 0
+ObjectTemplate.deviation.setSpeedDev 0.3 0.12 0.12 0.01
+ObjectTemplate.deviation.setMiscDev 5 5 0.5
+ObjectTemplate.deviation.devModStand 1
+ObjectTemplate.deviation.devModCrouch 0.8
+ObjectTemplate.deviation.devModLie 0.5
+ObjectTemplate.deviation.devModZoom 0.3
+rem ---EndComp ---
+rem ---BeginComp:DefaultSoundComp ---
+ObjectTemplate.createComponent DefaultSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultAnimationComp ---
+ObjectTemplate.createComponent DefaultAnimationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultZoomComp ---
+ObjectTemplate.createComponent DefaultZoomComp
+ObjectTemplate.zoom.zoomDelay 0.1
+ObjectTemplate.zoom.zoomLod 1
+ObjectTemplate.zoom.addZoomFactor 0
+ObjectTemplate.zoom.addZoomFactor 0.7
+ObjectTemplate.zoom.disableMuzzleWhenZoomed 1
+rem ---EndComp ---
+ObjectTemplate.geometry sasrif_fn2000
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.aiTemplate RuRif_GP30
+ObjectTemplate.material 38
+rem -------------------------------------
+ObjectTemplate.addTemplate S_sasrif_fn2000_Fire1P
+ObjectTemplate.addTemplate S_sasrif_fn2000_Fire1P_Outdoor
+ObjectTemplate.addTemplate S_sasrif_fn2000_Fire3P
+ObjectTemplate.addTemplate S_sasrif_fn2000_BoltClick
+ObjectTemplate.addTemplate S_sasrif_fn2000_TriggerClick
+ObjectTemplate.addTemplate S_sasrif_fn2000_SwitchFireRate
+ObjectTemplate.addTemplate S_sasrif_fn2000_Reload1P
+ObjectTemplate.addTemplate S_sasrif_fn2000_Reload3P
+ObjectTemplate.addTemplate S_sasrif_fn2000_Deploy1P
+ObjectTemplate.addTemplate S_sasrif_fn2000_Deploy3P
+ObjectTemplate.addTemplate S_sasrif_fn2000_Zoom
+ObjectTemplate.addTemplate S_sasrif_fn2000_Looping
+ObjectTemplate.addTemplate e_muzz_g3a3
+ObjectTemplate.setPosition -0.00866944/0.042997/0.298688
+ObjectTemplate.setRotation 0/0/46.7811
+ObjectTemplate.addTemplate e_shellejection_556
+ObjectTemplate.setPosition 0.0124656/0.0534/0.0302996
+ObjectTemplate.setRotation 0/0/5.43209
+rem -------------------------------------
+ObjectTemplate.animationSystem1P Objects/Weapons/Handheld/sasrif_fn2000/AnimationSystem1p.inc
+ObjectTemplate.animationSystem3P Objects/Weapons/Handheld/sasrif_fn2000/AnimationSystem3p.inc
+ObjectTemplate.projectileTemplate sasrif_fn2000_Projectile
+ObjectTemplate.velocity 1000
+ObjectTemplate.itemIndex 3
+ObjectTemplate.delayToUse 1.166
+
+ObjectTemplate.create GenericProjectile sasrif_fn2000_Projectile
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:DefaultCollisionComp ---
+ObjectTemplate.createComponent DefaultCollisionComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultDetonationComp ---
+ObjectTemplate.createComponent DefaultDetonationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultProjSoundComp ---
+ObjectTemplate.createComponent DefaultProjSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultRicochetComp ---
+ObjectTemplate.createComponent DefaultRicochetComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultPenetrateComp ---
+ObjectTemplate.createComponent DefaultPenetrateComp
+ObjectTemplate.penetrate.allowSolidPenetration 1
+ObjectTemplate.penetrate.allowLiquidPenetration 1
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Point
+ObjectTemplate.collisionGroups 8
+ObjectTemplate.material 38
+rem -------------------------------------
+ObjectTemplate.addTemplate S_sasrif_fn2000_Projectile_Looping
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/1/0/0
+ObjectTemplate.material 38
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.minDamage 20
+ObjectTemplate.damage 100
+ObjectTemplate.distToStartLoseDamage 40
+ObjectTemplate.distToMinDamage 100
+
+ObjectTemplate.activeSafe Sound S_sasrif_fn2000_Fire1P
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/sasrif_fn2000/sounds/fn_2000_1p.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.985/1.025/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+
+ObjectTemplate.activeSafe Sound S_sasrif_fn2000_Fire1P_Outdoor
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/sasrif_fn2000/sounds/fn_2000_1p.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.985/1.025/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+
+ObjectTemplate.activeSafe Sound S_sasrif_fn2000_Fire3P
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/sasrif_fn2000/sounds/fn_2000_3p.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.985/1.025/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.9/1/
+ObjectTemplate.minDistance 2
+ObjectTemplate.halfVolumeDistance 4
+ObjectTemplate.soundRadius 0.5
+
+ObjectTemplate.activeSafe Sound S_sasrif_fn2000_BoltClick
+ObjectTemplate.modifiedByUser "daveke"
+
+ObjectTemplate.activeSafe Sound S_sasrif_fn2000_TriggerClick
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/uspis_92fs/sounds/mono/trigger_click.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_sasrif_fn2000_SwitchFireRate
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/chrif_type95/sounds/type95_firerate.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.65
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 0.3
+
+ObjectTemplate.activeSafe Sound S_sasrif_fn2000_Reload1P
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/sasrif_fn2000/sounds/fn2000_1p_reload.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_sasrif_fn2000_Reload3P
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/sasrif_fn2000/sounds/fn2000_1p_reload.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 0.5
+ObjectTemplate.halfVolumeDistance 1
+
+ObjectTemplate.activeSafe Sound S_sasrif_fn2000_Deploy1P
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/rurif_ak47/sounds/ak47_deploy_1p.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_sasrif_fn2000_Deploy3P
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/rurif_ak47/sounds/ak47_deploy_3p.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 0.5
+ObjectTemplate.halfVolumeDistance 1
+
+ObjectTemplate.activeSafe Sound S_sasrif_fn2000_Zoom
+ObjectTemplate.modifiedByUser nfe
+ObjectTemplate.soundFilename "objects/weapons/handheld/rurif_bizon/sounds/zoom_generic.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.position 0/0.0284011/-0.141757
+
+ObjectTemplate.activeSafe Sound S_sasrif_fn2000_Projectile_Looping
+ObjectTemplate.modifiedByUser "daveke"
+ObjectTemplate.createdInEditor 1
+
+

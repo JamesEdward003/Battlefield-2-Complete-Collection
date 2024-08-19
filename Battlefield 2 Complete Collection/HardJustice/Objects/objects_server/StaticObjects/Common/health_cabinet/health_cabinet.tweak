@@ -1,0 +1,38 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+GeometryTemplate.doNotGenerateLightmaps 0
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe SupplyObject health_cabinet
+ObjectTemplate.creator GAME:RadarOReilly
+ObjectTemplate.modifiedByUser "RadarOReilly"
+rem ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.cullRadiusScale 4
+ObjectTemplate.geometry health_cabinet
+ObjectTemplate.setCollisionMesh health_cabinet
+ObjectTemplate.mapMaterial 0 Metal_plate_thin 20
+ObjectTemplate.mapMaterial 1 Wood_solid 15
+ObjectTemplate.mapMaterial 2 Cardboard_box 64
+ObjectTemplate.mapMaterial 3 Glass_vehicle 18
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.material 45
+
+rem -------------------------------------
+ObjectTemplate.addTemplate h_c_soldier_heal
+ObjectTemplate.setPosition 0/0/0
+rem -------------------------------------
+
+ObjectTemplate.create SupplyObject h_c_soldier_heal
+ObjectTemplate.modifiedByUser RadarOReilly
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.radius 2
+ObjectTemplate.workOnSoldiers 1
+ObjectTemplate.workOnVehicles 0
+ObjectTemplate.healSpeed 15
+ObjectTemplate.teamFromClosestCP 1
+

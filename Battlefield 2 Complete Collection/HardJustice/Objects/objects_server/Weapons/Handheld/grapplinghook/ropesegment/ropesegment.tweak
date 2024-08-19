@@ -1,0 +1,15 @@
+GeometryTemplate.doNotGenerateLightmaps 0
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 29
+GeometryTemplate.glowing 0
+GeometryTemplate.noLighting 0
+ObjectTemplate.activeSafe RopeLink ropelink
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry ropesegment
+ObjectTemplate.mapMaterial 1 lambert1 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 1
+
+

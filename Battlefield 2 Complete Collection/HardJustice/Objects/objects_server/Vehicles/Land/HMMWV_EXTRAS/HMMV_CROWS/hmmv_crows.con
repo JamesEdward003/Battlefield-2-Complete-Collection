@@ -1,0 +1,41 @@
+GeometryTemplate.create BundledMesh hmmv_crows
+CollisionManager.createTemplate hmmv_crows
+
+ObjectTemplate.create PlayerControlObject hmmv_crows
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator STUDIO:J-MAR
+ObjectTemplate.collisionMesh hmmv_crows
+ObjectTemplate.mapMaterial 0 07_-_Default 0
+ObjectTemplate.mapMaterial 1 09_-_Default 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry hmmv_crows
+ObjectTemplate.addTemplate CrowsSystem
+
+ObjectTemplate.create RotationalBundle CrowsSystem
+ObjectTemplate.collisionPart 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate CROWSCradle
+ObjectTemplate.setPosition -0.1192/0.5700/-0.1577
+ObjectTemplate.addTemplate CROWSSensors
+ObjectTemplate.setPosition 0.1410/0.3452/0.1363
+
+ObjectTemplate.create RotationalBundle CROWSCradle
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+
+ObjectTemplate.create RotationalBundle CROWSSensors
+ObjectTemplate.collisionPart 3
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+include hmmv_crows.tweak

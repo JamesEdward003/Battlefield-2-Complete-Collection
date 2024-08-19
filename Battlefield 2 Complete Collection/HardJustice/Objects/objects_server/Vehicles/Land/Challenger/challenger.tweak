@@ -1,0 +1,515 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+GeometryTemplate.setSubGeometryLodDistance 1 0 60
+GeometryTemplate.setSubGeometryLodDistance 1 1 110
+GeometryTemplate.setSubGeometryLodDistance 2 0 60
+GeometryTemplate.setSubGeometryLodDistance 2 1 120
+GeometryTemplate.setMaterialReflectionScale 1 0 2 1
+GeometryTemplate.setMaterialReflectionScale 1 0 3 0.7
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe PlayerControlObject challenger
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.castsDynamicShadow 1
+rem ---BeginComp:Armor ---
+ObjectTemplate.createComponent Armor
+ObjectTemplate.armor.maxHitPoints 1000
+ObjectTemplate.armor.hitPoints 1000
+ObjectTemplate.armor.defaultMaterial 110
+ObjectTemplate.armor.hpLostWhileUpSideDown 90
+ObjectTemplate.armor.hpLostWhileInWater 75
+ObjectTemplate.armor.hpLostWhileInDeepWater 250
+ObjectTemplate.armor.hpLostWhileCriticalDamage 12
+ObjectTemplate.armor.waterDamageDelay 1
+ObjectTemplate.armor.deepWaterDamageDelay 0
+ObjectTemplate.armor.waterLevel 0.3
+ObjectTemplate.armor.deepWaterLevel 0.6
+ObjectTemplate.armor.explosionForce 10
+ObjectTemplate.armor.explosionForceMod 15
+ObjectTemplate.armor.explosionForceMax 5000
+ObjectTemplate.armor.explosionDamage 300
+ObjectTemplate.armor.explosionRadius 6
+ObjectTemplate.armor.explosionMaterial 101
+ObjectTemplate.armor.wreckExplosionForce 50
+ObjectTemplate.armor.wreckExplosionForceMax 60
+ObjectTemplate.armor.wreckExplosionDamage 50
+ObjectTemplate.armor.wreckExplosionRadius 2
+ObjectTemplate.armor.wreckExplosionMaterial 70
+ObjectTemplate.armor.wreckHitPoints 750
+ObjectTemplate.armor.timeToStayAsWreck 10
+ObjectTemplate.armor.criticalDamage 76
+ObjectTemplate.armor.hideChildrenOnSpectacularDeath 1
+ObjectTemplate.armor.addArmorEffect 50 e_dstate_land_lightsmoke -0.0329573/0.63/1.2793 0/0/0
+ObjectTemplate.armor.addArmorEffect 25 e_dstate_land_MediumSmoke 0.00304121/0.772087/1.63 0/0/0
+ObjectTemplate.armor.addArmorEffect 10 e_dstate_land_heavysmoke 0.0140901/0.77209/1.63 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_vexp_armoredcar_small 0/0/0 0/0/0
+ObjectTemplate.armor.addArmorEffectSpectacular 0 e_vexp_Humvee 0/0.5/-0.5 0/0/0
+ObjectTemplate.armor.addArmorEffectSpectacular 0 e_vexp_armoredcar_spec 0/0/0 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_dstate_static_fire 0/0.729417/1.27964 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_sAmb_wreckfire 0.00365655/0.635128/1.43707 0/0/0
+ObjectTemplate.armor.addArmorEffect -100 e_vexp_armoredcar_2nd 0/0/0 0/0/0
+rem ---EndComp ---
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage vehicle_spotted
+rem ---EndComp ---
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "Challenger"
+ObjectTemplate.vehicleHud.typeIcon Ingame\Vehicles\Icons\Hud\MenuIcons\menuIcon_jeep.tga
+ObjectTemplate.vehicleHud.miniMapIcon Ingame\Vehicles\Icons\Minimap\mini_Jeep.tga
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.vehicleIconPos 35/7
+ObjectTemplate.vehicleHud.vehicleType 3
+ObjectTemplate.vehicleHud.vehicleIcon Ingame\Vehicles\Icons\Hud\VehicleIcons\challenger.tga
+rem ---EndComp ---
+rem ---BeginComp:WarningHud ---
+ObjectTemplate.createComponent WarningHud
+ObjectTemplate.WarningHud.firstWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.secondWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.warningIcon Ingame\GeneralIcons\Action_Icons\large_laserlockicon.tga
+rem ---EndComp ---
+ObjectTemplate.geometry challenger
+ObjectTemplate.setCollisionMesh challenger
+ObjectTemplate.mapMaterial 0 Pentrable_Metal_thin 1000
+ObjectTemplate.mapMaterial 1 Pentrable_Metal_plating 26
+ObjectTemplate.mapMaterial 2 Rubber_heavy 102
+ObjectTemplate.mapMaterial 3 Plastic 11
+ObjectTemplate.mapMaterial 4 Rubber 22
+ObjectTemplate.drag 1
+ObjectTemplate.mass 1000
+ObjectTemplate.gravityModifier 1.5
+ObjectTemplate.floaterMod 0.3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.aiTemplate FAAV
+rem -------------------------------------
+ObjectTemplate.addTemplate S_challenger_Ambient
+ObjectTemplate.addTemplate S_challenger_AmbientDamaged
+ObjectTemplate.addTemplate e_amphib_wake
+ObjectTemplate.setPosition 0.00183685/-0.381192/2.63865
+ObjectTemplate.addTemplate e_amphib_wake
+ObjectTemplate.setPosition 0.00179446/-0.470407/-3.73892
+ObjectTemplate.setRotation -180/0/0
+ObjectTemplate.addTemplate e_amphib_wake_sound
+ObjectTemplate.setPosition 0.00183685/-0.381192/0
+ObjectTemplate.addTemplate e_sinking_vehicle
+ObjectTemplate.addTemplate challenger_Codriver
+ObjectTemplate.setPosition 0.583568/0.894306/-0.341463
+ObjectTemplate.addTemplate challenger_Camera
+ObjectTemplate.setPosition -0.635725/1.01206/-0.633536
+ObjectTemplate.addTemplate Dixie_horn
+ObjectTemplate.setPosition -3.75812e-006/0.461429/2.19859
+ObjectTemplate.addTemplate LaserTarget_vehicle
+ObjectTemplate.addTemplate challenger_EntryPoint
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation -2.2/0.2/-1 0/0/0
+ObjectTemplate.altSoldierExitPosition 2.2/0.2/-1
+ObjectTemplate.exitSpeedMod 0.5
+ObjectTemplate.regulatePitchInput PIMouseLookY
+ObjectTemplate.regulatePitch -0.02/0.05
+ObjectTemplate.regulateRollInput PIYaw
+ObjectTemplate.regulateRoll -0.02/0.2
+ObjectTemplate.seatInformation challenger -0.55/0.95/-0.5 0/0/0
+ObjectTemplate.seatAnimationSystem Objects/Vehicles/Common/Animations/3p_driver_A_animSys.inc
+ObjectTemplate.soundFilter vehicle
+ObjectTemplate.cockpitSubGeom 1
+ObjectTemplate.sprintFactor 1
+ObjectTemplate.listenerObstruction 0.45
+ObjectTemplate.groundContactVolume 1
+ObjectTemplate.autoUseAbility 1
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.altSoldierExitPosition 2.2/0.2/-1
+ObjectTemplate.isOpenVehicle 1
+
+ObjectTemplate.activeSafe Sound S_challenger_Ambient
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/usjep_hmmwv/sounds/mono/hmmwv_cockpit.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.2
+ObjectTemplate.pitch 1.2
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/2/0.003/0/0/0.756/1/0/
+
+ObjectTemplate.activeSafe Sound S_challenger_AmbientDamaged
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe RotationalBundle Challengersteering
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+rem ---BeginComp:Ik ---
+ObjectTemplate.createComponent Ik
+ObjectTemplate.ik.positionLeft -0.171999/0.0137526/-0.151861
+ObjectTemplate.ik.rotationLeft -87.4748/-16.5967/-54.8101
+ObjectTemplate.ik.positionRight 0.172794/0.0240701/-0.147361
+ObjectTemplate.ik.rotationRight -80.8234/37.0575/133.916
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_Challengersteering_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/-40
+ObjectTemplate.setMaxRotation 0/0/40
+ObjectTemplate.setMaxSpeed 0/0/-100
+ObjectTemplate.setAcceleration 0/0/-100
+ObjectTemplate.setInputToRoll PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.regulateRoll -0.05/0.1
+
+ObjectTemplate.activeSafe Sound S_Challengersteering_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Engine zMotor
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_zMotor_RotationRpm
+ObjectTemplate.addTemplate S_zMotor_Idle
+ObjectTemplate.addTemplate S_zMotor_Rpm1
+ObjectTemplate.addTemplate S_zMotor_Rpm2
+ObjectTemplate.addTemplate S_zMotor_Load
+ObjectTemplate.addTemplate e_exhaust_small
+ObjectTemplate.setPosition 0.736994/0.214946/-3.75121
+ObjectTemplate.addTemplate e_exhaust_small
+ObjectTemplate.setPosition 0.589267/0.214609/-3.75344
+ObjectTemplate.addTemplate e_exhaust_small
+ObjectTemplate.setPosition -0.562586/0.210158/-3.74572
+ObjectTemplate.addTemplate e_exhaust_small
+ObjectTemplate.setPosition -0.710181/0.199636/-3.73336
+ObjectTemplate.addTemplate e_exhaust_small_startup
+ObjectTemplate.setPosition -0.630159/0.209812/-3.73746
+ObjectTemplate.addTemplate e_exhaust_small_startup
+ObjectTemplate.setPosition 0.666548/0.224185/-3.73574
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/0/-1
+ObjectTemplate.setMaxRotation 0/0/1
+ObjectTemplate.setMaxSpeed 0/0/10000
+ObjectTemplate.setAcceleration 0/0/10
+ObjectTemplate.setInputToRoll PIThrottle
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.setEngineType c_ETNewCar2
+ObjectTemplate.setTorque 700
+ObjectTemplate.setDifferential 4
+ObjectTemplate.setNumberOfGears 4
+ObjectTemplate.setGearUp 0.95
+ObjectTemplate.setGearDown 0.1
+ObjectTemplate.setGearChangeTime 0.7
+ObjectTemplate.setGearRatios 2 1.4 1 0.7 0.6 
+ObjectTemplate.spinWhenNoEngineInAir 1
+ObjectTemplate.newCar2.minRpm 1000
+ObjectTemplate.newCar2.maxRpm 5000
+ObjectTemplate.newCar2.useClutchedTorque 0
+ObjectTemplate.newCar2.wheelInertia 25
+ObjectTemplate.newCar2.engineFeedbackMod 0.4
+ObjectTemplate.newCar2.brakeTorque 1000
+ObjectTemplate.newCar2.engineBrakeTorque 2000
+ObjectTemplate.newCar2.frictionTorque 100
+ObjectTemplate.newCar2.frictionMod 1.5
+ObjectTemplate.newCar2.slopeTorqueMod 0.75
+ObjectTemplate.newCar2.wheelLongFrictionMod 2.5
+ObjectTemplate.newCar2.wheelLongDriveFrictionMod 0.6
+ObjectTemplate.newCar2.wheelLongPeakAt 0.1
+ObjectTemplate.newCar2.wheelLongMinDynamicFriction 0.7
+ObjectTemplate.newCar2.wheelLongScale 0.05
+ObjectTemplate.newCar2.wheelLatFrictionMod 3
+ObjectTemplate.newCar2.wheelLatDriveFrictionMod 0.4
+ObjectTemplate.newCar2.wheelLatPeakAt 0.1
+ObjectTemplate.newCar2.wheelLatMinDynamicFriction 0.7
+ObjectTemplate.newCar2.wheelLatScale 0.05
+ObjectTemplate.audio.newStyleAudio 1
+
+ObjectTemplate.activeSafe Sound S_zMotor_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Sound S_zMotor_Idle
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/challenger/sounds/start_idle_stop.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 2
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0/1.5/0/2/0.003/0.75/0/0.787/1.5/0/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/3/0/0.640927/0/0.185328/0.640927/0/0.783784/0/0/
+ObjectTemplate.minDistance 3
+ObjectTemplate.halfVolumeDistance 6
+ObjectTemplate.soundRadius 1.5
+
+ObjectTemplate.activeSafe Sound S_zMotor_Rpm1
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/challenger/sounds/rpm1.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 0.8
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0/1.5/0/2/0.003/0.982/0/0.995/1.112/0/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/3/0/0/0/0.348/0.406/0/0.997/0.558/0/
+ObjectTemplate.minDistance 3
+ObjectTemplate.halfVolumeDistance 6
+ObjectTemplate.soundRadius 1.5
+
+ObjectTemplate.activeSafe Sound S_zMotor_Rpm2
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/challenger/sounds/high_rpm.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.1/3/0/2/0.008/0.556/0.1/0.997/1.418/0.1/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/3/0.003/0/0/0.376/0.665/0/0.98/0.756/0/
+ObjectTemplate.minDistance 3
+ObjectTemplate.halfVolumeDistance 7
+ObjectTemplate.soundRadius 1.5
+
+ObjectTemplate.activeSafe Sound S_zMotor_Load
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Bundle whl_Nav_BL
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+rem -------------------------------------
+
+ObjectTemplate.activeSafe Spring whl_BL
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 8
+rem -------------------------------------
+ObjectTemplate.addTemplate S_whl_BL_Rotation
+ObjectTemplate.addTemplate web_wheelBig
+rem -------------------------------------
+ObjectTemplate.setStrength 30
+ObjectTemplate.setDamping 5
+
+ObjectTemplate.activeSafe Sound S_whl_BL_Rotation
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Bundle whl_Nav_BR
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+rem -------------------------------------
+
+ObjectTemplate.activeSafe Spring whl_BR
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 8
+rem -------------------------------------
+ObjectTemplate.addTemplate S_whl_BR_Rotation
+ObjectTemplate.addTemplate web_wheelBig
+rem -------------------------------------
+ObjectTemplate.setStrength 30
+ObjectTemplate.setDamping 5
+
+ObjectTemplate.activeSafe Sound S_whl_BR_Rotation
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe RotationalBundle whl_Nav_FL
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate S_whl_Nav_FL_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -30/0/0
+ObjectTemplate.setMaxRotation 30/0/0
+ObjectTemplate.setMaxSpeed 40/0/0
+ObjectTemplate.setAcceleration 80/0/0
+ObjectTemplate.setInputToYaw PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.snapToZeroOnNoInput 1
+
+ObjectTemplate.activeSafe Sound S_whl_Nav_FL_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Spring whl_FL
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 4
+rem -------------------------------------
+ObjectTemplate.addTemplate S_whl_FL_Rotation
+ObjectTemplate.addTemplate web_wheelBig
+rem -------------------------------------
+ObjectTemplate.setStrength 30
+ObjectTemplate.setDamping 5
+
+ObjectTemplate.activeSafe Sound S_whl_FL_Rotation
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe RotationalBundle whl_Nav_FR
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+rem -------------------------------------
+ObjectTemplate.addTemplate S_whl_Nav_FR_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -30/0/0
+ObjectTemplate.setMaxRotation 30/0/0
+ObjectTemplate.setMaxSpeed 40/0/0
+ObjectTemplate.setAcceleration 80/0/0
+ObjectTemplate.setInputToYaw PIYaw
+ObjectTemplate.setAutomaticReset 1
+ObjectTemplate.snapToZeroOnNoInput 1
+
+ObjectTemplate.activeSafe Sound S_whl_Nav_FR_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.activeSafe Spring whl_FR
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo SpringInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.grip 4
+rem -------------------------------------
+ObjectTemplate.addTemplate S_whl_FR_Rotation
+ObjectTemplate.addTemplate web_wheelBig
+rem -------------------------------------
+ObjectTemplate.setStrength 30
+ObjectTemplate.setDamping 5
+
+ObjectTemplate.activeSafe Sound S_whl_FR_Rotation
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.create PlayerControlObject challenger_Codriver
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "Challenger"
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.useChildHud 1
+ObjectTemplate.vehicleHud.vehicleIconPos 35/19
+rem ---EndComp ---
+rem ---BeginComp:WarningHud ---
+ObjectTemplate.createComponent WarningHud
+ObjectTemplate.WarningHud.firstWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.secondWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.warningIcon Ingame\GeneralIcons\Action_Icons\large_laserlockicon.tga
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.aiTemplate HmmwvRearPassenger
+rem -------------------------------------
+ObjectTemplate.addTemplate S_challenger_Codriver_Ambient
+ObjectTemplate.addTemplate S_challenger_Codriver_AmbientDamaged
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 2.2/0.2/-1 0/0/0
+ObjectTemplate.exitSpeedMod 0.5
+ObjectTemplate.seatInformation challenger_Codriver 0/0/0 0/0/0
+ObjectTemplate.seatAnimationSystem Objects/Vehicles/Land/Challenger/Animations/3p_challenger_passenger.inc
+ObjectTemplate.seatLeftRotationLimit -15
+ObjectTemplate.seatRightRotationLimit 15
+ObjectTemplate.soundFilter vehicle
+ObjectTemplate.cockpitSubGeom 1
+ObjectTemplate.hasRestrictedExit 1
+
+ObjectTemplate.activeSafe Sound S_challenger_Codriver_Ambient
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/usjep_hmmwv/sounds/mono/hmmwv_cockpit.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.2
+ObjectTemplate.pitch 1.2
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/2/0.003/0/0/0.756/1/0/
+
+ObjectTemplate.activeSafe Sound S_challenger_Codriver_AmbientDamaged
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.create Camera challenger_Camera
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_challenger_Camera_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation -130/-20/0
+ObjectTemplate.setMaxRotation 140/20/0
+ObjectTemplate.setMaxSpeed 90/90/0
+ObjectTemplate.setAcceleration 5000/5000/0.1
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.regulatePitch 0.1/-0.1
+ObjectTemplate.restoreRotationOnExit 1
+ObjectTemplate.cameraShakeStartSpeed 20
+ObjectTemplate.cameraShakeMaxSpeed 25
+ObjectTemplate.bounceLength 0.1
+ObjectTemplate.bounceStrength 15
+ObjectTemplate.bounceDamping 15
+ObjectTemplate.followStiffness 6
+ObjectTemplate.chaseDistance 15
+ObjectTemplate.chaseAngle 0.15
+ObjectTemplate.chaseOffset 0/1/6
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 1.1
+ObjectTemplate.allowInsideDynamicLights 1
+ObjectTemplate.allowInsideStaticSun 0
+ObjectTemplate.insideStaticSunDirection 0/-1/0
+ObjectTemplate.insideStaticSunColor 1/1/1
+ObjectTemplate.insideStaticSunDamageColor 1/1/1
+ObjectTemplate.insideDamageFrequency 3
+ObjectTemplate.insideDamageThreshold 0.1
+ObjectTemplate.insideStaticSunAmbientColor 0.7/0.7/0.7
+
+ObjectTemplate.activeSafe Sound S_challenger_Camera_RotationRpm
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+
+ObjectTemplate.create EntryPoint challenger_EntryPoint
+ObjectTemplate.modifiedByUser "CDN_BiggDogg"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setEntryRadius 5
+

@@ -1,0 +1,14 @@
+GeometryTemplate.create BundledMesh rgm109h_pod
+CollisionManager.createTemplate rgm109h_pod
+
+ObjectTemplate.create RotationalBundle rgm109h_pod
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh rgm109h_pod
+ObjectTemplate.mapMaterial 0 Armor_4_Tank_sides 0
+ObjectTemplate.mapMaterial 1 Wreck 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry rgm109h_pod
+
+include rgm109h_pod.tweak

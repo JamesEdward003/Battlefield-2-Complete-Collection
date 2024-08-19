@@ -1,0 +1,246 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe GenericFireArm Binoculars_Missile
+ObjectTemplate.creator TLO-1:tlo
+ObjectTemplate.modifiedByUser "LJO"
+ObjectTemplate.setNetworkableInfo HandFireArmsInfo
+ObjectTemplate.saveInSeparateFile 1
+rem ---BeginComp:WeaponHud ---
+ObjectTemplate.createComponent WeaponHud
+ObjectTemplate.weaponHud.weaponIcon Ingame\Weapons\Icons\Hud\USLMG_M249SAW.tga
+ObjectTemplate.weaponHud.altWeaponIcon Ingame\Weapons\Icons\Hud\USLMG_M249SAW_mini.tga
+ObjectTemplate.weaponHud.selectIcon Ingame\Weapons\Icons\Hud\mecbinocs.tga
+ObjectTemplate.weaponHud.specialAbilityIcon Ingame\Weapons\Icons\Hud\SpecialKitIcons\laserpainter.tga
+ObjectTemplate.weaponHud.hudName "VTOL JET"
+ObjectTemplate.weaponHud.guiIndex 52
+ObjectTemplate.weaponHud.altGuiIndex 53
+rem 216
+ObjectTemplate.weaponHud.hasFireRate 0
+ObjectTemplate.weaponHud.showInfo 1
+ObjectTemplate.weaponHud.hasRangeFinder 1
+rem ---EndComp ---
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+rem ObjectTemplate.Radio.useMessage Backup
+rem ---EndComp ---
+rem ---BeginComp:SingleFireComp ---
+ObjectTemplate.createComponent SingleFireComp
+ObjectTemplate.fire.addFireRate 0
+ObjectTemplate.fire.fireInCameraDof 1
+ObjectTemplate.fire.fireLaunchDelay 3
+rem ---EndComp ---
+rem ---BeginComp:DefaultAmmoComp ---
+ObjectTemplate.createComponent DefaultAmmoComp
+ObjectTemplate.ammo.nrOfMags 11
+ObjectTemplate.ammo.magSize 1
+ObjectTemplate.ammo.reloadTime 3
+ObjectTemplate.ammo.minimumTimeUntilReload 22
+ObjectTemplate.ammo.reloadWithoutPlayer 1
+ObjectTemplate.ammo.toggleWhenNoAmmo 0
+rem ---EndComp ---
+rem ---BeginComp:SoldierDeviationComp ---
+ObjectTemplate.createComponent SoldierDeviationComp
+ObjectTemplate.deviation.minDev 9
+ObjectTemplate.deviation.devModZoom 0.001
+rem ---EndComp ---
+rem ---BeginComp:DefaultSoundComp ---
+ObjectTemplate.createComponent DefaultSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultAnimationComp ---
+ObjectTemplate.createComponent DefaultAnimationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultZoomComp ---
+ObjectTemplate.createComponent DefaultZoomComp
+ObjectTemplate.zoom.zoomDelay 0.15
+ObjectTemplate.zoom.zoomLod 1
+ObjectTemplate.zoom.addZoomFactor 0
+ObjectTemplate.zoom.addZoomFactor 0.8
+ObjectTemplate.zoom.addZoomFactor 0.4
+ObjectTemplate.zoom.disableMuzzleWhenZoomed 1
+rem ---EndComp ---
+ObjectTemplate.geometry binoculars_mec_ch
+ObjectTemplate.setCollisionMesh binoculars_mec_ch
+ObjectTemplate.mapMaterial 0 Rubber_Heavy 102
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.aiTemplate Binoculars_Missile
+rem -------------------------------------
+ObjectTemplate.addTemplate S_Binoculars_Missile_Fire1P
+ObjectTemplate.addTemplate S_Binoculars_Missile_Fire1P_Outdoor
+ObjectTemplate.addTemplate S_Binoculars_Missile_Fire3P
+ObjectTemplate.setPosition 0/300/150
+ObjectTemplate.setRotation 0/90/0
+ObjectTemplate.addTemplate S_Binoculars_Missile_BoltClick
+ObjectTemplate.addTemplate S_Binoculars_Missile_TriggerClick
+ObjectTemplate.addTemplate S_Binoculars_Missile_SwitchFireRate
+ObjectTemplate.addTemplate S_Binoculars_Missile_Reload1P
+ObjectTemplate.addTemplate S_Binoculars_Missile_Reload3P
+ObjectTemplate.addTemplate S_Binoculars_Missile_Deploy1P
+ObjectTemplate.addTemplate S_Binoculars_Missile_Deploy3P
+ObjectTemplate.addTemplate S_Binoculars_Missile_Zoom
+rem ObjectTemplate.addTemplate e_lagreen
+rem -------------------------------------
+ObjectTemplate.animationSystem1P Objects/Weapons/Handheld/simrad/AnimationSystem1p.inc
+ObjectTemplate.animationSystem3P Objects/Weapons/Handheld/simrad/AnimationSystem3p.inc
+ObjectTemplate.projectileTemplate Binoculars_Missile_Projectile
+ObjectTemplate.velocity 1000
+ObjectTemplate.itemIndex 4
+ObjectTemplate.delayToUse 0.958
+
+ObjectTemplate.create GenericProjectile Binoculars_Missile_Projectile
+ObjectTemplate.modifiedByUser dsu
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.createdInEditor 1
+rem ---EndComp ---
+rem ---BeginComp:DefaultCollisionComp ---
+ObjectTemplate.createComponent DefaultCollisionComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultDetonationComp ---
+ObjectTemplate.createComponent DefaultDetonationComp
+ObjectTemplate.detonation.explosionMaterial 0
+ObjectTemplate.detonation.explosionRadius 0
+ObjectTemplate.detonation.explosionForce 0
+ObjectTemplate.detonation.explosionDamage 0
+ObjectTemplate.detonation.detonateOnWaterCollision 1
+ObjectTemplate.detonation.endEffectTemplate e_exp_MissilesStrike
+ObjectTemplate.detonation.useMMOnEndEffect 1
+ObjectTemplate.detonation.playMaterialEffectAtSurface 1
+ObjectTemplate.detonation.explosionConeAngle 360
+ObjectTemplate.detonation.effectRotation 0/0/0
+rem ---EndComp ---
+rem ---BeginComp:DefaultProjSoundComp ---
+ObjectTemplate.createComponent DefaultProjSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultRicochetComp ---
+ObjectTemplate.createComponent DefaultRicochetComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultPenetrateComp ---
+ObjectTemplate.createComponent DefaultPenetrateComp
+ObjectTemplate.penetrate.allowSolidPenetration 0
+ObjectTemplate.penetrate.allowLiquidPenetration 0
+rem ---EndComp ---
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Point
+ObjectTemplate.collisionGroups 8
+ObjectTemplate.material 81
+rem -------------------------------------
+ObjectTemplate.addTemplate e_marker_attack
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/5/0/0
+rem CRD_NONE/0.5/0/0
+ObjectTemplate.material 81
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.minDamage 0
+ObjectTemplate.damage 0
+
+ObjectTemplate.activeSafe Sound S_Binoculars_Missile_Fire1P
+ObjectTemplate.modifiedByUser LJO
+ObjectTemplate.soundFilename "objects/weapons/handheld/Binoculars_Missile/sounds/Request_VTOL_JET2.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 2
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_Binoculars_Missile_Fire1P_Outdoor
+ObjectTemplate.modifiedByUser LJO
+ObjectTemplate.soundFilename "objects/weapons/handheld/Binoculars_Missile/sounds/Request_VTOL_JET3.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 2
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_Binoculars_Missile_Fire3P
+ObjectTemplate.modifiedByUser LJO
+ObjectTemplate.soundFilename "objects/weapons/handheld/Binoculars_Missile/sounds/VTOL_JET_flyby.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 2
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 2
+ObjectTemplate.halfVolumeDistance 400
+ObjectTemplate.soundRadius 0.5
+
+
+ObjectTemplate.activeSafe Sound S_Binoculars_Missile_BoltClick
+ObjectTemplate.modifiedByUser LJO
+
+ObjectTemplate.activeSafe Sound S_Binoculars_Missile_TriggerClick
+ObjectTemplate.modifiedByUser LJO
+ObjectTemplate.soundFilename "objects/weapons/handheld/c4_detonator/sounds/Fire_1p3p.wav"
+
+ObjectTemplate.activeSafe Sound S_Binoculars_Missile_SwitchFireRate
+ObjectTemplate.modifiedByUser LJO
+
+ObjectTemplate.activeSafe Sound S_Binoculars_Missile_Reload1P
+ObjectTemplate.modifiedByUser LJO
+ObjectTemplate.soundFilename "objects/weapons/handheld/Binoculars_Missile/sounds/VTOL_JET_READY.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_Binoculars_Missile_Reload3P
+ObjectTemplate.modifiedByUser LJO
+beginrem
+ObjectTemplate.soundFilename "Common/Sound/Hud/Satellite_scan.ogg"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 1.5
+ObjectTemplate.halfVolumeDistance 2
+endrem
+
+ObjectTemplate.activeSafe Sound S_Binoculars_Missile_Deploy1P
+ObjectTemplate.modifiedByUser LJO
+ObjectTemplate.soundFilename "objects/weapons/handheld/medikit/sounds/medikit_deploy.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.4
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_Binoculars_Missile_Deploy3P
+ObjectTemplate.modifiedByUser LJO
+ObjectTemplate.soundFilename "objects/weapons/handheld/medikit/sounds/medikit_deploy.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 1.5
+ObjectTemplate.halfVolumeDistance 2
+
+ObjectTemplate.activeSafe Sound S_Binoculars_Missile_Zoom
+ObjectTemplate.modifiedByUser nfe
+ObjectTemplate.soundFilename "objects/weapons/handheld/rurif_bizon/sounds/zoom_generic.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.position 0/0.0197366/-0.149191

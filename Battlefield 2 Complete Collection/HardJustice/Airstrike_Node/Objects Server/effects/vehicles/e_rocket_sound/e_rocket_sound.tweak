@@ -1,0 +1,51 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+ObjectTemplate.activeSafe EffectBundle e_rocket_sound
+ObjectTemplate.modifiedByUser "wolfi"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.physicsType Point
+rem -------------------------------------
+ObjectTemplate.addTemplate S_e_rocket_sound_Start
+rem -------------------------------------
+rem begin Auto-generated effectProperties-part.
+ObjectTemplate.AlphaIntensityRange 1/1
+ObjectTemplate.AlphaIntensityUsed 0
+ObjectTemplate.EmitScaleFactorRange 0.25/1
+ObjectTemplate.EmitScaleFactorUsed 0
+ObjectTemplate.EmitScaleFactorFromSpeed 0/5
+ObjectTemplate.EmitSpeedScaleRange 0.25/1
+ObjectTemplate.EmitSpeedScaleUsed 0
+ObjectTemplate.EmitSpeedScaleFromSpeed 0/30
+ObjectTemplate.AgeScaleFactorRange 1/1
+ObjectTemplate.AgeScaleFactorUsed 0
+ObjectTemplate.StartAgeRange 0/0
+ObjectTemplate.StartAgeUsed 0
+ObjectTemplate.SoundIntensityRange 1/1
+ObjectTemplate.SoundIntensityUsed 0
+rem end Auto-generated effectProperties-part.
+ObjectTemplate.setStartOnEffects 0
+ObjectTemplate.setStopOnEffects 0
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.randomAgeFactor CRD_NONE/1/0/0
+ObjectTemplate.startAtCreation 1
+ObjectTemplate.speedFromPhysics 0
+
+ObjectTemplate.activeSafe Sound S_e_rocket_sound_Start
+ObjectTemplate.modifiedByUser "wolfi"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects\vehicles\air\sounds\rocket_distant.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.55
+ObjectTemplate.pitch 0.7
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 30
+ObjectTemplate.halfVolumeDistance 350
+
+
+

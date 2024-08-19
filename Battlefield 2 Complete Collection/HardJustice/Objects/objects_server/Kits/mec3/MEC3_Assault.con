@@ -1,0 +1,59 @@
+ObjectTemplate.create Kit MEC3_Assault
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.kitType Assault
+ObjectTemplate.aiTemplate Assault
+ObjectTemplate.geometry MEC_Kits
+ObjectTemplate.geometry.kit 0
+ObjectTemplate.geometry.dropGeom 15
+ObjectTemplate.setNetworkableInfo KitInfo
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.dropHeadwear mec_helmet
+ObjectTemplate.unlockIndex 1
+ObjectTemplate.cullRadiusScale 2.4
+rem -------------------------------------
+ObjectTemplate.addTemplate kni_knife
+ObjectTemplate.addTemplate RUPIS_Baghira
+ObjectTemplate.addTemplate usrif_G3A3
+ObjectTemplate.addTemplate ushgr_m67
+ObjectTemplate.addTemplate nshgr_flashbang
+ObjectTemplate.addTemplate hgr_smoke2
+ObjectTemplate.addTemplate hgr_gas
+ObjectTemplate.addTemplate UnlockMEC3Assault
+ObjectTemplate.addTemplate UnlockMEC3Assault2
+rem -------------------------------------
+
+ObjectTemplate.createComponent AbilityHud
+ObjectTemplate.abilityHud.ammoSound S_Resupply
+ObjectTemplate.abilityHud.healingSound S_Heal
+ObjectTemplate.abilityHud.repairingSound S_Repair
+
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName 		"MEC3 ASSAULT"
+ObjectTemplate.vehicleHud.miniMapIcon		"Ingame\Kits\Icons\kit_Light_Assault_outline.tga"
+ObjectTemplate.vehicleHud.vehicleIcon		"Ingame\Kits\Icons\kit_Light_Assault.tga"
+ObjectTemplate.vehicleHud.spottedIcon 			"Ingame\Player\Icons\Minimap\mini_Soldier.dds"
+ObjectTemplate.vehicleHud.abilityIcon 		"Ingame\Weapons\Icons\Hud\SpecialKitIcons\kevlarVest.tga"
+ObjectTemplate.vehicleHud.pantingSound		S_SprintBreath
+ObjectTemplate.vehicleHud.injurySound		S_Injury
+ObjectTemplate.sprintStaminaDissipationFactor 0.6
+
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage	"infantry_spotted"
+rem ---EndComp ---
+
+ObjectTemplate.create ItemContainer UnlockMEC3Assault
+ObjectTemplate.addTemplate rurif_gp30
+ObjectTemplate.replaceItem usrif_G3A3
+Objecttemplate.addTemplate rurgl_gp30
+ObjectTemplate.replaceItem ushgr_m67
+ObjectTemplate.unlockLevel 1
+
+ObjectTemplate.create ItemContainer UnlockMEC3Assault2
+ObjectTemplate.addTemplate sasrif_fn2000
+ObjectTemplate.replaceItem rurif_gp30
+ObjectTemplate.replaceItem usrif_G3A3
+Objecttemplate.addTemplate sasgr_fn2000
+ObjectTemplate.replaceItem rurgl_gp30
+ObjectTemplate.replaceItem ushgr_m67
+ObjectTemplate.unlockLevel 2

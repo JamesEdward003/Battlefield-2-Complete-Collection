@@ -1,0 +1,14 @@
+GeometryTemplate.create StaticMesh us_streetsign
+CollisionManager.createTemplate us_streetsign
+
+ObjectTemplate.create SimpleObject us_streetsign
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh us_streetsign
+ObjectTemplate.mapMaterial 0 Metal_solid 0
+ObjectTemplate.mapMaterial 1 Solid_Wood 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry us_streetsign
+
+include us_streetsign.tweak

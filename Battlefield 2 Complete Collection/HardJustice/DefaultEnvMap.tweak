@@ -1,0 +1,7 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/1/14 10:20]
+ObjectTemplate.activeSafe EnvMap DefaultEnvMap
+ObjectTemplate.modifiedByUser eni
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.isStatic 1
+ObjectTemplate.size 1
+

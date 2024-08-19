@@ -1,0 +1,17 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 10:52]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe SimpleObject CBU_87_dummy
+ObjectTemplate.creator SatNav
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.saveInSeparateFile 1
+rem ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.geometry CBU_87_dummy
+ObjectTemplate.setCollisionMesh CBU_87_dummy
+ObjectTemplate.mapMaterial 0 metal 32
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+

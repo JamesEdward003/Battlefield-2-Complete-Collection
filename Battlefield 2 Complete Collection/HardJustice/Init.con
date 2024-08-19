@@ -1,0 +1,5 @@
+rem ** gameLogic hasn't been initialized yet **
+
+rem ** Intro Movies **
+bf2Engine.playMovie mods\hardjustice\Movies\welcome.bik 0
+

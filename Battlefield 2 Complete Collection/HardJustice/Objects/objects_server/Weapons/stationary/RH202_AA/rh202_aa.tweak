@@ -1,0 +1,482 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+GeometryTemplate.setSubGeometryLodDistance 1 0 20
+GeometryTemplate.setSubGeometryLodDistance 1 1 40
+GeometryTemplate.setSubGeometryLodDistance 2 0 20
+GeometryTemplate.setSubGeometryLodDistance 2 1 40
+GeometryTemplate.setMaterialReflectionScale 1 0 0 0.25
+GeometryTemplate.setMaterialReflectionScale 1 0 1 1
+GeometryTemplate.setMaterialReflectionScale 1 0 2 0.25
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe PlayerControlObject rh202_aa
+ObjectTemplate.creator SatNav
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.castsDynamicShadow 1
+rem ---BeginComp:Armor ---
+ObjectTemplate.createComponent Armor
+ObjectTemplate.armor.maxHitPoints 700
+ObjectTemplate.armor.hitPoints 700
+ObjectTemplate.armor.defaultMaterial 72
+ObjectTemplate.armor.hpLostWhileCriticalDamage 18
+ObjectTemplate.armor.waterLevel -0.3
+ObjectTemplate.armor.explosionForce 15
+ObjectTemplate.armor.explosionForceMod 8
+ObjectTemplate.armor.explosionForceMax 5000
+ObjectTemplate.armor.explosionDamage 300
+ObjectTemplate.armor.explosionRadius 7
+ObjectTemplate.armor.explosionMaterial 99
+ObjectTemplate.armor.wreckExplosionForce 50
+ObjectTemplate.armor.wreckExplosionDamage 30
+ObjectTemplate.armor.wreckExplosionRadius 5
+ObjectTemplate.armor.wreckExplosionMaterial 70
+ObjectTemplate.armor.wreckHitPoints 1000
+ObjectTemplate.armor.timeToStayAsWreck 28
+ObjectTemplate.armor.criticalDamage 101
+ObjectTemplate.armor.canBeRepairedWhenWreck 1
+ObjectTemplate.armor.addArmorEffect 50 e_dstate_land_lightsmoke 0/0.743649/0 0/0/0
+ObjectTemplate.armor.addArmorEffect 25 e_dstate_land_Mediumsmoke 0/0.66991/-0.243636 0/0/0
+ObjectTemplate.armor.addArmorEffect 10 e_dstate_land_heavysmoke 0/0.599559/-0.248431 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_vexp_lw155 0/0.625449/0.227812 0/0/0
+ObjectTemplate.armor.addArmorEffect 0 e_vexp_armoredcar_spec 0/1.27/0.206897 0/0/0
+rem ---EndComp ---
+rem ---BeginComp:Ability ---
+ObjectTemplate.createComponent Ability
+ObjectTemplate.Ability.radarRadius 400
+rem ---EndComp ---
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage infantry_spotted
+rem ---EndComp ---
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "RH202 AAGUN"
+ObjectTemplate.vehicleHud.miniMapIcon Ingame\Vehicles\Icons\Minimap\mini_armourdefsmall.tga
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.usePlayerIcon 1
+ObjectTemplate.vehicleHud.standardHelpEnabled 0
+ObjectTemplate.vehicleHud.vehicleIconPos 28/15
+ObjectTemplate.vehicleHud.useSelectionIcons 0
+ObjectTemplate.vehicleHud.useVehicleCommRose 0
+ObjectTemplate.vehicleHud.vehicleIcon Ingame\Weapons\Icons\Hud\StaticWeapons\RH202AA_icon.tga
+rem ---EndComp ---
+rem ---BeginComp:WarningHud ---
+ObjectTemplate.createComponent WarningHud
+ObjectTemplate.WarningHud.firstWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.secondWarningSound HUD_Laser_Track_Warning
+ObjectTemplate.WarningHud.warningIcon Ingame\GeneralIcons\Action_Icons\large_laserlockicon.tga
+rem ---EndComp ---
+ObjectTemplate.geometry rh202_aa
+ObjectTemplate.setCollisionMesh rh202_aa
+ObjectTemplate.mapMaterial 0 metal 29
+ObjectTemplate.mapMaterial 1 wreck 60
+ObjectTemplate.drag 8
+ObjectTemplate.mass 5000
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.aiTemplate RH202_AI
+rem -------------------------------------
+ObjectTemplate.addTemplate S_rh202_aa_Ambient
+ObjectTemplate.addTemplate S_rh202_aa_AmbientDamaged
+ObjectTemplate.addTemplate rh202_aa_EntryPoint
+ObjectTemplate.setPosition 0/0.994473/-0.164971
+ObjectTemplate.addTemplate LaserTarget_vehicle
+ObjectTemplate.setPosition 0/0.852267/0.487569
+rem -------------------------------------
+ObjectTemplate.setSoldierExitLocation 0/0.7/-1.8 0/0/0
+ObjectTemplate.altSoldierExitPosition -0.8/0.6/0.3
+ObjectTemplate.seatInformation RH202seat -0.03/1.18/-0.35 0/0/0
+ObjectTemplate.seatAnimationSystem Objects/Weapons/stationary/RH202_AA/3p_RH202_animSys.inc
+ObjectTemplate.soundFilter vehicle
+ObjectTemplate.setVehicleType VTAAGun
+ObjectTemplate.crewKitIndex 7
+ObjectTemplate.autoUseAbility 1
+ObjectTemplate.hasRestrictedExit 1
+ObjectTemplate.altSoldierExitPosition -0.8/0.6/0.3
+ObjectTemplate.isOpenVehicle 1
+
+ObjectTemplate.activeSafe Sound S_rh202_aa_Ambient
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/usaav_m6/sounds/m6_cockpit.ogg"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.25
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_rh202_aa_AmbientDamaged
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe RotationalBundle RH202seat
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.setNetworkableInfo BasicInfo
+rem ---BeginComp:Ik ---
+ObjectTemplate.createComponent Ik
+ObjectTemplate.ik.positionLeft -0.122723/0.820933/-0.310434
+ObjectTemplate.ik.rotationLeft -64.325/-0.764451/-76.9501
+ObjectTemplate.ik.poleVectorLeft -0.974938/-0.555111/1.03625
+ObjectTemplate.ik.positionRight 0.0826591/0.798644/-0.321947
+ObjectTemplate.ik.rotationRight -97.6674/17.1859/133.499
+ObjectTemplate.ik.poleVectorRight 1.5219/-0.721694/-0.878663
+rem ---EndComp ---
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.miniMapIconLeaderSize Medium
+ObjectTemplate.vehicleHud.showInfo 0
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_RH202seat_RotationRpm
+ObjectTemplate.addTemplate rh202_Camera
+ObjectTemplate.setPosition 1.66773e-007/1.32436/-0.734779
+ObjectTemplate.setRotation 0/-2.7/0
+rem -------------------------------------
+ObjectTemplate.setMaxSpeed 100/0/0
+ObjectTemplate.setAcceleration 600/0/0
+ObjectTemplate.setInputToYaw PIMouseLookX
+
+ObjectTemplate.activeSafe Sound S_RH202seat_RotationRpm
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/ustnk_m1a2/sounds/genericturretmovement.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.45
+ObjectTemplate.pitch 1.2
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.1/3/0/2/0.003/0.1/0.1/0.992/2.956/0.1/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/3/0.089/0/0/0.168/0.624/0/0.759/1/0/
+ObjectTemplate.minDistance 2
+ObjectTemplate.halfVolumeDistance 4.5
+
+ObjectTemplate.activeSafe RotationalBundle RH202barrels
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_RH202barrels_RotationRpm
+ObjectTemplate.addTemplate rh202_gun
+ObjectTemplate.setRotation 0/-3/0
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-45/0
+ObjectTemplate.setMaxRotation 0/5/0
+ObjectTemplate.setMaxSpeed 0/100/0
+ObjectTemplate.setAcceleration 0/400/0
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.rememberExcessInput 1
+
+ObjectTemplate.activeSafe Sound S_RH202barrels_RotationRpm
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/vehicles/land/ustnk_m1a2/sounds/genericturretmovement.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.45
+ObjectTemplate.pitch 1.2
+ObjectTemplate.reverbLevel 0.5
+ObjectTemplate.pitchEnvelope 0/1/0.1/3/0/3/0.003/0.1/0.1/0.249/0.843/0.1/0.98/2.912/0.1/
+ObjectTemplate.volumeEnvelope 0/1/0/1/0/3/0.109/0/0/0.122/0.449/0/0.5/0.754/0/
+ObjectTemplate.minDistance 2
+ObjectTemplate.halfVolumeDistance 2.8
+
+ObjectTemplate.create GenericFireArm rh202_gun
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:WeaponHud ---
+ObjectTemplate.createComponent WeaponHud
+ObjectTemplate.weaponHud.weaponIcon Ingame\Weapons\Icons\Hud\bomb.tga
+ObjectTemplate.weaponHud.hudName "RH202 AAGUN"
+ObjectTemplate.weaponHud.guiIndex 251
+ObjectTemplate.weaponHud.hasFireRate 0
+ObjectTemplate.weaponHud.hasRangeFinder 1
+ObjectTemplate.weaponHud.addShowOnCamMode 2
+ObjectTemplate.weaponHud.overheatSound S_Weapon_Handheld_Overheat
+rem ---EndComp ---
+rem ---BeginComp:MultiFireComp ---
+ObjectTemplate.createComponent MultiFireComp
+ObjectTemplate.fire.roundsPerMinute 900
+ObjectTemplate.fire.addFireRate 2
+ObjectTemplate.fire.projectileStartPosition 0/0/2
+ObjectTemplate.fire.addBarrelName rh202_gun_L_Barrel
+ObjectTemplate.fire.addBarrelName rh202_gun_R_Barrel
+rem ---EndComp ---
+rem ---BeginComp:DefaultAmmoComp ---
+ObjectTemplate.createComponent DefaultAmmoComp
+ObjectTemplate.ammo.nrOfMags -1
+ObjectTemplate.ammo.magSize 1000
+ObjectTemplate.ammo.reloadTime 7.5
+ObjectTemplate.ammo.autoReload 1
+ObjectTemplate.ammo.reloadWithoutPlayer 1
+rem ---EndComp ---
+rem ---BeginComp:WeaponBasedRecoilComp ---
+ObjectTemplate.createComponent WeaponBasedRecoilComp
+ObjectTemplate.recoil.recoilSize 2
+ObjectTemplate.recoil.recoilSpeed 20
+ObjectTemplate.recoil.recoilForce 2
+ObjectTemplate.recoil.cameraRecoilSpeed 8
+ObjectTemplate.recoil.cameraRecoilSize 0.5
+rem ---EndComp ---
+rem ---BeginComp:SimpleDeviationComp ---
+ObjectTemplate.createComponent SimpleDeviationComp
+ObjectTemplate.deviation.minDev 0.25
+rem ---EndComp ---
+rem ---BeginComp:DefaultSoundComp ---
+ObjectTemplate.createComponent DefaultSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultAnimationComp ---
+ObjectTemplate.createComponent DefaultAnimationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultZoomComp ---
+ObjectTemplate.createComponent DefaultZoomComp
+ObjectTemplate.zoom.addZoomFactor 0
+rem ---EndComp ---
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.aiTemplate rh202gun_AI
+rem -------------------------------------
+ObjectTemplate.addTemplate S_rh202_gun_Fire1P
+ObjectTemplate.setPosition -0.00415999/0.165321/4.90305
+ObjectTemplate.addTemplate S_rh202_gun_Fire1P_Outdoor
+ObjectTemplate.setPosition -8.70787e-008/0.169439/5.04899
+ObjectTemplate.addTemplate S_rh202_gun_Fire3P
+ObjectTemplate.setPosition 0.000721681/0.170038/5.04691
+ObjectTemplate.addTemplate S_rh202_gun_BoltClick
+ObjectTemplate.addTemplate S_rh202_gun_TriggerClick
+ObjectTemplate.setPosition -3.40948e-006/-2.202/-0.421736
+ObjectTemplate.addTemplate S_rh202_gun_SwitchFireRate
+ObjectTemplate.addTemplate S_rh202_gun_Reload1P
+ObjectTemplate.addTemplate S_rh202_gun_Reload3P
+ObjectTemplate.addTemplate S_rh202_gun_Deploy1P
+ObjectTemplate.addTemplate S_rh202_gun_Deploy3P
+ObjectTemplate.addTemplate S_rh202_gun_Zoom
+rem -------------------------------------
+ObjectTemplate.projectileTemplate rh202_gun_Projectile
+ObjectTemplate.keepProjectiles 5
+ObjectTemplate.velocity 1200
+ObjectTemplate.itemIndex 1
+ObjectTemplate.heatAddWhenFire 0.001
+ObjectTemplate.coolDownPerSec 0.4
+ObjectTemplate.overheatPenalty 1
+
+ObjectTemplate.create GenericProjectile rh202_gun_Projectile
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:DefaultCollisionComp ---
+ObjectTemplate.createComponent DefaultCollisionComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultDetonationComp ---
+ObjectTemplate.createComponent DefaultDetonationComp
+ObjectTemplate.detonation.explosionMaterial 109
+ObjectTemplate.detonation.explosionRadius 3
+ObjectTemplate.detonation.explosionForce 5
+ObjectTemplate.detonation.explosionDamage 15
+ObjectTemplate.detonation.endEffectTemplate e_exp_AA_Large
+ObjectTemplate.detonation.useMMOnEndEffect 1
+ObjectTemplate.detonation.detectionRadius 5
+ObjectTemplate.detonation.maxDepthForExplosion 2
+rem ---EndComp ---
+rem ---BeginComp:DefaultProjSoundComp ---
+ObjectTemplate.createComponent DefaultProjSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultRicochetComp ---
+ObjectTemplate.createComponent DefaultRicochetComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultPenetrateComp ---
+ObjectTemplate.createComponent DefaultPenetrateComp
+ObjectTemplate.penetrate.allowSolidPenetration 0
+ObjectTemplate.penetrate.allowLiquidPenetration 0
+rem ---EndComp ---
+ObjectTemplate.gravityModifier 0.4
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Point
+ObjectTemplate.collisionGroups 8
+ObjectTemplate.material 88
+rem -------------------------------------
+ObjectTemplate.addTemplate S_rh202_gun_Projectile_Looping
+ObjectTemplate.addTemplate e_rh202_tracer
+ObjectTemplate.setPosition 0/-0.0182866/-20.609
+ObjectTemplate.addTemplate e_rh202_tracer
+ObjectTemplate.setPosition 0/-0.0182866/-20.609
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/0.3/0/0
+ObjectTemplate.material 88
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.minDamage 1
+ObjectTemplate.damage 15
+
+ObjectTemplate.activeSafe Bundle rh202_gun_R_Barrel
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate e_muzz_phalanx
+ObjectTemplate.setPosition -0.152037/-0.113683/-1.56602
+ObjectTemplate.addTemplate e_shellejection_rh202
+ObjectTemplate.setPosition -0.424446/0.369229/-4.39784
+ObjectTemplate.setRotation 5/-5/180
+rem -------------------------------------
+
+ObjectTemplate.activeSafe Bundle rh202_gun_L_Barrel
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate e_muzz_phalanx
+ObjectTemplate.setPosition 0.154795/-0.10884/-1.57994
+ObjectTemplate.addTemplate e_shellejection_rh202
+ObjectTemplate.setPosition 0.392068/0.398981/-4.36049
+ObjectTemplate.setRotation -180/-5.00896e-006/-180
+rem -------------------------------------
+
+ObjectTemplate.activeSafe Sound S_rh202_gun_Fire1P
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe Sound S_rh202_gun_Fire1P_Outdoor
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/stationary/rh202_aa/sounds/rh202_aa_autocannon_1p.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 2
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1.7
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.position -8.70787e-008/0.169439/5.04899
+
+ObjectTemplate.activeSafe Sound S_rh202_gun_Fire3P
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/stationary/rh202_aa/sounds/rh202_aa_autocannon_3p.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 2
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1.8
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/0/2/0.01/0.962/0.9/0.98/0.944/0.9/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.85/1/
+ObjectTemplate.position 0.000721681/0.170038/5.04691
+ObjectTemplate.minDistance 4
+ObjectTemplate.halfVolumeDistance 9
+
+ObjectTemplate.activeSafe Sound S_rh202_gun_BoltClick
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/usrif_m4/sounds/mono/m4_boltclick.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.8
+ObjectTemplate.pitch 0.9
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_rh202_gun_TriggerClick
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/handheld/uspis_92fs/sounds/mono/trigger_click.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.5
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.position -3.40948e-006/-2.202/-0.421736
+
+ObjectTemplate.activeSafe Sound S_rh202_gun_SwitchFireRate
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe Sound S_rh202_gun_Reload1P
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe Sound S_rh202_gun_Reload3P
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe Sound S_rh202_gun_Deploy1P
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe Sound S_rh202_gun_Deploy3P
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe Sound S_rh202_gun_Zoom
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.activeSafe Sound S_rh202_gun_Projectile_Looping
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.create Camera rh202_Camera
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_rh202_Camera_RotationRpm
+rem -------------------------------------
+ObjectTemplate.setMinRotation 0/-45/0
+ObjectTemplate.setMaxRotation 0/5/0
+ObjectTemplate.setMaxSpeed 0/100/0
+ObjectTemplate.setAcceleration 0/400/0
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.rememberExcessInput 1
+ObjectTemplate.CVMFrontChase 0
+ObjectTemplate.CVMFlyBy 0
+ObjectTemplate.CVMNose 1
+ObjectTemplate.nosePos 0/0/0.4
+ObjectTemplate.followStiffness 6
+ObjectTemplate.chaseDistance 4
+ObjectTemplate.chaseAngle 0.1
+ObjectTemplate.chaseOffset 0/2/0
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 0.6
+ObjectTemplate.worldFOV 1.1
+ObjectTemplate.insideFOV 0.6
+ObjectTemplate.allowInsideDynamicLights 1
+ObjectTemplate.allowInsideStaticSun 0
+ObjectTemplate.insideStaticSunDirection 0/-1/0
+ObjectTemplate.insideStaticSunColor 1/1/1
+ObjectTemplate.insideStaticSunDamageColor 1/1/1
+ObjectTemplate.insideDamageFrequency 3
+ObjectTemplate.insideDamageThreshold 0.15
+ObjectTemplate.insideStaticSunAmbientColor 0.7/0.7/0.7
+
+ObjectTemplate.activeSafe Sound S_rh202_Camera_RotationRpm
+ObjectTemplate.modifiedByUser "SatNav"
+
+ObjectTemplate.create EntryPoint rh202_aa_EntryPoint
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.setEntryRadius 2
+

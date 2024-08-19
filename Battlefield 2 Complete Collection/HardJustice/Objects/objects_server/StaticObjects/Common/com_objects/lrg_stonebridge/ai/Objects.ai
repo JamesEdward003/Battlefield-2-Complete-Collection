@@ -1,0 +1,15 @@
+rem *** Plugins ***
+aiTemplatePlugIn.create Physical lrg_stonebridgePhysical
+aiTemplatePlugIn.setStrType Infantry
+rem aiTemplatePlugIn.setStrType LightArmour
+rem aiTemplatePlugIn.setStrType HeavyArmour
+
+rem *** AITemplate ***
+aiTemplate.create lrg_stonebridge
+aiTemplate.addType ITStructure
+aiTemplate.degeneration 50
+aiTemplate.allowedTimeDiff 2
+aiTemplate.basicTemp 1
+rem aiTemplate.basicTemp 5
+aiTemplate.commonKnowledge 1
+aiTemplate.addPlugIn lrg_stonebridgePhysical

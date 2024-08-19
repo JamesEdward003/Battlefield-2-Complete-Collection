@@ -1,0 +1,16 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+GeometryTemplate.setSpecularStaticGloss 0 0 1 1.5
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe SimpleObject hydra_rp
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.geometry hydra_rp
+ObjectTemplate.setCollisionMesh hydra_rp
+ObjectTemplate.mapMaterial 0 Airplane 31
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+

@@ -1,0 +1,7 @@
+ObjectTemplate.create TargetObject LaserTarget_vehicle
+ObjectTemplate.timeToLive 0
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.targetType TTLaser
+ObjectTemplate.disableWhenEmptyVehicle 1
+ObjectTemplate.disableWhenEmptyVehicleDelay 5
+ObjectTemplate.disableWhenWreck 1

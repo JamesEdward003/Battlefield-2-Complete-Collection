@@ -1,0 +1,4 @@
+ObjectTemplate.create EffectBundle e_rocket_sound
+ObjectTemplate.createdInEditor 1
+
+include e_rocket_sound.tweak

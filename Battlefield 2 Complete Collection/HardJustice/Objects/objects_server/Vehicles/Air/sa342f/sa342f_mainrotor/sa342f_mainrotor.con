@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh sa342f_mainrotor
+CollisionManager.createTemplate sa342f_mainrotor
+
+ObjectTemplate.create rotor sa342f_mainrotor
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CAMBO:Cihangir
+ObjectTemplate.collisionMesh sa342f_mainrotor
+ObjectTemplate.mapMaterial 0 rotor 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry sa342f_mainrotor
+
+include sa342f_mainrotor.tweak

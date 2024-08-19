@@ -1,0 +1,53 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe GenericProjectile tow2_missile
+ObjectTemplate.creator DSU-3:dsu
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.createNotInGrid 1
+rem ---BeginComp:DefaultCollisionComp ---
+ObjectTemplate.createComponent DefaultCollisionComp
+ObjectTemplate.collision.hasCollisionEffect 1
+rem ---EndComp ---
+rem ---BeginComp:DefaultDetonationComp ---
+ObjectTemplate.createComponent DefaultDetonationComp
+ObjectTemplate.detonation.explosionMaterial 70
+ObjectTemplate.detonation.explosionRadius 7
+ObjectTemplate.detonation.explosionForce 15
+ObjectTemplate.detonation.explosionDamage 175
+ObjectTemplate.detonation.endEffectTemplate e_exp_large
+ObjectTemplate.detonation.useMMOnEndEffect 1
+ObjectTemplate.detonation.detectionRadius 1.5
+ObjectTemplate.detonation.maxDepthForExplosion 2
+rem ---EndComp ---
+rem ---BeginComp:DefaultProjSoundComp ---
+ObjectTemplate.createComponent DefaultProjSoundComp
+rem ---EndComp ---
+ObjectTemplate.geometry tow_missile
+ObjectTemplate.setCollisionMesh tow_missile
+ObjectTemplate.mapMaterial 0 lambert2 0
+ObjectTemplate.drag 1
+ObjectTemplate.mass 20
+ObjectTemplate.gravityModifier 0
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Point
+ObjectTemplate.collisionGroups 8
+ObjectTemplate.material 52
+rem -------------------------------------
+ObjectTemplate.addTemplate S_tow2_missile_Looping
+ObjectTemplate.addTemplate e_tow_trail
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/20/0/0
+ObjectTemplate.material 52
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.minDamage 50
+ObjectTemplate.damage 550
+ObjectTemplate.acceleration 250
+ObjectTemplate.maxSpeed 125
+
+ObjectTemplate.activeSafe Sound S_tow2_missile_Looping
+ObjectTemplate.modifiedByUser "Ziggy"
+

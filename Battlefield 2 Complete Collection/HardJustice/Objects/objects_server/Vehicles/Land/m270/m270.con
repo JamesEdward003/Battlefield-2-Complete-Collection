@@ -1,0 +1,191 @@
+GeometryTemplate.create BundledMesh m270
+GeometryTemplate.nrOfAnimatedUVMatrix 6
+CollisionManager.createTemplate m270
+
+ObjectTemplate.create PlayerControlObject m270
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CAMBO:Cihangir
+ObjectTemplate.collisionMesh m270
+ObjectTemplate.mapMaterial 0 Armor_4_Tank_sides 0
+ObjectTemplate.mapMaterial 1 Glass_bulletproof 0
+ObjectTemplate.mapMaterial 2 Wreck 0
+ObjectTemplate.mapMaterial 3 Tank_tracks 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry m270
+ObjectTemplate.addTemplate m270_Zmotor
+ObjectTemplate.addTemplate rocketbase
+ObjectTemplate.setPosition -0.0018/0.4835/-1.9012
+
+ObjectTemplate.create Engine m270_Zmotor
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate Wheel__RDriveB
+ObjectTemplate.setPosition 1.3205/0.0402/-2.9395
+ObjectTemplate.addTemplate Wheel_LDriveB
+ObjectTemplate.setPosition -1.3060/0.0402/-2.9395
+ObjectTemplate.addTemplate Wheel_LDriveF
+ObjectTemplate.setPosition -1.3060/0.0402/3.1235
+ObjectTemplate.addTemplate Wheel_RDriveF
+ObjectTemplate.setPosition 1.3205/0.0402/3.1235
+ObjectTemplate.addTemplate WheelL1
+ObjectTemplate.setPosition -1.3170/-0.2911/-2.3041
+ObjectTemplate.addTemplate WheelL2
+ObjectTemplate.setPosition -1.3170/-0.2911/-1.5616
+ObjectTemplate.addTemplate WheelL3
+ObjectTemplate.setPosition -1.3170/-0.2911/-0.2764
+ObjectTemplate.addTemplate WheelL4
+ObjectTemplate.setPosition -1.3170/-0.2911/0.4727
+ObjectTemplate.addTemplate WheelL5
+ObjectTemplate.setPosition -1.3170/-0.2911/1.5775
+ObjectTemplate.addTemplate WheelL6
+ObjectTemplate.setPosition -1.3170/-0.2911/2.3378
+ObjectTemplate.addTemplate WheelR1
+ObjectTemplate.setPosition 1.3166/-0.2911/-2.3041
+ObjectTemplate.addTemplate WheelR2
+ObjectTemplate.setPosition 1.3166/-0.2911/-1.5612
+ObjectTemplate.addTemplate WheelR3
+ObjectTemplate.setPosition 1.3166/-0.2911/-0.2764
+ObjectTemplate.addTemplate WheelR4
+ObjectTemplate.setPosition 1.3166/-0.2911/0.4730
+ObjectTemplate.addTemplate WheelR5
+ObjectTemplate.setPosition 1.3166/-0.2911/1.5792
+ObjectTemplate.addTemplate WheelR6
+ObjectTemplate.setPosition 1.3166/-0.2911/2.3378
+
+ObjectTemplate.create Rotationalbundle Wheel__RDriveB
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+
+ObjectTemplate.create Rotationalbundle Wheel_LDriveB
+ObjectTemplate.collisionPart 3
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+ObjectTemplate.create Rotationalbundle Wheel_LDriveF
+ObjectTemplate.collisionPart 4
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+ObjectTemplate.create Rotationalbundle Wheel_RDriveF
+ObjectTemplate.collisionPart 5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+
+ObjectTemplate.create Spring WheelL1
+ObjectTemplate.collisionPart 6
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+
+ObjectTemplate.create Spring WheelL2
+ObjectTemplate.collisionPart 7
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+
+ObjectTemplate.create Spring WheelL3
+ObjectTemplate.collisionPart 8
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+
+ObjectTemplate.create Spring WheelL4
+ObjectTemplate.collisionPart 9
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 9
+
+ObjectTemplate.create Spring WheelL5
+ObjectTemplate.collisionPart 10
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 10
+
+ObjectTemplate.create Spring WheelL6
+ObjectTemplate.collisionPart 11
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 11
+
+ObjectTemplate.create Spring WheelR1
+ObjectTemplate.collisionPart 12
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 12
+
+ObjectTemplate.create Spring WheelR2
+ObjectTemplate.collisionPart 13
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 13
+
+ObjectTemplate.create Spring WheelR3
+ObjectTemplate.collisionPart 14
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 14
+
+ObjectTemplate.create Spring WheelR4
+ObjectTemplate.collisionPart 15
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 15
+
+ObjectTemplate.create Spring WheelR5
+ObjectTemplate.collisionPart 16
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 16
+
+ObjectTemplate.create Spring WheelR6
+ObjectTemplate.collisionPart 17
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 17
+
+ObjectTemplate.create Playercontrolobject rocketbase
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 18
+ObjectTemplate.addTemplate RocketPod_Base
+ObjectTemplate.setPosition 0/0.1431/0
+
+ObjectTemplate.create Rotationalbundle RocketPod_Base
+ObjectTemplate.collisionPart 19
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 19
+ObjectTemplate.addTemplate RocketPod
+ObjectTemplate.setPosition 0.0018/0.0220/-1.2438
+
+ObjectTemplate.create Rotationalbundle RocketPod
+ObjectTemplate.collisionPart 20
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 20
+
+include m270.tweak

@@ -1,0 +1,69 @@
+GeometryTemplate.create BundledMesh e_vexp_trailbikewreck
+
+ObjectTemplate.create EffectBundle e_vexp_trailbikewreck
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator "SatNav"
+ObjectTemplate.addTemplate em_vExp_trailbikewreck01
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate em_vExp_trailbikewreck02
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate em_vExp_trailbikewreck03
+ObjectTemplate.setPosition 0/0/0
+ObjectTemplate.addTemplate em_vExp_trailbikewreck04
+ObjectTemplate.setPosition 0/0/0
+
+ObjectTemplate.create Emitter em_vExp_trailbikewreck01
+ObjectTemplate.template p_vExp_trailbikewreck01
+
+ObjectTemplate.create Particle p_vExp_trailbikewreck01
+ObjectTemplate.collisionPart 0
+ObjectTemplate.geometryPart 0
+ObjectTemplate.mapMaterial 0 colormapgloss 0
+ObjectTemplate.mapMaterial 1 wreck 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.collisionMesh e_vexp_trailbikewreck
+ObjectTemplate.geometry e_vexp_trailbikewreck
+
+ObjectTemplate.create Emitter em_vExp_trailbikewreck02
+ObjectTemplate.template p_vExp_trailbikewreck02
+
+ObjectTemplate.create Particle p_vExp_trailbikewreck02
+ObjectTemplate.collisionPart 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.mapMaterial 0 colormapgloss 0
+ObjectTemplate.mapMaterial 1 wreck 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.collisionMesh e_vexp_trailbikewreck
+ObjectTemplate.geometry e_vexp_trailbikewreck
+
+ObjectTemplate.create Emitter em_vExp_trailbikewreck03
+ObjectTemplate.template p_vExp_trailbikewreck03
+
+ObjectTemplate.create Particle p_vExp_trailbikewreck03
+ObjectTemplate.collisionPart 2
+ObjectTemplate.geometryPart 2
+ObjectTemplate.mapMaterial 0 colormapgloss 0
+ObjectTemplate.mapMaterial 1 wreck 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.collisionMesh e_vexp_trailbikewreck
+ObjectTemplate.geometry e_vexp_trailbikewreck
+
+
+ObjectTemplate.create Emitter em_vExp_trailbikewreck04
+ObjectTemplate.template p_vExp_trailbikewreck04
+
+ObjectTemplate.create Particle p_vExp_trailbikewreck04
+ObjectTemplate.collisionPart 3
+ObjectTemplate.geometryPart 3
+ObjectTemplate.mapMaterial 0 colormapgloss 0
+ObjectTemplate.mapMaterial 1 wreck 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.collisionMesh e_vexp_trailbikewreck
+ObjectTemplate.geometry e_vexp_trailbikewreck
+
+
+include e_vexp_trailbikewreck.tweak

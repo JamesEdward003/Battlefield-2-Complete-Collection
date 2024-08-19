@@ -1,0 +1,13 @@
+rem * Bombs *
+weaponTemplate.create CBU_87_ai
+weaponTemplate.indirect 1
+weaponTemplate.minRange 30.0
+weaponTemplate.maxRange 500.0
+weaponTemplate.setStrength Infantry    8
+weaponTemplate.setStrength LightArmour 31
+weaponTemplate.setStrength HeavyArmour 25
+weaponTemplate.setStrength NavalArmour 3
+weaponTemplate.setStrength Helicopter  1
+weaponTemplate.setStrength Airplane    1
+weaponTemplate.allowedDeviation 45.0
+

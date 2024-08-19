@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh mk77
+CollisionManager.createTemplate mk77
+
+ObjectTemplate.create GenericProjectile mk77
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator SONY:Sony
+ObjectTemplate.collisionMesh mk77
+ObjectTemplate.mapMaterial 0 metal 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry mk77
+
+include mk77.tweak

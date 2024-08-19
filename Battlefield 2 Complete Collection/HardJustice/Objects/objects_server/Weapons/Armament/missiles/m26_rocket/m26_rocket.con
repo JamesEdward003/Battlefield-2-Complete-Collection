@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh m26_rocket
+CollisionManager.createTemplate m26_rocket
+
+ObjectTemplate.create GenericProjectile m26_rocket
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator PERSONAL:SatNav
+ObjectTemplate.collisionMesh m26_rocket
+ObjectTemplate.mapMaterial 0 metal 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry m26_rocket
+
+include m26_rocket.tweak

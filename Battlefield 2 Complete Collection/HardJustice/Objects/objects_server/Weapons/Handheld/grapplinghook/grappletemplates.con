@@ -1,0 +1,73 @@
+ObjectTemplate.create GrapplingHookRope grapplinghookrope
+ObjectTemplate.networkableInfo BasicInfo
+ObjectTemplate.PreCacheObject 1
+ObjectTemplate.setMaxRopeLength 56.0
+ObjectTemplate.setNumberOfLinks 52.0
+ObjectTemplate.Timeout 200.0
+ObjectTemplate.throwStrength 0.0022
+ObjectTemplate.upThrowBoost 0.5 
+ObjectTemplate.degradeThrowStrength 0.8
+ObjectTemplate.throwStrength2 0.0022
+ObjectTemplate.upThrowBoost2 0.39
+ObjectTemplate.degradeThrowStrength2 0.98
+ObjectTemplate.dropStrength 0.3
+ObjectTemplate.upDropBoost 0.6
+ObjectTemplate.degradeDropStrength 0.99
+ObjectTemplate.linkAttachMovement 0.00001
+ObjectTemplate.linkAttachTime 0.5
+ObjectTemplate.dismountCheckOffset 0.25
+ObjectTemplate.minYNormal 0.5
+ObjectTemplate.attachClimberRadius 2.0
+ObjectTemplate.climbingSpeed 2.0
+ObjectTemplate.elasticity 0.2
+ObjectTemplate.airFriction 0.95
+ObjectTemplate.climbableAngle 0.5
+ObjectTemplate.dismountAngle 0.75
+ObjectTemplate.ClimbersAttachForce 0.14
+ObjectTemplate.AwakeTime 5
+
+ObjectTemplate.create RopeLink ropelink
+ObjectTemplate.PreCacheObject 1
+
+ObjectTemplate.create HookLink hookLink
+ObjectTemplate.PreCacheObject 1
+
+ObjectTemplate.create GrapplingHookRopeContainer GrapplingHookRopeContainer
+ObjectTemplate.PreCacheObject 1
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.networkableInfo BasicInfo
+ObjectTemplate.seatAnimationSystem Objects/Weapons/Handheld/grapplinghook/animationSystem.inc
+ObjectTemplate.seatInformation GrapplingHookRopeContainer 0.0/0.5/0.22 0/0/0
+ObjectTemplate.addTemplate GrappleContainerCamera
+ObjectTemplate.setPosition 0/0.5/-0.5
+ObjectTemplate.hasCollisionPhysics 0
+ObjectTemplate.maintainCameraOnExit 1
+ObjectTemplate.autoUseAbility 1
+ObjectTemplate.isOpenVehicle 1
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "GrapplingHook"
+ObjectTemplate.vehicleHud.showInfo 0
+ObjectTemplate.vehicleHud.usePlayerIcon 1
+ObjectTemplate.vehicleHud.useVehicleCommRose 0
+rem ---EndComp ---
+
+ObjectTemplate.create Camera GrappleContainerCamera
+ObjectTemplate.setMinRotation -120/-60/0
+ObjectTemplate.setMaxRotation 120/60/0
+ObjectTemplate.setMaxSpeed 250/250/0
+ObjectTemplate.setAcceleration 1000/1000/0.1
+ObjectTemplate.setInputToYaw PIMouseLookX
+ObjectTemplate.setInputToPitch PIMouseLookY
+ObjectTemplate.CVMFrontChase 0
+ObjectTemplate.CVMNose 0
+ObjectTemplate.CVMFlyBy 0
+
+rem ---BeginComp:VehicleHud ---
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName "Grappling hook container"
+ObjectTemplate.vehicleHud.showInfo 0
+ObjectTemplate.vehicleHud.usePlayerIcon 1
+ObjectTemplate.vehicleHud.useVehicleCommRose 0
+rem ---EndComp ---
+
+

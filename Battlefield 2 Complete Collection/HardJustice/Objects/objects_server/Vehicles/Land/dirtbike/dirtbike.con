@@ -1,0 +1,101 @@
+GeometryTemplate.create BundledMesh dirtbike
+CollisionManager.createTemplate dirtbike
+
+ObjectTemplate.create PlayercontrolObject dirtbike
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator PERSONAL:SatNav
+ObjectTemplate.collisionMesh dirtbike
+ObjectTemplate.mapMaterial 0 metal 0
+ObjectTemplate.mapMaterial 1 cloth 0
+ObjectTemplate.mapMaterial 2 rubber 0
+ObjectTemplate.mapMaterial 3 springs 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry dirtbike
+ObjectTemplate.addTemplate dirtbike_steering
+ObjectTemplate.setPosition 0/0.6307/0.4217
+ObjectTemplate.setRotation 0/-25.0000/0
+ObjectTemplate.addTemplate dirtbike_wheelBack
+ObjectTemplate.setPosition 0/-0.1150/-0.8194
+ObjectTemplate.addTemplate dirtbike_motor_mount
+ObjectTemplate.setPosition 0/0/0
+
+ObjectTemplate.create Rotationalbundle dirtbike_steering
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+ObjectTemplate.addTemplate dirtbike_wheelFront
+ObjectTemplate.setPosition 0/-0.9078/0.0304
+
+ObjectTemplate.create Spring dirtbike_wheelFront
+ObjectTemplate.collisionPart 3
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+ObjectTemplate.create Spring dirtbike_wheelBack
+ObjectTemplate.collisionPart 4
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+ObjectTemplate.create Rotationalbundle dirtbike_motor_mount
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 13
+ObjectTemplate.addTemplate dirtbike_motor
+ObjectTemplate.setPosition 0/0/0.0176
+
+ObjectTemplate.create Engine dirtbike_motor
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate dirtbike_whl_nav_FL
+ObjectTemplate.setPosition -1.0000/-0.1150/0.9000
+ObjectTemplate.addTemplate dirtbike_whl_nav_FR
+ObjectTemplate.setPosition 1.0000/-0.1150/0.9000
+ObjectTemplate.addTemplate dirtbike_whl_BL
+ObjectTemplate.setPosition -1.0000/-0.1150/-0.9000
+ObjectTemplate.addTemplate dirtbike_whl_BR
+ObjectTemplate.setPosition 1.0000/-0.1150/-0.9000
+
+ObjectTemplate.create Rotationalbundle dirtbike_whl_nav_FL
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 9
+ObjectTemplate.addTemplate dirtbike_whl_FL
+
+ObjectTemplate.create Spring dirtbike_whl_FL
+ObjectTemplate.collisionPart 10
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 10
+
+ObjectTemplate.create Rotationalbundle dirtbike_whl_nav_FR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 11
+ObjectTemplate.addTemplate dirtbike_whl_FR
+
+ObjectTemplate.create Spring dirtbike_whl_FR
+ObjectTemplate.collisionPart 12
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 12
+
+ObjectTemplate.create Spring dirtbike_whl_BL
+ObjectTemplate.collisionPart 6
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+
+ObjectTemplate.create Spring dirtbike_whl_BR
+ObjectTemplate.collisionPart 8
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+
+include dirtbike.tweak

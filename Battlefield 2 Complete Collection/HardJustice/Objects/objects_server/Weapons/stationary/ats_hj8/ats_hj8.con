@@ -1,0 +1,38 @@
+GeometryTemplate.create BundledMesh ats_hj8
+CollisionManager.createTemplate ats_hj8
+
+ObjectTemplate.create PlayerControlObject ats_hj8
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator MEI-2:mei
+ObjectTemplate.collisionMesh ats_hj8
+ObjectTemplate.mapMaterial 0 metal_plating 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry ats_hj8
+ObjectTemplate.addTemplate ATS_HJ8_BarrelBase
+ObjectTemplate.setPosition 0.0015/0.5777/0.0017
+
+ObjectTemplate.create RotationalBundle ATS_HJ8_BarrelBase
+ObjectTemplate.collisionPart 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate ATS_HJ8_Barrel
+ObjectTemplate.setPosition -0.0704/0.2491/0
+
+ObjectTemplate.create RotationalBundle ATS_HJ8_Barrel
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+ObjectTemplate.addTemplate ATS_HJ8_sights
+ObjectTemplate.setPosition -0.1176/0.1599/-0.1619
+
+ObjectTemplate.create SimpleObject ATS_HJ8_sights
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+include ats_hj8.tweak

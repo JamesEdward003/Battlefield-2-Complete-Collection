@@ -1,0 +1,18 @@
+GeometryTemplate.create StaticMesh market
+CollisionManager.createTemplate market
+
+ObjectTemplate.create SimpleObject market
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator STRYKERJ-DDB4B9:StrykerJ
+ObjectTemplate.collisionMesh market
+ObjectTemplate.mapMaterial 0 Metal_solid 0
+ObjectTemplate.mapMaterial 1 Penetrable_Cloth 0
+ObjectTemplate.mapMaterial 2 Base 0
+ObjectTemplate.mapMaterial 3 BaseDetail 0
+ObjectTemplate.mapMaterial 4 BaseDetailNDetail 0
+ObjectTemplate.mapMaterial 5 Penetrable_plaster_wall 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry market
+
+include market.tweak

@@ -1,0 +1,175 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/1/4 8:47]
+ObjectTemplate.activeSafe EffectBundle e_vexp_trailbikewreck
+ObjectTemplate.creator "SatNav"
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.preCacheObject 1
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_e_vexp_trailbikewreck_Start
+rem -------------------------------------
+ObjectTemplate.setStartOnEffects 0
+ObjectTemplate.setStopOnEffects 0
+ObjectTemplate.timeToLive CRD_NONE/-1/0/0
+ObjectTemplate.randomAgeFactor CRD_NONE/1/0/0
+ObjectTemplate.startAtCreation 0
+ObjectTemplate.speedFromPhysics 0
+
+ObjectTemplate.activeSafe Sound S_e_vexp_trailbikewreck_Start
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.soundFilename "objects/effects/sounds/explosions/wreck_explosion_01.wav,objects/effects/sounds/explosions/wreck_explosion_02.wav,objects/effects/sounds/explosions/wreck_explosion_03.wav,objects/effects/sounds/explosions/wreck_explosion_04.wav,objects/effects/sounds/explosions/wreck_explosion_05.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 1
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.9/1.1/
+ObjectTemplate.volumeEnvelope 0/1/0/1/1/1/0/0.85/1/
+ObjectTemplate.minDistance 9
+ObjectTemplate.halfVolumeDistance 18
+ObjectTemplate.soundRadius 4
+
+ObjectTemplate.activeSafe Emitter em_vExp_trailbikewreck01
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.floaterMod 0
+ObjectTemplate.preCacheObject 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.template p_vExp_trailbikewreck01
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/2/4/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/6/10/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/2/4/1
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/3/6/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/1/2/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/3/6/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+ObjectTemplate.zRotation CRD_NONE/0/0/0
+ObjectTemplate.zRotationSnap 1
+
+ObjectTemplate.activeSafe Particle p_vExp_trailbikewreck01
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.preCacheObject 1
+ObjectTemplate.geometry e_vexp_trailbikewreck
+ObjectTemplate.geometryPart 0
+ObjectTemplate.usedOnTransparentSurface 0
+ObjectTemplate.collisionMesh e_vexp_trailbikewreck
+ObjectTemplate.mapMaterial 0 colormapgloss 0
+ObjectTemplate.mapMaterial 1 wreck 60
+ObjectTemplate.collisionGroups 60
+ObjectTemplate.mass 20
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.timeToLive CRD_UNIFORM/2.5/3/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.transparencyGraph 0/0/0/1
+ObjectTemplate.transparency CRD_NONE/0/0/0
+
+ObjectTemplate.activeSafe Emitter em_vExp_trailbikewreck02
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.floaterMod 0
+ObjectTemplate.preCacheObject 1
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.template p_vExp_trailbikewreck02
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/2/4/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/6/10/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/2/4/1
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/3/6/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/1/2/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/3/6/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+ObjectTemplate.zRotation CRD_NONE/0/0/0
+ObjectTemplate.zRotationSnap 1
+
+ObjectTemplate.activeSafe Particle p_vExp_trailbikewreck02
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.preCacheObject 1
+ObjectTemplate.geometry e_vexp_trailbikewreck
+ObjectTemplate.geometryPart 1
+ObjectTemplate.usedOnTransparentSurface 0
+ObjectTemplate.collisionMesh e_vexp_trailbikewreck
+ObjectTemplate.mapMaterial 0 colormapgloss 0
+ObjectTemplate.mapMaterial 1 wreck 60
+ObjectTemplate.collisionGroups 60
+ObjectTemplate.mass 20
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.timeToLive CRD_UNIFORM/2.5/3/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.transparencyGraph 0/0/0/1
+ObjectTemplate.transparency CRD_NONE/0/0/0
+
+ObjectTemplate.activeSafe Emitter em_vExp_trailbikewreck03
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.preCacheObject 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.template p_vExp_trailbikewreck03
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/2/4/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/6/10/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/2/4/1
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/6/10/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/2/4/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/3/6/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+ObjectTemplate.zRotation CRD_NONE/0/0/0
+ObjectTemplate.zRotationSnap 1
+
+ObjectTemplate.activeSafe Particle p_vExp_trailbikewreck03
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.preCacheObject 1
+ObjectTemplate.geometry e_vexp_trailbikewreck
+ObjectTemplate.geometryPart 2
+ObjectTemplate.usedOnTransparentSurface 0
+ObjectTemplate.collisionMesh e_vexp_trailbikewreck
+ObjectTemplate.mapMaterial 0 colormapgloss 0
+ObjectTemplate.mapMaterial 1 wreck 60
+ObjectTemplate.collisionGroups 60
+ObjectTemplate.mass 20
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.timeToLive CRD_UNIFORM/2.5/3/0
+ObjectTemplate.drag CRD_NONE/2/2/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.transparencyGraph 0/0/0/1
+ObjectTemplate.transparency CRD_NONE/0/0/0
+
+ObjectTemplate.activeSafe Emitter em_vExp_trailbikewreck04
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.preCacheObject 1
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.template p_vExp_trailbikewreck04
+ObjectTemplate.positionalSpeedInDof CRD_UNIFORM/2/4/1
+ObjectTemplate.positionalSpeedInUp CRD_UNIFORM/6/10/0
+ObjectTemplate.positionalSpeedInRight CRD_UNIFORM/2/4/1
+ObjectTemplate.rotationalSpeedInDof CRD_UNIFORM/6/10/1
+ObjectTemplate.rotationalSpeedInUp CRD_UNIFORM/2/4/1
+ObjectTemplate.rotationalSpeedInRight CRD_UNIFORM/3/6/1
+ObjectTemplate.startRotation CRD_NONE/0/0/0
+ObjectTemplate.zRotation CRD_NONE/0/0/0
+ObjectTemplate.zRotationSnap 1
+
+ObjectTemplate.activeSafe Particle p_vExp_trailbikewreck04
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.preCacheObject 1
+ObjectTemplate.geometry e_vexp_trailbikewreck
+ObjectTemplate.geometryPart 3
+ObjectTemplate.usedOnTransparentSurface 0
+ObjectTemplate.collisionMesh e_vexp_trailbikewreck
+ObjectTemplate.mapMaterial 0 colormapgloss 0
+ObjectTemplate.mapMaterial 1 wreck 60
+ObjectTemplate.collisionGroups 60
+ObjectTemplate.mass 20
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.timeToLive CRD_UNIFORM/2.5/3/0
+ObjectTemplate.sizeModifier 1/1/1
+ObjectTemplate.transparencyGraph 0/0/0/1
+ObjectTemplate.transparency CRD_NONE/0/0/0
+

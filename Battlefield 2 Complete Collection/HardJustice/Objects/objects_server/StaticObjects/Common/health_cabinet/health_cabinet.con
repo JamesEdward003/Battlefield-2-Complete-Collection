@@ -1,0 +1,16 @@
+GeometryTemplate.create StaticMesh health_cabinet
+CollisionManager.createTemplate health_cabinet
+
+ObjectTemplate.create SupplyObject health_cabinet
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:RadarOReilly
+ObjectTemplate.collisionMesh health_cabinet
+ObjectTemplate.mapMaterial 0 Metal_plate_thin 0
+ObjectTemplate.mapMaterial 1 Wood_solid 0
+ObjectTemplate.mapMaterial 2 Cardboard_box 0
+ObjectTemplate.mapMaterial 3 Glass_vehicle 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry health_cabinet
+
+include health_cabinet.tweak

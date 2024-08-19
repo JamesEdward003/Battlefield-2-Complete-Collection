@@ -1,0 +1,14 @@
+GeometryTemplate.create BundledMesh b57_nuke
+CollisionManager.createTemplate b57_nuke
+
+ObjectTemplate.create GenericProjectile b57_nuke
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator SatNav
+ObjectTemplate.collisionMesh b57_nuke
+ObjectTemplate.mapMaterial 0 metal 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry b57_nuke
+
+
+include b57_nuke.tweak

@@ -1,0 +1,6 @@
+ObjectTemplate.create rotor a10w2rotor
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CAMBO:Cihangir
+ObjectTemplate.geometry a10wrotor
+
+include a10w2rotor.tweak

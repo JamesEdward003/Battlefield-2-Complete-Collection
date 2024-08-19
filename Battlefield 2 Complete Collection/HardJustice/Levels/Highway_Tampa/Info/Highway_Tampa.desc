@@ -1,0 +1,17 @@
+<map gsid="602">
+	<name> Highway Tampa </name>
+	<briefing locid="LOADINGSCREEN_MAPDESCRIPTION_highwaytampa">map description for modders maps not localized (english only)</briefing>
+	<music> common/sound/menu/music/load_MEC_music.ogg </music>
+	<modes>
+		<mode type="gpm_cq">
+			<maptype ai="1" players="16" type="doubleassault" locid="GAMEMODE_DESCRIPTION_doubleassault">Unlocalized test for this mode on this map</maptype>
+			<maptype players="32" type="doubleassault" locid="GAMEMODE_DESCRIPTION_headon">Unlocalized test for this mode on this map</maptype>
+			<maptype players="64" type="doubleassault" locid="GAMEMODE_DESCRIPTION_headon">Unlocalized test for this mode on this map</maptype>
+		</mode>
+		<mode type="gpm_coop">
+             <maptype ai="1" players="16" type="assault" locid="GAMEMODE_DESCRIPTION_COOP_assault"></maptype>
+             <maptype ai="1" players="32" type="doubleassault" locid="GAMEMODE_DESCRIPTION_COOP_doubleassault"></maptype>
+             <maptype ai="1" players="64" type="headon" locid="GAMEMODE_DESCRIPTION_COOP_headon"></maptype>
+      	</mode>
+	</modes>
+</map>

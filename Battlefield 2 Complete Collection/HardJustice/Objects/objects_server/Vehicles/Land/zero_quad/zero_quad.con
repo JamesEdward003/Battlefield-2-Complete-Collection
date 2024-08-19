@@ -1,0 +1,85 @@
+GeometryTemplate.create BundledMesh zero_quad
+CollisionManager.createTemplate zero_quad
+
+ObjectTemplate.create PlayerControlObject zero_quad
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator DASAS:das
+ObjectTemplate.collisionMesh zero_quad
+ObjectTemplate.mapMaterial 0 light_armored_vehicle 0
+ObjectTemplate.mapMaterial 1 Wreck 0
+ObjectTemplate.mapMaterial 2 Rubber 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry zero_quad
+ObjectTemplate.addTemplate zero_quad_SteeringWheel
+ObjectTemplate.setPosition 0/0.7746/0.2661
+ObjectTemplate.setRotation 0/89.7963/0
+ObjectTemplate.addTemplate zero_quad_zMotor
+ObjectTemplate.setPosition 0/-0.0616/0.1542
+
+ObjectTemplate.create RotationalBundle zero_quad_SteeringWheel
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+
+ObjectTemplate.create Engine zero_quad_zMotor
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+ObjectTemplate.addTemplate zero_quad_whl_Nav_BL
+ObjectTemplate.setPosition -0.5851/-0.0534/-1.0182
+ObjectTemplate.addTemplate zero_quad_whl_Nav_BR
+ObjectTemplate.setPosition 0.5850/-0.0534/-1.0182
+ObjectTemplate.addTemplate zero_quad_whl_Nav_FL
+ObjectTemplate.setPosition -0.5612/-0.0407/0.4687
+ObjectTemplate.addTemplate zero_quad_whl_Nav_FR
+ObjectTemplate.setPosition 0.5612/-0.0404/0.4687
+
+ObjectTemplate.create Bundle zero_quad_whl_Nav_BL
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+ObjectTemplate.addTemplate zero_quad_whl_BL
+
+ObjectTemplate.create Spring zero_quad_whl_BL
+ObjectTemplate.collisionPart 4
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+ObjectTemplate.create Bundle zero_quad_whl_Nav_BR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+ObjectTemplate.addTemplate zero_quad_whl_BR
+
+ObjectTemplate.create Spring zero_quad_whl_BR
+ObjectTemplate.collisionPart 6
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+
+ObjectTemplate.create RotationalBundle zero_quad_whl_Nav_FL
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+ObjectTemplate.addTemplate zero_quad_whl_FL
+
+ObjectTemplate.create Spring zero_quad_whl_FL
+ObjectTemplate.collisionPart 8
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+
+ObjectTemplate.create RotationalBundle zero_quad_whl_Nav_FR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 9
+ObjectTemplate.addTemplate zero_quad_whl_FR
+
+ObjectTemplate.create Spring zero_quad_whl_FR
+ObjectTemplate.collisionPart 10
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 10
+
+include zero_quad.tweak

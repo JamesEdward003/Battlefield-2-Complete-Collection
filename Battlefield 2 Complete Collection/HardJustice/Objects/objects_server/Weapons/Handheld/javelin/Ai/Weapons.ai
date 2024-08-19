@@ -1,0 +1,28 @@
+weaponTemplate.create javelin_AI
+weaponTemplate.indirect 0
+weaponTemplate.minRange 30.0
+weaponTemplate.maxRange 125.0
+weaponTemplate.optimalRangePercentage 75
+weaponTemplate.setFiringPose Crouching
+weaponTemplate.setStrength Infantry    0.0
+weaponTemplate.setStrength LightArmour 6.0
+weaponTemplate.setStrength HeavyArmour 25.0
+weaponTemplate.setStrength NavalArmour 0.0
+weaponTemplate.setStrength Helicopter  0.0
+weaponTemplate.setStrength AirPlane    0.0
+weaponTemplate.setFiresThroughTransparent 0
+
+
+weaponTemplate.create javelin_direct_AI
+weaponTemplate.indirect 0
+weaponTemplate.minRange 30.0
+weaponTemplate.maxRange 150.0
+weaponTemplate.optimalRangePercentage 90
+weaponTemplate.setFiringPose Crouching
+weaponTemplate.setStrength Infantry    0.0
+weaponTemplate.setStrength LightArmour 9.0
+weaponTemplate.setStrength HeavyArmour 3.0
+weaponTemplate.setStrength NavalArmour 0.0
+weaponTemplate.setStrength Helicopter  1.0
+weaponTemplate.setStrength AirPlane    0.0
+weaponTemplate.setFiresThroughTransparent 0

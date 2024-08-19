@@ -1,0 +1,18 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/1/4 7:47]
+GeometryTemplate.doNotGenerateLightmaps 0
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+GeometryTemplate.glowing 0
+GeometryTemplate.noLighting 0
+ObjectTemplate.activeSafe SimpleObject wpbunker_door_right
+ObjectTemplate.creator GAME:RadarOReilly
+ObjectTemplate.modifiedByUser "RadarOReilly"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry wpbunker_door_right
+ObjectTemplate.setCollisionMesh wpbunker_door_right
+ObjectTemplate.mapMaterial 0 Metal_solid 21
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+

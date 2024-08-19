@@ -1,0 +1,6 @@
+ObjectTemplate.create GenericFireArm m95_barret
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator JSA-1:jsa
+ObjectTemplate.geometry ussni_m95_barret
+
+include m95_barret.tweak

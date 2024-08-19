@@ -1,0 +1,16 @@
+<map gsid="40">
+	<name> Omaha_Beach_2008 </name>
+	<briefing locid="A remake of the classic Desert Combat map Omaha Beach for the HardJustice MOD.">map description for modders maps not localized (english only)</briefing>
+	<music> levels/Omaha_Beach_2008/Music/omaha_beach_2008.ogg </music>
+	<modes>
+		<mode type="gpm_cq">
+			<maptype ai="1" players="32" type="headon" locid="GAMEMODE_DESCRIPTION_headon">Unlocalized test for this mode on this map</maptype>
+			<maptype ai="1" players="64" type="headon" locid="GAMEMODE_DESCRIPTION_headon">Unlocalized test for this mode on this map</maptype>
+		</mode>
+		<mode type="gpm_coop">
+			<maptype ai="1" players="32" type="headon" locid="GAMEMODE_DESCRIPTION_COOP_assault">Unlocalized test for this mode on this map</maptype>
+			<maptype ai="1" players="64" type="headon" locid="GAMEMODE_DESCRIPTION_COOP_assault">Unlocalized test for this mode on this map</maptype>
+		</mode>
+	</modes>
+</map>
+

@@ -1,0 +1,15 @@
+GeometryTemplate.create StaticMesh bunker_small
+CollisionManager.createTemplate bunker_small
+
+ObjectTemplate.create SimpleObject bunker_small
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh bunker_small
+ObjectTemplate.mapMaterial 0 concrete1 0
+ObjectTemplate.mapMaterial 1 metal_solid 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry bunker_small
+ObjectTemplate.anchor 0/0/0
+
+include bunker_small.tweak

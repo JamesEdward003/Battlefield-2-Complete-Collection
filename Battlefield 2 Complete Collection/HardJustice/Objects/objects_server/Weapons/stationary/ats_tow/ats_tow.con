@@ -1,0 +1,38 @@
+GeometryTemplate.create BundledMesh ats_tow
+CollisionManager.createTemplate ats_tow
+
+ObjectTemplate.create PlayerControlObject ats_tow
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator MEI-2:mei
+ObjectTemplate.collisionMesh ats_tow
+ObjectTemplate.mapMaterial 0 metal 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry ats_tow
+ObjectTemplate.addTemplate ATS_TOW_barrelBase
+ObjectTemplate.setPosition 0.0028/0.8786/0.0026
+
+ObjectTemplate.create RotationalBundle ATS_TOW_barrelBase
+ObjectTemplate.collisionPart 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate ATS_TOW_barrel
+ObjectTemplate.setPosition -0.0038/0.0747/0
+
+ObjectTemplate.create RotationalBundle ATS_TOW_barrel
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+ObjectTemplate.addTemplate ATS_TOW_sights
+ObjectTemplate.setPosition -0.2614/0.1735/-0.2248
+
+ObjectTemplate.create SimpleObject ATS_TOW_sights
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+include ats_tow.tweak

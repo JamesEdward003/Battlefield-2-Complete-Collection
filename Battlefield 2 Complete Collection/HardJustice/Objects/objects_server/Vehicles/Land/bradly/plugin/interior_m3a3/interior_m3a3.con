@@ -1,0 +1,9 @@
+GeometryTemplate.create BundledMesh interior_m3a3
+
+ObjectTemplate.create SimpleObject interior_m3a3
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry interior_m3a3
+
+include interior_m3a3.tweak

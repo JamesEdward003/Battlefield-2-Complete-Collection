@@ -1,0 +1,13 @@
+GeometryTemplate.doNotGenerateLightmaps 0
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe SimpleObject barrel_black
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry barrel_black
+ObjectTemplate.setCollisionMesh barrel_black
+ObjectTemplate.mapMaterial 0 metal_thin 20
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+

@@ -1,0 +1,48 @@
+ObjectTemplate.create Kit CH2_Sniper
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.kitType Sniper
+ObjectTemplate.aiTemplate Sniper
+ObjectTemplate.geometry CH_Kits
+ObjectTemplate.geometry.kit 6
+ObjectTemplate.geometry.dropGeom 16
+ObjectTemplate.setNetworkableInfo KitInfo
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.unlockIndex 6
+ObjectTemplate.cullRadiusScale 2.4
+rem -------------------------------------
+ObjectTemplate.addTemplate USMIN_Claymore
+ObjectTemplate.addTemplate chrif_type85_1
+ObjectTemplate.addTemplate USHGR_M67
+ObjectTemplate.addTemplate kni_knife
+ObjectTemplate.addTemplate rurif_dragunov
+ObjectTemplate.addTemplate m14lm
+ObjectTemplate.addTemplate grapplinghook
+ObjectTemplate.addTemplate UnlockCH2Sniper
+rem -------------------------------------
+
+ObjectTemplate.createComponent AbilityHud
+ObjectTemplate.abilityHud.healingSound S_Heal
+ObjectTemplate.abilityHud.repairingSound S_Repair
+ObjectTemplate.abilityHud.ammoSound S_Resupply
+
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName 		"CH2 SNIPER"
+ObjectTemplate.vehicleHud.miniMapIcon		"Ingame\Kits\Icons\kit_Sniper_outline.tga"
+ObjectTemplate.vehicleHud.vehicleIcon		"Ingame\Kits\Icons\kit_Sniper.tga"
+ObjectTemplate.vehicleHud.pantingSound		S_SprintBreath
+ObjectTemplate.vehicleHud.injurySound		S_Injury
+ObjectTemplate.vehicleHud.vehicleType 		7
+
+ObjectTemplate.sprintStaminaDissipationFactor 0.6
+
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage	"sniper_spotted"
+rem ---EndComp ---
+
+ObjectTemplate.create ItemContainer UnlockCH2Sniper
+ObjectTemplate.addTemplate ussni_m95_barret
+ObjectTemplate.replaceItem rurif_dragunov
+ObjectTemplate.addTemplate chpis_qsz92_silencer
+ObjectTemplate.replaceItem chrif_type85_1
+ObjectTemplate.unlockLevel 1

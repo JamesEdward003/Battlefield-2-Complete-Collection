@@ -1,0 +1,69 @@
+ObjectTemplate.create Kit MEC_Support
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.kitType Support
+ObjectTemplate.aiTemplate Support
+ObjectTemplate.geometry MEC_Kits
+ObjectTemplate.geometry.kit 1
+ObjectTemplate.geometry.dropGeom 14
+ObjectTemplate.setNetworkableInfo KitInfo
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.dropHeadwear mec_helmet
+ObjectTemplate.abilityRestoreRate 0.04
+ObjectTemplate.abilityInVehicleRadius 7
+ObjectTemplate.abilityInVehicleStrength 0.2
+ObjectTemplate.abilityInVehicleMaterial 91
+ObjectTemplate.unlockIndex 5
+ObjectTemplate.cullRadiusScale 2.4
+rem -------------------------------------
+ObjectTemplate.addTemplate RUPIS_Baghira
+ObjectTemplate.addTemplate USHGR_M67
+ObjectTemplate.addTemplate kni_knife
+ObjectTemplate.addTemplate ammokit
+ObjectTemplate.addTemplate UnlockMECSupport
+ObjectTemplate.addTemplate RULMG_RPK74
+Objecttemplate.addTemplate grapplinghook
+ObjectTemplate.addTemplate ParachuteLauncher
+ObjectTemplate.addTemplate UnlockMECSupport2
+ObjectTemplate.addTemplate m14lm
+rem -------------------------------------
+
+ObjectTemplate.createComponent Ability
+ObjectTemplate.ability.hasAmmoAbility 1
+
+ObjectTemplate.createComponent AbilityHud
+ObjectTemplate.abilityHud.healingSound S_Heal
+ObjectTemplate.abilityHud.repairingSound S_Repair
+ObjectTemplate.abilityHud.ammoSound S_Resupply
+
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName 		"HUD_TEXT_MENU_SPAWN_KIT_SUPPORT"
+ObjectTemplate.vehicleHud.miniMapIcon		"Ingame\Kits\Icons\kit_Heavy_Assault_outline.tga"
+ObjectTemplate.vehicleHud.vehicleIcon		"Ingame\Kits\Icons\kit_Heavy_Assault.tga"
+ObjectTemplate.vehicleHud.spottedIcon 		"Ingame\Player\Icons\Minimap\mini_Soldier.dds"
+ObjectTemplate.vehicleHud.abilityIcon 		"Ingame\Weapons\Icons\Hud\SpecialKitIcons\kevlarVest.tga"
+ObjectTemplate.vehicleHud.pantingSound		S_SprintBreath
+ObjectTemplate.vehicleHud.injurySound		S_Injury
+
+ObjectTemplate.sprintStaminaDissipationFactor 	0.6
+
+rem ---BeginComp:HelpHud ---
+ObjectTemplate.createComponent HelpHud
+ObjectTemplate.HelpHud.helpStringKey "HUD_HELP_KIT_SUPPORT_inVehicle"
+ObjectTemplate.HelpHud.helpSoundKey "HUD_HELP_KIT_SUPPORT_inVehicle"
+rem ---EndComp ---
+
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage	"infantry_spotted"
+rem ---EndComp ---
+
+ObjectTemplate.create ItemContainer UnlockMECSupport
+ObjectTemplate.addTemplate sasrif_mg36
+ObjectTemplate.unlockLevel 1
+
+ObjectTemplate.create ItemContainer UnlockMECSupport2
+ObjectTemplate.addTemplate RULMG_PKM
+ObjectTemplate.replaceItem RULMG_RPK74
+ObjectTemplate.replaceItem sasrif_mg36
+ObjectTemplate.unlockLevel 2
+

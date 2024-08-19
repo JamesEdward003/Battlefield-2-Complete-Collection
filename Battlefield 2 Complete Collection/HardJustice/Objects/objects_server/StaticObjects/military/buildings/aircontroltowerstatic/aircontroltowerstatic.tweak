@@ -1,0 +1,18 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/1/4 7:47]
+GeometryTemplate.doNotGenerateLightmaps 0
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+GeometryTemplate.glowing 0
+GeometryTemplate.noLighting 0
+ObjectTemplate.activeSafe SimpleObject aircontroltowerstatic
+ObjectTemplate.creator DGO-1:dgo
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry aircontroltowerstatic
+ObjectTemplate.setCollisionMesh aircontrolTower
+ObjectTemplate.mapMaterial 0 cgfx_shader1_cgfxShader1 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+

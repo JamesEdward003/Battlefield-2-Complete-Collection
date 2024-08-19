@@ -1,0 +1,6 @@
+ObjectTemplate.create GenericFireArm at_mine2
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator JSA-1:jsa
+ObjectTemplate.geometry at_mine
+
+include at_mine2.tweak

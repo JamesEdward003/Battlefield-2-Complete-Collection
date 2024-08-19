@@ -1,0 +1,23 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 12:52]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe SimpleObject hmmv_crows_controls_js
+ObjectTemplate.creator STUDIO:J-MAR
+ObjectTemplate.modifiedByUser "J-MAR"
+ObjectTemplate.saveInSeparateFile 1
+rem ---BeginComp:Ik ---
+ObjectTemplate.createComponent Ik
+ObjectTemplate.ik.positionLeft -0.361835/-0.249789/-0.189969
+ObjectTemplate.ik.rotationLeft -91.7819/-82.4384/-86.6862
+ObjectTemplate.ik.positionRight 0.0174122/0.0544465/-0.0937635
+ObjectTemplate.ik.rotationRight -94.8511/17.1308/106.905
+ObjectTemplate.ik.poleVectorRight 0.193044/-0.0457326/0.074864
+rem ---EndComp ---
+ObjectTemplate.geometry hmmv_crows_controls_js
+ObjectTemplate.setCollisionMesh hmmv_crows_controls_js
+ObjectTemplate.mapMaterial 0 CrowsControl 26
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+

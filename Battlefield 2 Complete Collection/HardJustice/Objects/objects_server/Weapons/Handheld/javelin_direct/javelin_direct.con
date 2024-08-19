@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh javelin_direct
+CollisionManager.createTemplate javelin_direct
+
+ObjectTemplate.create GenericFireArm javelin_direct
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh javelin_direct
+ObjectTemplate.mapMaterial 0 Collision_Material 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry javelin_direct
+
+include javelin_direct.tweak

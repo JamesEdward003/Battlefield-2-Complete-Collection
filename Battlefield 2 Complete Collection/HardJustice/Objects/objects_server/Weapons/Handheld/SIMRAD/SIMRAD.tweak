@@ -1,0 +1,122 @@
+rem *** Generated with Bf2Editor.exe [created: 2004/10/1 17:1]
+ObjectTemplate.activeSafe GenericFireArm simrad
+ObjectTemplate.creator TLO-1:tlo
+ObjectTemplate.modifiedByUser LJO
+ObjectTemplate.setNetworkableInfo HandFireArmsInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.preCacheObject 1
+rem ---BeginComp:WeaponHud ---
+ObjectTemplate.createComponent WeaponHud
+ObjectTemplate.weaponHud.weaponIcon Ingame\Weapons\Icons\Hud\USLMG_M249SAW.tga
+ObjectTemplate.weaponHud.altWeaponIcon Ingame\Weapons\Icons\Hud\USLMG_M249SAW_mini.tga
+ObjectTemplate.weaponHud.specialAbilityIcon Ingame\Weapons\Icons\Hud\SpecialKitIcons\laserpainter.tga
+ObjectTemplate.weaponHud.crosshairIcon Ingame\Weapons\Icons\Hud\LaserPainter\laserPainterOff.tga
+ObjectTemplate.weaponHud.altCrosshairIcon Ingame\Weapons\Icons\Hud\LaserPainter\laserPainterOn.tga
+ObjectTemplate.weaponHud.selectIcon Ingame\Weapons\Icons\Hud\Selection\simrad.tga
+ObjectTemplate.weaponHud.guiIndex 0
+ObjectTemplate.weaponHud.altGuiIndex 100
+ObjectTemplate.weaponHud.hasFireRate 0
+ObjectTemplate.weaponHud.showInfo 0
+rem ---EndComp ---
+rem ---BeginComp:helpHud ---
+ObjectTemplate.createComponent HelpHud
+ObjectTemplate.HelpHud.altHelpStringKey HUD_HELP_WEAPON_HANDHELD_SIMRAD_CONTROLS_transmitTargetCoordinates
+ObjectTemplate.HelpHud.altHelpSoundKey "SIMRAD"
+rem ---EndComp:helpHud ---
+rem ---BeginComp:LPFireComp ---
+ObjectTemplate.createComponent LPFireComp
+ObjectTemplate.fire.fireInCameraDof 1
+ObjectTemplate.fire.radioMessageDelay 1
+rem ---EndComp ---
+rem ---BeginComp:SoldierDeviationComp ---
+ObjectTemplate.createComponent SoldierDeviationComp
+ObjectTemplate.deviation.setFireDev 3.5 0.25 1
+ObjectTemplate.deviation.minDev 0.75
+ObjectTemplate.deviation.setTurnDev 0 0 0 0
+ObjectTemplate.deviation.setSpeedDev 2.25 0.2 0.2 1
+ObjectTemplate.deviation.setMiscDev 2.5 2.5 0.2
+rem ---EndComp ---
+rem ---BeginComp:DefaultSoundComp ---
+ObjectTemplate.createComponent DefaultSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultAnimationComp ---
+ObjectTemplate.createComponent DefaultAnimationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultZoomComp ---
+ObjectTemplate.createComponent DefaultZoomComp
+ObjectTemplate.zoom.zoomDelay 0.15
+ObjectTemplate.zoom.zoomLod 1
+ObjectTemplate.zoom.addZoomFactor 0
+ObjectTemplate.zoom.addZoomFactor 0.8
+ObjectTemplate.zoom.changeFovDelay 0.1
+rem ---EndComp ---
+rem ---BeginComp:LPTargetComp ---
+ObjectTemplate.createComponent LPTargetComp
+ObjectTemplate.target.maxDistance 2000
+ObjectTemplate.target.targetSystem TSLaserGuided
+ObjectTemplate.target.connectionEffect e_simradscope
+ObjectTemplate.target.targetObjectTemplate LaserPainterTarget
+rem ---EndComp ---
+ObjectTemplate.geometry SIMRAD
+ObjectTemplate.setCollisionMesh simrad
+ObjectTemplate.mapMaterial 0 Rubber 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+rem -------------------------------------
+ObjectTemplate.addTemplate S_simrad_Fire1P
+ObjectTemplate.addTemplate S_simrad_Fire1P_Outdoor
+ObjectTemplate.addTemplate S_simrad_Fire3P
+ObjectTemplate.addTemplate S_simrad_BoltClick
+ObjectTemplate.addTemplate S_simrad_TriggerClick
+ObjectTemplate.addTemplate S_simrad_SwitchFireRate
+ObjectTemplate.addTemplate S_simrad_Reload1P
+ObjectTemplate.addTemplate S_simrad_Reload3P
+ObjectTemplate.addTemplate S_simrad_Deploy1P
+ObjectTemplate.addTemplate S_simrad_Deploy3P
+ObjectTemplate.addTemplate S_simrad_Zoom
+ObjectTemplate.addTemplate e_simradscope
+ObjectTemplate.setPosition 0.00026271/0.0118544/-0.0446282
+rem -------------------------------------
+ObjectTemplate.animationSystem1P Objects/Weapons/Handheld/simrad/AnimationSystem1p.inc
+ObjectTemplate.animationSystem3P Objects/Weapons/Handheld/simrad/AnimationSystem3p.inc
+ObjectTemplate.velocity 1000
+ObjectTemplate.itemIndex 6
+ObjectTemplate.delayToUse 0.958
+
+ObjectTemplate.activeSafe Sound S_simrad_Fire1P
+ObjectTemplate.modifiedByUser LJO
+
+
+ObjectTemplate.activeSafe Sound S_simrad_Fire1P_Outdoor
+ObjectTemplate.modifiedByUser LJO
+
+ObjectTemplate.activeSafe Sound S_simrad_Fire3P
+ObjectTemplate.modifiedByUser LJO
+
+
+ObjectTemplate.activeSafe Sound S_simrad_BoltClick
+ObjectTemplate.modifiedByUser LJO
+
+ObjectTemplate.activeSafe Sound S_simrad_TriggerClick
+ObjectTemplate.modifiedByUser LJO
+
+ObjectTemplate.activeSafe Sound S_simrad_SwitchFireRate
+ObjectTemplate.modifiedByUser LJO
+
+ObjectTemplate.activeSafe Sound S_simrad_Reload1P
+ObjectTemplate.modifiedByUser LJO
+
+ObjectTemplate.activeSafe Sound S_simrad_Reload3P
+ObjectTemplate.modifiedByUser LJO
+
+ObjectTemplate.activeSafe Sound S_simrad_Deploy1P
+ObjectTemplate.modifiedByUser LJO
+
+
+ObjectTemplate.activeSafe Sound S_simrad_Deploy3P
+ObjectTemplate.modifiedByUser LJO
+
+
+ObjectTemplate.activeSafe Sound S_simrad_Zoom
+ObjectTemplate.modifiedByUser nfe

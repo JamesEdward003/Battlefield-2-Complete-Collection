@@ -1,0 +1,41 @@
+GeometryTemplate.create BundledMesh igla_tech
+CollisionManager.createTemplate igla_tech
+
+ObjectTemplate.create PlayerControlObject igla_tech
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator MEI-2:mei
+ObjectTemplate.collisionMesh igla_djigit
+ObjectTemplate.mapMaterial 0 Armor_1_metal_plating 0
+ObjectTemplate.mapMaterial 1 Rubber 0
+ObjectTemplate.mapMaterial 2 Plastic 0
+ObjectTemplate.mapMaterial 3 Glass_vehicle 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry igla_tech
+ObjectTemplate.addTemplate igla_techSeat
+ObjectTemplate.setPosition 0/0.3371/0
+
+ObjectTemplate.create RotationalBundle igla_techSeat
+ObjectTemplate.collisionPart 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate igla_techTop
+ObjectTemplate.setPosition 0/0.6239/0.0060
+
+ObjectTemplate.create RotationalBundle igla_techTop
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+ObjectTemplate.addTemplate igla_techHud
+ObjectTemplate.setPosition 0/-0.9586/-0.0060
+
+ObjectTemplate.create RotationalBundle igla_techHud
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+include igla_tech.tweak

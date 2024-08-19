@@ -1,0 +1,52 @@
+ObjectTemplate.create Kit MEC2_Specops
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.kitType Specops
+ObjectTemplate.aiTemplate Specops
+ObjectTemplate.geometry MEC_Kits
+ObjectTemplate.geometry.kit 2
+ObjectTemplate.geometry.dropGeom 10
+ObjectTemplate.setNetworkableInfo KitInfo
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.unlockIndex 4
+ObjectTemplate.cullRadiusScale 2.4
+rem -------------------------------------
+ObjectTemplate.addTemplate RUPIS_Baghira_silencer 
+ObjectTemplate.addTemplate USHGR_M67
+ObjectTemplate.addTemplate kni_knife
+ObjectTemplate.addTemplate c4_explosives
+ObjectTemplate.addTemplate rurrif_ak74u
+ObjectTemplate.addTemplate m14lm
+Objecttemplate.addTemplate grapplinghook
+ObjectTemplate.addTemplate UnlockMEC2Specops
+ObjectTemplate.addTemplate UnlockMEC2Specops2
+rem -------------------------------------
+
+ObjectTemplate.createComponent AbilityHud
+ObjectTemplate.abilityHud.ammoSound S_Resupply
+ObjectTemplate.abilityHud.healingSound S_Heal
+ObjectTemplate.abilityHud.repairingSound S_Repair
+
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName 		"MEC2 SPECIALFORCES"
+ObjectTemplate.vehicleHud.miniMapIcon		"Ingame\Kits\Icons\kit_Specops_outline.tga"
+ObjectTemplate.vehicleHud.vehicleIcon		"Ingame\Kits\Icons\kit_Specops.tga"
+ObjectTemplate.vehicleHud.spottedIcon 		"Ingame\Player\Icons\Minimap\mini_Soldier.dds"
+ObjectTemplate.vehicleHud.pantingSound		S_SprintBreath
+ObjectTemplate.vehicleHud.injurySound		S_Injury
+
+ObjectTemplate.sprintStaminaDissipationFactor 	0.2
+
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage	"infantry_spotted"
+rem ---EndComp ---
+
+ObjectTemplate.create ItemContainer UnlockMEC2Specops
+ObjectTemplate.addTemplate usrif_g36c
+ObjectTemplate.unlockLevel 1
+
+ObjectTemplate.create ItemContainer UnlockMEC2Specops2
+ObjectTemplate.addTemplate USRIF_fnscarl
+ObjectTemplate.replaceItem usrif_g36c
+ObjectTemplate.replaceItem rurrif_ak74u
+ObjectTemplate.unlockLevel 2

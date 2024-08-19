@@ -1,0 +1,22 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/8/12 5:27]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe Rotor naw_apache_tailrotor
+ObjectTemplate.creator JEFFE_XP:jeffev
+ObjectTemplate.modifiedByUser "jeffev"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry naw_apache_tailrotor
+ObjectTemplate.setCollisionMesh naw_apache_tailrotor
+ObjectTemplate.mapMaterial 0 col_rotors 105
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.changeLodAt 0.15
+ObjectTemplate.tolerance 9.76565e-005
+ObjectTemplate.rotationSpeedMod 2.5
+ObjectTemplate.rotationSpeedModBlur 0.1
+ObjectTemplate.rotationAxle 1
+ObjectTemplate.engineName naw_apache_Tail_Engine
+

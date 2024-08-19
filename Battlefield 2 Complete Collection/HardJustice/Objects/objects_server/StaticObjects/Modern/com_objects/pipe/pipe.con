@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh pipe
+CollisionManager.createTemplate pipe
+
+ObjectTemplate.create SimpleObject pipe
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator STRYKERJ-DDB4B9:StrykerJ
+ObjectTemplate.collisionMesh pipe
+ObjectTemplate.mapMaterial 0 Metal_plate_thin 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry pipe
+
+include pipe.tweak

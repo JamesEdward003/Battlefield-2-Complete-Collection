@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh repair_box
+CollisionManager.createTemplate repair_box
+
+ObjectTemplate.create SupplyObject repair_box
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_OReilly
+ObjectTemplate.collisionMesh repair_box
+ObjectTemplate.mapMaterial 0 metal_thin 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry repair_box
+
+include repair_box.tweak

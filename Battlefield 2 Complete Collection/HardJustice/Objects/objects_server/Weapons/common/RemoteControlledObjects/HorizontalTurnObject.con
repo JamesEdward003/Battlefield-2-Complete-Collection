@@ -1,0 +1,4 @@
+ObjectTemplate.create TurnableRemoteControlledObject HorizontalTurnObject
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.rcType RCHorizontalTurn
+ObjectTemplate.turnVelocity 1

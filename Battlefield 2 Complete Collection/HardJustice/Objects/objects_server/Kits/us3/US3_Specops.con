@@ -1,0 +1,68 @@
+ObjectTemplate.create Kit US3_Specops
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.kitType Specops
+ObjectTemplate.aiTemplate Specops
+ObjectTemplate.geometry US_Kits
+ObjectTemplate.geometry.kit 0
+ObjectTemplate.geometry.dropGeom 10
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.abilityRestoreRate 0.05
+ObjectTemplate.abilityInVehicleRadius 7
+ObjectTemplate.abilityInVehicleStrength 0.25
+ObjectTemplate.abilityInVehicleMaterial 73
+ObjectTemplate.unlockIndex 4
+ObjectTemplate.cullRadiusScale 2.5
+rem -------------------------------------
+ObjectTemplate.addTemplate kni_knife
+rem ObjectTemplate.addTemplate deserteagle
+ObjectTemplate.addTemplate usrif_mp5_a3_2
+ObjectTemplate.addTemplate ussht_Jackhammer
+ObjectTemplate.addTemplate USHGR_M67
+ObjectTemplate.addTemplate c4_explosives
+rem ObjectTemplate.addTemplate m14lm
+rem ObjectTemplate.addTemplate grapplinghook
+ObjectTemplate.addTemplate defibrillator
+rem ObjectTemplate.addTemplate binocular
+rem ObjectTemplate.addTemplate hgr_gas
+ObjectTemplate.addTemplate binocular
+ObjectTemplate.addTemplate designator
+ObjectTemplate.addTemplate ParachuteLauncher
+ObjectTemplate.addTemplate UnlockUS3Specops
+ObjectTemplate.addTemplate UnlockUS3Specops2
+rem -------------------------------------
+
+ObjectTemplate.createComponent Ability
+ObjectTemplate.ability.hasHealingAbility 1
+
+ObjectTemplate.createComponent AbilityHud
+ObjectTemplate.abilityHud.ammoSound S_Resupply
+ObjectTemplate.abilityHud.healingSound S_Heal
+ObjectTemplate.abilityHud.repairingSound S_Repair
+
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName 		"US3 SPECIALFORCES"
+ObjectTemplate.vehicleHud.miniMapIcon		"Ingame\Kits\Icons\kit_Specops_outline.tga"
+ObjectTemplate.vehicleHud.vehicleIcon		"Ingame\Kits\Icons\kit_Specops.tga"
+ObjectTemplate.vehicleHud.spottedIcon 		"Ingame\Player\Icons\Minimap\mini_Soldier.dds"
+ObjectTemplate.vehicleHud.pantingSound		S_SprintBreath
+ObjectTemplate.vehicleHud.injurySound		S_Injury
+ObjectTemplate.vehicleHud.vehicleType 		7
+
+ObjectTemplate.sprintStaminaDissipationFactor 0.2
+
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage	"infantry_spotted"
+rem ---EndComp ---
+
+ObjectTemplate.create ItemContainer UnlockUS3Specops
+ObjectTemplate.addTemplate usrif_g36c
+ObjectTemplate.replaceItem ussht_Jackhammer
+ObjectTemplate.unlockLevel 1
+
+ObjectTemplate.create ItemContainer UnlockUS3Specops2
+ObjectTemplate.addTemplate usrif_fnscarl
+ObjectTemplate.replaceItem usrif_g36c
+ObjectTemplate.replaceItem ussht_Jackhammer
+ObjectTemplate.unlockLevel 2

@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh ah6c_mainrotor
+CollisionManager.createTemplate ah6c_mainrotor
+
+ObjectTemplate.create rotor ah6c_mainrotor
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CAMBO:Cihangir
+ObjectTemplate.collisionMesh ah6c_mainrotor
+ObjectTemplate.mapMaterial 0 rotor 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry ah6c_mainrotor
+
+include ah6c_mainrotor.tweak

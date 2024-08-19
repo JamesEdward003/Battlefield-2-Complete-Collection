@@ -1,0 +1,7 @@
+
+ObjectTemplate.create GenericFireArm usrgl_m203_stationary
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator JSA-1:jsa
+ObjectTemplate.geometry usrgl_m203
+
+include usrgl_m203_stationary.tweak

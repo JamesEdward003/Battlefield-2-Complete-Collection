@@ -1,0 +1,6 @@
+ObjectTemplate.create GenericFireArm usatp_predator2
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator JLU-1:jlu
+ObjectTemplate.geometry usatp_predator
+
+include usatp_predator2.tweak

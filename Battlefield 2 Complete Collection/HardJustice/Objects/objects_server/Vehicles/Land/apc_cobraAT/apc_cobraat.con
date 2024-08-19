@@ -1,0 +1,97 @@
+GeometryTemplate.create BundledMesh apc_cobraat
+CollisionManager.createTemplate apc_cobraat
+
+ObjectTemplate.create PlayerControlObject apc_cobraat
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CAMBO:Cihangir
+ObjectTemplate.collisionMesh apc_cobraat
+ObjectTemplate.mapMaterial 0 Light_armored_vehicle 0
+ObjectTemplate.mapMaterial 1 Glass_bulletproof 0
+ObjectTemplate.mapMaterial 2 wreck 0
+ObjectTemplate.mapMaterial 3 Rubber 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry apc_cobraat
+ObjectTemplate.addTemplate apc_cobraATcupolabase
+ObjectTemplate.setPosition -0.0116/0.0473/-0.4838
+ObjectTemplate.addTemplate apc_cobraATsteeringwheel
+ObjectTemplate.setPosition -0.4222/0.8464/0.4533
+ObjectTemplate.setRotation 0/18.7842/0
+ObjectTemplate.addTemplate apc_cobraATZmotor
+ObjectTemplate.setPosition 0/0.0050/0
+
+ObjectTemplate.create PlayerControlObject apc_cobraATcupolabase
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.addTemplate apc_cobraATcupola
+ObjectTemplate.setPosition 0/1.5752/0
+
+ObjectTemplate.create Rotationalbundle apc_cobraATcupola
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+ObjectTemplate.addTemplate apc_cobraATbarrel
+ObjectTemplate.setPosition 0.2505/0.1290/0.2433
+
+ObjectTemplate.create Rotationalbundle apc_cobraATbarrel
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+ObjectTemplate.create Rotationalbundle apc_cobraATsteeringwheel
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+ObjectTemplate.create Engine apc_cobraATZmotor
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+ObjectTemplate.addTemplate apc_cobraATWFL_nav
+ObjectTemplate.setPosition -0.9339/-0.2097/1.7078
+ObjectTemplate.addTemplate apc_cobraATWFR_nav
+ObjectTemplate.setPosition 0.9365/-0.2097/1.7078
+ObjectTemplate.addTemplate apc_cobraATWRL
+ObjectTemplate.setPosition -0.9339/-0.2097/-1.7094
+ObjectTemplate.addTemplate apc_cobraATWRR
+ObjectTemplate.setPosition 0.9365/-0.2097/-1.7094
+
+ObjectTemplate.create Rotationalbundle apc_cobraATWFL_nav
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+ObjectTemplate.addTemplate apc_cobraATWFL
+
+ObjectTemplate.create Spring apc_cobraATWFL
+ObjectTemplate.collisionPart 7
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+
+ObjectTemplate.create Rotationalbundle apc_cobraATWFR_nav
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+ObjectTemplate.addTemplate apc_cobraATWFR
+
+ObjectTemplate.create Spring apc_cobraATWFR
+ObjectTemplate.collisionPart 9
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 9
+
+ObjectTemplate.create Spring apc_cobraATWRL
+ObjectTemplate.collisionPart 10
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 10
+
+ObjectTemplate.create Spring apc_cobraATWRR
+ObjectTemplate.collisionPart 11
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 11
+
+include apc_cobraat.tweak

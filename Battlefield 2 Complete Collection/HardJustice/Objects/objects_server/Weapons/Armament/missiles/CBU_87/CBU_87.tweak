@@ -1,0 +1,72 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 10:52]
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe GenericProjectile cbu_87
+ObjectTemplate.creator SatNav
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.cullRadiusScale 5
+rem ---BeginComp:DefaultCollisionComp ---
+ObjectTemplate.createComponent DefaultCollisionComp
+ObjectTemplate.collision.hasCollisionEffect 1
+rem ---EndComp ---
+rem ---BeginComp:DefaultDetonationComp ---
+ObjectTemplate.createComponent DefaultDetonationComp
+ObjectTemplate.detonation.explosionMaterial 56
+ObjectTemplate.detonation.explosionRadius 0
+ObjectTemplate.detonation.explosionForce 0
+ObjectTemplate.detonation.explosionDamage 0
+ObjectTemplate.detonation.detonateDistanceToTarget 80
+ObjectTemplate.detonation.endEffectTemplate e_exp_CBU_87
+ObjectTemplate.detonation.effectRotation 0/90/0
+ObjectTemplate.detonation.maxDepthForExplosion 2
+rem ---EndComp ---
+rem ---BeginComp:DefaultProjSoundComp ---
+ObjectTemplate.createComponent DefaultProjSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultRicochetComp ---
+ObjectTemplate.createComponent DefaultRicochetComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultPenetrateComp ---
+ObjectTemplate.createComponent DefaultPenetrateComp
+ObjectTemplate.penetrate.allowSolidPenetration 0
+ObjectTemplate.penetrate.allowLiquidPenetration 0
+rem ---EndComp ---
+ObjectTemplate.geometry CBU_87
+ObjectTemplate.setCollisionMesh CBU_87
+ObjectTemplate.mapMaterial 0 metal 32
+ObjectTemplate.drag 0.5
+ObjectTemplate.mass 500
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+ObjectTemplate.collisionGroups 8
+ObjectTemplate.material 56
+rem -------------------------------------
+ObjectTemplate.addTemplate S_cbu_87_Looping
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/3/0/0
+ObjectTemplate.material 56
+ObjectTemplate.hasOnTimeEffect 1
+ObjectTemplate.armingDelay 0.3
+ObjectTemplate.minDamage 1
+ObjectTemplate.damage 0
+
+ObjectTemplate.activeSafe Sound S_cbu_87_Looping
+ObjectTemplate.modifiedByUser "SatNav"
+ObjectTemplate.lowSamples 2147483647
+ObjectTemplate.mediumSamples 2147483647
+ObjectTemplate.soundFilename "objects/weapons/stationary/usart_lw155/sounds/artillery_projectile_01.wav,objects/weapons/stationary/usart_lw155/sounds/artillery_projectile_02.wav,objects/weapons/stationary/usart_lw155/sounds/artillery_projectile_03.wav"
+ObjectTemplate.loopCount 0
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 0
+ObjectTemplate.volume 0.8
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.pitchEnvelope 0/1/0.9/1.1/1/1/0/0.93/1.1/
+ObjectTemplate.minDistance 8
+ObjectTemplate.halfVolumeDistance 10
+

@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh fire_hydrant
+CollisionManager.createTemplate fire_hydrant
+
+ObjectTemplate.create DestroyableObject fire_hydrant
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh fire_hydrant
+ObjectTemplate.mapMaterial 0 Metal_Solid 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry fire_hydrant
+
+include fire_hydrant.tweak

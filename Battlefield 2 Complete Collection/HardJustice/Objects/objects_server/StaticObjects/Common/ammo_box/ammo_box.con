@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh ammo_box
+CollisionManager.createTemplate ammo_box
+
+ObjectTemplate.create SupplyObject ammo_box
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_OReilly
+ObjectTemplate.collisionMesh ammo_box
+ObjectTemplate.mapMaterial 0 metal_thin 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry ammo_box
+
+include ammo_box.tweak

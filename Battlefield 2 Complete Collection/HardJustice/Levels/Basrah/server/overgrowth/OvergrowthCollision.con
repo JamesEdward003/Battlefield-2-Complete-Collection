@@ -1,0 +1,55 @@
+rem Patch: 0, 0
+
+
+rem Patch: 1, 0
+
+
+rem Patch: 2, 0
+
+Object.create me_olive03
+Object.absoluteTransformation [0.795256/0/-0.606274/0][0/1/0/0][0.606274/0/0.795256/0][113.185/26.9189/-231.182/1]
+Object.isOvergrowth 1
+
+
+rem Patch: 3, 0
+
+
+rem Patch: 0, 1
+
+
+rem Patch: 1, 1
+
+
+rem Patch: 2, 1
+
+
+rem Patch: 3, 1
+
+
+rem Patch: 0, 2
+
+
+rem Patch: 1, 2
+
+
+rem Patch: 2, 2
+
+
+rem Patch: 3, 2
+
+
+rem Patch: 0, 3
+
+
+rem Patch: 1, 3
+
+
+rem Patch: 2, 3
+
+
+rem Patch: 3, 3
+
+
+
+rem Patches: 4x4
+rem Objects: 1

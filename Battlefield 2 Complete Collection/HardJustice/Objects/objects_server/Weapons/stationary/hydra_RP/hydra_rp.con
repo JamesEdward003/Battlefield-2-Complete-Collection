@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh hydra_rp
+CollisionManager.createTemplate hydra_rp
+
+ObjectTemplate.create Simpleobject hydra_rp
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CAMBO:Cihangir
+ObjectTemplate.collisionMesh hydra_rp
+ObjectTemplate.mapMaterial 0 Airplane 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry hydra_rp
+
+include hydra_rp.tweak

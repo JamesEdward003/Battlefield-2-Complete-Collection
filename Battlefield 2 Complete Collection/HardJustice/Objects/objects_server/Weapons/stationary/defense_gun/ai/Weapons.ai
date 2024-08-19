@@ -1,0 +1,16 @@
+rem *** Add gun ***
+weaponTemplate.create defense_gun_MG
+weaponTemplate.indirect 0
+weaponTemplate.minRange 0.0
+weaponTemplate.maxRange 150.0
+weaponTemplate.setStrength Infantery  5.0
+weaponTemplate.setStrength LightArmour 9.0
+weaponTemplate.setStrength HeavyArmour 14.0
+weaponTemplate.setStrength NavalArmour 10.0
+weaponTemplate.setStrength Helicopter  1.0
+weaponTemplate.setStrength AirPlane    0.0
+weaponTemplate.allowedDeviation 3.0
+weaponTemplate.setExplosionRadius 12.0
+weaponTemplate.setFiresThroughTransparent 0
+
+

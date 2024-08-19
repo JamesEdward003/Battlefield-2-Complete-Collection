@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh tent
+CollisionManager.createTemplate tent
+
+ObjectTemplate.create SimpleObject tent
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator STRYKERJ-DDB4B9:StrykerJ
+ObjectTemplate.collisionMesh tent
+ObjectTemplate.mapMaterial 0 Penetrable_Cloth 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry tent
+
+include tent.tweak

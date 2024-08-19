@@ -1,0 +1,4 @@
+ObjectTemplate.create RemoteControlledObject ArtilleryControlObjectMEC
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.rcType RCArtillery
+ObjectTemplate.minTimeBetweenActivation 70

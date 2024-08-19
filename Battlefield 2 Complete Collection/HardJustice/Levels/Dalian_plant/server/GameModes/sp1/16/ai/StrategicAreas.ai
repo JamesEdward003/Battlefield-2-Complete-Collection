@@ -1,0 +1,128 @@
+rem *** Create strategic areas ***
+aiStrategicArea.createFromControlPoint CPNAME_DP_SP16_airfield 101 50
+aiStrategicArea.layer 5
+
+aiStrategicArea.createFromControlPoint CPNAME_DP_SP16_mainentrance 11 50
+aiStrategicArea.layer 5
+
+aiStrategicArea.createFromControlPoint CPNAME_DP_SP16_maintenancebuilding 103 50
+aiStrategicArea.layer 5
+
+aiStrategicArea.createFromControlPoint CPNAME_DP_SP16_northdocks 7 50
+aiStrategicArea.layer 5
+
+aiStrategicArea.createFromControlPoint CPNAME_DP_SP16_reactors 1 50
+aiStrategicArea.layer 5
+
+aiStrategicArea.createFromControlPoint CPNAME_DP_SP16_southdocks 8 50
+aiStrategicArea.layer 5
+
+aiStrategicArea.createFromControlPoint CPNAME_DP_SP16_uscarrier 6 50
+aiStrategicArea.layer 5
+
+aiStrategicArea.createFromControlPoint CPNAME_DP_SP16_warehouse 102 50
+aiStrategicArea.layer 5
+
+aiStrategicArea.setActive CPNAME_DP_SP16_airfield
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_warehouse
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_mainentrance
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_maintenancebuilding
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_reactors
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_southdocks
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_northdocks
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_uscarrier
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -705/184.086/-367
+AIStrategicArea.setOrderPosition Vehicle -685.829/184.096/-349.427
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 28.2843
+
+aiStrategicArea.setActive CPNAME_DP_SP16_mainentrance
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_warehouse
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_maintenancebuilding
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_reactors
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_southdocks
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_northdocks
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_airfield
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_uscarrier
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -258.713/153.296/-214.752
+AIStrategicArea.setOrderPosition Vehicle -240.832/153.296/-205.049
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 56.5685
+
+aiStrategicArea.setActive CPNAME_DP_SP16_maintenancebuilding
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_warehouse
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_mainentrance
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_reactors
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_southdocks
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_northdocks
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_airfield
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_uscarrier
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -28.3325/153.27/-411.59
+AIStrategicArea.setOrderPosition Vehicle -31.9773/152.947/-409.621
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 28.2843
+
+aiStrategicArea.setActive CPNAME_DP_SP16_northdocks
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_warehouse
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_mainentrance
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_maintenancebuilding
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_reactors
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_southdocks
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_airfield
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_uscarrier
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 46.8245/144.394/176.488
+AIStrategicArea.setOrderPosition Vehicle 35.0249/144.394/186.353
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 62.2254
+
+aiStrategicArea.setActive CPNAME_DP_SP16_reactors
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_warehouse
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_mainentrance
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_maintenancebuilding
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_southdocks
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_northdocks
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_airfield
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_uscarrier
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 85.1797/153.181/-41.463
+AIStrategicArea.setOrderPosition Vehicle 75.0697/153.181/-46.0453
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 28.2843
+
+aiStrategicArea.setActive CPNAME_DP_SP16_southdocks
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_warehouse
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_mainentrance
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_maintenancebuilding
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_reactors
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_northdocks
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_airfield
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_uscarrier
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 228.433/147.099/-255.639
+AIStrategicArea.setOrderPosition Vehicle 230.822/147.099/-232.861
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 42.4264
+
+aiStrategicArea.setActive CPNAME_DP_SP16_uscarrier
+AIStrategicArea.setOrderPosition Infantry 807.214/149.797/-460.332
+AIStrategicArea.setOrderPosition Vehicle 792.907/149.797/-447.061
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 28.2843
+
+aiStrategicArea.setActive CPNAME_DP_SP16_warehouse
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_mainentrance
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_maintenancebuilding
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_reactors
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_southdocks
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_northdocks
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_airfield
+AIStrategicArea.addNeighbour CPNAME_DP_SP16_uscarrier
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -192.846/153.181/50.1991
+AIStrategicArea.setOrderPosition Vehicle -181.312/153.181/79.64
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 56.5685

@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh sign_25mph
+CollisionManager.createTemplate sign_25mph
+
+ObjectTemplate.create SimpleObject sign_25mph
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator STRYKERJ-DDB4B9:StrykerJ
+ObjectTemplate.collisionMesh sign_25mph
+ObjectTemplate.mapMaterial 0 Metal_plate_thin 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry sign_25mph
+
+include sign_25mph.tweak

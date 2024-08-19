@@ -1,0 +1,15 @@
+rem *** Add nsrif_crossbowai ***
+weaponTemplate.create nsrif_crossbowai
+weaponTemplate.indirect 0
+weaponTemplate.minRange 10.0
+weaponTemplate.maxRange 100.0
+weaponTemplate.optimalRangePercentage 85
+weaponTemplate.setFiringPose Crouching
+weaponTemplate.setStrength Infantry    0.0
+weaponTemplate.setStrength LightArmour 8.0
+weaponTemplate.setStrength HeavyArmour 4.0
+weaponTemplate.setStrength NavalArmour 0.0
+weaponTemplate.setStrength Helicopter  2.0
+weaponTemplate.setStrength AirPlane    1.0
+weaponTemplate.setSoundSphereRadius  120.0
+weaponTemplate.setFiresThroughTransparent 0

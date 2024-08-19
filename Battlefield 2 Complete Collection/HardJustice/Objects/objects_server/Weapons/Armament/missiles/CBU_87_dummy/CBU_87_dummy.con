@@ -1,0 +1,13 @@
+GeometryTemplate.create BundledMesh cbu_87_dummy
+CollisionManager.createTemplate cbu_87_dummy
+
+ObjectTemplate.create SimpleObject cbu_87_dummy
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator SatNav
+ObjectTemplate.collisionMesh cbu_87_dummy
+ObjectTemplate.mapMaterial 0 metal 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry cbu_87_dummy
+
+include cbu_87_dummy.tweak

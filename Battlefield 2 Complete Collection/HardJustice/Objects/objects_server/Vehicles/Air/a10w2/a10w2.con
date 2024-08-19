@@ -1,0 +1,236 @@
+ObjectTemplate.create PlayerControlObject a10w2
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CAMBO:Cihangir
+ObjectTemplate.collisionMesh a10w
+ObjectTemplate.mapMaterial 0 Airplane 0
+ObjectTemplate.mapMaterial 1 Glass_Bulletproof 0
+ObjectTemplate.mapMaterial 2 Wreck 0
+ObjectTemplate.mapMaterial 3 Rubber_Heavy 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry a10w
+ObjectTemplate.addTemplate a10w2_airbrakeL1
+ObjectTemplate.setPosition -6.6758/0.6014/-3.2425
+ObjectTemplate.setRotation 0.5670/0/-5.0911
+ObjectTemplate.addTemplate a10w2_airbrakeR1
+ObjectTemplate.setPosition 6.8681/0.6298/-3.2425
+ObjectTemplate.setRotation 0.5670/0/5.2841
+ObjectTemplate.addTemplate a10w2_flapFL
+ObjectTemplate.setPosition -2.8528/0.1338/-3.2880
+ObjectTemplate.addTemplate a10w2_flapFR
+ObjectTemplate.setPosition 2.8543/0.1338/-3.2880
+ObjectTemplate.addTemplate a10w2_flapRL1
+ObjectTemplate.setPosition -1.5985/0.5608/-9.4942
+ObjectTemplate.addTemplate a10w2_flapRL2
+ObjectTemplate.setPosition -2.9532/1.5086/-9.3651
+ObjectTemplate.setRotation 0/6.8792/-90.0000
+ObjectTemplate.addTemplate a10w2_flapRR1
+ObjectTemplate.setPosition 1.6186/0.5608/-9.4942
+ObjectTemplate.addTemplate a10w2_flapRR2
+ObjectTemplate.setPosition 2.9532/1.5086/-9.3644
+ObjectTemplate.setRotation 0/5.5453/-90.0000
+ObjectTemplate.addTemplate a10w2_headcannon
+ObjectTemplate.setPosition -0.1440/-0.3501/5.5451
+ObjectTemplate.addTemplate a10w2_LanGearF
+ObjectTemplate.setPosition 0.2643/-0.1629/2.2607
+ObjectTemplate.addTemplate a10w2_LanGearL
+ObjectTemplate.setPosition -2.6014/-0.0292/-2.8504
+ObjectTemplate.addTemplate a10w2_LanGearR
+ObjectTemplate.setPosition 2.6006/-0.0292/-2.8504
+ObjectTemplate.addTemplate a10w2_LanHatchF1
+ObjectTemplate.setPosition 0.2384/-0.3893/2.2847
+ObjectTemplate.setRotation 0/87.0394/0
+ObjectTemplate.addTemplate a10w2_LanHatchF2
+ObjectTemplate.setPosition 0.4435/-0.4045/3.7528
+ObjectTemplate.setRotation 0/0/88.0000
+ObjectTemplate.addTemplate a10w2_LanHatchL1
+ObjectTemplate.setPosition -2.5829/-0.3576/-3.2806
+ObjectTemplate.setRotation 0/77.7498/0
+ObjectTemplate.addTemplate a10w2_LanHatchL2
+ObjectTemplate.setPosition -2.8924/-0.4821/-1.5306
+ObjectTemplate.setRotation 0/0/-81.0000
+ObjectTemplate.addTemplate a10w2_LanHatchL3
+ObjectTemplate.setPosition -2.2943/-0.4588/-1.5320
+ObjectTemplate.setRotation 0/0/81.0000
+ObjectTemplate.addTemplate a10w2_LanHatchR1
+ObjectTemplate.setPosition 2.5851/-0.3509/-3.2806
+ObjectTemplate.setRotation 0/77.7498/0
+ObjectTemplate.addTemplate a10w2_LanHatchR2
+ObjectTemplate.setPosition 2.8923/-0.4821/-1.5306
+ObjectTemplate.setRotation 0/0/81.0000
+ObjectTemplate.addTemplate a10w2_LanHatchR3
+ObjectTemplate.setPosition 2.2946/-0.4588/-1.5320
+ObjectTemplate.setRotation 0/0/-81.0000
+
+ObjectTemplate.create Rotationalbundle a10w2_airbrakeL1
+ObjectTemplate.collisionPart 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+
+ObjectTemplate.create Rotationalbundle a10w2_airbrakeR1
+ObjectTemplate.collisionPart 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+
+ObjectTemplate.create wing a10w2_flapFL
+ObjectTemplate.collisionPart 3
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+ObjectTemplate.create wing a10w2_flapFR
+ObjectTemplate.collisionPart 4
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+ObjectTemplate.create wing a10w2_flapRL1
+ObjectTemplate.collisionPart 5
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+
+ObjectTemplate.create wing a10w2_flapRL2
+ObjectTemplate.collisionPart 6
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+
+ObjectTemplate.create wing a10w2_flapRR1
+ObjectTemplate.collisionPart 7
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+
+ObjectTemplate.create wing a10w2_flapRR2
+ObjectTemplate.collisionPart 8
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+
+ObjectTemplate.create Rotationalbundle a10w2_headcannon
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 9
+
+ObjectTemplate.create LandingGear a10w2_LanGearF
+ObjectTemplate.collisionPart 10
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 10
+ObjectTemplate.addTemplate a10w2_LanGearRot
+ObjectTemplate.setPosition 0.0877/-1.0819/0.3909
+
+ObjectTemplate.create Rotationalbundle a10w2_LanGearRot
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 11
+ObjectTemplate.addTemplate a10w2_wheelF
+ObjectTemplate.setPosition -0.1461/-0.3520/0
+
+ObjectTemplate.create Spring a10w2_wheelF
+ObjectTemplate.collisionPart 12
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 12
+
+ObjectTemplate.create LandingGear a10w2_LanGearL
+ObjectTemplate.collisionPart 13
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 13
+ObjectTemplate.addTemplate a10w2_wheelL
+ObjectTemplate.setPosition -0.0851/-1.4372/0.2080
+
+ObjectTemplate.create Spring a10w2_wheelL
+ObjectTemplate.collisionPart 14
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 14
+
+ObjectTemplate.create LandingGear a10w2_LanGearR
+ObjectTemplate.collisionPart 15
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 15
+ObjectTemplate.addTemplate a10w2_wheelR
+ObjectTemplate.setPosition 0.0859/-1.4372/0.2080
+
+ObjectTemplate.create Spring a10w2_wheelR
+ObjectTemplate.collisionPart 16
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 16
+
+ObjectTemplate.create LandingGear a10w2_LanHatchF1
+ObjectTemplate.collisionPart 17
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 17
+
+ObjectTemplate.create LandingGear a10w2_LanHatchF2
+ObjectTemplate.collisionPart 18
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 18
+
+ObjectTemplate.create LandingGear a10w2_LanHatchL1
+ObjectTemplate.collisionPart 19
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 19
+
+ObjectTemplate.create LandingGear a10w2_LanHatchL2
+ObjectTemplate.collisionPart 20
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 20
+
+ObjectTemplate.create LandingGear a10w2_LanHatchL3
+ObjectTemplate.collisionPart 21
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 21
+
+ObjectTemplate.create LandingGear a10w2_LanHatchR1
+ObjectTemplate.collisionPart 22
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 22
+
+ObjectTemplate.create LandingGear a10w2_LanHatchR2
+ObjectTemplate.collisionPart 23
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 23
+
+ObjectTemplate.create LandingGear a10w2_LanHatchR3
+ObjectTemplate.collisionPart 24
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 24
+
+include a10w2.tweak

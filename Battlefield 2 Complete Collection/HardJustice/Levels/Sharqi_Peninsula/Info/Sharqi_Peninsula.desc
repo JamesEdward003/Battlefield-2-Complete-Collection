@@ -1,0 +1,16 @@
+<map gsid="5">
+	<name> Sharqi Peninsula </name>
+	<briefing locid="LOADINGSCREEN_MAPDESCRIPTION_sharqipeninsula">map description for modders maps not localized (english only)</briefing>
+	<music> common/sound/menu/music/load_MEC_music.ogg </music>
+	<modes>
+		<mode type="gpm_cq">
+			<maptype ai="1" players="16" type="assault" locid="GAMEMODE_DESCRIPTION_assault">Unlocalized test for this mode on this map</maptype>
+			<maptype players="32" type="assault" locid="GAMEMODE_DESCRIPTION_assault">Unlocalized test for this mode on this map</maptype>
+			<maptype players="64" type="assault" locid="GAMEMODE_DESCRIPTION_assault">Unlocalized test for this mode on this map</maptype>
+		</mode>
+		
+		<mode type="gpm_coop">
+			<maptype ai="1" players="64" type="assault" locid="GAMEMODE_DESCRIPTION_COOP_assault">Unlocalized test for this mode on this map</maptype>
+		</mode>
+	</modes>
+</map>

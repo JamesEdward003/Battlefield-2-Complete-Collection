@@ -1,0 +1,71 @@
+ObjectTemplate.create Kit US3_AT
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.kitType AT
+ObjectTemplate.aiTemplate AT
+ObjectTemplate.geometry US_Kits
+ObjectTemplate.geometry.kit 3
+ObjectTemplate.geometry.dropGeom 13
+ObjectTemplate.networkableInfo KitInfo
+ObjectTemplate.setHasCollisionPhysics 1
+ObjectTemplate.abilityRestoreRate 0.05
+ObjectTemplate.abilityInVehicleRadius 7
+ObjectTemplate.abilityInVehicleStrength 0.25
+ObjectTemplate.abilityInVehicleMaterial 73
+ObjectTemplate.unlockIndex 0
+ObjectTemplate.cullRadiusScale 2.4
+rem -------------------------------------
+ObjectTemplate.addTemplate kni_knife
+ObjectTemplate.addTemplate deserteagle
+ObjectTemplate.addTemplate sasrif_mg36
+ObjectTemplate.addTemplate USHGR_M67
+ObjectTemplate.addTemplate ammokit
+rem ObjectTemplate.addTemplate c4_explosives
+rem ObjectTemplate.addTemplate javelin_direct
+rem ObjectTemplate.addTemplate m14lm
+ObjectTemplate.addTemplate defibrillator
+rem ObjectTemplate.addTemplate binocular
+ObjectTemplate.addTemplate hgr_gas
+ObjectTemplate.addTemplate designator
+ObjectTemplate.addTemplate ParachuteLauncher
+ObjectTemplate.addTemplate UnlockUS3AT
+ObjectTemplate.addTemplate UnlockUS3AT2
+rem -------------------------------------
+
+ObjectTemplate.createComponent Ability
+ObjectTemplate.ability.hasHealingAbility 1
+
+ObjectTemplate.createComponent Ability
+ObjectTemplate.ability.hasAmmoAbility 1
+
+ObjectTemplate.createComponent AbilityHud
+ObjectTemplate.abilityHud.ammoSound S_Resupply
+ObjectTemplate.abilityHud.healingSound S_Heal
+ObjectTemplate.abilityHud.repairingSound S_Repair
+
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName 		"US3 ANTITANK"
+ObjectTemplate.vehicleHud.miniMapIcon		"Ingame\Kits\Icons\kit_ATAA_outline.tga"
+ObjectTemplate.vehicleHud.vehicleIcon		"Ingame\Kits\Icons\kit_ATAA.tga"
+ObjectTemplate.vehicleHud.spottedIcon 			"Ingame\Player\Icons\Minimap\mini_Soldier.dds"
+ObjectTemplate.vehicleHud.abilityIcon 		"Ingame\Weapons\Icons\Hud\SpecialKitIcons\kevlarVest.tga"
+ObjectTemplate.vehicleHud.pantingSound		S_SprintBreath
+ObjectTemplate.vehicleHud.injurySound		S_Injury
+ObjectTemplate.vehicleHud.vehicleType 		7
+
+ObjectTemplate.sprintStaminaDissipationFactor 0.6
+
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage	"infantry_spotted"
+rem ---EndComp ---
+
+ObjectTemplate.create ItemContainer UnlockUS3AT
+ObjectTemplate.addTemplate eurif_fnp90
+ObjectTemplate.replaceItem sasrif_mg36
+ObjectTemplate.unlockLevel 1
+
+ObjectTemplate.create ItemContainer UnlockUS3AT2
+ObjectTemplate.addTemplate sasrif_mp7
+ObjectTemplate.replaceItem eurif_fnp90
+ObjectTemplate.replaceItem sasrif_mg36
+ObjectTemplate.unlockLevel 2

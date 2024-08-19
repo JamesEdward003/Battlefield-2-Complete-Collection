@@ -1,0 +1,61 @@
+rem *** Weaponory ***
+
+rem * Rockets*
+weaponTemplate.create rah66a_Rockets
+weaponTemplate.indirect 0
+weaponTemplate.minRange 10.0
+weaponTemplate.maxRange 500.0
+rem weaponTemplate.weaponFire PIFire
+weaponTemplate.setStrength Infantry    15.0
+weaponTemplate.setStrength LightArmour 10.0
+weaponTemplate.setStrength HeavyArmour 3.0
+weaponTemplate.setStrength NavalArmour 0.0
+weaponTemplate.setStrength Helicopter  0.0
+weaponTemplate.setStrength Airplane    0.0
+weaponTemplate.fireRate 100
+weaponTemplate.allowedDeviation 4.0
+
+weaponTemplate.create rah66a_Gun
+weaponTemplate.indirect 0
+weaponTemplate.minRange 5.0
+weaponTemplate.maxRange 350.0
+weaponTemplate.setStrength Infantry   20.0
+weaponTemplate.setStrength LightArmour 15.0
+weaponTemplate.setStrength HeavyArmour 0.0
+weaponTemplate.setStrength NavalArmour 0.0
+weaponTemplate.setStrength Helicopter  12.0
+weaponTemplate.setStrength Airplane    0.0
+weaponTemplate.allowedDeviation 3.0
+
+beginrem
+weaponTemplate.create rah66a_Sidewinder
+weaponTemplate.indirect 0
+weaponTemplate.minRange 10.0
+weaponTemplate.maxRange 500.0
+rem weaponTemplate.optimalRangePercentage 85
+rem weaponTemplate.weaponActivate PIWeaponSelect2
+rem weaponTemplate.weaponFire PIAltFire
+weaponTemplate.setStrength Infantry    0.0
+weaponTemplate.setStrength LightArmour 0.0
+weaponTemplate.setStrength HeavyArmour 0.0
+weaponTemplate.setStrength NavalArmour 0.0
+weaponTemplate.setStrength Helicopter  30.0
+weaponTemplate.setStrength Airplane    20.0
+weaponTemplate.allowedDeviation 20.0
+rem weaponTemplate.setFiresThroughTransparent 0
+
+rem * Laser guided *
+weaponTemplate.create rah66a_agm114_hellfire_tv
+weaponTemplate.indirect 0
+weaponTemplate.minRange 30.0
+weaponTemplate.maxRange 500.0
+weaponTemplate.weaponActivate PIWeaponSelect3
+weaponTemplate.weaponFire PIAltFire
+weaponTemplate.setStrength Infantry    0.0
+weaponTemplate.setStrength LightArmour 10.0
+weaponTemplate.setStrength HeavyArmour 10.0
+weaponTemplate.setStrength NavalArmour 0.0
+weaponTemplate.setStrength Helicopter  0.0
+weaponTemplate.setStrength Airplane    0.0
+weaponTemplate.allowedDeviation 15.0
+endrem

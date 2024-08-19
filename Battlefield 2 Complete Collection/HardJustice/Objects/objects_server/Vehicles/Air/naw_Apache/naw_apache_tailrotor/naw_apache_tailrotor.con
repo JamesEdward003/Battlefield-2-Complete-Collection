@@ -1,0 +1,12 @@
+GeometryTemplate.create BundledMesh naw_apache_tailrotor
+CollisionManager.createTemplate naw_apache_tailrotor
+
+ObjectTemplate.create Rotor naw_apache_tailrotor
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator CA1EB60446:Pete
+ObjectTemplate.mapMaterial 0 Rotor 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry naw_apache_tailrotor
+
+include naw_apache_tailrotor.tweak

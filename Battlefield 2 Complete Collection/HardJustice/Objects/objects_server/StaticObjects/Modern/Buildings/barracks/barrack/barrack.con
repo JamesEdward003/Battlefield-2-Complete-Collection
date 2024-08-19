@@ -1,0 +1,15 @@
+GeometryTemplate.create StaticMesh barrack
+CollisionManager.createTemplate barrack
+
+ObjectTemplate.create SimpleObject barrack
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator BATTLEMAPPER2:StrykerJ
+ObjectTemplate.collisionMesh barrack
+ObjectTemplate.mapMaterial 0 concrete 0
+ObjectTemplate.mapMaterial 1 Stairs_concrete 0
+ObjectTemplate.mapMaterial 2 Default 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry barrack
+
+include barrack.tweak

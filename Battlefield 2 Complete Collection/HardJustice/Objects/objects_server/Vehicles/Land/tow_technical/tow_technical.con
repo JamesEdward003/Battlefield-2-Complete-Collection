@@ -1,0 +1,148 @@
+GeometryTemplate.create BundledMesh tow_technical
+
+ObjectTemplate.create PlayerControlObject tow_technical
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator PHO-1:pho
+ObjectTemplate.collisionMesh civiliancar2
+ObjectTemplate.mapMaterial 0 Metal_plate_thin 0
+ObjectTemplate.mapMaterial 1 Glass_vehicle 0
+ObjectTemplate.mapMaterial 2 Rubber 2
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry tow_technical
+ObjectTemplate.addTemplate tow_technical_Steeringwheel
+ObjectTemplate.setPosition -0.4339/0.3688/0.7192
+ObjectTemplate.setRotation 0/25.0000/0
+ObjectTemplate.addTemplate tow_technical_Drivetrain_RF
+ObjectTemplate.setPosition 0.4415/-0.4298/1.4957
+ObjectTemplate.addTemplate tow_technical_Drivetrain_LF
+ObjectTemplate.setPosition -0.4994/-0.4298/1.4957
+ObjectTemplate.addTemplate tow_technical_Drivetrain_LR
+ObjectTemplate.setPosition -0.4994/-0.4298/-1.0165
+ObjectTemplate.addTemplate tow_technical_Drivetrain_RR
+ObjectTemplate.setPosition 0.4415/-0.4298/-1.0261
+ObjectTemplate.addTemplate tow_technical_Engine
+ObjectTemplate.setPosition -0.0500/-0.1220/0
+
+ObjectTemplate.create RotationalBundle tow_technical_Steeringwheel
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 1
+
+ObjectTemplate.create Bundle tow_technical_Drivetrain_RF
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 2
+ObjectTemplate.addTemplate tow_technical_Spring_RF
+ObjectTemplate.setPosition -0.0615/0.0779/0.0306
+ObjectTemplate.addTemplate tow_technical_Hub_RF
+ObjectTemplate.setPosition 0.0243/0.0232/0.0055
+
+ObjectTemplate.create SimpleObject tow_technical_Spring_RF
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 3
+
+ObjectTemplate.create SimpleObject tow_technical_Hub_RF
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 4
+
+ObjectTemplate.create Bundle tow_technical_Drivetrain_LF
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 5
+ObjectTemplate.addTemplate tow_technical_Spring_LF
+ObjectTemplate.setPosition 0.0615/0.0779/-0.0306
+ObjectTemplate.addTemplate tow_technical_Hub_LF
+ObjectTemplate.setPosition -0.0243/0.0232/-0.0055
+
+ObjectTemplate.create SimpleObject tow_technical_Spring_LF
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 6
+
+ObjectTemplate.create SimpleObject tow_technical_Hub_LF
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 7
+
+ObjectTemplate.create Bundle tow_technical_Drivetrain_LR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 8
+ObjectTemplate.addTemplate tow_technical_Spring_LR
+ObjectTemplate.setPosition 0.0615/0.0779/-0.0306
+ObjectTemplate.addTemplate tow_technical_Hub_LR
+ObjectTemplate.setPosition -0.0243/0.0232/-0.0055
+
+ObjectTemplate.create SimpleObject tow_technical_Spring_LR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 9
+
+ObjectTemplate.create SimpleObject tow_technical_Hub_LR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 10
+
+ObjectTemplate.create Bundle tow_technical_Drivetrain_RR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 11
+ObjectTemplate.addTemplate tow_technical_Spring_RR
+ObjectTemplate.setPosition -0.0615/0.0779/0.0306
+ObjectTemplate.addTemplate tow_technical_Hub_RR
+ObjectTemplate.setPosition 0.0243/0.0232/0.0055
+
+ObjectTemplate.create SimpleObject tow_technical_Spring_RR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 12
+
+ObjectTemplate.create SimpleObject tow_technical_Hub_RR
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 13
+
+ObjectTemplate.create Engine tow_technical_Engine
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 14
+ObjectTemplate.addTemplate tow_technical_nav_RF
+ObjectTemplate.setPosition 0.6637/-0.4536/1.5011
+ObjectTemplate.addTemplate tow_technical_nav_LF
+ObjectTemplate.setPosition -0.6596/-0.4236/1.5011
+ObjectTemplate.addTemplate tow_technical_Wheel_LR
+ObjectTemplate.setPosition -0.6296/-0.4739/-1.0207
+ObjectTemplate.addTemplate tow_technical_Wheel_RR
+ObjectTemplate.setPosition 0.6637/-0.5039/-1.0207
+
+ObjectTemplate.create RotationalBundle tow_technical_nav_RF
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 15
+ObjectTemplate.addTemplate tow_technical_Wheel_RF
+ObjectTemplate.setPosition 0.0159/0/0
+
+ObjectTemplate.create Spring tow_technical_Wheel_RF
+ObjectTemplate.collisionPart 16
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 16
+
+ObjectTemplate.create RotationalBundle tow_technical_nav_LF
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 17
+ObjectTemplate.addTemplate tow_technical_Wheel_LF
+ObjectTemplate.setPosition 0.0252/0/0
+
+ObjectTemplate.create Spring tow_technical_Wheel_LF
+ObjectTemplate.collisionPart 18
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 18
+
+ObjectTemplate.create Spring tow_technical_Wheel_LR
+ObjectTemplate.collisionPart 19
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 19
+
+ObjectTemplate.create Spring tow_technical_Wheel_RR
+ObjectTemplate.collisionPart 20
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometryPart 20
+
+include tow_technical.tweak

@@ -1,0 +1,61 @@
+rem *** Create strategic areas ***
+aiStrategicArea.createFromControlPoint CPNAME_B_SP32_NorthEastBase 763 50
+aiStrategicArea.layer 6
+
+aiStrategicArea.createFromControlPoint CPNAME_B_SP32_NorthUSBase 761 50
+aiStrategicArea.layer 6
+
+aiStrategicArea.createFromControlPoint CPNAME_B_SP32_SouthEastBase 764 50
+aiStrategicArea.layer 6
+
+aiStrategicArea.createFromControlPoint CPNAME_B_SP32_SouthWestBase 762 50
+aiStrategicArea.layer 6
+
+aiStrategicArea.setActive CPNAME_B_SP32_NorthEastBase
+AIStrategicArea.addNeighbour CPNAME_B_SP32_NorthUSBase
+AIStrategicArea.addNeighbour CPNAME_B_SP32_SouthEastBase
+AIStrategicArea.addNeighbour CPNAME_B_SP32_SouthWestBase
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 55.3856/25.1565/37.3264
+AIStrategicArea.setOrderPosition Vehicle 75.9792/25/43.3755
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 30
+
+aiStrategicArea.setActive CPNAME_B_SP32_NorthUSBase
+AIStrategicArea.addNeighbour CPNAME_B_SP32_NorthEastBase
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 23.8917/25.2717/89.2219
+AIStrategicArea.setOrderPosition Vehicle 23.7528/25.0028/86.4249
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 30
+
+aiStrategicArea.setActive CPNAME_B_SP32_SouthEastBase
+AIStrategicArea.addNeighbour CPNAME_B_SP32_NorthEastBase
+AIStrategicArea.addNeighbour CPNAME_B_SP32_SouthWestBase
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry 54.9606/25.1448/-24.6938
+AIStrategicArea.setOrderPosition Vehicle 59.4296/25/-46.2263
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 30
+
+aiStrategicArea.setActive CPNAME_B_SP32_SouthWestBase
+AIStrategicArea.addNeighbour CPNAME_B_SP32_NorthEastBase
+AIStrategicArea.addNeighbour CPNAME_B_SP32_SouthEastBase
+aiStrategicArea.addObjectTypeFlag ControlPoint
+AIStrategicArea.setOrderPosition Infantry -78.1526/25.2065/-26.698
+AIStrategicArea.setOrderPosition Vehicle -69.0163/25/0.412567
+aiStrategicArea.setSide 0
+aiStrategicArea.vehicleSearchRadius 25
+
+aiStrategicArea.addWayPoint 24.8867/25/63.7997 Infantry CPNAME_B_SP32_NorthEastBase CPNAME_B_SP32_NorthUSBase
+aiStrategicArea.addWayPoint 48.3276/25/67.9975 Infantry CPNAME_B_SP32_NorthEastBase CPNAME_B_SP32_NorthUSBase
+aiStrategicArea.addWayPoint 48.7655/25/79.6814 Infantry CPNAME_B_SP32_NorthEastBase CPNAME_B_SP32_NorthUSBase
+aiStrategicArea.addWayPoint 55.5487/25/54.0305 Infantry CPNAME_B_SP32_NorthEastBase CPNAME_B_SP32_NorthUSBase
+aiStrategicArea.addWayPoint 79.3299/25/-4.81235 Infantry CPNAME_B_SP32_NorthEastBase CPNAME_B_SP32_SouthEastBase
+aiStrategicArea.addWayPoint 28.2047/25/25.9291 Infantry CPNAME_B_SP32_NorthEastBase CPNAME_B_SP32_SouthEastBase
+aiStrategicArea.addWayPoint 78.7408/25/22.846 Infantry CPNAME_B_SP32_NorthEastBase CPNAME_B_SP32_SouthEastBase
+aiStrategicArea.addWayPoint 23.6958/25/14.8636 Infantry CPNAME_B_SP32_NorthEastBase CPNAME_B_SP32_SouthEastBase
+aiStrategicArea.addWayPoint 24.2715/25/35.7017 Vehicle CPNAME_B_SP32_NorthEastBase CPNAME_B_SP32_SouthEastBase
+aiStrategicArea.addWayPoint -43.7309/25/51.9149 Infantry CPNAME_B_SP32_NorthEastBase CPNAME_B_SP32_SouthWestBase
+aiStrategicArea.addWayPoint -11.9474/25/30.1038 Infantry CPNAME_B_SP32_NorthEastBase CPNAME_B_SP32_SouthWestBase
+aiStrategicArea.addWayPoint -32.4618/25/53.6667 Infantry CPNAME_B_SP32_NorthEastBase CPNAME_B_SP32_SouthWestBase

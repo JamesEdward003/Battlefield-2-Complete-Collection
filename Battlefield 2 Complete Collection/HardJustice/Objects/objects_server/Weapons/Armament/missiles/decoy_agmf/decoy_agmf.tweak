@@ -1,0 +1,41 @@
+rem *** Generated with Bf2Editor.exe [created: 2006/5/15 11:52]
+ObjectTemplate.activeSafe GenericProjectile decoy_agmf
+ObjectTemplate.creator Ziggy:Ziggy
+ObjectTemplate.modifiedByUser "Ziggy"
+ObjectTemplate.setNetworkableInfo BasicInfo
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.createNotInGrid 1
+ObjectTemplate.preCacheObject 1
+ObjectTemplate.createdInEditor 1
+rem ---BeginComp:DefaultCollisionComp ---
+ObjectTemplate.createComponent DefaultCollisionComp
+ObjectTemplate.collision.bouncing 1
+rem ---EndComp ---
+rem ---BeginComp:DefaultDetonationComp ---
+ObjectTemplate.createComponent DefaultDetonationComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultProjSoundComp ---
+ObjectTemplate.createComponent DefaultProjSoundComp
+rem ---EndComp ---
+rem ---BeginComp:DefaultPenetrateComp ---
+ObjectTemplate.createComponent DefaultPenetrateComp
+rem ---EndComp ---
+ObjectTemplate.mass 2
+ObjectTemplate.floaterMod 0
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType RotationalPoint
+ObjectTemplate.collisionGroups 8
+ObjectTemplate.material 47
+rem -------------------------------------
+ObjectTemplate.addTemplate LaserTarget_vehicle
+rem -------------------------------------
+ObjectTemplate.timeToLive CRD_NONE/15/0/0
+ObjectTemplate.material 47
+ObjectTemplate.tracerScaler 10
+ObjectTemplate.maxTracerScaler 50
+ObjectTemplate.minTracerScaler 5
+ObjectTemplate.tracerSizeModifier 5
+ObjectTemplate.minDamage 0.2
+ObjectTemplate.damage 0
+

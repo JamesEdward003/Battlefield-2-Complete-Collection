@@ -1,0 +1,2 @@
+ObjectTemplate.create EffectBundle e_tracer_trail_redsb2
+include e_tracer_trail_redsb2.tweak

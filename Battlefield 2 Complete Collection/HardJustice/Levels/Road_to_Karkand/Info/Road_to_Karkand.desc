@@ -1,0 +1,15 @@
+<map gsid="39">
+	<name> Road to Karkand </name>
+	<briefing locid="The USMC have taken Mastuur City and are on their way to Karkand. The road takes them through a small mountainous town in which they meet up with MEC reinforcments on thier way to Mastuur. The confined area makes the use of planes impossible so it will be a confrontation of Grunts, armor and choppers.                                                                                                    Map by CDN BiggDogg">map description for modders maps not localized (english only)</briefing>
+	<music> common/sound/menu/music/load_MEC_music.ogg </music>
+	<modes>
+		<mode type="gpm_cq">
+			<maptype ai="1" players="16" type="doubleassault" locid="GAMEMODE_DESCRIPTION_doubleassault">Unlocalized test for this mode on this map</maptype>
+		</mode>
+		
+		<mode type="gpm_coop">
+			<maptype ai="1" players="64" type="doubleassault" locid="GAMEMODE_DESCRIPTION_COOP_doubleassault">Unlocalized test for this mode on this map</maptype>
+		</mode>
+	</modes>
+</map>
+

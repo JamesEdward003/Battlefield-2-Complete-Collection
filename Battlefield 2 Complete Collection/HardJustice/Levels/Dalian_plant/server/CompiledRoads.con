@@ -1,0 +1,68 @@
+object.create highway
+object.geometry.loadMesh Levels\Dalian_plant\Roads\Mainroad_compiled.mesh
+object.absoluteposition -393.233/166.514/-227.126
+
+object.create Dirtroad_Dalian
+object.geometry.loadMesh Levels\Dalian_plant\Roads\ReactorRoad4_compiled.mesh
+object.absoluteposition -51.2395/151.573/-69.0251
+
+object.create Dirtroad_Dalian
+object.geometry.loadMesh Levels\Dalian_plant\Roads\Ranoutofnames2_compiled.mesh
+object.absoluteposition -89.5582/150.634/156.958
+
+object.create Dirtroad_Dalian
+object.geometry.loadMesh Levels\Dalian_plant\Roads\ReactorRoad1_compiled.mesh
+object.absoluteposition -157.024/153.181/-161.446
+
+object.create Dirtroad_Dalian
+object.geometry.loadMesh Levels\Dalian_plant\Roads\ReactorRoad3_compiled.mesh
+object.absoluteposition -141.718/153.174/-109.151
+
+object.create Dirtroad_Dalian
+object.geometry.loadMesh Levels\Dalian_plant\Roads\Warehoue2Warehouse_compiled.mesh
+object.absoluteposition -69.3264/152.828/-299.634
+
+object.create Dirtroad_Dalian
+object.geometry.loadMesh Levels\Dalian_plant\Roads\Mainroaddirt2_compiled.mesh
+object.absoluteposition -263.362/153.224/-40.8255
+
+object.create Dirtroad_Dalian
+object.geometry.loadMesh Levels\Dalian_plant\Roads\Mainroaddirt_compiled.mesh
+object.absoluteposition -293.185/152.928/-133
+
+object.create Dirtroad_Dalian
+object.geometry.loadMesh Levels\Dalian_plant\Roads\Nomorenames_compiled.mesh
+object.absoluteposition -222.767/153.244/107.649
+
+object.create Dirtroad_Dalian
+object.geometry.loadMesh Levels\Dalian_plant\Roads\Nomorenames2_compiled.mesh
+object.absoluteposition 117.977/151.838/-67.8617
+
+object.create Dirtroad_Dalian
+object.geometry.loadMesh Levels\Dalian_plant\Roads\Shortcutroad_compiled.mesh
+object.absoluteposition -214.215/153.211/-9.43096
+
+object.create Dirtroad_Dalian
+object.geometry.loadMesh Levels\Dalian_plant\Roads\Moutainroadsouth_compiled.mesh
+object.absoluteposition -410.979/180.034/-284.299
+
+object.create Dirtroad_Dalian
+object.geometry.loadMesh Levels\Dalian_plant\Roads\moutainroad_north_compiled.mesh
+object.absoluteposition -460.517/178.415/-153.837
+
+object.create paved1lane
+object.geometry.loadMesh Levels\Dalian_plant\Roads\pavedlane_compiled.mesh
+object.absoluteposition -159.228/153.213/-209.704
+
+object.create Dirtroad_Dalian
+object.geometry.loadMesh Levels\Dalian_plant\Roads\dirtoorad_compiled.mesh
+object.absoluteposition -168.955/153.18/-188.047
+
+object.create Dirtroad_Dalian
+object.geometry.loadMesh Levels\Dalian_plant\Roads\dirtoorad2_compiled.mesh
+object.absoluteposition 29.6705/149.115/-145.514
+
+object.create ParkingLots
+object.geometry.loadMesh Levels\Dalian_plant\Roads\Parking_compiled.mesh
+object.absoluteposition -36.2873/153.186/-224.344
+

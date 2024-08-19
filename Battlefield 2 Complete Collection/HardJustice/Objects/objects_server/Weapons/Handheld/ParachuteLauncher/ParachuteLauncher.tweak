@@ -1,0 +1,109 @@
+rem *** Generated with Bf2Editor.exe [created: 2004/10/6 12:17]
+ObjectTemplate.activeSafe GenericFireArm ParachuteLauncher
+ObjectTemplate.modifiedByUser bpa
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.preCacheObject 1
+rem ---BeginComp:SpawnObjectFireComp ---
+ObjectTemplate.createComponent SpawnObjectFireComp
+ObjectTemplate.fire.projectileStartPosition 0/2/0
+rem ---EndComp ---
+rem ---BeginComp:DefaultAmmoComp ---
+ObjectTemplate.createComponent DefaultAmmoComp
+ObjectTemplate.ammo.nrOfMags -1
+ObjectTemplate.ammo.magSize -1
+ObjectTemplate.ammo.reloadTime 0
+rem ---EndComp ---
+rem ---BeginComp:DefaultSoundComp ---
+ObjectTemplate.createComponent DefaultSoundComp
+rem ---EndComp ---
+ObjectTemplate.hasMobilePhysics 0
+rem -------------------------------------
+ObjectTemplate.addTemplate S_ParachuteLauncher_Fire1P
+ObjectTemplate.addTemplate S_ParachuteLauncher_Fire1P_Outdoor
+ObjectTemplate.addTemplate S_ParachuteLauncher_Fire3P
+ObjectTemplate.addTemplate S_ParachuteLauncher_BoltClick
+ObjectTemplate.addTemplate S_ParachuteLauncher_TriggerClick
+ObjectTemplate.addTemplate S_ParachuteLauncher_SwitchFireRate
+ObjectTemplate.addTemplate S_ParachuteLauncher_Reload1P
+ObjectTemplate.addTemplate S_ParachuteLauncher_Reload3P
+ObjectTemplate.addTemplate S_ParachuteLauncher_Deploy1P
+ObjectTemplate.addTemplate S_ParachuteLauncher_Deploy3P
+ObjectTemplate.addTemplate S_ParachuteLauncher_Zoom
+rem -------------------------------------
+ObjectTemplate.projectileTemplate Parachute
+ObjectTemplate.velocity 0
+ObjectTemplate.itemIndex 9
+
+ObjectTemplate.activeSafe Sound S_ParachuteLauncher_Fire1P
+ObjectTemplate.modifiedByUser bpa
+ObjectTemplate.soundFilename "objects/weapons/handheld/parachutelauncher/sounds/parachute_deploy.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.6
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_ParachuteLauncher_Fire1P_Outdoor
+ObjectTemplate.modifiedByUser bpa
+ObjectTemplate.soundFilename "objects/weapons/handheld/parachutelauncher/sounds/parachute_deploy.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.6
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_ParachuteLauncher_Fire3P
+ObjectTemplate.modifiedByUser bpa
+ObjectTemplate.soundFilename "objects/weapons/handheld/parachutelauncher/sounds/parachute_deploy.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.6
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 1
+
+ObjectTemplate.activeSafe Sound S_ParachuteLauncher_BoltClick
+ObjectTemplate.modifiedByUser bpa
+
+ObjectTemplate.activeSafe Sound S_ParachuteLauncher_TriggerClick
+ObjectTemplate.modifiedByUser bpa
+
+ObjectTemplate.activeSafe Sound S_ParachuteLauncher_SwitchFireRate
+ObjectTemplate.modifiedByUser bpa
+
+ObjectTemplate.activeSafe Sound S_ParachuteLauncher_Reload1P
+ObjectTemplate.modifiedByUser bpa
+
+ObjectTemplate.activeSafe Sound S_ParachuteLauncher_Reload3P
+ObjectTemplate.modifiedByUser bpa
+
+ObjectTemplate.activeSafe Sound S_ParachuteLauncher_Deploy1P
+ObjectTemplate.modifiedByUser bpa
+ObjectTemplate.soundFilename "objects/weapons/handheld/parachutelauncher/sounds/parachute_deploy.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 0
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.6
+ObjectTemplate.pitch 1
+ObjectTemplate.pan 0.5
+ObjectTemplate.reverbLevel 1
+
+ObjectTemplate.activeSafe Sound S_ParachuteLauncher_Deploy3P
+ObjectTemplate.modifiedByUser bpa
+ObjectTemplate.soundFilename "objects/weapons/handheld/parachutelauncher/sounds/parachute_deploy.wav"
+ObjectTemplate.loopCount 1
+ObjectTemplate.is3dSound 1
+ObjectTemplate.stopType 1
+ObjectTemplate.volume 0.6
+ObjectTemplate.pitch 1
+ObjectTemplate.reverbLevel 1
+ObjectTemplate.minDistance 1
+
+ObjectTemplate.activeSafe Sound S_ParachuteLauncher_Zoom
+ObjectTemplate.modifiedByUser bpa
+

@@ -1,0 +1,6 @@
+ObjectTemplate.create GenericFireArm sasrif_fn20001
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator RICK:rickgi
+ObjectTemplate.geometry sasrif_fn2000
+
+include sasrif_fn20001.tweak

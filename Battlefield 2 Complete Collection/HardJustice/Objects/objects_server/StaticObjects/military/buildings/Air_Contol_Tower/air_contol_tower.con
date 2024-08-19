@@ -1,0 +1,16 @@
+GeometryTemplate.create BundledMesh air_contol_tower
+CollisionManager.createTemplate air_contol_tower
+
+ObjectTemplate.create PlayerControlObject air_contol_tower
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator STRYKERJ-DDB4B9:StrykerJ
+ObjectTemplate.collisionMesh air_contol_tower
+ObjectTemplate.mapMaterial 0 concrete 0
+ObjectTemplate.mapMaterial 1 Penetrable_Glass_common 0
+ObjectTemplate.mapMaterial 2 wreck 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry air_contol_tower
+
+include air_contol_tower.tweak

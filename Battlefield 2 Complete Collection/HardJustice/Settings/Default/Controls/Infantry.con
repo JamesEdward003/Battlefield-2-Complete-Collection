@@ -1,0 +1,41 @@
+ControlMap.create InfantryPlayerInputControlMap
+ControlMap.addKeysToAxisMapping PIYaw IDFKeyboard IDKey_D IDKey_A
+ControlMap.addKeysToAxisMapping PIThrottle IDFKeyboard IDKey_W IDKey_S
+ControlMap.addAxisToAxisMapping PIMouseLookX IDFMouse IDAxis_0 0 0
+ControlMap.addAxisToAxisMapping PIMouseLookY IDFMouse IDAxis_1 0 0
+ControlMap.addKeysToAxisMapping PICameraX IDFKeyboard IDKey_Numpad6 IDKey_Numpad4
+ControlMap.addKeysToAxisMapping PICameraY IDFKeyboard IDKey_Numpad8 IDKey_Numpad2
+ControlMap.addButtonToTriggerMapping PIFire IDFMouse IDButton_0 0
+ControlMap.addKeyToTriggerMapping PIAction IDFKeyboard IDKey_Space 10000
+ControlMap.addKeyToTriggerMapping PIUse IDFKeyboard IDKey_E 0
+ControlMap.addKeyToTriggerMapping PIWalk IDFKeyboard IDKey_LeftShift 0
+ControlMap.addButtonToTriggerMapping PIAltFire IDFMouse None 0
+ControlMap.addKeyToTriggerMapping PIReload IDFKeyboard IDKey_R 10000
+ControlMap.addKeyToTriggerMapping PIDrop IDFKeyboard IDKey_G 10000
+ControlMap.addKeyToTriggerMapping PIToggleCameraMode IDFKeyboard IDKey_C 10000
+ControlMap.addKeyToTriggerMapping PILie IDFKeyboard IDKey_Z 0
+ControlMap.addKeyToTriggerMapping PICrouch IDFKeyboard IDKey_LeftCtrl 0
+ControlMap.addKeyToTriggerMapping PICameraMode1 IDFKeyboard IDKey_F9 10000
+ControlMap.addKeyToTriggerMapping PICameraMode2 IDFKeyboard IDKey_F10 10000
+ControlMap.addKeyToTriggerMapping PICameraMode3 IDFKeyboard IDKey_F11 10000
+ControlMap.addKeyToTriggerMapping PICameraMode4 IDFKeyboard IDKey_F12 10000
+ControlMap.addKeyToTriggerMapping PIRadio1 IDFKeyboard IDKey_F1 10000
+ControlMap.addKeyToTriggerMapping PIRadio2 IDFKeyboard IDKey_F2 10000
+ControlMap.addKeyToTriggerMapping PIRadio3 IDFKeyboard IDKey_F3 10000
+ControlMap.addKeyToTriggerMapping PIRadio4 IDFKeyboard IDKey_F4 10000
+ControlMap.addKeyToTriggerMapping PIRadio5 IDFKeyboard IDKey_F5 10000
+ControlMap.addKeyToTriggerMapping PIRadio6 IDFKeyboard IDKey_F6 10000
+ControlMap.addKeyToTriggerMapping PIRadio7 IDFKeyboard IDKey_F7 10000
+ControlMap.addKeyToTriggerMapping PIRadio8 IDFKeyboard IDKey_F8 10000
+ControlMap.addKeyToTriggerMapping PIScreenShot IDFKeyboard IDKey_PrintScreen 10000
+ControlMap.addKeyToTriggerMapping PIToolTip IDFKeyboard IDKey_N 10000
+ControlMap.addKeyToTriggerMapping PISayAll IDFKeyboard IDKey_K 10000
+ControlMap.addKeyToTriggerMapping PISayTeam IDFKeyboard IDKey_L 10000
+ControlMap.addButtonToTriggerMapping PINextItem IDFMouse None 0
+ControlMap.addButtonToTriggerMapping PIPrevItem IDFMouse None 0
+ControlMap.addKeyToTriggerMapping PIShowScoreBoard IDFKeyboard IDKey_Tab 0
+ControlMap.addKeyToTriggerMapping PIMap IDFKeyboard IDKey_M 10000
+ControlMap.addKeyToTriggerMapping PIZoomMap IDFKeyboard IDKey_N 10000
+ControlMap.invertMouse 0
+ControlMap.mouseSensitivity 1
+ControlMap.keyboardSensitivity 1

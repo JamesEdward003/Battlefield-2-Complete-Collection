@@ -1,0 +1,19 @@
+rem *** Generated with Bf2Editor.exe [created: 2005/1/28 8:19]
+GeometryTemplate.setSubGeometryLodDistance 0 0 15
+GeometryTemplate.setSubGeometryLodDistance 0 1 75
+GeometryTemplate.doNotGenerateLightmaps 1
+GeometryTemplate.lightmapOverride 0
+GeometryTemplate.compressVertexData 1
+GeometryTemplate.maxTextureRepeat 16
+ObjectTemplate.activeSafe SimpleObject end_of_track_bumper_24
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.modifiedByUser "Radar O'Reilly"
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry end_of_track_bumper_24
+ObjectTemplate.setCollisionMesh end_of_track_bumper_24
+ObjectTemplate.mapMaterial 0 Gravel 3
+ObjectTemplate.mapMaterial 1 Metal_solid 21
+ObjectTemplate.hasMobilePhysics 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+

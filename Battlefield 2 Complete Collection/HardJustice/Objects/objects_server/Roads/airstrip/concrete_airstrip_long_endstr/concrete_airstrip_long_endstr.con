@@ -1,0 +1,13 @@
+GeometryTemplate.create StaticMesh concrete_airstrip_long_endstr
+CollisionManager.createTemplate concrete_airstrip_long_endstr
+
+ObjectTemplate.create Bundle concrete_airstrip_long_endstr
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh concrete_airstrip_long_endstr
+ObjectTemplate.mapMaterial 0 concrete 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.geometry concrete_airstrip_long_endstr
+
+include concrete_airstrip_long_endstr.tweak

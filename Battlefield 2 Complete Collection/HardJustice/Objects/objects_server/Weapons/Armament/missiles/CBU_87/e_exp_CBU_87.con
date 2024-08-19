@@ -1,0 +1,63 @@
+GeometryTemplate.create BundledMesh p_CBU_87
+
+ObjectTemplate.create EffectBundle e_exp_CBU_87
+ObjectTemplate.createdInEditor 1
+ObjectTemplate.addTemplate em_vExp_CBU_87_fins
+ObjectTemplate.setPosition 0/0/-1.38
+ObjectTemplate.addTemplate em_vExp_CBU_87_shell01
+ObjectTemplate.setPosition 0.0175/-0.08/0.16
+ObjectTemplate.addTemplate em_vExp_CBU_87_shell02
+ObjectTemplate.setPosition -0.1/0.05/0.130
+ObjectTemplate.addTemplate em_vExp_CBU_87_shell03
+ObjectTemplate.setPosition 0.089/0.079/0.131
+
+ObjectTemplate.create Emitter em_vExp_CBU_87_fins
+ObjectTemplate.template p_vExp_CBU_87_fins
+
+ObjectTemplate.create Particle p_vExp_CBU_87_fins
+ObjectTemplate.collisionPart 0
+ObjectTemplate.geometryPart 0
+ObjectTemplate.mapMaterial 0 metal 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.collisionMesh p_CBU_87
+ObjectTemplate.geometry p_CBU_87
+
+ObjectTemplate.create Emitter em_vExp_CBU_87_shell01
+ObjectTemplate.template p_vExp_CBU_87_shell01
+
+ObjectTemplate.create Particle p_vExp_CBU_87_shell01
+ObjectTemplate.collisionPart 1
+ObjectTemplate.geometryPart 1
+ObjectTemplate.mapMaterial 0 metal 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.collisionMesh p_CBU_87
+ObjectTemplate.geometry p_CBU_87
+
+ObjectTemplate.create Emitter em_vExp_CBU_87_shell02
+ObjectTemplate.template p_vExp_CBU_87_shell02
+
+ObjectTemplate.create Particle p_vExp_CBU_87_shell02
+ObjectTemplate.collisionPart 2
+ObjectTemplate.geometryPart 2
+ObjectTemplate.mapMaterial 0 metal 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.collisionMesh p_CBU_87
+ObjectTemplate.geometry p_CBU_87
+
+ObjectTemplate.create Emitter em_vExp_CBU_87_shell03
+ObjectTemplate.template p_vExp_CBU_87_shell03
+
+ObjectTemplate.create Particle p_vExp_CBU_87_shell03
+ObjectTemplate.collisionPart 3
+ObjectTemplate.geometryPart 3
+ObjectTemplate.mapMaterial 0 metal 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.collisionMesh p_CBU_87
+ObjectTemplate.geometry p_CBU_87
+
+
+include e_exp_CBU_87.tweak

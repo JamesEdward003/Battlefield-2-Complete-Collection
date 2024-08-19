@@ -1,0 +1,10 @@
+rem *** Generated with Bf2Editor.exe [created: 2004/3/29 14:20]
+ObjectTemplate.active hmg_m2hb_ammobox
+ObjectTemplate.creator SVU-1:svu
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.geometry hmg_m2hb_ammobox
+ObjectTemplate.setCollisionMesh hmg_m2hb_ammobox
+ObjectTemplate.mapMaterial 0 amobox_metal 20
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType Mesh
+

@@ -1,0 +1,14 @@
+GeometryTemplate.create BundledMesh bgm_71a_launcher
+CollisionManager.createTemplate bgm_71a_launcher
+
+ObjectTemplate.create RotationalBundle bgm_71a_launcher
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator GAME:Radar_O'Reilly
+ObjectTemplate.collisionMesh bgm_71a_launcher
+ObjectTemplate.mapMaterial 0 Armor_2_light_armored_vehicles 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry bgm_71a_launcher
+
+include bgm_71a_launcher.tweak

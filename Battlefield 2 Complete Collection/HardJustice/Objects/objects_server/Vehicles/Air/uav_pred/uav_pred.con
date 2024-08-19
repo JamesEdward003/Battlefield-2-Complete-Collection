@@ -1,0 +1,15 @@
+GeometryTemplate.create BundledMesh uav_pred
+CollisionManager.createTemplate uav_pred
+
+ObjectTemplate.create UAVVehicle uav_pred
+ObjectTemplate.saveInSeparateFile 1
+rem ObjectTemplate.creator JEFFO:jeffev
+ObjectTemplate.collisionMesh uav_pred
+ObjectTemplate.mapMaterial 0 armor 0
+ObjectTemplate.mapMaterial 1 wreck 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry uav_pred
+
+include uav_pred.tweak

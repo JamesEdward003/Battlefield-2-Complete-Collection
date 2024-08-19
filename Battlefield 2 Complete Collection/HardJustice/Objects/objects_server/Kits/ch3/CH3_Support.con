@@ -1,0 +1,57 @@
+ObjectTemplate.create Kit CH3_Support
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.kitType Support3
+ObjectTemplate.aiTemplate Support
+ObjectTemplate.geometry CH_Kits
+ObjectTemplate.geometry.kit 1
+ObjectTemplate.geometry.dropGeom 14
+ObjectTemplate.setNetworkableInfo KitInfo
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.abilityRestoreRate 0.05
+ObjectTemplate.abilityInVehicleRadius 7
+ObjectTemplate.abilityInVehicleStrength 0.2
+ObjectTemplate.abilityInVehicleMaterial 91
+ObjectTemplate.unlockIndex 5
+ObjectTemplate.cullRadiusScale 2.4
+rem -------------------------------------
+ObjectTemplate.addTemplate RUPIS_Baghira
+ObjectTemplate.addTemplate USHGR_M67
+ObjectTemplate.addTemplate kni_knife
+ObjectTemplate.addTemplate ammokit
+ObjectTemplate.addTemplate rulmg_rpk74
+ObjectTemplate.addTemplate grapplinghook
+ObjectTemplate.addTemplate UnlockCH3Support
+ObjectTemplate.addTemplate UnlockCH3Support2
+rem -------------------------------------
+
+ObjectTemplate.createComponent AbilityHud
+ObjectTemplate.abilityHud.healingSound S_Heal
+ObjectTemplate.abilityHud.repairingSound S_Repair
+ObjectTemplate.abilityHud.ammoSound S_Resupply
+
+ObjectTemplate.createComponent VehicleHud
+ObjectTemplate.vehicleHud.hudName 		"CH3 SUPPORT"
+ObjectTemplate.vehicleHud.miniMapIcon		"Ingame\Kits\Icons\kit_Heavy_Assault_outline.tga"
+ObjectTemplate.vehicleHud.vehicleIcon		"Ingame\Kits\Icons\kit_Heavy_Assault.tga"
+ObjectTemplate.vehicleHud.spottedIcon 		"Ingame\Player\Icons\Minimap\mini_Soldier.dds"
+ObjectTemplate.vehicleHud.abilityIcon 		"Ingame\Weapons\Icons\Hud\SpecialKitIcons\kevlarVest.tga"
+ObjectTemplate.vehicleHud.pantingSound		S_SprintBreath
+ObjectTemplate.vehicleHud.injurySound		S_Injury
+ObjectTemplate.vehicleHud.vehicleType 		7
+
+ObjectTemplate.sprintStaminaDissipationFactor 0.6
+
+rem ---BeginComp:Radio ---
+ObjectTemplate.createComponent Radio
+ObjectTemplate.Radio.spottedMessage	"infantry_spotted"
+rem ---EndComp ---
+
+ObjectTemplate.create ItemContainer UnlockCH3Support
+ObjectTemplate.addTemplate rulmg_pkm
+ObjectTemplate.unlockLevel 1
+
+ObjectTemplate.create ItemContainer UnlockCH3Support2
+ObjectTemplate.addTemplate eurif_hk21
+ObjectTemplate.replaceItem rulmg_pkm
+ObjectTemplate.replaceItem rulmg_rpk74
+ObjectTemplate.unlockLevel 2

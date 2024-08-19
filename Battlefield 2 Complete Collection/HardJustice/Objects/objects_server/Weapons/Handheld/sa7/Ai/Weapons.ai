@@ -1,0 +1,17 @@
+rem *** sa7AI ***
+weaponTemplate.create sa7_AI
+weaponTemplate.indirect 0
+weaponTemplate.minRange 10.0
+weaponTemplate.maxRange 100.0
+weaponTemplate.optimalRangePercentage 85
+weaponTemplate.weaponActivate PIMenuSelect6
+weaponTemplate.weaponFire PIFire
+weaponTemplate.setFiringPose Crouching
+weaponTemplate.setStrength Infantry     0.0
+weaponTemplate.setStrength LightArmour  0.0
+weaponTemplate.setStrength HeavyArmour  0.0
+weaponTemplate.setStrength NavalArmour  0.0
+weaponTemplate.setStrength Helicopter  20.0
+weaponTemplate.setStrength AirPlane    15.0
+weaponTemplate.allowedDeviation 5.0
+weaponTemplate.setFiresThroughTransparent 0
